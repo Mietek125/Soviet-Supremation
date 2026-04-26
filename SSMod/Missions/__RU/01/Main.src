@@ -1,0 +1,45 @@
+Starting
+begin
+
+ResetFog;
+Init;
+
+AnimateTrees(true);
+
+Randomize;
+RandomizeAll;
+
+InitRussian;
+InitAction;
+
+DebugMode;
+
+end;
+
+Export Yakotich, Mietek, Smirnovsky, Kostyliev, Charnushka, Boris;
+Export Maxim;
+
+Export Debug;
+
+Export mission_prefix;
+Export cave_check;
+
+Export Function Init;
+Begin
+
+mission_prefix := '01_';
+//Debug := True;
+cave_check := False;
+
+end;
+
+Function DebugMode;
+var i;
+begin
+     if not debug then
+     exit;
+
+     Difficulty := 3;
+     TurnFogOff();
+     FogOff(3);
+end;

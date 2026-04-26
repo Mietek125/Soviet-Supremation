@@ -1,0 +1,66 @@
+var shipment1,shipment2;
+
+// vybrani prvního kvadrátu
+export function init_zasilky_a_obnova;
+  begin
+    shipment1:=[];
+    shipment2:=[];
+  end;
+
+// shipment1
+every 0$5+0$1.1 do
+  var d,q;
+  begin
+    case tick of
+          1.. 1$0:d:=150;
+      1$0+1.. 5$0:d:=100;
+      5$0+1..10$0:d:=90;
+     10$0+1..20$0:d:=70;
+     20$0+1..30$0:d:=60;
+     30$0+1..50$0:d:=35;
+     50$0+1..300$0:d:=20;
+      else d:=0;
+    end;
+
+    if rand(1,10000)<=d*cetnost_zasilek div 2 then
+      begin
+        wait(Rand(1,0$4));
+        if shipment1=[] then
+          shipment1:=[all,all,all,ring3,ring1,ring4,ring2,all];
+
+        q:=shipment1[Rand(1,shipment1)];
+        shipment1:=shipment1 diff [q];
+
+        CreateCratesArea(5,q,true);
+      end;
+    enable;
+  end;
+
+// shipment1
+every 0$5+0$1.1 do
+  var d,q;
+  begin
+    case tick of
+          1.. 1$0:d:=150;
+      1$0+1.. 5$0:d:=100;
+      5$0+1..10$0:d:=90;
+     10$0+1..20$0:d:=80;
+     20$0+1..30$0:d:=70;
+     30$0+1..50$0:d:=55;
+     50$0+1..300$0:d:=40;
+      else d:=0;
+    end;
+
+    if rand(1,10000)<=d*cetnost_zasilek*2 div 3 then
+      begin
+        wait(Rand(1,0$4));
+        if shipment2=[] then
+         shipment2:=[all,all,all,ring1,ring3,ring2,ring4,all];
+
+        q:=shipment2[Rand(1,shipment2)];
+        shipment2:=shipment2 diff [q];
+
+        CreateCratesArea(5,q,true);
+      end;
+    enable;
+  end;

@@ -1,0 +1,323 @@
+$ D1i-Off1-1
+- Roto, po-ZOR!
+$ D1i-Off2-1
+- Utvoøte skupiny: ètyøi vojáci, dva technici, jeden zdravotník.
+$ D1i-Off1-2
+- Roto, pøesku-PIT!
+$ D1i-Off2-2
+- Zapamatujte si svùj volací znak. Po pøistání okamžitì uvolnìte místo svým soudruhùm. Navažte kontakt s maršálem Jašinem, volací znak Orel, a oèekávejte další rozkazy.
+$ D1i-Off1-3
+- Roto, pochodem-VCHOD!
+$ D1-Bur-1
+- Tak co je tu jinak? Stejná pustina jako vždycky. (A beat. Burlak moves aside quickly.)
+$ D1-Bur-1a
+- Kde jsou ostatní? Nemìl bych tu být sám. (into radio) Haló, Drozd 5 volá Orla. Slyšíte mì? (static over radio)
+$ D1-Bur-1b
+- Tohle nevypadá dobøe. Buï se rozbila vysílaèka, nebo tu nikdo není. Radši se tu trochu rozhlédnu, jestli tu nejsou Amerièani.
+$ DWaterfall-Bur-1
+- Úžasné. Tak kvùli tomuhle stál ten výlet za to.
+$ DCorpse-Bur-1
+- Na smrt není zrovna pìkný pohled. Je to tu horší než v moskevském øeznictví! Jestli mì taky dostanou, doufám, že se to odbude rychle.
+$ D2-Bur-1
+- Engels nás uèí, jaký podíl má práce na polidštìní opice. Tihle chlapíci se ještì pìknì nadøou, než to na nich zaène být vidìt!
+$ D2-Bur-1a
+- [Apemen attacks him] Opice jedna agresivní! Radši pozor.
+$ D2a-Bur-1
+- [it is he] Podívej, ten opoèlovìk má naši vysílaèku! Tedy to, co z ní zbylo.
+$ D2a-Bel-1
+- [it is he] Ten parchant má naši vysílaèku! Škoda, že jsme ho zabili tak rychle.
+$ D2a-Kir-1
+- [it is he] Vypadá to, že jsme dostali opièího inženýra! Celou vysílaèku rozmontoval.
+$ D2a-RSol1-1
+- [it is he] Hele, kouknìte! Ten opièák má naši armádní vysílaèku.
+$ D2a-RFSol1-1
+- [it is he] To se nedivím, že jsme se nikoho nedovolali! Opice nám udìlali z vysílaèky hromadu šrotu.
+$ D2a-Gny-1
+- [Gnyevko present] Podívejte! To byla moje vysílaèka! A je po ní!
+$ D2a-Bur-2
+- [Gnyevko not found] Musel ji sebrat nìkomu z našich. Možná jsou tady v okolí, a možná živí. 
+$ D3-Bur-1
+- [Burlak did not meet Pokryshkin: alt a1] Èest, soudruhu. Jak se jmenuješ?
+$ D3-RSol1-1
+- [Burlak met Pokryshkin: alt a2] Èest, soudruhu. Jak se jmenuješ?
+$ D3-RFSol1-1
+- [Burlak met Pokryshkin: alt a2] Èest, soudruhu. Jak se jmenuješ?
+$ D3-Gny-1
+- Desátník Gnìvko, 21. èeta, volací znak Vrabec 3. Objevil jsem se tu pøed nìkolika dny. Zaútoèili na mì opièáci a sebrali mi vybavení. Jsi první èlovìk, kterýho tu vidím.
+$ D3-Bur-2
+- [killed Apeman] Byl to zøejmì stejný opièák, který zaútoèil i na mì. Ale potøetí už to neudìlá. Našel jsem tvoje rádio, soudruhu. Vypadá to, že ho opièáci tak trochu rozebrali.
+$ D3-Bur-2a
+- [soldiers killed Apeman] Dostali jsme jednu opici, která mìla èásti armádního vybavení. Tvoje vysílaèka je na šrot, soudruhu.
+$ D3-Bur-2b
+- Jmenuju se Jurij Ivanoviè Gorkij, ale øíkají mi Burlak.
+$ D3-Bur-2c
+- [alt a1] Vysílaèku mám rozbitou. Asi bychom mìli zùstat pohromadì. Tak budeme mít vìtší šanci na pøežití.
+$ D3-Bur-2d
+- [present, Gladstone not attacked, alt a2] Pojï s námi. Já taky právì pøistál, ale tady soudruzi už se tu stihli rozkoukat.
+$ D3-Bur-2e
+- [present, Gladstone attacked, alt a3] Pojï s námi. Tady soudruzi vìdí, kde hledat základnu.
+$ D3-RSol1-2
+- [otherwise, alt a2 or alt a3] No dobøe, pojï se mnou. Vrátíme se na základnu.
+$ D3-RFSol1-2
+- [otherwise, alt a2 or alt a3] No dobøe, pojï se mnou. Vrátíme se na základnu.
+$ D3-Gny-2
+- [alt a1] Je to na tobì, Burlaku. Veï nás.
+$ D3-Gny-2a
+- [alt a2 or alt a3] To je skvìlý. Už mi leze na nervy, jak se poøád schovávám pøed tìma zatracenejma opicema.
+$ D4-Pok-1
+- Stùj! Kdo jsi?
+$ D4-Gny-1
+- [present] Desátník Gnìvko, 21. èeta, volací znak Vrabec 3. (Turns Pokryshkin's colour).
+$ D4-Pok-2
+- [Burlak too far] Vítejte v ráji!
+$ D4-Gny-2
+- [reply] Nìkde v okolí je jeden z našich mechanikù. Má rozbitou vysílaèku...
+$ D4-Pok-3
+- [reply] Slyšeli jsme materializaèní tøesk. Poèkáme na nìj.
+$ D4-Gny-3
+- [reply, when Burlak really arrives] To je on.
+$ D4-Bur-3
+- Mechanik tøetí tøídy Jurij I. Gorkij. Volací znak Drozd 5...
+$ D4-Pok-4
+- Vykašli se na volací znaky, pøíteli. Zapomeò všechno, co tì v Rudé armádì nauèili. Tady žádná pravidla neplatí. Já jsem seržant Michail Vasilijeviè Pokryškin...
+$ D4-Bur-4
+- Co je zase tohle, zatracenì?
+$ D4-Pok-5
+- Pssst... poèkej...
+$ D4-Sol1-5
+- (over radio) Seržant Charles Brown volá Alfu. Alfo, slyšíte mì?
+$ D4-Pok-6
+- Teï se nìco nauèíš, Drozde!
+$ D4-Pok-6a
+- (into radio – with fake American accent) Slyšíme vás výbornì,  Browne. Bìžte východním smìrem k té skupince tøí stromù na kopci. Pošleme vám naproti pátrací oddíl.
+$ D4-Bur-6
+- Co se to tu bude dít?
+$ D4-Pok-7
+- Pojï s námi a uvidíš.
+$ DSplit-Pok-1
+- Kam jdeš, soudruhu Gorkij? Øekl jsem ti, aby ses pøidal k nám!
+$ DSplit-Bur-1
+- Omlouvám se, seržante. (in-game video, Burlak walks back to Pokryshkin)
+$ DAttack-Pok-1
+- Buï ses zbláznil, soudruhu, nebo jsi na špatné stranì. Ani v jednom pøípadì si tì nenechám v zádech. Zabte ho! (All Russians attack Burlak)
+$ D5-Sol1-1
+- Ahoj, kluci...
+$ D5-Pok-1
+- Odprásknìte toho americkýho parchanta! (Russians open fire at American)
+$ D5-Sol1-2
+- Panebože! Ne... prosím vás! (dies)
+$ D5-Bur-2
+- Tak tomuhle tady øíkáte válka?
+$ D5-Pok-2
+- Snažíme se je sejmout døív, než zjistí, kdo jsme. Nemùžeme je nechat, aby navázali spojení.
+$ D5-Bel-2
+- Je to jako na støelnici, soudruhu. Dìsná legrace.
+$ D5-Pok-3
+- Mnì to tak legraèní nepøipadá, Belkove. Ale chtìjí nám ukrást, co je naše, a tak nemùžou nic jiného èekat.
+$ D5-Gny-3
+- [present] To není válka. To je obyèejná vražda!
+$ D5-Bur-3
+- Není to pøíjemné, ale chápu, že je to nutné. Nesmíme je nechat zvítìzit. Jestli se bojí umøít, nemìli sem vùbec lézt.
+$ D6-Pok-1
+- Tak, teï už mùžeme vyrazit zpátky na základnu S. M. Kirov.
+$ D6-Bur-1
+- Copak už jste ji zaèali budovat?
+$ D6-Pok-2
+- Mìli jsme èas. Tau-deflektor nás sem nedopravuje v poøadí, v jakém jsme odlétali. Tøi roky sem nebo tam - žádná míra.
+$ D6-Bel-2
+- A pøistává se na rùzných místech... Bloudil jsem dva dny, než jsem narazil na prvního èlovìka.
+$ D6-Bur-2
+- Takže jak dlouho už tady naši soudruzi jsou?
+$ D6-Pok-3
+- První, kdo pøiletìl, byl generál Morozov - loni 7. listopadu. Dnes je 13. bøezna druhého roku NKL - nového komunistického letopoètu. Morozov zaèal budovat základnu V. I. Lenin a potom...
+$ D6-Kur-3
+- (over radio) Michaile, na sever od vás jsou Amíci. Vezmi své chlapy, najdi vetøelce a zab je.
+$ D6-Pok-4
+- (into radio) Rozkaz, Kirove. Jdeme.
+$ D6-Bel-4
+- Koneènì nìjaký vzrùšo! Doufám, že to nebude moc jednoduchý.
+$ D7-Pok-1
+- Tak tady to je. Pøipravit zbranì a náboje.
+$ D7-FSol1-1
+- (English, with Native titles) Time, útoèí na mì Rusové... Cože? Myslím, že ano...
+$ D7a-Bel-1
+- (desperate) Soudruhu Pokryškine!
+$ D7a-RSol1-1
+- Všichni zpátky! Tady je to marný!
+$ D7a-FSol1-1
+- (English, with Native titles) OK, Time, zaèli zdrhat.
+$ D7b-Bel-1
+- Zatracenì, co teï budem dìlat?
+$ D7b-FSol1-1
+- Otevøený útok zjevnì nebude to pravé.
+$ D7b-Bel-2
+- Nemùžeme vyhrát! Soudruh Pokryškin byl skvìlý voják.
+$ D7b-RSol1-2
+- Pokryškin byl náš velitel. Bez nìj se musíme vrátit do Kirova pro rozkazy.
+$ D7b-Bel-3
+- [Burlak too far] Máš pravdu, soudruhu. Ale mìli bychom poèkat na Burlaka, na toho mechanika.
+$ D7b-Bel-3a
+- [Burlak returns] Tady je! Pohni sebou, Burlaku, vracíme se do Kirova.
+$ D7b-Bur-3
+- Proè? Máme jasné rozkazy, soudruhu: znièit tu základnu. 
+$ D7b-Bel-4
+- Zkusili jsme to a nepovedlo se to!
+$ D7b-Bur-4
+- Tak musíme vymyslet nìjaký lepší zpùsob.
+$ D7b-Bel-5
+- Burlaku!
+$ D7b-FSol1-5
+- Možná má pravdu, musíme si to rozmyslet. Tøeba se mùžeme krýt za stromy.
+$ D7b-Bel-6
+- Zbláznili jste se? Potøebujeme posily!
+$ D7b-Bur-6
+- Tys tady poøád volal po nìjaké akci, a teï se lekneš ženské a hromady pytlù s pískem! Nebo snad na to nemáš?
+$ D7b-RSol1-6
+- Burlak má pravdu. To zvládneme. Natrhnem tìm Amíkùm prdel! 
+$ D8-FSol1-1
+- (English, with Native titles) Rychle, Time, Rusové jsou zpátky!
+$ D8-Glad-1
+- Vydrž, pošlu ti na pomoc opièáky!
+$ D8-Bur-1
+- (Apeman counterattack) Pozor! Støílejte na ty velké opice!
+$ D8-FSol1-2
+- [cannot attack from breastwork] (English, with Native titles) Zatracenì! Ti parchanti se schovávají za stromy. Odsud je nesejmu.
+$ D8-FSol1-2a
+- [if bunker goes to red] (English, with Native titles) Zatracený komouši!
+$ D8-Glad-2
+- [reply] (English, with Native titles) Naše situace je zoufalá. Musíme utéct.
+$ D8-Bur-2
+- Za ním! To je velitel!
+$ D9-Bur-1
+- [Gladstone dead, FASoldier dead] Dobrá práce, soudruzi. Pìknì jsme to tady vyèistili.
+$ D9-Bur-1a
+- [Gladstone escaped, FASoldier dead] Je dobøe, že jsme dostali aspoò tu ženskou, ale velitele jsme nemìli nechat utéct.
+$ D9-Bur-1b
+- [Gladstone dead, FASoldier escaped] Ta žena, která zastøelila soudruha Pokryškina, pro tentokrát utekla, ale jejich velitel nám za to zaplatil.
+$ D9-Bur-1c
+- [Gladstone escaped, FASoldier escaped] Nemìli jsme je nechat utéct! Ti psi zabili Pokryškina. Ale jednou nám za to zaplatí!
+$ D10-Bur-1
+- Smazali jsme své dluhy, tak se mùžeme vrátit se vztyèenou hlavou. Ví nìkdo z vás, jak se dostaneme zpátky do základny V. I. Lenin?
+$ D10-Bel-1
+- [alive] Máš pravdu, soudruhu! Byl to úspìch!
+$ D10-Bel-1a
+- [reply] V. I. Lenin je hlavní základna, leží na jih od nás. Ale S. M. Kirov je mnohem blíž. Na východ. Odvedu vás tam.
+$ D10-RSol1-1
+- [otherwise] V. I. Lenin je hlavní základna. Ale my jsme ze S. M. Kirova. To je odsud na východ. Odvedu vás tam.
+$ D10-Bur-2
+- Tak jdeme.
+$ D11a-Kir-1
+- Díky bohu! Jsem soudružka Kirilenková, zdravotnice z šesté èety.
+$ D11a-Bel-1
+- Zdar! To jsem já, Belkov, byli jsme ve stejné èetì.
+$ D11a-Kir-2
+- Kde jsou ostatní?
+$ D11a-Bel-2
+- Pak ti to vysvìtlíme. Teï sebou musíme hodit.
+$ D11a-RSol1-2
+- Pozdìji ti všechno øekneme. Pojï s námi.
+$ D11a-RFSol1-2
+- Pozdìji ti všechno øekneme. Pojï s námi.
+$ D11b-Kir-1
+- Všem... Tady je Kirilenková, volací znak Tetøev 4. Slyší mì nìkdo? Kde jste všichni?
+$ D11b-Bel-1
+- [alive] To je zdravotnice z naší èety!
+$ D11b-Bel-1a
+- [cont] Slyšíme tì. Udej svoji polohu.
+$ D11b-RSol1-1
+- [var a1] Slyšíme tì. Udej svoji polohu.
+$ D11b-RFSol1-1
+- [var a2] Slyšíme tì. Udej svoji polohu.
+$ D11b1-Kir-1
+- Je tady jezero a vodopád. A velké opice. Vypadají dost divoce a myslím, že na mì chtìjí zaútoèit.
+$ D11b1-Bur-1
+- [saw aggressive Apemen] Vím, kde to asi je. Taky jsem mìl s opièáky potíže.
+$ D11b1-Bur-1a
+- [else] Vodopád? Vím, kde to asi je.
+$ D11b1-Bel-1
+- [alive] Zùstaò tam, Kirilenková, jdeme pro tebe. Najdi si místo, kde se mùžeš dobøe bránit.
+$ D11b1-RSol1-1
+- [var a1] Zùstaò tam, Kirilenková, jdeme pro tebe.
+$ D11b1-RFSol1-1
+- [var a2] Zùstaò tam, Kirilenková, jdeme pro tebe.
+$ D11b2-Kir-1
+- Nevím. Je tady nìjaké jezero... a vodopád.
+$ D11b2-Bel-1
+- [alive] Zùstaò tam, Kirilenková. Víme, kde to je, a jdeme pro tebe.
+$ D11c-Kir-1
+- Co se to tu dìje? Proè jsme nepøistáli po èetách?
+$ D11c-Bur-1
+- Tau-deflektor nefunguje tak, jak jsme si mysleli. Vysvìtlíme ti to na základnì. Ale nejdøív se odud musíme dostat!
+$ D12-Bel-1
+- [present] Tahle cesta vede do Kirova. Už se nemùžu doèkat, až si dám sklenièku vodky! Nebo radši flašku.
+$ D12-RSol1-1
+- [else] Tahle cesta vede do Kirova.
+$ D12-Bur-1
+- Mìli bychom se tu porozhlédnout. Ten chlapík, co ztratil vysílaèku, tu ještì mùže nìkde být.
+$ D12-Bel-2
+- [present to killing of Ape] To je beznadìjný. Ten opièák mohl mít tu vysílaèku roky.
+? Qdiff
+Zvol si obtížnost mise:
+- Dobrodruh
+- Velitel
+- Stratég
+?
+# M1
+Add Main Contact
+- Spoj se s ostatními jednotkami.
+#
+# M2
+Del Contact
+Add Main Stay
+- Následuj poruèíka Pokryškina.
+#
+# M3
+Del Stay
+Add Main Conquer
+- Zniè všechny americké budovy
+Add Secondary NoEscaped
+- Nenech nikoho uniknout.
+Add Secondary NoLosses
+- Snaž se zabránit dalším ztrátám.
+#
+# M4a
+Out Conquer
+Out NoEscaped
+Add Main Return
+- Pøesuò všechny své jednotky do pravého dolního rohu mapy.
+#
+# M4b
+Out Conquer
+Del NoEscaped
+Add Main Return
+- Pøesuò všechny své jednotky do pravého dolního rohu mapy.
+#
+? QExit2
+Chceš odsud odejít?
+- Ano.
+- Ne.
+?
+? QExit1
+Abys mohl odejít, musíš sem dostat všechny své lidi.
+- OK.
+?
+^ Main
+Americká základna znièena
+| Burlak
+Burlak umírá
+* NoEscape
++ Nikdo neunikl
+- Nechal jsi utéct amerického velitele.
+- Nechal jsi utéct Amerièanku.
+- Nechal jsi utéct oba Amerièany.
+*
+* Gnyevko
++ Gnìvko a Kirilenkova zachránìni
+- Nechal jsi v oblasti zranìného soudruha.
+- Nezachránil jsi jednoho soudruha.
+- V oblasti jsi nechal dva soudruhy.
+*
+* NoLosses
++ Beze ztrát
+- Ztratil jsi nìkteré ze svých lidí.
+*

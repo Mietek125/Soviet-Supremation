@@ -1,0 +1,120 @@
+EXPORT Lisa;
+
+Starting
+  begin
+    Pocatecne_nastaveni;
+    SAIL_randseed:=1000;
+    create_resources;
+    prepare_sides;
+    prepare_sets;
+    prepare_people;
+    Disable(400);
+    Disable(401);
+  end;
+
+Export Def_Obtiznost, upg;
+Function pocatecne_nastaveni;
+begin
+  {if MultiPlayer then
+    begin
+      Player_Side = mp_player_side;         // cislo strany za kterou hraje TENTO hrac
+      def_obtiznost= GetMultiplayerSetting(1);
+    end
+  else
+    begin
+      def_obtiznost= 3;
+      Player_Side = 1;
+    end;                     }
+
+    Player_Side = 1;
+    def_obtiznost= GetMultiplayerSetting(1);
+     //def_obtiznost= 3;
+    upg = def_obtiznost*2;
+
+    
+end;
+
+every 0$0.3 do
+  var sm,xs,ys,x,y,un,u1;
+  begin
+    for un in all_your do
+      if un and not IsInUnit(un) then
+        begin
+          xs=GetX(un);
+          ys=GetY(un);
+          for sm:=0 to 5 do
+            begin
+              u1:=HexInfo(ShiftX(xs,sm,2),ShiftY(ys,sm,2));
+              if (u1>0) then
+                if GetSide(u1)=pris then
+                  begin
+                    SetSide(u1,you);
+                    all_your:=all_your^[u1];
+                    ComStop(u1);
+                  end;
+            end;
+        end;
+    enable;
+  end;
+
+
+every 0$0.5 trigger FilterUnitsInArea(ArCharge1,[[f_side,you],[f_see,ar]]) do
+  begin
+    ComFireExplosives(sol1);
+  end;
+
+every 0$0.5+0$0.25 trigger FilterUnitsInArea(ArCharge2,[[f_side,you],[f_see,ar]]) do
+  begin
+    ComFireExplosives(sol2);
+  end;
+
+every 0$1.3 trigger (not IsOk(ArPP1) and not IsOk(ArPP2)) or not IsOk(ArDep) do
+  begin
+    ComExitBuilding([br6_1,br6_2,br6_3,br6_4,br6_5,br6_6]);
+  end;
+
+every 0$1.3 trigger (not IsOk(RuPP1) and not IsOk(RuPP2)) or not IsOk(RuDep) do
+  begin
+    ComExitBuilding([br4_1,br4_2,br4_3]);
+    AddComMoveXY([br4_1,br4_2,br4_3],193,130);
+  end;
+
+function CanWinLoose;
+begin
+  Result := True;
+
+  if IAmServer and PlayerCount > 0 then
+    Result := False;
+
+  if IAmSpec and PlayerCount > 1 then
+    Result := False;
+end;
+
+every 0$3 trigger CanWinLoose marked 400 do
+  Lost;
+
+export WaitServerStrings;
+every 100 trigger not CanWinLoose marked 400 do
+  WaitServerStrings = ['#reb01-server-wait'];
+
+every 0$3 trigger CanWinLoose marked 401 do
+  Win;
+
+every 100 trigger (not FilterAllUnits([f_side,pris])) do
+    Enable(401);
+
+every 100 trigger IsDead(Lisa) do
+  Enable(400);
+
+
+Function win;
+begin
+  SetMultiScore(You,(FilterAllUnits([f_side,you])*10)+(sTech-nTech)+(sBuildings-nBuildings)+(sComps-nComps)-(tick/1000));
+  YouWinInMultiplayer;
+end;
+
+Function lost;
+begin
+  SetMultiScore(You,(FilterAllUnits([f_side,you])*10)+(sTech-nTech)+(sBuildings-nBuildings)+(sComps-nComps)-(tick/1000)-250);
+  YouLostInMultiplayer;
+end;

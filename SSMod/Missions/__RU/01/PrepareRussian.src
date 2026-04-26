@@ -1,0 +1,18 @@
+Export Function InitRussian;
+Begin
+
+     Uc_Nation:= 3;
+     Uc_Side := 3;
+
+     Yakotich := PrepareUnit('Yakotich', false, '');
+
+     Uc_Side := 6;
+
+     Mietek := PrepareUnit('Mietek', false, '');
+     Smirnovsky := PrepareUnit('Smirnovsky', false, '');
+     Kostyliev := PrepareUnit('Kostyliev', false, '');
+     Charnushka := PrepareUnit('Charnushka', false, '');
+     Boris := PrepareUnit('Boris', false, '');
+
+
+end;

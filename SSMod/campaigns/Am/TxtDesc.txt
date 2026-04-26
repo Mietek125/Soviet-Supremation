@@ -1,0 +1,198 @@
+1. Surprise Party
+  Dialogy:
+    Osob:   110
+    Replik: 74
+    Slov:   736
+    Znaku:  3884
+  Jine texty:
+    Slov:   245
+    Znaku:  1179
+
+2. Stealing the Steel
+  Dialogy:
+    Osob:   110
+    Replik: 130
+    Slov:   1421
+    Znaku:  7604
+  Jine texty:
+    Slov:   155
+    Znaku:  788
+
+3. Breaking Through
+  Dialogy:
+    Osob:   110
+    Replik: 95
+    Slov:   1063
+    Znaku:  5644
+  Jine texty:
+    Slov:   144
+    Znaku:  731
+
+4. Baptism by Fire
+  Dialogy:
+    Osob:   110
+    Replik: 74
+    Slov:   875
+    Znaku:  4714
+  Jine texty:
+    Slov:   111
+    Znaku:  597
+
+5. Soul of the Apeman
+  Dialogy:
+    Osob:   110
+    Replik: 83
+    Slov:   803
+    Znaku:  4254
+  Jine texty:
+    Slov:   178
+    Znaku:  1009
+
+6. From the Future with Love
+  Dialogy:
+    Osob:   110
+    Replik: 153
+    Slov:   1793
+    Znaku:  9407
+  Jine texty:
+    Slov:   178
+    Znaku:  908
+
+7. Payback Time
+  Dialogy:
+    Osob:   110
+    Replik: 66
+    Slov:   839
+    Znaku:  4549
+  Jine texty:
+    Slov:   117
+    Znaku:  651
+
+8. Natural Born Heroes
+  Dialogy:
+    Osob:   110
+    Replik: 62
+    Slov:   801
+    Znaku:  4585
+  Jine texty:
+    Slov:   85
+    Znaku:  479
+
+9. Siberite!
+  Dialogy:
+    Osob:   110
+    Replik: 139
+    Slov:   1854
+    Znaku:  9832
+  Jine texty:
+    Slov:   302
+    Znaku:  1673
+
+10. Genie in a bottle
+  Dialogy:
+    Osob:   110
+    Replik: 108
+    Slov:   1254
+    Znaku:  6829
+  Jine texty:
+    Slov:   105
+    Znaku:  620
+
+11. Arabian Question
+  Dialogy:
+    Osob:   110
+    Replik: 117
+    Slov:   1202
+    Znaku:  6360
+  Jine texty:
+    Slov:   255
+    Znaku:  1306
+
+12. Fox Hunting
+  Dialogy:
+    Osob:   110
+    Replik: 104
+    Slov:   1330
+    Znaku:  7196
+  Jine texty:
+    Slov:   477
+    Znaku:  2567
+
+13. Original Cold War
+  Dialogy:
+    Osob:   110
+    Replik: 70
+    Slov:   895
+    Znaku:  4894
+  Jine texty:
+    Slov:   153
+    Znaku:  863
+
+14. One on One
+  Dialogy:
+    Osob:   110
+    Replik: 96
+    Slov:   1123
+    Znaku:  5865
+  Jine texty:
+    Slov:   319
+    Znaku:  1591
+
+15. Final Countdown
+  Dialogy:
+    Osob:   110
+    Replik: 296
+    Slov:   3959
+    Znaku:  21236
+  Jine texty:
+    Slov:   239
+    Znaku:  1287
+
+16. Long Way Out
+  Dialogy:
+    Osob:   110
+    Replik: 101
+    Slov:   1314
+    Znaku:  6767
+  Jine texty:
+    Slov:   89
+    Znaku:  451
+
+17. Peace on earth
+  Dialogy:
+    Osob:   110
+    Replik: 90
+    Slov:   1401
+    Znaku:  7604
+  Jine texty:
+    Slov:   167
+    Znaku:  940
+
+18. Think Tank
+  Dialogy:
+    Osob:   110
+    Replik: 59
+    Slov:   854
+    Znaku:  4591
+  Jine texty:
+    Slov:   126
+    Znaku:  692
+
+All 18 missions:
+  Dialogy:
+    Replik: 1917
+    Slov:   23517
+    Znaku:  125815
+  Jine texty:
+    Slov:   3445
+    Znaku:  18332
+
+Average mission:
+  Dialogy:
+    Replik: 106
+    Slov:   1306
+    Znaku:  6989
+  Jine texty:
+    Slov:   191
+    Znaku:  1018
+

@@ -1,0 +1,323 @@
+$ D1i-Off1-1
+- Company, Atten-TION!
+$ D1i-Off2-1
+- Assemble groups: four soldiers, two technicians, one medic. 
+$ D1i-Off1-2
+- Company, re-GROUP!
+$ D1i-Off2-2
+- Remember your codename. Immediately you arrive, free the area for your comrades. Make contact with marshal Yashin, call sign Eagle, and wait further orders.
+$ D1i-Off1-3
+- Company, forward-MARCH!
+$ D1-Bur-1
+- So what’s different here? Same wasteland as always. (A beat. Burlak moves aside quickly.)
+$ D1-Bur-1a
+- Where are others? I should not be alone. (into radio) Hello, this Robin 5, Robin 5 calling Eagle. Do you read me? (static over radio)
+$ D1-Bur-1b
+- This is not good. Either Radio is broken or there’s nobody home. Better take a look around; see if any American bastards are near by.
+$ DWaterfall-Bur-1
+- Incredible. It was worth trip to see this.
+$ DCorpse-Bur-1
+- Death is not a pretty sight. Worse than a Moscow butcher’s shop!  If I die here I hope it is swift. 
+$ D2-Bur-1
+- Engels told us work plays big part in humanising the Ape. These guys must have lot of hard labour coming!
+$ D2-Bur-1a
+- [Apeman attacks him] Aggressive bastards! Better be careful.
+$ D2a-Bur-1
+- [it is he] Look, the Apeman had our radio! What’s left of it.
+$ D2a-Bel-1
+- [it is he] The bastard had our radio. I wish we’d killed him more slowly.
+$ D2a-Kir-1
+- [it is he] Looks like we killed one of their engineers! He’s taken our radio to pieces.
+$ D2a-RSol1-1
+- [it is he] Hey, look. This Apeman had our army radio. 
+$ D2a-RFSol1-1
+- [it is he] No wonder we couldn’t make contact, these guys have made a jigsaw of our radio.
+$ D2a-Gny-1
+- [Gnyevko present] Look! This used to be my radio. It’s crushed!
+$ D2a-Bur-2
+- [Gnyevko not found] He must have taken it from one of our men. Maybe they are nearby, maybe alive. 
+$ D3-Bur-1
+- [Burlak did not meet Pokryshkin: alt a1] Greetings comrade. What is your name?
+$ D3-RSol1-1
+- [Burlak met Pokryshkin: alt a2] Greetings comrade. What is your name?
+$ D3-RFSol1-1
+- [Burlak met Pokryshkin: alt a2] Greetings comrade. What is your name?
+$ D3-Gny-1
+- Corporal Gnyevko, 21st platoon, call sign Sparrow 3. I appeared here couple of days ago, the Apes attacked me and took kit. You’re first person I see.
+$ D3-Bur-2
+- [killed Apeman] I think it was the same ape who attacked me. He won’t do it again! I found your radio, it’s had a few modifications by the Apeman I’m afraid.
+$ D3-Bur-2a
+- [soldiers killed Apeman] We killed an Ape that had some kit. Your radio was in pieces comrade. 
+$ D3-Bur-2b
+- My name is Yuri Ivanovich Gorky, but I am known as Burlak.
+$ D3-Bur-2c
+- [alt a1] My radio’s broken. I think we should go together. That way is better chance to stay alive. 
+$ D3-Bur-2d
+- [present, Gladstone not attacked, alt a2] Come with us. I just arrived also, but these guys know what’s going on.
+$ D3-Bur-2e
+- [present, Gladstone attacked, alt a3] Come with us, these guys know where to find the base.
+$ D3-RSol1-2
+- [otherwise, alt a2 or alt a3] All right, come with me. We are returning to our base.
+$ D3-RFSol1-2
+- [otherwise, alt a2 or alt a3] All right, come with me. We are returning to our base.
+$ D3-Gny-2
+- [alt a1] Up to you, Burlak. Lead the way.
+$ D3-Gny-2a
+- [alt a2 or alt a3] This is good news. I am really sick of hiding from big monkey bastards. Lead the way.
+$ D4-Pok-1
+- Halt! Who are you?
+$ D4-Gny-1
+- [present] Corporal Gnyevko, 21st platoon, call sign Sparrow 3. (Turns Pokryshkin's colour).
+$ D4-Pok-2
+- [Burlak too far] Welcome to Eden! 
+$ D4-Gny-2
+- [reply] There is one of our mechanics in area, his radio is broken…
+$ D4-Pok-3
+- [reply] We heard materialisation boom. We'll wait for him.
+$ D4-Gny-3
+- [reply, when Burlak really arrives] This is him.
+$ D4-Bur-3
+- Mechanic 3rd class, Yuri I. Gorky. Call sign Robin 5...
+$ D4-Pok-4
+- Forget call sign my friend. Forget everything Red Army taught you. This not the place for rules. I am lieutenant Mikhail Vasilyevich Pokryshkin...
+$ D4-Bur-4
+- What the hell was that?
+$ D4-Pok-5
+- Ssssh… wait…
+$ D4-Sol1-5
+- (over radio) Lieutenant Charles Brown calling Alpha. Alpha do you read me?
+$ D4-Pok-6
+- Now you will learn little Robin!
+$ D4-Pok-6a
+- (into radio – with fake American accent) We read you loud and clear Brown. Head east and find a group of three trees on a hilltop. We’ll send search party to meet you. 
+$ D4-Bur-6
+- What’s going on here?
+$ D4-Pok-7
+- Come with us and you will find out.
+$ DSplit-Pok-1
+- Where are you going, Gorky? I told you to stick with us!
+$ DSplit-Bur-1
+- My apologies Lieutenant. (in-game video, Burlak walks back to Pokryshkin)
+$ DAttack-Pok-1
+- You’re eithermad or on the wrong side Gorky. Either way we cannot let you live. Kill him! (All Russians attack Burlak)
+$ D5-Sol1-1
+- Hi there guys...
+$ D5-Pok-1
+- Get Yankee bastard! (Russians open fire at American)
+$ D5-Sol1-2
+- Oh my God! No...Please! (dies)
+$ D5-Bur-2
+- This is what you call war here?
+$ D5-Pok-2
+- We take them out before they know who we are. We can’t allow them to make contact.
+$ D5-Bel-2
+- Easy pickings comrade! And a lot of fun. Did you see, he pissed himself for real. Yellow bastard!
+$ D5-Pok-3
+- I don't find it amusing, Belkov. But if they want to steal what is ours, they can expect nothing else.
+$ D5-Gny-3
+- [present] This isn't war. It's nothing but murder!
+$ D5-Bur-3
+- It is not pleasant but I see it is necessary. We can’t afford to lose here. If they were afraid to die they should never have come.
+$ D6-Pok-1
+- So, now we can head back to S. M. Kirov base.
+$ D6-Bur-1
+- Construction has taken place already?
+$ D6-Pok-2
+- There has been time. The TAWAR does not deliver us here in order that we left. Could be three years late or early, no-one knows.
+$ D6-Bel-2
+- And different places… I travelled two days before I saw another human.
+$ D6-Bur-2
+- So how long have other comrades been here? 
+$ D6-Pok-3
+- The first to arrive was general Morozov, on 7th November, last year – today, it's March 13, year two of the New Reckoning, or 2 NR. Morozov founded base V. I. Lenin and then....
+$ D6-Kur-3
+- (over radio) Mikhail, there are Yanks North of you. Take your men, find the Americans and kill them.
+$ D6-Pok-4
+- (into radio) Roger, Kirov. On our way.
+$ D6-Bel-4
+- At last, some action! I hope it’s not too easy!
+$ D7-Pok-1
+- So here it is. Ready your guns and charge!
+$ D7-FSol1-1
+- (English, with Native titles) Tim, there are Russians attacking me…What? I think so...
+$ D7a-Bel-1
+- (desperate) Comrade Pokryshkin!
+$ D7a-RSol1-1
+- Retreat everybody! We have no chance here!
+$ D7a-FSol1-1
+- (English, with Native titles) OK, Tim, they’re on the run.
+$ D7b-Bel-1
+- What the hell should we do now?
+$ D7b-FSol1-1
+- Obviously, frontal attack is not an option.
+$ D7b-Bel-2
+- We cannot win! Comrade Pokryshkin was a great soldier.
+$ D7b-RSol1-2
+- Pokryshkin was commander. Without him we must return to Kirov for orders.
+$ D7b-Bel-3
+- [Burlak too far] You are right comrade. But we should wait for Burlak, the mechanic.
+$ D7b-Bel-3a
+- [Burlak returns] He is here! Keep moving Burlak, we are returning to Kirov.
+$ D7b-Bur-3
+- What for? We have our orders comrade: destroy the base. 
+$ D7b-Bel-4
+- We have tried and failed!
+$ D7b-Bur-4
+- We need a better way to attack.
+$ D7b-Bel-5
+- Burlak!
+$ D7b-FSol1-5
+- He may be right, we can examine options. Maybe take cover behind trees.
+$ D7b-Bel-6
+- Are you both crazy? We need reinforcements!
+$ D7b-Bur-6
+- You are the one who wanted a fight and all we face is a woman and a pile of sandbags. Is that too hard for you ?
+$ D7b-RSol1-6
+- Burlak is right. We can take it. Let's kick some Yankee ass! 
+$ D8-FSol1-1
+- (English, with Native titles) Quick, Tim, the Russians are back!
+$ D8-Glad-1
+- Hold on, I’ll send the Apemen to help you!
+$ D8-Bur-1
+- (Apeman counterattack) Watch out! Hit the big monkeys!
+$ D8-FSol1-2
+- [cannot attack from breastwork] (English, with Native titles) Damn! The bastards are hiding behind the trees. I can't hit them from here.
+$ D8-FSol1-2a
+- [if bunker goes to red] (English, with Native titles) Damned commies.
+$ D8-Glad-2
+- [reply] (English, with Native titles) Our situation’s desperate. We have to run for it.
+$ D8-Bur-2
+- After him! He is the commander!
+$ D9-Bur-1
+- [Gladstone dead, FASoldier dead] Well done, friends. We have cleared the vermin.
+$ D9-Bur-1a
+- [Gladstone escaped, FASoldier dead] It is good we have the woman, but we should not have lost their commander.
+$ D9-Bur-1b
+- [Gladstone dead, FASoldier escaped] The woman who shot Pokryshkin has escaped this time, but their commander has paid!
+$ D9-Bur-1c
+- [Gladstone escaped, FASoldier escaped] We should not have lost them! Those dogs killed Pokryshkin. One day they must pay!
+$ D10-Bur-1
+- We have cleared our debt, now we can return with our heads held high. Do any of you know how to get back to the V. I. Lenin base?
+$ D10-Bel-1
+- [alive] You were right comrade! We succeeded !
+$ D10-Bel-1a
+- [reply] V. I. Lenin is main base, south of here. But S. M. Kirov is much nearer. To the East. I can take us there.
+$ D10-RSol1-1
+- [otherwise] V. I. Lenin is main base. But we from S. M. Kirov, East of here. I can take us.
+$ D10-Bur-2
+- Let’s go then.
+$ D11a-Kir-1
+- Thank God! I am comrade Kirilenkova, medic from platoon 6?
+$ D11a-Bel-1
+- Hey, it’s me, Belkov, we were in same platoon.
+$ D11a-Kir-2
+- Where are the others?
+$ D11a-Bel-2
+- We can explain later. Now we have to move.
+$ D11a-RSol1-2
+- Later we tell you everything. Come with us.
+$ D11a-RFSol1-2
+- Later we tell you everything. Come with us.
+$ D11b-Kir-1
+- To all... This is Kirilenkova, call sign Grouse 4. Can you hear me anybody? Where are you?
+$ D11b-Bel-1
+- [alive] This is a medic from our platoon!
+$ D11b-Bel-1a
+- [cont] We read you. Tell us your position.
+$ D11b-RSol1-1
+- [var a1] We read you. Tell us your position.
+$ D11b-RFSol1-1
+- [var a2] We read you. Tell us your position.
+$ D11b1-Kir-1
+- There is a lake and a waterfall here. And large monkeys. They grow violent and I think they decide to attack me.
+$ D11b1-Bur-1
+- [saw aggressive Apemen] I know where this could be. I had same problem with Apes.
+$ D11b1-Bur-1a
+- [else] A waterfall? I may know where this place is.
+$ D11b1-Bel-1
+- [alive] Stand by, Kirilenkova, we are coming for you. Find somewhere you can defend yourself.
+$ D11b1-RSol1-1
+- [var a1] Stand by, Kirilenkova, we are coming for you..
+$ D11b1-RFSol1-1
+- [var a2] Stand by, we are coming for you..
+$ D11b2-Kir-1
+- I don't know. There is some lake… and a waterfall.
+$ D11b2-Bel-1
+- [alive] Stand by, Kirilenkova, we know where it is and we are coming for you.
+$ D11c-Kir-1
+- What is happening here? Why do we not arrive in platoons?
+$ D11c-Bur-1
+- The TAWAR doesn’t work as we thought. We’ll explain at the base. But first we have to get there!
+$ D12-Bel-1
+- [present] This road leads to Kirov. I'm looking forward to glass of vodka! Maybe a bottle!
+$ D12-RSol1-1
+- [else] This road leads to Kirov.
+$ D12-Bur-1
+- We should take a look around. The guy who lost the radio could still be out here.
+$ D12-Bel-2
+- [present to killing of Ape] This is hopeless, that Ape could have had the radio for years.
+? Qdiff
+Please choose difficulty level of the mission:
+- Adventurer
+- Commander
+- Master Strategist
+?
+# M1
+Add Main Contact
+- Make contact with your forces.
+#
+# M2
+Del Contact
+Add Main Stay
+- Follow lieutenant Pokryshkin
+#
+# M3
+Del Stay
+Add Main Conquer
+- Destroy all American buildings.
+Add Secondary NoEscaped
+- Don’t let anyone to escape.
+Add Secondary NoLosses
+- Try to avoid other loses.
+#
+# M4a
+Out Conquer
+Out NoEscaped
+Add Main Return
+- Move all of your troops to the Right Bottom corner of map
+#
+# M4b
+Out Conquer
+Del NoEscaped
+Add Main Return
+- Move all of your troops to the Right Bottom corner of map
+#
+? QExit2
+Do you want to leave?
+- Yes
+- No
+?
+? QExit1
+You have to get everybody here if you want to leave.
+- OK.
+?
+^ Main
+American base destroyed
+| Burlak
+Burlak is dying.
+* NoEscape
++ Nobody escaped
+- You allowed the American commander to escape.
+- You allowed an American soldier to escape.
+- You allowed the Americans to escape.
+*
+* Gnyevko
++ Gnyevko and Kirilenkova saved
+- You missed a wounded comrade in the area
+- You didn’t save one comrade
+- You missed two comrades in the area
+*
+* NoLosses
++ No losses
+- You lost some of your men.
+*
