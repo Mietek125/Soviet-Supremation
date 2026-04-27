@@ -11,8 +11,21 @@ Begin
      Mietek := PrepareUnit('Mietek', false, '');
      Smirnovsky := PrepareUnit('Smirnovsky', false, '');
      Kostyliev := PrepareUnit('Kostyliev', false, '');
-     Charnushka := PrepareUnit('Charnushka', false, '');
-     Boris := PrepareUnit('Boris', false, '');
+     Sidorov := PrepareUnit('Sidorov', false, '');
+     Choroszczanow := PrepareUnit('Choroszczanow', false, '');
+     Volkovich := PrepareUnit('Volkovich', false, '');
 
+     PlaceUnitArea(Sidorov, BSpawn1, False);
+     ComEnterUnit(Sidorov,b1);
+     PlaceUnitArea(Volkovich, BSpawn2, False);
+     ComEnterUnit(Volkovich,b3);
+
+     PlaceUnitXY(Choroszczanow,88,23,False);
+
+     PlaceUnitArea(Mietek, CivSpawn, False);
+     PlaceUnitArea(Smirnovsky, CivSpawn, False);
+     PlaceUnitArea(Kostyliev, CivSpawn, False);
+
+     ComTurnXY([Mietek, Smirnovsky, Kostyliev], 93, 12);
 
 end;

@@ -1,5 +1,5 @@
 VARIABLES 0
-CHARACTERS 69
+CHARACTERS 79
   Abdul 1
     DEFINE
       NAME Abdul
@@ -751,12 +751,122 @@ CHARACTERS 69
   Kostyliev 1
     DEFINE
       NAME Kostyliev
-      HUMAN 1 1 3
+      HUMAN 1 3 3
       ATTR 11 10
       SKILLS 2 16350 0 20970 3 33240 1 9450
       LAST_MISSION 1
       CHAR @ 0 0
       RANDSEED 0
-      VOICE 1 GALLERY YakotichMod 5
+      VOICE 1 GALLERY YakotichMod 4
+    END_OF_DEFINE
+  Maxim 1
+    DEFINE
+      NAME Maxim
+      HUMAN 1 1 3
+      ATTR 9 12
+      SKILLS 4 21030 1 26790 0 45120 1 6240
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY YakotichMod 3
+    END_OF_DEFINE
+  Volkovich 1
+    DEFINE
+      NAME Volkovich
+      HUMAN 1 1 3
+      ATTR 11 10
+      SKILLS 3 16920 1 6240 1 30690 1 24030
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY YakotichMod 12
+    END_OF_DEFINE
+  Sidorov 1
+    DEFINE
+      NAME Sidorov
+      HUMAN 1 1 3
+      ATTR 12 9
+      SKILLS 3 23670 2 15300 1 34110 0 6030
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY YakotichMod 15
+    END_OF_DEFINE
+  Choroszczanow 1
+    DEFINE
+      NAME Choroszczanow
+      HUMAN 1 2 3
+      ATTR 13 8
+      SKILLS 2 4020 2 20940 2 13560 0 36390
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY YakotichMod 13
+    END_OF_DEFINE
+  Stefan 1
+    DEFINE
+      NAME Stefan
+      HUMAN 1 3 3
+      ATTR 11 10
+      SKILLS 0 2100 2 6900 4 16440 0 37020
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY YakotichMod 11
+    END_OF_DEFINE
+  Nemieszek 1
+    DEFINE
+      NAME Nemieszek
+      HUMAN 1 1 3
+      ATTR 11 10
+      SKILLS 5 274020 2 120510 2 183600 3 135930
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY Glowne_Gieroje 4
+    END_OF_DEFINE
+  Puszkin 1
+    DEFINE
+      NAME Puszkin
+      HUMAN 1 1 3
+      ATTR 10 11
+      SKILLS 4 15000 0 72000 2 3690 0 14610
+      LAST_MISSION 1
+      CHAR @ 100 0
+      RANDSEED 0
+      VOICE 1 GALLERY Glowne_Gieroje 1
+    END_OF_DEFINE
+  Williams 1
+    DEFINE
+      NAME Williams
+      HUMAN 1 1 1
+      ATTR 11 10
+      SKILLS 2 402210 0 161730 0 237030 0 271500
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY SecondCharsGal 80
+    END_OF_DEFINE
+  Phillips 1
+    DEFINE
+      NAME Phillips
+      HUMAN 1 1 1
+      ATTR 10 11
+      SKILLS 1 477030 2 152100 1 183210 2 146910
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY SecondCharsGal 82
+    END_OF_DEFINE
+  Tatiana 1
+    DEFINE
+      NAME Tatiana
+      HUMAN 1 4 3
+      ATTR 9 12
+      SKILLS 0 72000 2 12930 0 3180 4 6240
+      LAST_MISSION 2
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY YakotichMod 22
     END_OF_DEFINE
 END

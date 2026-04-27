@@ -1,4 +1,168 @@
+
+//Start misji
 Export Function InitAction;
 Begin
 
+     NoweHinty([1,2]);
+
+     InGameOn;
+     CenterOnXY(73,83);
+     Wait(0$1);
+     PlaceUnitArea(Yakotich, YakotichSpawn , true);
+     Wait(0$3);
+     Say(Yakotich,'DYak-01-01');
+     ComTurnXY(Yakotich, 69, 84);
+     Wait(0$3);
+     ComTurnXY(Yakotich, 73, 79);
+     Say(Yakotich,'DYak-01-02');
+     Say(Yakotich,'DYak-01-03');
+     Wait(0$2);
+     SayEX(Mietek, 'DMietek-01-04', 0, 0, 1, True);
+     SayEX(Mietek, 'DMietek-01-05', 0, 0, 1, True);
+     Say(Yakotich,'DYak-01-06');
+     ChangeMissionObjectives('Ob1');
+     InGameOff;
+
 end;
+
+//Rozmowa na wzgórzu zanim weszliœmy do bazy
+Every 0$1 Trigger IsInArea(Yakotich, Hill) and not WasInBase do
+Begin
+
+     InGameOn;
+     Say(Yakotich,'DYak-02-01');
+     ComMoveXY(Yakotich,110,90);
+     CenterOnXY(110,90);
+     Say(Yakotich,'DYak-02-02');
+     Wait(0$03);
+     CenterOnXY(90,20);
+     RevealFogArea(3,ShowBase);
+     SayEX(Mietek, 'DMietek-02-03', 0, 0, 1, True);
+     Say(Yakotich,'DYak-02-04');
+     HillCheck = True;
+     InGameOff;
+
+end;
+
+//Odkrycie drogi zanim weszliœmy do bazy
+Every 0$1 Trigger IsInArea(Yakotich,Road) and not WasInBase do
+Begin
+
+     DialogueOn;
+     RevealFogArea(3,ShowRoad);
+     CenterOnXY(130,90);
+     Say(Yakotich,'DYak-Road-01');
+     RoadCheck = True;
+     DialogueOff;
+
+end;
+
+//Odkrycie jaskini
+Every 0$1 Trigger IsInArea(Yakotich,Cave) do
+Begin
+
+     DialogueOn;
+     RevealFogArea(3,Cave);
+     CenterOnXY(25,35);
+     Say(Yakotich,'DYak-Cave-01');
+     CaveCheck = True;
+     DialogueOff;
+
+end;
+
+//Wejœcie do bazy
+Every 0$1 Trigger See(6, Yakotich) do
+Begin
+
+     DialogueOn;
+     InGameOn;
+     CenterOnXY(85, 15);
+     SayNoName(Sidorov, 'DSid-03-01');
+     Say(Yakotich, 'DYak-03-02');
+     SayNoName(Sidorov, 'DSid-03-03');
+     DialogueOff;
+     ComEnterUnit(Choroszczanow, RuDepot);
+     ChangeSideFog(6,3);
+     ComMoveXY(Yakotich, 94, 18);
+     AddComTurnUnit(Yakotich, Mietek);
+     Wait(0$15);
+     Say(Yakotich, 'DYak-03-04');
+     ComMoveXY(Mietek, 93, 15);
+     AddComTurnUnit(Mietek, Yakotich);
+     Say(Mietek, 'DMietek-03-05');
+     Say(Mietek, 'DMietek-03-06');
+     Say(Yakotich, 'DYak-03-07');
+     ComMoveXY(Smirnovsky,92,15);
+     Say(Smirnovsky, 'DVlad-03-08');
+     AddComTurnUnit(Smirnovsky, Yakotich);
+     ComEnterUnit(Kostyliev, RuDepot);
+     Say(Smirnovsky, 'DVlad-03-09');
+     Say(Yakotich, 'DYak-03-10');
+     Say(Mietek, 'DMietek-03-11');
+     Say(Mietek, 'DMietek-03-12');
+     Say(Yakotich, 'DYak-03-13');
+     Say(Mietek, 'DMietek-03-14');
+
+     If HillCheck then
+     Begin
+
+     CenterOnXY(110,90);
+     RevealFogArea(3, ShowHill);
+     Say(Yakotich, 'DYak-03-15c');
+
+     end;
+
+     If CaveCheck then
+     Begin
+
+     CenterOnXY(25,35);
+     Say(Yakotich, 'DYak-03-15a');
+
+     end;
+
+     If RoadCheck then
+     Begin
+
+     CenterOnXY(130,100);
+     Say(Yakotich, 'DYak-03-15b');
+
+     end;
+
+     If HillCheck and CaveCheck and RoadCheck and not WasInBase then
+     Begin
+
+     Say(Yakotich, 'DYak-03-15d');
+     ChangeMissionObjectives('Ob2a');
+     end;
+
+     If not HillCheck or not CaveCheck or not RoadCheck then
+     Begin
+
+     Say(Yakotich, 'DYak-03-15e');
+     ChangeMissionObjectives('Ob2');
+     end;
+
+     InGameOff;
+     WasInBase = True;
+     SetSide(FilterAllUnits([[f_side, 6]]), 3);
+
+     If HillCheck and CaveCheck and RoadCheck and WasInBase then
+     ChangeMissionObjectives('ReconOut');
+
+end;
+
+Every 0$1 Trigger WasInBase = True do
+Begin
+
+     Say(Kostyliev, 'DBog-04-01');
+     Say(Smirnovsky, 'DVlad-04-02');
+     Say(Yakotich, 'DYak-04-03');
+     ChangeMissionObjectives('Ob3');
+
+end;
+
+
+
+
+
+

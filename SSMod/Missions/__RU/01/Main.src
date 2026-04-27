@@ -1,35 +1,41 @@
 Starting
 begin
 
-ResetFog;
-Init;
+     ResetFog;
+     Init;
 
-AnimateTrees(true);
+     AnimateTrees(true);
 
-Randomize;
-RandomizeAll;
+     Randomize;
+     RandomizeAll;
 
-InitRussian;
-InitAction;
+     InitRussian;
+     InitAction;
 
-DebugMode;
+     DebugMode;
 
 end;
 
-Export Yakotich, Mietek, Smirnovsky, Kostyliev, Charnushka, Boris;
+Export Yakotich, Mietek, Smirnovsky, Kostyliev, Sidorov, Choroszczanow, Stefan;
 Export Maxim;
+Export Volkovich;
 
 Export Debug;
 
 Export mission_prefix;
-Export cave_check;
+Export CaveCheck, HillCheck, RoadCheck, WasInBase, Vehicle_Constructed, All_Techs_Done;
 
 Export Function Init;
 Begin
 
-mission_prefix := '01_';
+ mission_prefix := '01_';
 //Debug := True;
-cave_check := False;
+CaveCheck := False;
+HillCheck := False;
+RoadCheck := False;
+WasInBase := False;
+Vehicle_Constructed := False;
+All_Techs_Done := True;
 
 end;
 

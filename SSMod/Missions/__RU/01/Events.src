@@ -1,0 +1,40 @@
+
+Every 0$1 Trigger Researched (3, 47) do
+Begin
+
+     DialogueOn;
+     Say(Smirnovsky, 'DBog-04-04');
+     Say(Yakotich, 'DVlad-04-05');
+     Say(Smirnovsky, 'DYak-04-06');
+     Say(Kostyliev, 'DYak-04-07');
+     DialogueOff;
+
+end;
+
+Every 0$1 trigger FilterAllUnits([[f_type, unit_vehicle], [f_side, 3]]) do
+begin
+
+     InGameOn;
+     CenterOnUnits(RuDepot);
+     Wait(0$3);
+     DialogueOn;
+     Say(Kostyliev,'DBog-04-08');
+     Say(Yakotich,'DYak-04-09');
+     ChangeMissionObjectives('VehOut');
+     DialogueOff;
+     InGameOff;
+     Vehicle_Constructed = True;
+
+     If LoadVariable('HintyON', 1) then
+     HintSpec('Common Hint x w-u-mg', 3);
+
+end;
+
+Every 0$1 Trigger Researched(3, 46) and Researched(3, 47) and Researched(3, 48) and Researched(3, 82) do
+Begin
+
+     ChangeMissionObjectives('ResearchOut');
+     All_Techs_Done = True;
+
+end;
+

@@ -131,15 +131,24 @@ GAMEINIT
      UPGRADE 26
        LEVEL  0  0 
        LEVEL  1  1
-       LEVEL  2  2 
+       LEVEL  2  2
+       LEVEL  3  3	
+	   LEVEL  4  5
+	   LEVEL  5  5
        TECH 57 58 59
+	   TECHEX 4 96
+	   TECHEX 5 97
        UVP LOS 
      UPGRADE 27
        LEVEL  0  0 
        LEVEL  1  3
        LEVEL  2  6 
        LEVEL  3  9 
+	   LEVEL  4  12
+	   LEVEL  5  15
        TECH 57 58 59
+	   TECHEX 4 96
+	   TECHEX 5 97
        UVP UBP 
      UPGRADE 28
        LEVEL  0  100 
