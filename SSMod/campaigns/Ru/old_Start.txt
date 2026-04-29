@@ -1,0 +1,905 @@
+VARIABLES 0
+CHARACTERS 82
+  Abdul 1
+    DEFINE
+      NAME Abdul
+      HUMAN 1 1 2
+      ATTR 10 10
+      SKILLS 5 44100 6 17040 5 83100 5 66930
+      LAST_MISSION 14
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 1 GALLERY ru 45
+    END_OF_DEFINE
+  Belkov 1
+    DEFINE
+      NAME Belkov
+      HUMAN 1 1 3
+      ATTR 10 10
+      SKILLS 1 45990 1 23640 1 30 0 25710
+      LAST_MISSION 1
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 202 GALLERY ru 3
+    END_OF_DEFINE
+  Belkov2 1
+    DEFINE
+      NAME Belkov2
+      HUMAN 1 1 3
+      ATTR 10 10
+      SKILLS 1 62400 1 24360 1 930 0 13830
+      LAST_MISSION 1
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 202 GALLERY ru 20
+    END_OF_DEFINE
+  Bergkamp 1
+    DEFINE
+      NAME Bergkamp
+      HUMAN 1 1 2
+      ATTR 10 10
+      SKILLS 3 963330 2 277890 1 1119090 2 465660
+      LAST_MISSION 14
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 1 GALLERY ru 43
+    END_OF_DEFINE
+  Bobby 1
+    DEFINE
+      NAME Bobby
+      HUMAN 1 1 1
+      ATTR 10 10
+      SKILLS 1 2398530 0 707430 2 75660 0 312060
+      LAST_MISSION 13
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 109 GALLERY us 9
+    END_OF_DEFINE
+  Borodin 1
+    DEFINE
+      NAME Borodin
+      HUMAN 1 1 3
+      ATTR 10 10
+      SKILLS 3 365490 2 41160 1 20700 1 24630
+      LAST_MISSION 12
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 11 GALLERY ru 37
+    END_OF_DEFINE
+  Brown 1
+    DEFINE
+      NAME Brown
+      HUMAN 1 1 1
+      ATTR 10 10
+      SKILLS 3 721740 1 82680 1 360030 0 51180
+      LAST_MISSION 13
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 1 GALLERY us 15
+    END_OF_DEFINE
+  Burlak 1
+    DEFINE
+      NAME Burlak
+      HUMAN 1 3 3
+      ATTR 12 10
+      SKILLS 0 42030 1 3180 2 72360 0 11910
+      LAST_MISSION 1
+      CHAR @ 110 0
+      RANDSEED 0
+      VOICE 201 GALLERY ru 1
+    END_OF_DEFINE
+  Bystrov 1
+    DEFINE
+      NAME Bystrov
+      HUMAN 1 4 3
+      ATTR 10 10
+      SKILLS 0 114180 2 273600 2 528480 3 890550
+      LAST_MISSION 13
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 15 GALLERY ru 35
+    END_OF_DEFINE
+  Connie 1
+    DEFINE
+      NAME Connie
+      HUMAN 2 1 1
+      ATTR 10 10
+      SKILLS 1 565530 0 1156200 2 1159770 0 846750
+      LAST_MISSION 13
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 2 GALLERY us 25
+    END_OF_DEFINE
+  Cornell 1
+    DEFINE
+      NAME Cornell
+      HUMAN 1 1 1
+      ATTR 10 10
+      SKILLS 3 951210 0 1247070 1 446940 0 252300
+      LAST_MISSION 13
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 105 GALLERY us 17
+    END_OF_DEFINE
+  Cyrus 1
+    DEFINE
+      NAME Cyrus
+      HUMAN 1 1 1
+      ATTR 10 10
+      SKILLS 1 1478040 0 242790 0 567450 0 101670
+      LAST_MISSION 13
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 106 GALLERY us 8
+    END_OF_DEFINE
+  Davidov 1
+    DEFINE
+      NAME Davidov
+      HUMAN 1 1 3
+      ATTR 10 10
+      SKILLS 3 224310 4 32130 4 70020 5 126090
+      LAST_MISSION 12
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 15 GALLERY ru 39
+    END_OF_DEFINE
+  Dietrich 1
+    DEFINE
+      NAME Dietrich
+      HUMAN 1 1 2
+      ATTR 10 10
+      SKILLS 4 150630 1 47760 3 191940 2 7470
+      LAST_MISSION 8
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 3 GALLERY ru 26
+    END_OF_DEFINE
+  Dolgov 1
+    DEFINE
+      NAME Dolgov
+      HUMAN 1 4 3
+      ATTR 10 10
+      SKILLS 0 106320 2 31320 2 8550 4 54330
+      LAST_MISSION 5
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 11 GALLERY ru 28
+    END_OF_DEFINE
+  Donaldson 1
+    DEFINE
+      NAME Donaldson
+      HUMAN 2 1 1
+      ATTR 10 10
+      SKILLS 3 878040 1 315150 1 147000 0 302610
+      LAST_MISSION 13
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 108 GALLERY us 2
+    END_OF_DEFINE
+  Eisenstein 1
+    DEFINE
+      NAME Eisenstein
+      HUMAN 1 1 3
+      ATTR 10 10
+      SKILLS 5 241500 1 36150 1 336180 0 24510
+      LAST_MISSION 12
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 13 GALLERY ru 40
+    END_OF_DEFINE
+  Fadeev 1
+    DEFINE
+      NAME Fadeev
+      HUMAN 1 1 3
+      ATTR 10 10
+      SKILLS 2 1277160 1 403590 2 77250 1 64140
+      LAST_MISSION 12
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 13 GALLERY ru 42
+    END_OF_DEFINE
+  Farmer 1
+    DEFINE
+      NAME Farmer
+      HUMAN 1 1 2
+      ATTR 10 10
+      SKILLS 4 700470 1 999030 2 127320 1 311700
+      LAST_MISSION 14
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 5 GALLERY ru 44
+    END_OF_DEFINE
+  Frank 1
+    DEFINE
+      NAME Frank
+      HUMAN 1 1 1
+      ATTR 10 10
+      SKILLS 2 1249830 1 536700 1 357240 1 240330
+      LAST_MISSION 13
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 104 GALLERY us 12
+    END_OF_DEFINE
+  Furmanov 1
+    DEFINE
+      NAME Furmanov
+      HUMAN 1 1 3
+      ATTR 10 10
+      SKILLS 2 755760 1 160290 1 50340 1 15210
+      LAST_MISSION 11
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 13 GALLERY ru 41
+    END_OF_DEFINE
+  Gary 1
+    DEFINE
+      NAME Gary
+      HUMAN 1 1 1
+      ATTR 10 10
+      SKILLS 2 814560 0 148140 1 415440 0 6810
+      LAST_MISSION 13
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 1 GALLERY us 20
+    END_OF_DEFINE
+  Gaydar 1
+    DEFINE
+      NAME Gaydar
+      HUMAN 1 1 3
+      ATTR 10 10
+      SKILLS 2 170070 1 58830 1 25680 1 147660
+      LAST_MISSION 4
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 13 GALLERY ru 14
+    END_OF_DEFINE
+  Gladkov 1
+    DEFINE
+      NAME Gladkov
+      HUMAN 1 1 3
+      ATTR 10 10
+      SKILLS 3 435540 1 612960 2 251940 1 248790
+      LAST_MISSION 12
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 206 GALLERY ru 21
+    END_OF_DEFINE
+  Gladstone 1
+    DEFINE
+      NAME Gladstone
+      HUMAN 1 4 1
+      ATTR 10 10
+      SKILLS 0 60510 3 12060 1 420 3 33030
+      LAST_MISSION 1
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 107 GALLERY us 13
+    END_OF_DEFINE
+  Gleb 1
+    DEFINE
+      NAME Gleb
+      HUMAN 1 1 3
+      ATTR 10 10
+      SKILLS 2 134640 1 14430 1 35670 2 21720
+      LAST_MISSION 5
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 204 GALLERY ru 19
+    END_OF_DEFINE
+  Gnyevko 1
+    DEFINE
+      NAME Gnyevko
+      HUMAN 1 1 3
+      ATTR 10 10
+      SKILLS 1 59790 1 63390 2 10800 1 6150
+      LAST_MISSION 1
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 203 GALLERY ru 5
+    END_OF_DEFINE
+  Gossudarov 1
+    DEFINE
+      NAME Gossudarov
+      HUMAN 1 4 3
+      ATTR 10 10
+      SKILLS 1 152910 4 76710 3 381090 6 167580
+      LAST_MISSION 11
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 208 GALLERY ru 61
+    END_OF_DEFINE
+  Grishko 1
+    DEFINE
+      NAME Grishko
+      HUMAN 1 1 3
+      ATTR 10 10
+      SKILLS 0 280680 0 162720 0 158880 0 145920
+      LAST_MISSION 3
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 13 GALLERY ru 11
+    END_OF_DEFINE
+  Heike 1
+    DEFINE
+      NAME Heike
+      HUMAN 2 1 2
+      ATTR 11 12
+      SKILLS 3 559380 1 176430 1 498630 1 212970
+      LAST_MISSION 4
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 4 GALLERY ru 24
+    END_OF_DEFINE
+  Joan 1
+    DEFINE
+      NAME Joan
+      HUMAN 2 4 1
+      ATTR 10 10
+      SKILLS 0 782310 1 162150 2 279300 4 431730
+      LAST_MISSION 9
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 103 GALLERY us 4
+    END_OF_DEFINE
+  Kapitsova 1
+    DEFINE
+      NAME Kapitsova
+      HUMAN 2 4 3
+      ATTR 10 10
+      SKILLS 1 26310 3 60840 4 39930 4 140730
+      LAST_MISSION 8
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 12 GALLERY ru 23
+    END_OF_DEFINE
+  Karamazov 1
+    DEFINE
+      NAME Karamazov
+      HUMAN 1 2 3
+      ATTR 10 10
+      SKILLS 0 124230 0 518220 0 30060 0 5220
+      LAST_MISSION 5
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 15 GALLERY ru 30
+    END_OF_DEFINE
+  Kirilenkova 1
+    DEFINE
+      NAME Kirilenkova
+      HUMAN 2 4 3
+      ATTR 10 10
+      SKILLS 0 22260 1 11070 1 19020 2 14700
+      LAST_MISSION 1
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 209 GALLERY ru 16
+    END_OF_DEFINE
+  Kovalyuk 1
+    DEFINE
+      NAME Kovalyuk
+      HUMAN 1 3 3
+      ATTR 10 10
+      SKILLS 1 8190 1 10080 1 65010 1 9270
+      LAST_MISSION 2
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 15 GALLERY ru 6
+    END_OF_DEFINE
+  Kozlov 1
+    DEFINE
+      NAME Kozlov
+      HUMAN 1 2 3
+      ATTR 10 10
+      SKILLS 2 20130 3 250710 4 114180 4 560790
+      LAST_MISSION 8
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 15 GALLERY ru 34
+    END_OF_DEFINE
+  Kurin 1
+    DEFINE
+      NAME Kurin
+      HUMAN 1 1 3
+      ATTR 10 10
+      SKILLS 4 42600 3 127110 2 30540 1 5370
+      LAST_MISSION 1
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 15 GALLERY ru 8
+    END_OF_DEFINE
+  Kurt 1
+    DEFINE
+      NAME Kurt
+      HUMAN 1 1 2
+      ATTR 10 10
+      SKILLS 4 37770 2 61590 3 123720 1 257670
+      LAST_MISSION 8
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 3 GALLERY us 18
+    END_OF_DEFINE
+  Kuzmov 1
+    DEFINE
+      NAME Kuzmov
+      HUMAN 1 1 3
+      ATTR 10 10
+      SKILLS 2 19890 1 1170 1 17520 2 7770
+      LAST_MISSION 4
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 15 GALLERY ru 13
+    END_OF_DEFINE
+  Lipshchin 1
+    DEFINE
+      NAME Lipshchin
+      HUMAN 1 1 3
+      ATTR 10 10
+      SKILLS 3 30690 2 17250 1 66300 0 135120
+      LAST_MISSION 5
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 13 GALLERY ru 36
+    END_OF_DEFINE
+  Lisa 1
+    DEFINE
+      NAME Lisa
+      HUMAN 2 1 1
+      ATTR 10 10
+      SKILLS 3 1115760 0 141420 0 1312380 0 80940
+      LAST_MISSION 13
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 102 GALLERY us 3
+    END_OF_DEFINE
+  Macmillan 1
+    DEFINE
+      NAME Macmillan
+      HUMAN 1 1 1
+      ATTR 10 10
+      SKILLS 2 2075760 0 420780 0 295500 0 528240
+      LAST_MISSION 13
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 101 GALLERY us 5
+    END_OF_DEFINE
+  Morozov 1
+    DEFINE
+      NAME Morozov
+      HUMAN 1 1 3
+      ATTR 10 10
+      SKILLS 0 19740 0 6270 0 210 0 22320
+      LAST_MISSION 1
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 13 GALLERY ru 32
+    END_OF_DEFINE
+  Oblukov 1
+    DEFINE
+      NAME Oblukov
+      HUMAN 1 1 3
+      ATTR 10 10
+      SKILLS 3 291630 1 12510 1 26700 1 41280
+      LAST_MISSION 8
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 13 GALLERY ru 33
+    END_OF_DEFINE
+  Officer 1
+    DEFINE
+      NAME Berezov
+      HUMAN 1 1 3
+      ATTR 10 10
+      SKILLS 0 1301670 0 111840 0 524490 0 69900
+      LAST_MISSION 1
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 15 GALLERY ru 12
+    END_OF_DEFINE
+  Omar 1
+    DEFINE
+      NAME Omar
+      HUMAN 1 11 2
+      ATTR 10 10
+      SKILLS 4 16260 4 4020 4 13650 4 8040
+      LAST_MISSION 5
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 3 GALLERY ru 46
+    END_OF_DEFINE
+  Peterson 1
+    DEFINE
+      NAME Denis
+      HUMAN 1 1 1
+      ATTR 10 10
+      SKILLS 1 247260 3 458790 3 1446450 4 821550
+      LAST_MISSION 13
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 1 GALLERY us 14
+    END_OF_DEFINE
+  Petrosyan 1
+    DEFINE
+      NAME Petrosyan
+      HUMAN 1 4 3
+      ATTR 10 10
+      SKILLS 1 35460 1 80310 2 20520 4 22470
+      LAST_MISSION 4
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 205 GALLERY ru 29
+    END_OF_DEFINE
+  Petrovova 1
+    DEFINE
+      NAME Petrovova
+      HUMAN 2 1 3
+      ATTR 10 10
+      SKILLS 3 55140 2 185850 3 57420 0 78540
+      LAST_MISSION 5
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 14 GALLERY ru 22
+    END_OF_DEFINE
+  Platonov 1
+    DEFINE
+      NAME Platonov
+      HUMAN 1 1 3
+      ATTR 10 10
+      SKILLS 4 54990 2 1470 3 19980 0 13440
+      LAST_MISSION 2
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 15 GALLERY ru 60
+    END_OF_DEFINE
+  Pokryshkin 1
+    DEFINE
+      NAME Pokryshkin
+      HUMAN 1 1 3
+      ATTR 10 10
+      SKILLS 3 32940 1 50160 1 18300 0 64530
+      LAST_MISSION 1
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 11 GALLERY ru 4
+    END_OF_DEFINE
+  Popov 1
+    DEFINE
+      NAME Popov
+      HUMAN 1 1 3
+      ATTR 10 10
+      SKILLS 4 65550 1 15840 2 170610 2 3600
+      LAST_MISSION 3
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 15 GALLERY ru 10
+    END_OF_DEFINE
+  Powell 1
+    DEFINE
+      NAME Powell
+      HUMAN 1 1 1
+      ATTR 10 10
+      SKILLS 5 600000 2 243810 3 786480 2 1213740
+      LAST_MISSION 15
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 5 GALLERY us 7
+    END_OF_DEFINE
+  Roth 1
+    DEFINE
+      NAME Roth
+      HUMAN 1 1 1
+      ATTR 10 10
+      SKILLS 0 526500 4 534060 2 570630 5 600000
+      LAST_MISSION 15
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 3 GALLERY us 22
+    END_OF_DEFINE
+  Scholtze 1
+    DEFINE
+      NAME Scholtze
+      HUMAN 1 4 3
+      ATTR 10 10
+      SKILLS 0 7200 2 2580 2 26070 6 9510
+      LAST_MISSION 3
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 13 GALLERY ru 9
+    END_OF_DEFINE
+  Simms 1
+    DEFINE
+      NAME Simms
+      HUMAN 2 1 1
+      ATTR 10 10
+      SKILLS 0 849540 0 536340 1 748740 3 569160
+      LAST_MISSION 13
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 4 GALLERY us 21
+    END_OF_DEFINE
+  Stevens 1
+    DEFINE
+      NAME Stevens
+      HUMAN 1 4 1
+      ATTR 10 10
+      SKILLS 1 26850 2 26220 4 2790 5 17820
+      LAST_MISSION 5
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 3 GALLERY us 24
+    END_OF_DEFINE
+  Stolypin 1
+    DEFINE
+      NAME Stolypin
+      HUMAN 1 1 3
+      ATTR 10 10
+      SKILLS 4 125370 3 183840 4 22470 2 23970
+      LAST_MISSION 10
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 15 GALLERY ru 15
+    END_OF_DEFINE
+  Titov 1
+    DEFINE
+      NAME Titov
+      HUMAN 1 1 3
+      ATTR 10 10
+      SKILLS 3 146400 1 154830 2 142620 1 6030
+      LAST_MISSION 5
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 207 GALLERY ru 31
+    END_OF_DEFINE
+  Tsaritsyn 1
+    DEFINE
+      NAME Tsaritsyn
+      HUMAN 1 1 3
+      ATTR 10 10
+      SKILLS 2 537330 1 137010 2 196710 4 12450
+      LAST_MISSION 12
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 13 GALLERY ru 38
+    END_OF_DEFINE
+  VanHouten 1
+    DEFINE
+      NAME VanHouten
+      HUMAN 1 1 1
+      ATTR 10 10
+      SKILLS 2 905760 2 33510 1 711030 1 167280
+      LAST_MISSION 13
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 1 GALLERY us 16
+    END_OF_DEFINE
+  Vsevolod 1
+    DEFINE
+      NAME Vsevolod
+      HUMAN 1 1 3
+      ATTR 10 10
+      SKILLS 4 21510 3 20250 4 25230 2 1920
+      LAST_MISSION 6
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 13 GALLERY ru 18
+    END_OF_DEFINE
+  Xavier 1
+    DEFINE
+      NAME Xavier
+      HUMAN 1 1 2
+      ATTR 10 10
+      SKILLS 4 23700 3 4200 3 11820 1 7530
+      LAST_MISSION 7
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 5 GALLERY ru 25
+    END_OF_DEFINE
+  Yamoko 1
+    DEFINE
+      NAME Yamoko
+      HUMAN 2 1 1
+      ATTR 10 10
+      SKILLS 2 901260 0 133440 0 472740 1 172290
+      LAST_MISSION 13
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 6 GALLERY us 1
+    END_OF_DEFINE
+  Yashin 1
+    DEFINE
+      NAME Yashin
+      HUMAN 1 1 3
+      ATTR 10 10
+      SKILLS 8 18030 5 8970 5 14610 4 9690
+      LAST_MISSION 7
+      CHAR @ 30 0
+      RANDSEED 0
+      VOICE 13 GALLERY ru 17
+    END_OF_DEFINE
+  Yakotich 1
+    DEFINE
+      NAME Yakotich
+      HUMAN 1 1 3
+      ATTR 12 12
+      SKILLS 2 54360 1 13590 2 18930 1 8340
+      LAST_MISSION 1
+      CHAR @ 100 0
+      RANDSEED 0
+      VOICE 1 GALLERY RuGalRemake 2
+    END_OF_DEFINE
+  Mietek 1
+    DEFINE
+      NAME Mietek
+      HUMAN 1 1 3
+      ATTR 11 12
+      SKILLS 3 25260 0 16980 2 10410 1 63600
+      LAST_MISSION 1
+      CHAR @ 100 0
+      RANDSEED 0
+      VOICE 1 GALLERY LozaSzydercow 2
+    END_OF_DEFINE
+  Smirnovsky 1
+    DEFINE
+      NAME Smirnovsky
+      HUMAN 1 4 3
+      ATTR 10 11
+      SKILLS 1 14010 1 7170 1 55020 3 15300
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY YakotichMod 1
+    END_OF_DEFINE
+  Kostyliev 1
+    DEFINE
+      NAME Kostyliev
+      HUMAN 1 3 3
+      ATTR 11 10
+      SKILLS 2 16350 0 20970 3 33240 1 9450
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY YakotichMod 4
+    END_OF_DEFINE
+  Maxim 1
+    DEFINE
+      NAME Maxim
+      HUMAN 1 1 3
+      ATTR 9 12
+      SKILLS 4 21030 1 26790 0 45120 1 6240
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY YakotichMod 3
+    END_OF_DEFINE
+  Volkovich 1
+    DEFINE
+      NAME Volkovich
+      HUMAN 1 1 3
+      ATTR 11 10
+      SKILLS 3 16920 1 6240 1 30690 1 24030
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY YakotichMod 12
+    END_OF_DEFINE
+  Sidorov 1
+    DEFINE
+      NAME Sidorov
+      HUMAN 1 1 3
+      ATTR 12 9
+      SKILLS 3 23670 2 15300 1 34110 0 6030
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY YakotichMod 15
+    END_OF_DEFINE
+  Choroszczanow 1
+    DEFINE
+      NAME Choroszczanow
+      HUMAN 1 2 3
+      ATTR 13 8
+      SKILLS 2 4020 2 20940 2 13560 0 36390
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY YakotichMod 13
+    END_OF_DEFINE
+  Stefan 1
+    DEFINE
+      NAME Stefan
+      HUMAN 1 3 3
+      ATTR 11 10
+      SKILLS 0 2100 2 6900 4 16440 0 37020
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY YakotichMod 11
+    END_OF_DEFINE
+  Nemieszek 1
+    DEFINE
+      NAME Nemieszek
+      HUMAN 1 1 3
+      ATTR 11 10
+      SKILLS 5 274020 2 120510 2 183600 3 135930
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY Glowne_Gieroje 4
+    END_OF_DEFINE
+  Puszkin 1
+    DEFINE
+      NAME Puszkin
+      HUMAN 1 1 3
+      ATTR 10 11
+      SKILLS 4 15000 0 72000 2 3690 0 14610
+      LAST_MISSION 1
+      CHAR @ 100 0
+      RANDSEED 0
+      VOICE 1 GALLERY Glowne_Gieroje 1
+    END_OF_DEFINE
+  Williams 1
+    DEFINE
+      NAME Williams
+      HUMAN 1 1 1
+      ATTR 11 10
+      SKILLS 2 402210 0 161730 0 237030 0 271500
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY SecondCharsGal 80
+    END_OF_DEFINE
+  Phillips 1
+    DEFINE
+      NAME Phillips
+      HUMAN 1 1 1
+      ATTR 10 11
+      SKILLS 1 477030 2 152100 1 183210 2 146910
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY SecondCharsGal 82
+    END_OF_DEFINE
+  Tatiana 1
+    DEFINE
+      NAME Tatiana
+      HUMAN 1 4 3
+      ATTR 9 12
+      SKILLS 0 72000 2 12930 0 3180 4 6240
+      LAST_MISSION 2
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY YakotichMod 22
+    END_OF_DEFINE
+  Zlatogorsky 1
+    DEFINE
+      NAME Zlatogorsky
+      HUMAN 1 1 3
+      ATTR 11 10
+      SKILLS 2 48120 1 6900 1 21300 2 17790
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY YakotichMod 8
+    END_OF_DEFINE
+  Rybakov 1
+    DEFINE
+      NAME Rybakov
+      HUMAN 1 3 3
+      ATTR 10 11
+      SKILLS 1 570 1 44010 3 17700 1 10230
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY YakotichMod 7
+    END_OF_DEFINE
+  Karpov 1
+    DEFINE
+      NAME Karpov
+      HUMAN 1 1 3
+      ATTR 9 12
+      SKILLS 2 39150 4 9720 0 14730 0 17130
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY YakotichMod 2
+    END_OF_DEFINE
+END

@@ -1,0 +1,418 @@
+
+//Start misji
+Export Function InitAction;
+Begin
+
+     NoweHinty([1,2]);
+
+     InGameOn;
+     CenterOnXY(73,83);
+     Wait(0$1);
+     PlaceUnitArea(Yakotich, YakotichSpawn , true);
+     Wait(0$3);
+     Say(Yakotich,'DYak-01-01');
+     ComTurnXY(Yakotich, 69, 84);
+     Wait(0$3);
+     ComTurnXY(Yakotich, 73, 79);
+     Say(Yakotich,'DYak-01-02');
+     Say(Yakotich,'DYak-01-03');
+     Wait(0$2);
+     SayEX(Mietek, 'DMietek-01-04', 0, 0, 1, True);
+     SayEX(Mietek, 'DMietek-01-05', 0, 0, 1, True);
+     Say(Yakotich,'DYak-01-06');
+     ChangeMissionObjectives('Ob1');
+     InGameOff;
+
+end;
+
+//Rozmowa na wzgórzu zanim weszliœmy do bazy
+Every 0$1 Trigger IsInArea(Yakotich , Hill) and not WasInBase do
+Begin
+
+     InGameOn;
+     Say(Yakotich,'DYak-02-01');
+     ComMoveXY(Yakotich,110,90);
+     CenterOnXY(110,90);
+     Say(Yakotich,'DYak-02-02');
+     Wait(0$03);
+     CenterOnXY(90,20);
+     RevealFogArea(3,ShowBase);
+     SayEX(Mietek, 'DMietek-02-03', 0, 0, 1, True);
+     Say(Yakotich,'DYak-02-04');
+     HillCheck = True;
+     InGameOff;
+
+end;
+
+//Odkrycie drogi zanim weszliœmy do bazy
+Every 0$1 Trigger IsInArea(Yakotich,Road) and not WasInBase do
+Begin
+
+     DialogueOn;
+     RevealFogArea(3,ShowRoad);
+     CenterOnXY(130,90);
+     Say(Yakotich,'DYak-Road-01');
+     RoadCheck = True;
+     DialogueOff;
+
+end;
+
+//Odkrycie jaskini
+Every 0$1 Trigger IsInAreaSide(Cave, 3) do
+Begin
+
+     DialogueOn;
+     RevealFogArea(3,Cave);
+     CenterOnXY(25,35);
+     Say(Yakotich,'DYak-Cave-01');
+     CaveCheck = True;
+     DialogueOff;
+
+end;
+
+//Wejœcie do bazy
+Every 0$1 Trigger See(6, Yakotich) do
+Begin
+
+     DialogueOn;
+     InGameOn;
+     CenterOnXY(85, 15);
+     SayNoName(Sidorov, 'DSid-03-01');
+     Say(Yakotich, 'DYak-03-02');
+     SayNoName(Sidorov, 'DSid-03-03');
+     DialogueOff;
+     ComEnterUnit(Choroszczanow, RuDepot);
+     ChangeSideFog(6,3);
+     ComMoveXY(Yakotich, 94, 18);
+     AddComTurnUnit(Yakotich, Mietek);
+     Wait(0$15);
+     Say(Yakotich, 'DYak-03-04');
+     ComMoveXY(Mietek, 93, 15);
+     AddComTurnUnit(Mietek, Yakotich);
+     Say(Mietek, 'DMietek-03-05');
+     Say(Mietek, 'DMietek-03-06');
+     Say(Yakotich, 'DYak-03-07');
+     ComMoveXY(Smirnovsky,92,15);
+     Say(Smirnovsky, 'DVlad-03-08');
+     AddComTurnUnit(Smirnovsky, Yakotich);
+     ComEnterUnit(Kostyliev, RuDepot);
+     Say(Smirnovsky, 'DVlad-03-09');
+     Say(Yakotich, 'DYak-03-10');
+     Say(Mietek, 'DMietek-03-11');
+     Say(Mietek, 'DMietek-03-12');
+     Say(Yakotich, 'DYak-03-13');
+     Say(Mietek, 'DMietek-03-14');
+
+     If HillCheck then
+     Begin
+
+     CenterOnXY(110,90);
+     RevealFogArea(3, ShowHill);
+     Say(Yakotich, 'DYak-03-15c');
+
+     end;
+
+     If CaveCheck then
+     Begin
+
+     CenterOnXY(25,35);
+     Say(Yakotich, 'DYak-03-15a');
+
+     end;
+
+     If RoadCheck then
+     Begin
+
+     CenterOnXY(130,100);
+     Say(Yakotich, 'DYak-03-15b');
+
+     end;
+
+     If HillCheck and CaveCheck and RoadCheck and not WasInBase then
+     Begin
+
+     Say(Yakotich, 'DYak-03-15e');
+     ChangeMissionObjectives('Ob2a');
+     Recon_Done = True;
+     end
+     Else If not HillCheck and not CaveCheck and not RoadCheck then
+     Begin
+
+     Say(Yakotich, 'DYak-03-15f');
+     ChangeMissionObjectives('Ob2');
+     end
+     Else If not HillCheck or not CaveCheck or not RoadCheck then
+     Begin
+                                                                 
+     Say(Yakotich, 'DYak-03-15d');
+     ChangeMissionObjectives('Ob2');
+     end;
+
+     InGameOff;
+     Timer_Start = True;
+     WasInBase = True;
+     SetSide(FilterAllUnits([[f_side, 6]]), 3);
+
+     If HillCheck and CaveCheck and RoadCheck and WasInBase then
+     Begin
+          ChangeMissionObjectives('ReconOut');
+          Recon_Done = True;
+     end;
+
+end;
+
+Every 0$1 Trigger WasInBase = True do
+Begin
+
+     Timer_Start = True;
+
+     Say(Kostyliev, 'DBog-04-01');
+     Say(Smirnovsky, 'DVlad-04-02');
+     Say(Yakotich, 'DYak-04-03');
+     ChangeMissionObjectives('Ob3');
+
+end;
+
+//Rozmowa na wzgórzu po wejœciu do bazy
+Every 0$1 Trigger IsInAreaSide(Hill, 3) and WasInBase do
+Begin
+
+     DialogueOn;
+     CenterOnXY(110,90);
+     Say(Yakotich,'DMietek-Hill-01');
+     RevealFogArea(3, ShowHill);
+     HillCheck = True;
+     DialogueOff;
+
+end;
+
+//Odkrycie drogi po wejœciu do bazy
+Every 0$1 Trigger IsInAreaSide(Road, 3) and WasInBase do
+Begin
+
+     DialogueOn;     
+     RevealFogArea(3, ShowRoad);
+     CenterOnXY(130,90);
+     Say(Mietek,'DMietek-Road-01');
+     Say(Yakotich,'DYak-Road-02');
+     RoadCheck = True;
+     DialogueOff;
+
+end;
+
+Every 0$1 Trigger Timer_Start and Timer do
+Begin
+
+  Timer := Timer - 0$01;
+  Enable;
+end;
+
+Every 0$1 Trigger All_Techs_Done and Vehicle_Constructed and Recon_Done do Timer := 0$0;
+
+Every 0$1 trigger not Timer do
+begin
+
+     Wait(0$15);
+
+     If not FilterUnitsInArea(ShowHill,[[f_side, 3]]) then
+     Begin
+     PlaceUnitArea(Stefan, SoldSpawn1, True);
+     ComHold(Stefan);
+
+     InGameOn;
+     DialogueOn;
+     CenterOnUnits(Yakotich);
+     SayEX(Stefan, 'DStefan-05-01', 0, 0, 1, True);
+     Say(Yakotich,'DYak-05-02');
+     SayEX(Stefan, 'DStefan-05-03b', 0, 0, 1, True);
+     Say(Yakotich,'DYak-05-04');
+     ChangeMissionObjectives('Ob4');
+     InGameOff;
+     DialogueOff;
+     StefanSpawn1 := True;
+
+     end
+     else If not FilterUnitsInArea(Road,[[f_side, 3]]) then
+     Begin
+     PlaceUnitArea(Stefan, SoldSpawn2, True);
+     ComHold(Stefan);
+
+     InGameOn;
+     DialogueOn;
+     CenterOnUnits(Yakotich);
+     SayEX(Stefan, 'DStefan-05-01', 0, 0, 1, True);
+     Say(Yakotich,'DYak-05-02');
+     SayEX(Stefan, 'DStefan-05-03c', 0, 0, 1, True);
+     Say(Yakotich,'DYak-05-04');
+     ChangeMissionObjectives('Ob4');
+     InGameOff;
+     DialogueOff;
+     StefanSpawn2 := True;
+
+     end
+     else If not FilterUnitsInArea(Cave,[[f_side, 3]]) then
+     Begin
+     PlaceUnitArea(Stefan, SoldSpawn3, True);
+     ComHold(Stefan);
+
+     InGameOn;
+     DialogueOn;
+     CenterOnUnits(Yakotich);
+     SayEX(Stefan, 'DStefan-05-01', 0, 0, 1, True);
+     Say(Yakotich,'DYak-05-02');
+     SayEX(Stefan, 'DStefan-05-03a', 0, 0, 1, True);
+     SayRadio(Yakotich,'DYak-05-04');
+     ChangeMissionObjectives('Ob4');
+     InGameOff;
+     DialogueOff;
+     StefanSpawn3 := True;
+
+     end
+     else
+     Begin
+     PlaceUnitArea(Stefan, SoldSpawnFree, True);
+     ComHold(Stefan);
+
+     InGameOn;
+     DialogueOn;
+     CenterOnUnits(Yakotich);
+     SayEX(Stefan, 'DStefan-05-01', 0, 0, 1, True);
+     Say(Yakotich,'DYak-05-02');
+     SayEX(Stefan, 'DStefan-05-03d', 0, 0, 1, True);
+     SayRadio(Yakotich,'DYak-05-04');
+     ChangeMissionObjectives('Ob4');
+     InGameOff;
+     DialogueOff;
+     StefanSpawn4 := True;
+
+     end;
+end;
+
+Every 0$1 Trigger See(3, Stefan) do
+Begin;
+
+      DialogueOn;
+      CenterOnUnits(Stefan);
+      SayNoName(Stefan, 'DStefan-05-05a');
+      Say(Yakotich, 'DYak-05-06a');
+      SetSide(Stefan, 3);
+      Stefan_Rescued := True;
+      DialogueOff;
+
+end;
+
+Every 0$1 Trigger not Timer do
+Begin
+
+  Timer2 := Timer2 - 0$01;
+  Enable;
+end;
+
+Every 0$1 Trigger Stefan_Rescued do Timer2 := 0$0;
+
+Every 0$1 trigger not Timer2 do
+begin
+
+     Wait(0$10);
+
+     InGameOn;
+     DialogueOn;
+     SayEX(Maxim, 'DMax-06-01', 0, 0, 1, True);
+     Say(Mietek, 'DMietek-06-02');
+     SayRadioNoFace(Maxim, 'DMax-06-03');
+     Say(Yakotich, 'DYak-06-04');
+     ChangeMissionObjectives('Ob5');
+     InGameOff;
+     DialogueOff;
+     Maxim_Coming = True;
+
+end;
+
+Every 0$1 Trigger MaximTime = 0$0 do
+Begin
+
+     PlaceUnitArea(Maxim, NewcomersArea, False);
+     PlaceUnitArea(Rybakov, NewcomersArea, False);
+     PlaceUnitArea(Karpov, NewcomersArea, False);
+     PlaceUnitArea(Zlatogorsky, NewcomersArea, False);
+     ComMoveXY([Maxim, Rybakov, Karpov, Zlatogorsky], 87, 21);
+     Say(Maxim, 'DMax-06-05');
+     Wait(0$15);
+
+     InitAmerican;
+
+     ComMoveToArea(Americans,SouthAttack);
+     AddComAgressiveMove(Americans,90,20);
+     ComMoveToArea(Americans2,NorthAttack);
+     AddComAgressiveMove(Americans2,90,20);
+     SayNoName(AmCommander,'DAmC-06-06');
+
+     Wait(0$10);
+     ComAgressiveMove(AmCommander,110,40);
+
+     American_Attack = True;
+
+end;
+
+Every 0$1 Trigger IsInArea(Maxim, CloseBaseArea) do
+Begin
+
+     SetSide([Maxim, Rybakov, Karpov, Zlatogorsky], 3);
+
+end;
+
+Every 0$1 Trigger American_Attack = True And IsDead(AmCommander) do
+begin
+
+     InGameOn;
+     Say(Yakotich, 'DYak-07-01');
+     Say(Mietek, 'DMietek-07-02');
+     Say(Yakotich, 'DYak-07-03');
+     Wait(0$3);
+     Say(Yakotich, 'DYak-07-04');
+     Say(Kurin, 'DKur-07-05');
+     Say(Yakotich, 'DYak-07-06');
+     Say(Kurin, 'DKur-07-07');
+
+End_Of_The_Mission = True;
+
+InGameOff;
+
+end;
+
+Every 0$1 Trigger End_Of_The_Mission and WasInBase And IsDead(AmCommander) do
+begin
+
+     If FilterAllUnits([[f_side,3],[f_type, unit_vehicle]]) >= 1 then
+     begin
+          AddMedal('VehicleMedal',1);
+          SaveVariable(Count(FilterAllUnits([[f_side, 3], [f_type, unit_vehicle]])), '01_VehiclesCount');
+          end
+     else
+         AddMedal('VehicleMedal',-1);
+
+     If All_Techs_Done then
+        AddMedal('ResearchMedal',1)
+     else
+         AddMedal('ResearchMedal',-1);
+
+     If IsOk(Stefan) and GetSide(Stefan) = 3 then
+        AddMedal('StefanMedal',1)
+     else
+         AddMedal('StefanMedal',-1);
+
+     GiveMedals('Medals');
+
+     RewardPeople(FilterAllUnits([[f_side, 3], [f_nation, 3], [f_type, unit_human]]));
+
+     SaveCharacters(Yakotich, Mission_Prefix & 'Yakotich');
+     SaveCharacters(Mietek, Mission_Prefix & 'Mietek');
+     SaveCharacters(Maxim, Mission_Prefix & 'Maxim');
+     SaveCharacters(Kostyliev, Mission_Prefix & 'Kostyliev');
+     SaveCharacters(Smirnovsky, Mission_Prefix & 'Smirnovsky');
+
+     SaveCharacters(FilterAllUnits([[f_side, 3], [f_nation, 3], [f_type, unit_human]]) diff [Yakotich, Mietek, Maxim, Kostyliev, Smirnovsky], Mission_Prefix & 'OtherSurvivors');
+
+     YouWin;
+
+end;

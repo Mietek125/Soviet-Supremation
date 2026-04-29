@@ -1,0 +1,99 @@
+Export Function PrepareSolBun(skill, b);
+var un, dir;
+begin
+uc_side := GetSide(b);
+uc_nation := GetNation(b);
+
+dir := GetDir(b) - 3;
+
+if dir < 0 then
+   dir := 6 + dir;
+
+un := CreateHuman;
+SetDir(un, dir);
+PlaceHumanInUnit(un, b);
+End;
+
+Every 1 trigger IsSelected(Pezet) do
+begin
+PezetExp([1,2,3,4]);
+Wait(0$05);
+Say(Pezet,'DPezet-Secret-01');
+TeleportUnit(Pezet,153,108,150,True);
+Wait(0$05);
+RemoveUnit(Pezet);
+SaveVariable(1,'SafePezet');
+SaveCharacters(Pezet,'Pezet');
+End;
+
+Export Function PezetExp(q);
+var dec, q1;
+begin
+  dec = SelectiveQuery('PezetQuery', q);
+  case dec of
+   1:begin
+     AddExperience_NoLimit(Yakotich,1,500);
+     end;
+   2:begin
+     AddExperience_NoLimit(Yakotich,2,500);
+     end;
+   3:begin
+     AddExperience_NoLimit(Yakotich,3,500);
+     end;
+    4:begin
+     AddExperience_NoLimit(Yakotich,4,500);
+     end;
+
+  end;
+end;
+
+Export Function NoweHinty(q);
+var dec, q1;
+Begin
+  dec = SelectiveQuery('Hint1', q);
+  case dec of
+   1:begin
+     SaveVariable(1,'HintyON');
+     end;
+   2:begin
+     exit;
+     end;
+  end;
+end;
+
+// Czas do przybycia maksima
+Every 0$1 Trigger Maxim_Coming do
+begin
+enable;
+
+if MaximTime then
+   begin
+   MaximTime := MaximTime - 0$1;
+   display_strings := ['#MaximTime', MaximTime];
+   end
+else
+   begin
+   display_strings := '';
+   disable;
+   end;
+End;
+
+export function IsInAreaSide(area, side);
+begin
+     result := FilterUnitsInArea(area, [f_side, side]);
+end;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

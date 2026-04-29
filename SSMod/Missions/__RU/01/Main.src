@@ -1,0 +1,80 @@
+Starting
+begin
+
+     ResetFog;
+     Init;
+
+     AnimateTrees(true);
+
+     Randomize;
+     RandomizeAll;
+
+     InitRussian;
+     InitAction;
+     InitGlobalVariables;
+
+     DebugMode;
+
+end;
+
+Export Yakotich, Mietek, Smirnovsky, Kostyliev, Sidorov, Choroszczanow, Volkovich;
+Export Maxim, Zlatogorsky, Rybakov, Karpov;
+Export Stefan;
+Export Kurin;
+
+Export AmS,AmSc,AmS2,AmSc2;
+Export AmCommander;
+Export Americans,Americans2;
+
+Export MaximTime, Timer, Timer2;
+
+Export Debug;
+
+Export mission_prefix;
+Export CaveCheck, HillCheck, RoadCheck, WasInBase, Vehicle_Constructed, All_Techs_Done,
+Recon_Done, Maxim_Coming, Stefan_Rescued, StefanSpawn1, StefanSpawn2, StefanSpawn3, StefanSpawn4,
+American_Attack, End_Of_The_Mission;
+
+Export Timer_Start;
+
+Export Function Init;
+Begin
+
+SetBName(RuDepot, 'OutpostG1');
+
+Mission_Prefix := '01_';
+//Debug := True;
+CaveCheck := False;
+HillCheck := False;
+RoadCheck := False;
+WasInBase := False;
+Vehicle_Constructed := False;
+All_Techs_Done := False;
+Recon_Done := False;
+Maxim_Coming := False;
+Stefan_Rescued := False;
+StefanSpawn1 := False;
+StefanSpawn2 := False;
+StefanSpawn3 := False;
+StefanSpawn4 := False;
+American_Attack := False;
+End_Of_The_Mission := False;
+
+Timer_Start := False;
+
+Timer := [10$0, 9$0, 8$0][Difficulty];
+Timer2 := [3$0, 2$30, 2$00][Difficulty];
+MaximTime := 2$0;
+
+end;
+
+Export Function DebugMode;
+var i;
+begin
+     if not debug then
+     exit;
+
+     Difficulty := 3;
+     TurnFogOff();
+     FogOff(3);
+end;

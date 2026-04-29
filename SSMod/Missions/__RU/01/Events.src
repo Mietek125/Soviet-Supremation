@@ -1,0 +1,90 @@
+
+Every 0$1 Trigger Researched (3, 47) do
+Begin
+
+     DialogueOn;
+     Say(Smirnovsky, 'DVlad-04-04');
+     Say(Yakotich, 'DYak-04-05');
+     Say(Smirnovsky, 'DVlad-04-06');
+     Say(Kostyliev, 'DBog-04-07');
+     DialogueOff;
+
+end;
+
+Every 0$1 trigger FilterAllUnits([[f_type, unit_vehicle], [f_side, 3]]) do
+begin
+
+     InGameOn;
+     CenterOnUnits(RuDepot);
+     Wait(0$3);
+     DialogueOn;
+     Say(Kostyliev,'DBog-04-08');
+     Say(Yakotich,'DYak-04-09');
+     ChangeMissionObjectives('VehOut');
+     DialogueOff;
+     InGameOff;
+     Vehicle_Constructed = True;
+
+     If LoadVariable('HintyON', 1) then
+     HintSpec('CKM-hint', 3);
+     
+end;
+
+Every 0$1 Trigger Researched(3, 46) and Researched(3, 47) and Researched(3, 48) and Researched(3, 82) do
+Begin
+
+     ChangeMissionObjectives('ResearchOut');
+     All_Techs_Done = True;
+
+end;
+
+Every 0$1 Trigger StefanSpawn1 and SeeXY(3, 88, 102) and IsDead(Stefan) do
+Begin
+
+     DialogueOn;
+     CenterOnXY(88, 102);
+     Say(Yakotich, 'DYak-06-05b');
+     Say(Mietek, 'DMietek-06-06b');
+     DialogueOff;
+
+end;
+
+Every 0$1 Trigger StefanSpawn2 and SeeXY(3, 135, 88) and IsDead(Stefan) do
+Begin
+
+     DialogueOn;
+     CenterOnXY(135, 88);
+     Say(Yakotich, 'DYak-06-05b');
+     Say(Mietek, 'DMietek-06-06b');
+     DialogueOff;
+
+end;
+
+Every 0$1 Trigger StefanSpawn3 and SeeXY(3, 26, 38) and IsDead(Stefan) do
+Begin
+
+     DialogueOn;
+     CenterOnXY(26, 38);
+     Say(Yakotich, 'DYak-06-05b');
+     Say(Mietek, 'DMietek-06-06b');
+     DialogueOff;
+
+end;
+
+Every 0$1 Trigger StefanSpawn4 and SeeXY(3, 60, 88) and IsDead(Stefan) do
+Begin
+
+     DialogueOn;
+     CenterOnXY(60, 88);
+     Say(Yakotich, 'DYak-06-05b');
+     Say(Mietek, 'DMietek-06-06b');
+     DialogueOff;
+
+end;
+
+Every 0$1 Trigger not IsOk(Stefan) do
+Begin
+
+Create_ColdMeat(Stefan,getX(Stefan), GetY(Stefan), 1);
+
+end;
