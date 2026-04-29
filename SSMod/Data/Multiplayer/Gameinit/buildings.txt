@@ -1,0 +1,1695 @@
+GAMEINIT
+  BUILDINGS
+    BUILDING_LABEL "E(Building)C(Budova)"
+    BUILDING_SYMBOL b
+
+    BUILDING  1 
+      NAME "E(Am. depot)C(Am. skladištì)"
+      NATION  1 
+      KIND  0 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  0 
+      TIME  150 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  90 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 16   -1 -2  0 -2  -1 -1  0 -1  1 -1  -1 0  0 0  1 0  -1 1  0 1  1 1  -1 2  0 2  1 2  0 3  1 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -3  1 -2
+      IDENT u-depot
+      UPGRADED_TO  1 
+      TECHNOLOGY 0 
+    BUILDING  2 
+      NAME "E(Am. warehouse)C(Am. velkosklad)"
+      NATION  1 
+      KIND  1 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  20 
+      TIME  60 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  150 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 16   -1 -2  0 -2  -1 -1  0 -1  1 -1  -1 0  0 0  1 0  -1 1  0 1  1 1  -1 2  0 2  1 2  0 3  1 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -3  1 -2
+      IDENT u-warehouse
+      TECHNOLOGY 0 
+    BUILDING  3 
+      NAME "E(Am. armoury)C(Am. zbrojnice)"
+      NATION  1 
+      KIND  4 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  30 
+      TIME  60 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  75 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 19   -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  -2 0  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  0 2  1 2  2 2
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -3  1 -2
+      IDENT u-armoury
+      UPGRADED_TO  5 
+      TECHNOLOGY 0 
+    BUILDING  4 
+      NAME "E(Am. barracks)C(Am. kasárna)"
+      NATION  1 
+      KIND  5 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  30 
+      TIME  30 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  115 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 19   -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  -2 0  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  0 2  1 2  2 2
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -3  1 -2
+      IDENT u-barracks
+      TECHNOLOGY 0 
+    BUILDING  5 
+      NAME "E(Am. workshop)C(Am. dílna)"
+      NATION  1 
+      KIND  2 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  40 
+      TIME  120 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  60 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 23   -2 -3  -3 -2  -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  2 -1  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  3 1  -1 2  0 2  1 2  1 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -3  1 -2
+      IDENT u-workshop
+      UPGRADED_TO  3 
+      TECHNOLOGY 0 
+    BUILDING  6 
+      NAME "E(Am. factory)C(Am. továrna)"
+      NATION  1 
+      KIND  3 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  40 
+      TIME  120 
+      POWER  30 
+      ATTACK  0 
+      DEFENSE  90 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 23   -2 -3  -3 -2  -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  2 -1  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  3 1  -1 2  0 2  1 2  1 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -3  1 -2
+      IDENT u-factory
+      TECHNOLOGY 0 
+    BUILDING  7 
+      NAME "E(Am. track ext.)C(Am. pásový pøístavek)"
+      NATION  1 
+      KIND  16 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  30 
+      TIME  30 
+      POWER  5 
+      ATTACK  0 
+      DEFENSE  40 
+      HUMANS  0 
+      OBSTACLE  1 
+      SHAPE 9   -2 -1  -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1  2 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT u-trackext
+      TECHNOLOGY 0 
+    BUILDING  8 
+      NAME "E(Am. gun ext.)C(Am. dìlový pøístavek)"
+      NATION  1 
+      KIND  17 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  30 
+      TIME  45 
+      POWER  5 
+      ATTACK  0 
+      DEFENSE  40 
+      HUMANS  0 
+      OBSTACLE  1 
+      SHAPE 9   -2 -1  -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1  2 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT u-gunext
+      TECHNOLOGY 39 
+    BUILDING  9 
+      NAME "E(Am. rocket ext.)C(Am. raketový pøístavek)"
+      NATION  1 
+      KIND  18 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  30 
+      TIME  60 
+      POWER  5 
+      ATTACK  0 
+      DEFENSE  40 
+      HUMANS  0 
+      OBSTACLE  1 
+      SHAPE 9   -2 -1  -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1  2 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT u-rocketext
+      TECHNOLOGY 40 
+    BUILDING  10 
+      NAME "E(Am. non-combat ext.)C(Am. nebojový pøístavek)"
+      NATION  1 
+      KIND  19 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  30 
+      TIME  30 
+      POWER  5 
+      ATTACK  0 
+      DEFENSE  40 
+      HUMANS  0 
+      OBSTACLE  1 
+      SHAPE 9   -2 -1  -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1  2 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT u-non-combatext
+      TECHNOLOGY 0 
+    BUILDING  11 
+      NAME "E(Am. radar ext.)C(Am. radarový pøístavek)"
+      NATION  1 
+      KIND  20 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  15 
+      TIME  30 
+      POWER  5 
+      ATTACK  0 
+      DEFENSE  40 
+      HUMANS  0 
+      OBSTACLE  1 
+      SHAPE 9   -2 -1  -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1  2 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT u-radarext
+      TECHNOLOGY 6 
+    BUILDING  12 
+      NAME "E(Am. siberite ext.)C(Am. siberitový pøístavek)"
+      NATION  1 
+      KIND  21 
+      OIL  0 
+      SIBERIUM  10 
+      CANS  30 
+      TIME  90 
+      POWER  10 
+      ATTACK  0 
+      DEFENSE  40 
+      HUMANS  0 
+      OBSTACLE  1 
+      SHAPE 9   -2 -1  -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1  2 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT u-siberiumext
+      TECHNOLOGY 21 
+    BUILDING  15 
+      NAME "E(Am. computer ext.)C(Am. poèítaèový pøístavek)"
+      NATION  1 
+      KIND  24 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  15 
+      TIME  180 
+      POWER  10 
+      ATTACK  0 
+      DEFENSE  40 
+      HUMANS  0 
+      OBSTACLE  1 
+      SHAPE 9   -2 -1  -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1  2 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT u-computerext
+      TECHNOLOGY 27 
+    BUILDING  16 
+      NAME "E(Am. laser ext.)C(Am. laserový pøístavek)"
+      NATION  1 
+      KIND  25 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  15 
+      TIME  90 
+      POWER  15 
+      ATTACK  0 
+      DEFENSE  40 
+      HUMANS  0 
+      OBSTACLE  1 
+      SHAPE 9   -2 -1  -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1  2 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT u-laserext
+      TECHNOLOGY 10 
+    BUILDING  17 
+      NAME "E(Am. basic lab)C(Am. základní laboratoø)"
+      NATION  1 
+      KIND  6 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  20 
+      TIME  60 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  45 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 29   -3 -3  -2 -3  -3 -2  -2 -2  -1 -2  -3 -1  -2 -1  -1 -1  0 -1  1 -1  2 -1  -3 0  -2 0  -1 0  0 0  1 0  2 0  3 0  -2 1  -1 1  0 1  1 1  2 1  3 1  1 2  2 2  3 2  2 3  3 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -2  1 -2
+      IDENT u-bridgebasic
+      UPGRADED_TO  7 
+      TECHNOLOGY 0 
+    BUILDING  18 
+      NAME "E(Am. half-upgraded lab)C(Am. èásteènì specializovaná lab.)"
+      NATION  1 
+      KIND  7 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  20 
+      TIME  60 
+      POWER  20 
+      ATTACK  0 
+      DEFENSE  60 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 29   -3 -3  -2 -3  -3 -2  -2 -2  -1 -2  -3 -1  -2 -1  -1 -1  0 -1  1 -1  2 -1  -3 0  -2 0  -1 0  0 0  1 0  2 0  3 0  -2 1  -1 1  0 1  1 1  2 1  3 1  1 2  2 2  3 2  2 3  3 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -2  1 -2
+      IDENT u-bridgeupg
+      TECHNOLOGY 0 
+    BUILDING  19 
+      NAME "E(Am. fully upgraded lab)C(Am. specializovaná laboratoø)"
+      NATION  1 
+      KIND  8 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  20 
+      TIME  60 
+      POWER  30 
+      ATTACK  0 
+      DEFENSE  70 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 29   -3 -3  -2 -3  -3 -2  -2 -2  -1 -2  -3 -1  -2 -1  -1 -1  0 -1  1 -1  2 -1  -3 0  -2 0  -1 0  0 0  1 0  2 0  3 0  -2 1  -1 1  0 1  1 1  2 1  3 1  1 2  2 2  3 2  2 3  3 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -2  1 -2
+      IDENT u-bridgeupg
+      TECHNOLOGY 0 
+    BUILDING  20 
+      NAME "E(Am. basic lab)C(Am. základní laboratoø)"
+      NATION  1 
+      KIND  9 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  20 
+      TIME  60 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  45 
+      HUMANS  0 
+      OBSTACLE  0 
+      SHAPE 29   -3 -3  -2 -3  -3 -2  -2 -2  -1 -2  -3 -1  -2 -1  -1 -1  0 -1  1 -1  2 -1  -3 0  -2 0  -1 0  0 0  1 0  2 0  3 0  -2 1  -1 1  0 1  1 1  2 1  3 1  1 2  2 2  3 2  2 3  3 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -2  1 -2
+      IDENT u-basiclab
+      TECHNOLOGY 0 
+    BUILDING  21 
+      NAME "E(Am. weapon lab)C(Am. zbraòová laboratoø)"
+      NATION  1 
+      KIND  10 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  50 
+      TIME  60 
+      POWER  20 
+      ATTACK  0 
+      DEFENSE  70 
+      HUMANS  0 
+      OBSTACLE  0 
+      SHAPE 29   -3 -3  -2 -3  -3 -2  -2 -2  -1 -2  -3 -1  -2 -1  -1 -1  0 -1  1 -1  2 -1  -3 0  -2 0  -1 0  0 0  1 0  2 0  3 0  -2 1  -1 1  0 1  1 1  2 1  3 1  1 2  2 2  3 2  2 3  3 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -2  1 -2
+      IDENT u-weaponlab
+      TECHNOLOGY 0 
+    BUILDING  22 
+      NAME "E(Am. siberite lab)C(Am. siberiová laboratoø)"
+      NATION  1 
+      KIND  11 
+      OIL  0 
+      SIBERIUM  5 
+      CANS  30 
+      TIME  120 
+      POWER  30 
+      ATTACK  0 
+      DEFENSE  70 
+      HUMANS  0 
+      OBSTACLE  0 
+      SHAPE 29   -3 -3  -2 -3  -3 -2  -2 -2  -1 -2  -3 -1  -2 -1  -1 -1  0 -1  1 -1  2 -1  -3 0  -2 0  -1 0  0 0  1 0  2 0  3 0  -2 1  -1 1  0 1  1 1  2 1  3 1  1 2  2 2  3 2  2 3  3 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -2  1 -2
+      IDENT u-siberiumlab
+      TECHNOLOGY 0 
+    BUILDING  23 
+      NAME "E(Am. computer lab)C(Am. poèítaèová laboratoø)"
+      NATION  1 
+      KIND  12 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  20 
+      TIME  120 
+      POWER  20 
+      ATTACK  0 
+      DEFENSE  70 
+      HUMANS  0 
+      OBSTACLE  0 
+      SHAPE 29   -3 -3  -2 -3  -3 -2  -2 -2  -1 -2  -3 -1  -2 -1  -1 -1  0 -1  1 -1  2 -1  -3 0  -2 0  -1 0  0 0  1 0  2 0  3 0  -2 1  -1 1  0 1  1 1  2 1  3 1  1 2  2 2  3 2  2 3  3 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -2  1 -2
+      IDENT u-computerlab
+      TECHNOLOGY 0 
+    BUILDING  24 
+      NAME "E(Am. opto lab )C(Am. opto lab )"
+      NATION  1 
+      KIND  15 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  20 
+      TIME  60 
+      POWER  20 
+      ATTACK  0 
+      DEFENSE  70 
+      HUMANS  0 
+      OBSTACLE  0 
+      SHAPE 29   -3 -3  -2 -3  -3 -2  -2 -2  -1 -2  -3 -1  -2 -1  -1 -1  0 -1  1 -1  2 -1  -3 0  -2 0  -1 0  0 0  1 0  2 0  3 0  -2 1  -1 1  0 1  1 1  2 1  3 1  1 2  2 2  3 2  2 3  3 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -2  1 -2
+      IDENT u-optolab
+      TECHNOLOGY 0 
+    BUILDING  25 
+      NAME "E(Am. oil power plant)C(Am. naftová elektrárna)"
+      NATION  1 
+      KIND  26 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  20 
+      TIME  60 
+      POWER -30 
+      ATTACK  0 
+      DEFENSE  45 
+      HUMANS  0 
+      OBSTACLE  0 
+      SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT u-oilpower
+      TECHNOLOGY 46 
+    BUILDING  26 
+      NAME "E(Am. solar power plant)C(Am. sluneèní elektrárna)"
+      NATION  1 
+      KIND  27 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  30 
+      TIME  90 
+      POWER -15 
+      ATTACK  0 
+      DEFENSE  40 
+      HUMANS  0 
+      OBSTACLE  1 
+      SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT u-solarpower
+      TECHNOLOGY 35 
+    BUILDING  27 
+      NAME "E(Am. siberite power plant)C(Am. siberiová elektrárna)"
+      NATION  1 
+      KIND  28 
+      OIL  0 
+      SIBERIUM  20 
+      CANS  20 
+      TIME  120 
+      POWER -60 
+      ATTACK  0 
+      DEFENSE  55 
+      HUMANS  0 
+      OBSTACLE  0 
+      SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT u-siberiumpower
+      TECHNOLOGY 21 
+    BUILDING  28 
+      NAME "E(Am. oil drilling tower)C(Am. ropná tìžební vìž)"
+      NATION  1 
+      KIND  29 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  10 
+      TIME  60 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  60 
+      HUMANS  0 
+      OBSTACLE  0 
+      SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT u-oilmine
+      TECHNOLOGY 0 
+    BUILDING  29 
+      NAME "E(Am. siberite mine)C(Am. siberitový dùl)"
+      NATION  1 
+      KIND  30 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  10 
+      TIME  60 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  45 
+      HUMANS  0 
+      OBSTACLE  1 
+      SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT u-siberiummine
+      TECHNOLOGY 20 
+    BUILDING  30 
+      NAME "E(Am. bunker)C(Am. bunkr)"
+      NATION  1 
+      KIND  31 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  10 
+      TIME  30 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  55 
+      HUMANS  1 
+      OBSTACLE  1 
+      SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
+      FLEK_TYPE  1 
+      ENTRANCES 3   -1 -2  0 -2  1 -1
+      IDENT u-breastworks
+      TECHNOLOGY 0 
+    BUILDING  31 
+      NAME "E(Am. manual turret)C(Am. obranná vìž)"
+      NATION  1 
+      KIND  32 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  20 
+      TIME  60 
+      POWER  15 
+      ATTACK  0 
+      DEFENSE  75 
+      HUMANS  1 
+      OBSTACLE  1 
+      SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
+      FLEK_TYPE  1 
+      ENTRANCES 3   -1 -2  0 -2  1 -1
+      IDENT u-bunker
+      TECHNOLOGY 0 
+    BUILDING  32 
+      NAME "E(Am. automatic turret)C(Am. automatická vìž)"
+      NATION  1 
+      KIND  33 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  20 
+      TIME  120 
+      POWER  20 
+      ATTACK  0 
+      DEFENSE  75 
+      HUMANS  0 
+      OBSTACLE  1 
+      SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
+      FLEK_TYPE  1 
+      ENTRANCES 3   -1 -2  0 -2  1 -1
+      IDENT u-automaticturret
+      TECHNOLOGY 32 
+    BUILDING  94 
+      NAME "E(Am. control tower)C(Am. øidicí vìž)"
+      NATION  1 
+      KIND  36 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  50 
+      TIME  120 
+      POWER  10 
+      ATTACK  0 
+      DEFENSE  70 
+      HUMANS  3 
+      OBSTACLE  0 
+      SHAPE 12   -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  -1 0  0 0  1 0  0 1  1 1
+      FLEK_TYPE  1 
+      ENTRANCES 2   -2 -3  -1 -3
+      IDENT u-ct
+      TECHNOLOGY 15 
+    BUILDING  33 
+      NAME "E(Am. fort)C(Am. pevnost)"
+      NATION  1 
+      KIND  35 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  1000 
+      TIME  600 
+      POWER  0 
+      ATTACK 0 ATTACK_VLADA MINMAX_RANGE 1 11  DAMAGE 20 20 20  FREQUENCY 40 60  EFF 30 10 6  ANIM 2 1 2 END_OF_ATTACK
+      DEFENSE  150 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 19   -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  -2 0  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  0 2  1 2  2 2
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -3  1 -2
+      IDENT u-barracks
+      TECHNOLOGY 0 
+    BUILDING  95 
+      NAME "E(Am. EON)C(Am. EON)"
+      NATION  1 
+      KIND  38 
+      OIL  1000 
+      SIBERIUM  1000 
+      CANS  1000 
+      TIME  600 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  1500 
+      HUMANS  1 
+      OBSTACLE  0 
+      SHAPE 6   -1 -1  0 -1  -1 0  0 0  1 0  1 1
+      FLEK_TYPE  1 
+      ENTRANCES 1   0 1
+      IDENT u-eon
+      TECHNOLOGY 0 
+    BUILDING  96 
+      NAME "E(Am. Alien building)C(Am. Mimozemská budova)"
+      NATION  1 
+      KIND  39 
+      OIL  1000 
+      SIBERIUM  1000 
+      CANS  1000 
+      TIME  600 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  1500 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 6   -1 -1  0 -1  -1 0  0 0  1 0  1 1
+      FLEK_TYPE  1 
+      ENTRANCES 1   0 1
+      IDENT u-alien
+      TECHNOLOGY 0 
+    BUILDING  34 
+      NAME "E(Ar. depot)C(Ar. skladištì)"
+      NATION  2 
+      KIND  0 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  0 
+      TIME  140 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  80 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 19   -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  -2 0  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  0 2  1 2  2 2
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -3  1 -2
+      IDENT a-depot
+      UPGRADED_TO  1 
+      TECHNOLOGY 0 
+    BUILDING  35 
+      NAME "E(Ar. warehouse)C(Ar. velkosklad)"
+      NATION  2 
+      KIND  1 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  20 
+      TIME  55 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  135 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 19   -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  -2 0  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  0 2  1 2  2 2
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -3  1 -2
+      IDENT a-warehouse
+      TECHNOLOGY 0 
+    BUILDING  36 
+      NAME "E(Ar. armoury)C(Ar. zbrojnice)"
+      NATION  2 
+      KIND  4 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  25 
+      TIME  55 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  70 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 19   -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  -2 0  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  0 2  1 2  2 2
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -3  1 -2
+      IDENT a-armoury
+      UPGRADED_TO  5 
+      TECHNOLOGY 0 
+    BUILDING  37 
+      NAME "E(Ar. barracks)C(Ar. kasárna)"
+      NATION  2 
+      KIND  5 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  25 
+      TIME  30 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  100 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 19   -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  -2 0  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  0 2  1 2  2 2
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -3  1 -2
+      IDENT a-barracks
+      TECHNOLOGY 0 
+    BUILDING  38 
+      NAME "E(Ar. workshop)C(Ar. dílna)"
+      NATION  2 
+      KIND  2 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  35 
+      TIME  110 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  55 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 23   -2 -3  -3 -2  -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  2 -1  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  3 1  -1 2  0 2  1 2  1 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -3  1 -2
+      IDENT a-workshop
+      UPGRADED_TO  3 
+      TECHNOLOGY 0 
+    BUILDING  39 
+      NAME "E(Ar. factory)C(Ar. továrna)"
+      NATION  2 
+      KIND  3 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  35 
+      TIME  110 
+      POWER  30 
+      ATTACK  0 
+      DEFENSE  80 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 23   -2 -3  -3 -2  -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  2 -1  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  3 1  -1 2  0 2  1 2  1 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -3  1 -2
+      IDENT a-factory
+      TECHNOLOGY 0 
+    BUILDING  40 
+      NAME "E(Ar. track ext.)C(Ar. pásový pøístavek)"
+      NATION  2 
+      KIND  16 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  25 
+      TIME  30 
+      POWER  5 
+      ATTACK  0 
+      DEFENSE  35 
+      HUMANS  0 
+      OBSTACLE  1 
+      SHAPE 9   -2 -1  -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1  2 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT a-trackext
+      TECHNOLOGY 0 
+    BUILDING  41 
+      NAME "E(Ar. gun ext.)C(Ar. dìlový pøístavek)"
+      NATION  2 
+      KIND  17 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  25 
+      TIME  40 
+      POWER  5 
+      ATTACK  0 
+      DEFENSE  35 
+      HUMANS  0 
+      OBSTACLE  1 
+      SHAPE 9   -2 -1  -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1  2 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT a-gunext
+      TECHNOLOGY 39 
+    BUILDING  42 
+      NAME "E(Ar. rocket ext.)C(Ar. raketový pøístavek)"
+      NATION  2 
+      KIND  18 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  25 
+      TIME  55 
+      POWER  5 
+      ATTACK  0 
+      DEFENSE  35 
+      HUMANS  0 
+      OBSTACLE  1 
+      SHAPE 9   -2 -1  -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1  2 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT a-rocketext
+      TECHNOLOGY 40 
+    BUILDING  44 
+      NAME "E(Ar. radar ext.)C(Ar. radarový pøístavek)"
+      NATION  2 
+      KIND  20 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  15 
+      TIME  30 
+      POWER  5 
+      ATTACK  0 
+      DEFENSE  35 
+      HUMANS  0 
+      OBSTACLE  1 
+      SHAPE 9   -2 -1  -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1  2 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT a-radarext
+      TECHNOLOGY 6 
+    BUILDING  45 
+      NAME "E(Ar. siberite ext.)C(Ar. siberitový pøístavek)"
+      NATION  2 
+      KIND  21 
+      OIL  0 
+      SIBERIUM  10 
+      CANS  25 
+      TIME  85 
+      POWER  10 
+      ATTACK  0 
+      DEFENSE  35 
+      HUMANS  0 
+      OBSTACLE  1 
+      SHAPE 9   -2 -1  -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1  2 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT a-siberiumext
+      TECHNOLOGY 21 
+    BUILDING  43 
+      NAME "E(Ar. container ext.)C(Ar. kontejnerový pøístavek)"
+      NATION  2 
+      KIND  23 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  15 
+      TIME  85 
+      POWER  5 
+      ATTACK  0 
+      DEFENSE  35 
+      HUMANS  0 
+      OBSTACLE  1 
+      SHAPE 9   -2 -1  -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1  2 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT a-non-combatext
+      TECHNOLOGY 0 
+    BUILDING  48 
+      NAME "E(Ar. basic lab)C(Ar. základní laboratoø)"
+      NATION  2 
+      KIND  6 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  20 
+      TIME  55 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  40 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 29   -3 -3  -2 -3  -3 -2  -2 -2  -1 -2  -3 -1  -2 -1  -1 -1  0 -1  1 -1  2 -1  -3 0  -2 0  -1 0  0 0  1 0  2 0  3 0  -2 1  -1 1  0 1  1 1  2 1  3 1  1 2  2 2  3 2  2 3  3 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -2  1 -2
+      IDENT a-bridgebasic
+      UPGRADED_TO  7 
+      TECHNOLOGY 0 
+    BUILDING  49 
+      NAME "E(Ar. half-upgraded lab)C(Ar. èásteènì specializovaná lab.)"
+      NATION  2 
+      KIND  7 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  20 
+      TIME  55 
+      POWER  20 
+      ATTACK  0 
+      DEFENSE  55 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 29   -3 -3  -2 -3  -3 -2  -2 -2  -1 -2  -3 -1  -2 -1  -1 -1  0 -1  1 -1  2 -1  -3 0  -2 0  -1 0  0 0  1 0  2 0  3 0  -2 1  -1 1  0 1  1 1  2 1  3 1  1 2  2 2  3 2  2 3  3 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -2  1 -2
+      IDENT a-bridgeupg
+      TECHNOLOGY 0 
+    BUILDING  50 
+      NAME "E(Ar. fully upgraded lab)C(Ar. specializovaná laboratoø)"
+      NATION  2 
+      KIND  8 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  20 
+      TIME  55 
+      POWER  30 
+      ATTACK  0 
+      DEFENSE  60 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 29   -3 -3  -2 -3  -3 -2  -2 -2  -1 -2  -3 -1  -2 -1  -1 -1  0 -1  1 -1  2 -1  -3 0  -2 0  -1 0  0 0  1 0  2 0  3 0  -2 1  -1 1  0 1  1 1  2 1  3 1  1 2  2 2  3 2  2 3  3 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -2  1 -2
+      IDENT a-bridgeupg
+      TECHNOLOGY 0 
+    BUILDING  51 
+      NAME "E(Ar. basic lab)C(Ar. základní laboratoø)"
+      NATION  2 
+      KIND  9 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  20 
+      TIME  55 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  40 
+      HUMANS  0 
+      OBSTACLE  0 
+      SHAPE 29   -3 -3  -2 -3  -3 -2  -2 -2  -1 -2  -3 -1  -2 -1  -1 -1  0 -1  1 -1  2 -1  -3 0  -2 0  -1 0  0 0  1 0  2 0  3 0  -2 1  -1 1  0 1  1 1  2 1  3 1  1 2  2 2  3 2  2 3  3 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -2  1 -2
+      IDENT a-basiclab
+      TECHNOLOGY 0 
+    BUILDING  52 
+      NAME "E(Ar. weapon lab)C(Ar. zbraòová laboratoø)"
+      NATION  2 
+      KIND  10 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  45 
+      TIME  55 
+      POWER  20 
+      ATTACK  0 
+      DEFENSE  60 
+      HUMANS  0 
+      OBSTACLE  0 
+      SHAPE 29   -3 -3  -2 -3  -3 -2  -2 -2  -1 -2  -3 -1  -2 -1  -1 -1  0 -1  1 -1  2 -1  -3 0  -2 0  -1 0  0 0  1 0  2 0  3 0  -2 1  -1 1  0 1  1 1  2 1  3 1  1 2  2 2  3 2  2 3  3 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -2  1 -2
+      IDENT a-weaponlab
+      TECHNOLOGY 0 
+    BUILDING  53 
+      NAME "E(Ar. siberite lab)C(Ar. siberiová laboratoø)"
+      NATION  2 
+      KIND  11 
+      OIL  0 
+      SIBERIUM  5 
+      CANS  25 
+      TIME  110 
+      POWER  30 
+      ATTACK  0 
+      DEFENSE  60 
+      HUMANS  0 
+      OBSTACLE  0 
+      SHAPE 29   -3 -3  -2 -3  -3 -2  -2 -2  -1 -2  -3 -1  -2 -1  -1 -1  0 -1  1 -1  2 -1  -3 0  -2 0  -1 0  0 0  1 0  2 0  3 0  -2 1  -1 1  0 1  1 1  2 1  3 1  1 2  2 2  3 2  2 3  3 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -2  1 -2
+      IDENT a-siberiumlab
+      TECHNOLOGY 0 
+    BUILDING  54 
+      NAME "E(Ar. biological lab)C(Ar. biologická laboratoø)"
+      NATION  2 
+      KIND  13 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  20 
+      TIME  110 
+      POWER  20 
+      ATTACK  0 
+      DEFENSE  60 
+      HUMANS  0 
+      OBSTACLE  0 
+      SHAPE 29   -3 -3  -2 -3  -3 -2  -2 -2  -1 -2  -3 -1  -2 -1  -1 -1  0 -1  1 -1  2 -1  -3 0  -2 0  -1 0  0 0  1 0  2 0  3 0  -2 1  -1 1  0 1  1 1  2 1  3 1  1 2  2 2  3 2  2 3  3 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -2  1 -2
+      IDENT a-biologicallab
+      TECHNOLOGY 0 
+    BUILDING  55 
+      NAME "E(Ar. opto lab )C(Ar. opto lab )"
+      NATION  2 
+      KIND  15 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  20 
+      TIME  55 
+      POWER  20 
+      ATTACK  0 
+      DEFENSE  60 
+      HUMANS  0 
+      OBSTACLE  0 
+      SHAPE 29   -3 -3  -2 -3  -3 -2  -2 -2  -1 -2  -3 -1  -2 -1  -1 -1  0 -1  1 -1  2 -1  -3 0  -2 0  -1 0  0 0  1 0  2 0  3 0  -2 1  -1 1  0 1  1 1  2 1  3 1  1 2  2 2  3 2  2 3  3 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -2  1 -2
+      IDENT a-optolab
+      TECHNOLOGY 0 
+    BUILDING  56 
+      NAME "E(Ar. oil power plant)C(Ar. naftová elektrárna)"
+      NATION  2 
+      KIND  26 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  20 
+      TIME  55 
+      POWER -30 
+      ATTACK  0 
+      DEFENSE  40 
+      HUMANS  0 
+      OBSTACLE  0 
+      SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT a-oilpower
+      TECHNOLOGY 46 
+    BUILDING  57 
+      NAME "E(Ar. solar power plant)C(Ar. sluneèní elektrárna)"
+      NATION  2 
+      KIND  27 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  25 
+      TIME  85 
+      POWER -15 
+      ATTACK  0 
+      DEFENSE  35 
+      HUMANS  0 
+      OBSTACLE  1 
+      SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT a-solarpower
+      TECHNOLOGY 35 
+    BUILDING  58 
+      NAME "E(Ar. siberite power plant)C(Ar. siberiová elektrárna)"
+      NATION  2 
+      KIND  28 
+      OIL  0 
+      SIBERIUM  20 
+      CANS  20 
+      TIME  110 
+      POWER -60 
+      ATTACK  0 
+      DEFENSE  45 
+      HUMANS  0 
+      OBSTACLE  0 
+      SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT a-siberiumpower
+      TECHNOLOGY 21 
+    BUILDING  59 
+      NAME "E(Ar. oil drilling tower)C(Ar. ropná tìžební vìž)"
+      NATION  2 
+      KIND  29 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  10 
+      TIME  55 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  55 
+      HUMANS  0 
+      OBSTACLE  1 
+      SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT a-oilmine
+      TECHNOLOGY 0 
+    BUILDING  60 
+      NAME "E(Ar. siberite mine)C(Ar. siberitový dùl)"
+      NATION  2 
+      KIND  30 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  10 
+      TIME  55 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  40 
+      HUMANS  0 
+      OBSTACLE  0 
+      SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT a-siberiummine
+      TECHNOLOGY 20 
+    BUILDING  61 
+      NAME "E(Ar. bunker)C(Ar. bunkr)"
+      NATION  2 
+      KIND  31 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  10 
+      TIME  30 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  45 
+      HUMANS  1 
+      OBSTACLE  1 
+      SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
+      FLEK_TYPE  1 
+      ENTRANCES 3   -1 -2  0 -2  1 -1
+      IDENT a-breastworks
+      TECHNOLOGY 0 
+    BUILDING  62 
+      NAME "E(Ar. manual turret)C(Ar. obranná vìž)"
+      NATION  2 
+      KIND  32 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  20 
+      TIME  55 
+      POWER  15 
+      ATTACK  0 
+      DEFENSE  70 
+      HUMANS  1 
+      OBSTACLE  1 
+      SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
+      FLEK_TYPE  1 
+      ENTRANCES 3   -1 -2  0 -2  1 -1
+      IDENT a-bunker
+      TECHNOLOGY 0 
+    BUILDING  63 
+      NAME "E(Ar. fort)C(Ar. pevnost)"
+      NATION  2 
+      KIND  35 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  900 
+      TIME  550 
+      POWER  0 
+      ATTACK 0 ATTACK_VLADA MINMAX_RANGE 1 11  DAMAGE 20 20 20  FREQUENCY 40 60  EFF 30 10 6  ANIM 2 1 2 END_OF_ATTACK
+      DEFENSE  135 
+      HUMANS  5 
+      OBSTACLE  0 
+      SHAPE 19   -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  -2 0  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  0 2  1 2  2 2
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -3  1 -2
+      IDENT a-barracks
+      TECHNOLOGY 0 
+    BUILDING  64 
+      NAME "E(Ru. depot)C(Ru. skladištì)"
+      NATION  3 
+      KIND  0 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  0 
+      TIME  165 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  100 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 23   -2 -3  -1 -3  -2 -2  -1 -2  0 -2  1 -2  -2 -1  -1 -1  0 -1  1 -1  2 -1  -2 0  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  0 2  1 2  2 2
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -4  0 -3  1 -3
+      IDENT r-depot
+      UPGRADED_TO  1 
+      TECHNOLOGY 0 
+    BUILDING  65 
+      NAME "E(Ru. warehouse)C(Ru. velkosklad)"
+      NATION  3 
+      KIND  1 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  20 
+      TIME  65 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  165 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 23   -2 -3  -1 -3  -2 -2  -1 -2  0 -2  1 -2  -2 -1  -1 -1  0 -1  1 -1  2 -1  -2 0  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  0 2  1 2  2 2
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -4  0 -3  1 -3
+      IDENT r-warehouse
+      TECHNOLOGY 0 
+    BUILDING  66 
+      NAME "E(Ru. armoury)C(Ru. zbrojnice)"
+      NATION  3 
+      KIND  4 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  30 
+      TIME  65 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  85 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 19   -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  -2 0  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  0 2  1 2  2 2
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -3  1 -2
+      IDENT r-armoury
+      UPGRADED_TO  5 
+      TECHNOLOGY 0 
+    BUILDING  67 
+      NAME "E(Ru. barracks)C(Ru. kasárna)"
+      NATION  3 
+      KIND  5 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  30 
+      TIME  35 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  125 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 19   -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  -2 0  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  0 2  1 2  2 2
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -3  1 -2
+      IDENT r-barracks
+      TECHNOLOGY 0 
+    BUILDING  68 
+      NAME "E(Ru. workshop)C(Ru. dílna)"
+      NATION  3 
+      KIND  2 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  40 
+      TIME  130 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  65 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 23   -2 -3  -3 -2  -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  2 -1  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  3 1  -1 2  0 2  1 2  1 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -3  1 -2
+      IDENT r-workshop
+      UPGRADED_TO  3 
+      TECHNOLOGY 0 
+    BUILDING  69 
+      NAME "E(Ru. factory)C(Ru. továrna)"
+      NATION  3 
+      KIND  3 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  40 
+      TIME  130 
+      POWER  30 
+      ATTACK  0 
+      DEFENSE  100 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 23   -2 -3  -3 -2  -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  2 -1  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  3 1  -1 2  0 2  1 2  1 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -3  1 -2
+      IDENT r-factory
+      TECHNOLOGY 0 
+    BUILDING  70 
+      NAME "E(Ru. track ext.)C(Ru. pásový pøístavek)"
+      NATION  3 
+      KIND  16 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  30 
+      TIME  35 
+      POWER  5 
+      ATTACK  0 
+      DEFENSE  40 
+      HUMANS  0 
+      OBSTACLE  1 
+      SHAPE 9   -2 -1  -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1  2 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT r-trackext
+      TECHNOLOGY 0 
+    BUILDING  71 
+      NAME "E(Ru. gun ext.)C(Ru. dìlový pøístavek)"
+      NATION  3 
+      KIND  17 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  30 
+      TIME  50 
+      POWER  5 
+      ATTACK  0 
+      DEFENSE  40 
+      HUMANS  0 
+      OBSTACLE  1 
+      SHAPE 9   -2 -1  -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1  2 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT r-gunext
+      TECHNOLOGY 39 
+    BUILDING  72 
+      NAME "E(Ru. rocket ext.)C(Ru. raketový pøístavek)"
+      NATION  3 
+      KIND  18 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  30 
+      TIME  65 
+      POWER  5 
+      ATTACK  0 
+      DEFENSE  40 
+      HUMANS  0 
+      OBSTACLE  1 
+      SHAPE 9   -2 -1  -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1  2 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT r-rocketext
+      TECHNOLOGY 40 
+    BUILDING  73 
+      NAME "E(Ru. non-combat ext.)C(Ru. nebojový pøístavek)"
+      NATION  3 
+      KIND  19 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  30 
+      TIME  35 
+      POWER  5 
+      ATTACK  0 
+      DEFENSE  40 
+      HUMANS  0 
+      OBSTACLE  1 
+      SHAPE 9   -2 -1  -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1  2 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT r-non-combatext
+      TECHNOLOGY 0 
+    BUILDING  75 
+      NAME "E(Ru. siberite ext.)C(Ru. siberitový pøístavek)"
+      NATION  3 
+      KIND  21 
+      OIL  0 
+      SIBERIUM  10 
+      CANS  30 
+      TIME  100 
+      POWER  10 
+      ATTACK  0 
+      DEFENSE  40 
+      HUMANS  0 
+      OBSTACLE  1 
+      SHAPE 9   -2 -1  -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1  2 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT r-siberiumext
+      TECHNOLOGY 21 
+    BUILDING  76 
+      NAME "E(Ru. computer ext.)C(Ru. poèítaèový pøístavek)"
+      NATION  3 
+      KIND  24 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  15 
+      TIME  195 
+      POWER  10 
+      ATTACK  0 
+      DEFENSE  40 
+      HUMANS  0 
+      OBSTACLE  1 
+      SHAPE 9   -2 -1  -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1  2 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT r-computerext
+      TECHNOLOGY 27 
+    BUILDING  77 
+      NAME "E(Ru. basic lab)C(Ru. základní laboratoø)"
+      NATION  3 
+      KIND  6 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  20 
+      TIME  65 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  50 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 29   -3 -3  -2 -3  -3 -2  -2 -2  -1 -2  -3 -1  -2 -1  -1 -1  0 -1  1 -1  2 -1  -3 0  -2 0  -1 0  0 0  1 0  2 0  3 0  -2 1  -1 1  0 1  1 1  2 1  3 1  1 2  2 2  3 2  2 3  3 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -2  1 -2
+      IDENT r-bridgebasic
+      UPGRADED_TO  7 
+      TECHNOLOGY 0 
+    BUILDING  78 
+      NAME "E(Ru. half-upgraded lab)C(Ru. èásteènì specializovaná lab.)"
+      NATION  3 
+      KIND  7 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  20 
+      TIME  65 
+      POWER  20 
+      ATTACK  0 
+      DEFENSE  65 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 29   -3 -3  -2 -3  -3 -2  -2 -2  -1 -2  -3 -1  -2 -1  -1 -1  0 -1  1 -1  2 -1  -3 0  -2 0  -1 0  0 0  1 0  2 0  3 0  -2 1  -1 1  0 1  1 1  2 1  3 1  1 2  2 2  3 2  2 3  3 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -2  1 -2
+      IDENT r-bridgeupg
+      TECHNOLOGY 0 
+    BUILDING  79 
+      NAME "E(Ru. fully upgraded lab)C(Ru. specializovaná laboratoø)"
+      NATION  3 
+      KIND  8 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  20 
+      TIME  65 
+      POWER  30 
+      ATTACK  0 
+      DEFENSE  75 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 29   -3 -3  -2 -3  -3 -2  -2 -2  -1 -2  -3 -1  -2 -1  -1 -1  0 -1  1 -1  2 -1  -3 0  -2 0  -1 0  0 0  1 0  2 0  3 0  -2 1  -1 1  0 1  1 1  2 1  3 1  1 2  2 2  3 2  2 3  3 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -2  1 -2
+      IDENT r-bridgeupg
+      TECHNOLOGY 0 
+    BUILDING  80 
+      NAME "E(Ru. basic lab)C(Ru. základní laboratoø)"
+      NATION  3 
+      KIND  9 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  20 
+      TIME  65 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  50 
+      HUMANS  0 
+      OBSTACLE  0 
+      SHAPE 29   -3 -3  -2 -3  -3 -2  -2 -2  -1 -2  -3 -1  -2 -1  -1 -1  0 -1  1 -1  2 -1  -3 0  -2 0  -1 0  0 0  1 0  2 0  3 0  -2 1  -1 1  0 1  1 1  2 1  3 1  1 2  2 2  3 2  2 3  3 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -2  1 -2
+      IDENT r-basiclab
+      TECHNOLOGY 0 
+    BUILDING  81 
+      NAME "E(Ru. weapon lab)C(Ru. zbraòová laboratoø)"
+      NATION  3 
+      KIND  10 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  50 
+      TIME  65 
+      POWER  20 
+      ATTACK  0 
+      DEFENSE  75 
+      HUMANS  0 
+      OBSTACLE  0 
+      SHAPE 29   -3 -3  -2 -3  -3 -2  -2 -2  -1 -2  -3 -1  -2 -1  -1 -1  0 -1  1 -1  2 -1  -3 0  -2 0  -1 0  0 0  1 0  2 0  3 0  -2 1  -1 1  0 1  1 1  2 1  3 1  1 2  2 2  3 2  2 3  3 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -2  1 -2
+      IDENT r-weaponlab
+      TECHNOLOGY 0 
+    BUILDING  82 
+      NAME "E(Ru. siberite lab)C(Ru. siberiová laboratoø)"
+      NATION  3 
+      KIND  11 
+      OIL  0 
+      SIBERIUM  5 
+      CANS  30 
+      TIME  130 
+      POWER  30 
+      ATTACK  0 
+      DEFENSE  75 
+      HUMANS  0 
+      OBSTACLE  0 
+      SHAPE 29   -3 -3  -2 -3  -3 -2  -2 -2  -1 -2  -3 -1  -2 -1  -1 -1  0 -1  1 -1  2 -1  -3 0  -2 0  -1 0  0 0  1 0  2 0  3 0  -2 1  -1 1  0 1  1 1  2 1  3 1  1 2  2 2  3 2  2 3  3 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -2  1 -2
+      IDENT r-siberiumlab
+      TECHNOLOGY 0 
+    BUILDING  83 
+      NAME "E(Ru. computer lab)C(Ru. poèítaèová laboratoø)"
+      NATION  3 
+      KIND  12 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  20 
+      TIME  130 
+      POWER  20 
+      ATTACK  0 
+      DEFENSE  75 
+      HUMANS  0 
+      OBSTACLE  0 
+      SHAPE 29   -3 -3  -2 -3  -3 -2  -2 -2  -1 -2  -3 -1  -2 -1  -1 -1  0 -1  1 -1  2 -1  -3 0  -2 0  -1 0  0 0  1 0  2 0  3 0  -2 1  -1 1  0 1  1 1  2 1  3 1  1 2  2 2  3 2  2 3  3 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -2  1 -2
+      IDENT r-computerlab
+      TECHNOLOGY 0 
+    BUILDING  84 
+      NAME "E(Ru. space-time lab)C(Ru. èasoprostorová laboratoø)"
+      NATION  3 
+      KIND  14 
+      OIL  0 
+      SIBERIUM  10 
+      CANS  20 
+      TIME  65 
+      POWER  30 
+      ATTACK  0 
+      DEFENSE  75 
+      HUMANS  0 
+      OBSTACLE  0 
+      SHAPE 29   -3 -3  -2 -3  -3 -2  -2 -2  -1 -2  -3 -1  -2 -1  -1 -1  0 -1  1 -1  2 -1  -3 0  -2 0  -1 0  0 0  1 0  2 0  3 0  -2 1  -1 1  0 1  1 1  2 1  3 1  1 2  2 2  3 2  2 3  3 3
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -2  1 -2
+      IDENT r-spacetimelab
+      TECHNOLOGY 0 
+    BUILDING  85 
+      NAME "E(Ru. oil power plant)C(Ru. naftová elektrárna)"
+      NATION  3 
+      KIND  26 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  20 
+      TIME  65 
+      POWER -30 
+      ATTACK  0 
+      DEFENSE  50 
+      HUMANS  0 
+      OBSTACLE  0 
+      SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT r-oilpower
+      TECHNOLOGY 46 
+    BUILDING  86 
+      NAME "E(Ru. siberite power plant)C(Ru. siberiová elektrárna)"
+      NATION  3 
+      KIND  28 
+      OIL  0 
+      SIBERIUM  20 
+      CANS  20 
+      TIME  130 
+      POWER -60 
+      ATTACK  0 
+      DEFENSE  60 
+      HUMANS  0 
+      OBSTACLE  0 
+      SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT r-siberiumpower
+      TECHNOLOGY 21 
+    BUILDING  87 
+      NAME "E(Ru. oil drilling tower)C(Ru. ropná tìžební vìž)"
+      NATION  3 
+      KIND  29 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  10 
+      TIME  65 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  65 
+      HUMANS  0 
+      OBSTACLE  1 
+      SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT r-oilmine
+      TECHNOLOGY 0 
+    BUILDING  88 
+      NAME "E(Ru. siberite mine)C(Ru. siberitový dùl)"
+      NATION  3 
+      KIND  30 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  10 
+      TIME  65 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  50 
+      HUMANS  0 
+      OBSTACLE  0 
+      SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
+      FLEK_TYPE  1 
+      ENTRANCES  0 
+      IDENT r-siberiummine
+      TECHNOLOGY 20 
+    BUILDING  89 
+      NAME "E(Ru. bunker)C(Ru. bunkr)"
+      NATION  3 
+      KIND  31 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  10 
+      TIME  35 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  60 
+      HUMANS  1 
+      OBSTACLE  1 
+      SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
+      FLEK_TYPE  1 
+      ENTRANCES 3   -1 -2  0 -2  1 -1
+      IDENT r-breastworks
+      TECHNOLOGY 0 
+    BUILDING  90 
+      NAME "E(Ru. manual turret)C(Ru. obranná vìž)"
+      NATION  3 
+      KIND  32 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  20 
+      TIME  65 
+      POWER  15 
+      ATTACK  0 
+      DEFENSE  85 
+      HUMANS  1 
+      OBSTACLE  1 
+      SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
+      FLEK_TYPE  1 
+      ENTRANCES 3   -1 -2  0 -2  1 -1
+      IDENT r-bunker
+      TECHNOLOGY 0 
+    BUILDING  91 
+      NAME "E(Ru. automatic turret)C(Ru. automatická vìž)"
+      NATION  3 
+      KIND  33 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  20 
+      TIME  130 
+      POWER  20 
+      ATTACK  0 
+      DEFENSE  85 
+      HUMANS  0 
+      OBSTACLE  1 
+      SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
+      FLEK_TYPE  1 
+      ENTRANCES 3   -1 -2  0 -2  1 -1
+      IDENT r-automaticturret
+      TECHNOLOGY 32 
+    BUILDING  92 
+      NAME "E(Ru. teleport)C(Ru. teleport)"
+      NATION  3 
+      KIND  34 
+      OIL  0 
+      SIBERIUM  30 
+      CANS  10 
+      TIME  65 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  65 
+      HUMANS  0 
+      OBSTACLE  1 
+      SHAPE 11   -2 -2  -2 -1  -1 -1  -2 0  -1 0  0 0  1 0  2 0  1 1  2 1  2 2
+      FLEK_TYPE  1 
+      ENTRANCES 2   0 -1  0 1
+      IDENT r-teleport
+      TECHNOLOGY 38 
+    BUILDING  93 
+      NAME "E(Ru. fort)C(Ru. pevnost)"
+      NATION  3 
+      KIND  35 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  1000 
+      TIME  650 
+      POWER  0 
+      ATTACK 0 ATTACK_VLADA MINMAX_RANGE 1 11  DAMAGE 20 20 20  FREQUENCY 40 60  EFF 30 10 6  ANIM 2 1 2 END_OF_ATTACK
+      DEFENSE  165 
+      HUMANS  6 
+      OBSTACLE  0 
+      SHAPE 19   -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  -2 0  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  0 2  1 2  2 2
+      FLEK_TYPE  2 
+      ENTRANCES 3   -1 -3  0 -3  1 -2
+      IDENT r-barracks
+      TECHNOLOGY 0 
+    BUILDING  74 
+      NAME "E(Ru. Behemoth)C(Ru. Behemot)"
+      NATION  3 
+      KIND  37 
+      OIL  0 
+      SIBERIUM  50 
+      CANS  250 
+      TIME  400 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  100 
+      HUMANS  0 
+      OBSTACLE  0 
+      SHAPE 19   -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  -2 0  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  0 2  1 2  2 2
+      FLEK_TYPE  2 
+      ENTRANCES 5   -3 -3  0 -3  -3 0  0 3  3 3
+      IDENT r-behemoth
+      TECHNOLOGY 23 
+      REPAIR  120 
+    BUILDING  120 
+      NAME "E(Ru. wall)C(Ru. zeï)"
+      NATION  3 
+      KIND  40 
+      OIL  0 
+      SIBERIUM  0 
+      CANS  20 
+      TIME  120 
+      POWER  0 
+      ATTACK  0 
+      DEFENSE  85 
+      HUMANS  0 
+      OBSTACLE  0 
+      SHAPE 1   0 0
+      FLEK_TYPE  1 
+      ENTRANCES 1   0 -2
+      IDENT wall
+      TECHNOLOGY 0 
+      SINGLEDIRECTION  1 
+  END_OF_BUILDINGS
+END_OF_GAMEINIT

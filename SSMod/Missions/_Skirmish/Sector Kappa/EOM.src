@@ -1,0 +1,139 @@
+var
+  techs,
+  build,labs,
+  chs,weap,ctrls,engs;
+                                    
+export function prepare_sets;
+  begin
+    techs=
+      [tech_SolPow,tech_SolEng,tech_OilPow,tech_OilEng,
+       tech_ApeLang,tech_ApePsych,
+       tech_Radar,tech_MatDet,tech_LasSight,tech_Soporific,tech_Laser,tech_LasDouble,tech_RemCont,tech_PartInvis,
+       tech_SibDet,tech_SibPow,tech_SibEng,tech_SibFiss,
+       tech_AI,tech_AdvAI,tech_AdvChassis,tech_Gatling,tech_Gun,tech_AdvMet,tech_Rocket,
+       tech_Tech1,tech_Tech2,tech_Tech3,
+       tech_Weap1,tech_Weap2,tech_Weap3,
+       tech_Sib1,tech_Sib2,tech_Sib3,
+       tech_Comp1,tech_Comp2,tech_Comp3,
+       tech_Opto1,tech_Opto2,tech_Opto3];
+
+//    bas_buildings=[ [b_depot,b_warehouse],[b_workshop,b_factory],[b_armoury,b_barracks]];
+    labs=[b_lab_weapon, b_lab_siberium, b_lab_computer, b_lab_opto];
+    build=[
+      b_lab,b_depot,b_warehouse,b_workshop,b_factory,b_armoury,b_barracks,
+      b_ext_track,b_ext_gun,b_ext_rocket,b_ext_noncombat,b_ext_radar,b_ext_siberium,b_ext_computer,b_ext_laser,
+      b_oil_power,b_solar_power,b_siberite_power,b_oil_mine,b_siberite_mine,
+      b_breastwork,b_bunker,b_turret,b_control_tower];
+
+    chs=[us_light_wheeled,us_medium_wheeled,us_medium_tracked,us_heavy_tracked,us_morphling];
+    weap=[us_machine_gun,us_light_gun,us_gatling_gun,us_double_gun,us_heavy_gun,us_rocket_launcher,us_siberium_rocket,us_laser,us_double_laser,
+          us_radar,us_cargo_bay,us_crane,us_bulldozer];
+    ctrls=[control_manual,control_remote,control_computer];
+    engs=[engine_combustion,engine_solar,engine_siberite];
+  end;
+
+EXPORT nbuildings,ntech,ncomps;
+every 0$1+0$0.5 do
+  var t,u,b;
+  var nweapons,nbuild,nlabs,
+      nchs,nweap,nctrls,nengs;
+  begin
+    ntech=0;
+    for t in techs do
+      if GetTech(t,you)<>state_researched then
+        ntech:=ntech+1;
+
+    nchs=[];
+    nweap=[];
+    nengs=[];
+    nctrls=[];
+
+    nlabs=[];
+    nbuild=[];
+
+    for u in FilterAllUnits([f_side,you]) do
+      case GetType(u) of
+        unit_vehicle:
+          begin
+            nctrls:=nctrls^GetControl(u);
+            nweap:=nweap^GetWeapon(u);
+            nengs:=nengs^GetEngine(u);
+            nchs:=nchs^GetChassis(u);
+          end;
+        unit_building:
+          begin
+            b:=GetBType(u);
+            if not IsConstructed(u) then
+              nbuild:=nbuild^b;
+            case b of
+              b_warehouse:
+                nbuild:=nbuild^b_depot;
+              b_barracks:
+                nbuild:=nbuild^b_armoury;
+              b_factory:
+                nbuild:=nbuild^b_workshop;
+              b_lab_half,b_lab_full:
+                begin
+                  nlabs:=nlabs^[GetLabKind(u,1),GetLabKind(u,2)];
+                  nbuild:=nbuild^[b_lab];
+                end;
+              b_turret,b_bunker:
+                begin
+                  nweap:=nweap^GetBWeapon(u);
+                end;
+            end;
+          end;
+      end;
+
+    nbuildings=(build diff nbuild)+(labs diff nlabs);
+    nweapons=((weap diff nweap)+0);
+    ncomps=(weap diff nweap)+(chs diff nchs)+(engs diff nengs)+(ctrls diff nctrls);
+
+    case Def_Obtiznost of
+    0: begin
+         display_strings=['#lehka'];
+       end;
+    1: begin
+         display_strings=['#normalni'];
+       end;
+    2: begin
+         display_strings=['#tezka'];
+       end;
+    3: begin
+         display_strings=['#extremni'];
+       end;
+    end;
+
+    display_strings= display_strings ^
+      ['#Am07-1',tick] ^
+      ['#Ru08-3',ntech] ^
+      ['#Ru08-1',nbuildings] ^
+      ['#Ru08-2',ncomps] ^ WaitServerStrings
+      ;
+    enable;
+
+
+  end;
+
+EXPORT sTech,sBuildings,sComps;
+every 0$2 do
+  begin
+    sTech = nTech;
+    sBuildings = nBuildings;
+    sComps = nComps;
+  end;
+{var k;
+every 0$5 do
+  begin
+    debug_strings=['Units '&(k+1)&' to '&(k+5)&' will be deleted'];
+    DestroyUnit(k+1);
+    DestroyUnit(k+2);
+    DestroyUnit(k+3);
+    DestroyUnit(k+4);
+    DestroyUnit(k+5);
+    k:=k+5;
+    enable;
+  end;
+ }
+
+

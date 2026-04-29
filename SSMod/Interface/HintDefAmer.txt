@@ -1,0 +1,85 @@
+fileformat 2
+
+
+id 0
+filename Hint-help.tga
+animcount 4
+speed 10
+loop 0
+
+
+id 1
+filename Hint-Done.tga
+animcount 4
+speed 10
+loop 0
+
+
+id 2
+filename Hint-Problem.tga
+animcount 4
+speed 10
+loop 0
+
+
+id 3
+filename Hint-First.tga
+animcount 4
+speed 10
+loop 0
+
+
+id 20
+filename hintmessage0.tga
+animcount 4
+speed 10
+loop 0
+
+id 21
+filename hintmessage1.tga
+animcount 4
+speed 10
+loop 0
+
+id 22
+filename hintmessage2.tga
+animcount 4
+speed 10
+loop 0
+
+id 23
+filename hintmessage3.tga
+animcount 4
+speed 10
+loop 0
+
+id 24
+filename hintmessage4.tga
+animcount 4
+speed 10
+loop 0
+
+id 25
+filename hintmessage5.tga
+animcount 4
+speed 10
+loop 0
+
+id 26
+filename hintmessage6.tga
+animcount 4
+speed 10
+loop 0
+
+id 27
+filename hintmessage7.tga
+animcount 4
+speed 10
+loop 0
+
+id 28
+filename hintmessage8.tga
+animcount 4
+speed 10
+loop 0
+

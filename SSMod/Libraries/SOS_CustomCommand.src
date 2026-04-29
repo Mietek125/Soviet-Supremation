@@ -1,0 +1,43 @@
+// 07.09.2022
+// by Serpent
+// Use this on map when u don't need custom logic
+// Otherwise, copy and override it on your map script
+On CustomCommand(p1, p2, p3, p4, p5, p6) do
+begin
+SOS_CustomCommand(p1, p2, p3, p4, p5, p6);
+End;
+
+On CommPanelCommand(units, p1, p2, p3, p4, p5) do
+var i;
+begin
+if not units then
+   exit;
+
+{
+if p1 = 1 then // bazooka
+   begin
+   if p2 = 1 then // switch from normal to time ammo
+      begin
+      for i in units do
+          begin
+          // change button here
+          SetUnitAttackType(i, 3);
+          end;
+      end;
+
+   if p2 = 2 then // switch from time ammo to normal
+      begin
+      for i in units do
+          begin
+          // change button here
+          SetUnitAttackType(i, 1);
+          end;
+      end;
+   end;
+}
+End;
+
+On MapStart(p) do
+begin
+SOS_MapStart();
+End;

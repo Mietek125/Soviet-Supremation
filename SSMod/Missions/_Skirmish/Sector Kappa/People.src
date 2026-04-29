@@ -1,0 +1,366 @@
+export
+  you,pris,rus,ar,Player_Side;
+
+export
+  all_your,
+  all_pris,
+
+  charges1,charges2,
+  sol1,sol2,
+
+  def_your,
+  def_pris1,def_pris2,def_pris3,def_pris4,def_pris5,def_pris6,
+  def_guard1,def_fort2,def_fort3,def_fort4,
+  def_fort5,def_eng5,def_sci5,def_sol51,def_sol52,
+  def_fort6;
+
+
+export function prepare_sides;
+var k;
+begin
+    you=Player_Side;
+    pris=4;
+    rus=3;
+    ar=2;
+
+    if you = 4 then
+      pris = 1
+    else if you = 3 then
+      begin
+        SetSide(FilterAllUnits([f_side,rus]),6);
+        rus = 6;
+      end
+    else if you = 2 then
+      begin
+        SetSide(FilterAllUnits([f_side,ar]),5);
+        ar = 5;
+      end;
+
+    For k=1 to 72 do
+    begin
+      SetTech(k,rus,state_researched);
+      SetTech(k,ar,state_researched);
+    end;
+
+    SetAttitude(you,pris,att_friend,true);
+    SetAttitude(you,rus,att_enemy,true);
+    SetAttitude(you,ar,att_enemy,true);
+    SetAttitude(rus,ar,att_friend,true);
+    SetAttitude(rus,pris,att_friend,true);
+    SetAttitude(ar,pris,att_friend,true);
+
+    ChangeSideFog(pris,you);
+    RevealFogArea(you,AllMap);
+
+    charges1=[[78,39],[79,42],[81,42]];
+    charges2=[[79,36],[80,38],[81,37]];
+
+  end;  
+
+
+export function create_resources;               
+  var i;
+  begin
+    for i:=1 to 16 do
+      CreateResourcesArea(mat_cans,5,Pile1,false);
+    for i:=1 to 16 do
+      CreateResourcesArea(mat_cans,5,Pile2,false);
+    for i:=1 to 16 do
+      CreateResourcesArea(mat_cans,5,Pile3,false);
+  end;
+
+function define_people;
+  begin
+    def_your=[
+      [class_soldier,sex_female,[10,12],[2,0,0,0],[5,2,2,2]],
+      [class_engineer,sex_male, [12,10],[0,2,0,0],[2,5,2,2]],
+      [class_mechanic,sex_male, [11,11],[0,0,2,0],[2,2,5,2]],
+      [class_scientistic,sex_female, [11,11],[0,0,0,2],[2,2,2,5]] ];
+
+    def_pris1=[
+      [class_mechanic,sex_male,[10,10],[0,0,2,0],[1,1,3,1]],
+      [class_scientistic,sex_female,[10,10],[0,0,0,2],[1,1,1,3]],
+      [class_engineer,sex_male,[10,10],[0,2,0,0],[1,3,1,1]],
+      [class_soldier,sex_female,[10,10],[2,0,0,0],[3,1,1,1]] ];
+
+    def_pris2=[
+      [class_engineer,sex_male,[10,10],[0,2,0,0],[1,3,1,1]],
+      [class_engineer,sex_male,[10,10],[0,2,0,0],[1,3,1,1]],
+      [class_engineer,sex_female,[10,10],[0,2,0,0],[1,3,1,1]] ];
+
+    def_pris3=[
+      [class_mechanic,sex_male,[10,10],[0,0,2,0],[2,2,4,2]],
+      [class_mechanic,sex_female,[10,10],[0,0,2,0],[2,2,4,2]] ];
+
+    def_pris4=[
+      [class_scientistic,sex_male,[10,10],[0,0,0,2],[2,2,2,6]],
+      [class_scientistic,sex_male,[10,10],[0,0,0,2],[2,2,2,6]],
+      [class_scientistic,sex_male,[10,10],[0,0,0,2],[2,2,2,6]],
+      [class_scientistic,sex_female,[10,10],[0,0,0,2],[2,2,2,6]],
+      [class_scientistic,sex_female,[10,10],[0,0,0,2],[2,2,2,6]] ];
+
+    def_pris5=[
+      [class_soldier,sex_male,[10,10],[1,1,1,1],[5,5,5,5]],
+      [class_engineer,sex_female,[10,10],[1,1,1,1],[5,5,5,5]],
+      [class_mechanic,sex_female,[10,10],[1,1,1,1],[5,5,5,5]],
+      [class_scientistic,sex_male,[10,10],[1,1,1,1],[5,5,5,5]] ];
+
+    def_pris6=[
+      [class_scientistic,sex_male,[10,10],[0,0,0,2],[3,3,3,5]],
+      [class_scientistic,sex_female,[10,10],[0,0,0,2],[3,3,3,5]],
+      [class_mechanic,sex_male,[10,10],[0,2,0,0],[3,5,3,3]],
+      [class_mechanic,sex_female,[10,10],[0,2,0,0],[3,5,3,3]],
+      [class_mechanic,sex_female,[10,10],[0,2,0,0],[3,5,3,3]] ];
+
+
+    def_guard1=[
+      [class_soldier,4+upg],
+      [class_soldier,3+upg],
+      [class_soldier,3+upg] ];
+
+    def_fort2=[
+      [class_soldier,1+upg],
+      [class_soldier,1+upg] ];
+
+    def_fort3=[
+      [class_mechanic,4+upg],
+      [class_mechanic,4+upg] ];
+
+    def_fort4=[
+      [class_soldier,4+upg],
+      [class_soldier,4+upg],
+      [class_bazooker,5+upg] ];
+
+    def_fort5=[
+      [class_mortar,4+upg],
+      [class_mortar,4+upg],
+      [class_mortar,4+upg] ];
+
+    def_eng5=[
+      [class_engineer,2+upg],
+      [class_engineer,2+upg],
+      [class_engineer,2+upg] ];
+
+    def_sci5=[
+      [class_scientistic,4+upg],
+      [class_scientistic,4+upg] ];
+
+    def_sol51=[
+      [class_soldier,5+upg],
+      [class_soldier,4+upg],
+      [class_soldier,4+upg] ];
+
+    def_sol52=[
+      [class_soldier,4+upg],
+      [class_soldier,4+upg],
+      [class_soldier,4+upg] ];
+
+    def_fort6=[
+      [class_mortar,5+upg],
+      [class_mortar,5+upg],
+      [class_mortar,5+upg],
+      [class_mortar,5+upg],
+      [class_mortar,4+upg],
+      [class_mortar,4+upg] ];
+
+  end;
+
+
+function prepare_prisoners(def,area);
+  var d,un;
+  begin
+    result:=[];
+
+    uc_side=pris;
+    uc_nation=nation_american;
+
+    hc_name='';
+    hc_importance=0;
+    for d in def do
+      begin
+        hc_class=d[1];
+        hc_sex=d[2];
+        hc_attr=d[3];
+        hc_basic_skills=d[4];
+        hc_skills=d[5];
+        un:=CreateHuman;
+        PlaceUnitArea(un,area,false);
+        result:=result^un;
+      end;
+    ComHold(result);
+  end;
+
+function prepare_yours(def,area,leadx,leady);
+  var d,un,lead;
+  begin
+    result:=[];
+
+    uc_side=you;
+    uc_nation=nation_american;
+
+    hc_name='';
+
+    lead=true;
+
+    for d in def do
+      begin
+        if lead then
+          begin
+            hc_importance=101;
+            hc_name='Lisa';
+            hc_gallery='us';
+            hc_face_number=3;
+          end
+        else
+          Begin
+            hc_importance=0;
+            hc_name='';
+            hc_gallery='';
+          end;
+
+        hc_class=d[1];
+        hc_sex=d[2];
+        hc_attr=d[3];
+        hc_basic_skills=d[4];
+        hc_skills=d[5];
+        un:=CreateHuman;
+        if lead then
+        begin
+          PlaceUnitXY(un,leadx,leady,false);
+          Lisa=un;
+        end
+        else
+          PlaceUnitArea(un,area,false);
+
+        result:=result^un;
+        lead:=false;
+      end;
+  end;
+
+function prepare_rus_guard(def,area);
+  var d,un;
+  begin
+    result:=[];
+
+    uc_side=rus;
+    uc_nation=nation_russian;
+
+    hc_name='';
+    hc_importance=0;
+    for d in def do
+      begin
+        PrepareHuman(0,d[1],d[2]);
+        un:=CreateHuman;
+        PlaceUnitArea(un,area,false);
+        result:=result^un;
+      end;
+  end;
+
+function prepare_rus_fort(def,fort);
+  var d,un,i,f;
+  begin
+    result:=[];
+
+    uc_side=rus;
+    uc_nation=nation_russian;
+
+    hc_name='';
+    hc_importance=0;
+    i:=0;
+    for d in def do
+      begin
+        PrepareHuman(Rand(1,2),d[1],d[2]);
+        un:=CreateHuman;
+        i:=i+1;
+        f:=fort[i];
+        PlaceUnitXY(un,ShiftX(GetX(f),GetDir(f),2),ShiftY(GetY(f),GetDir(f),2),false);
+        ComEnterUnit(un,f);
+        result:=result^un;
+      end;
+  end;
+
+function prepare_ar_guard(def,area);
+  var d,un;
+  begin
+    result:=[];
+
+    uc_side=ar;
+    uc_nation=nation_arabian;
+
+    hc_name='';
+    hc_importance=0;
+    for d in def do
+      begin
+        PrepareHuman(0,d[1],d[2]);
+        un:=CreateHuman;
+        PlaceUnitArea(un,area,false);
+        result:=result^un;
+      end;
+  end;
+
+function prepare_ar_fort(def,fort);
+  var d,un,i,f;
+  begin
+    result:=[];
+
+    uc_side=ar;
+    uc_nation=nation_arabian;
+
+    hc_name='';
+    hc_importance=0;
+    i:=0;
+    for d in def do
+      begin
+        PrepareHuman(Rand(1,2),d[1],d[2]);
+        un:=CreateHuman;
+        i:=i+1;
+        f:=fort[i];
+        PlaceUnitXY(un,ShiftX(GetX(f),GetDir(f),2),ShiftY(GetY(f),GetDir(f),2),false);
+        ComEnterUnit(un,f);
+        result:=result^un;
+      end;
+  end;
+
+
+
+export function prepare_people;
+  var i,b;
+  begin
+    define_people;
+    all_your:=prepare_yours(def_your,ArStart,9,7);
+
+    all_pris:=all_pris^
+      prepare_prisoners(def_pris1,ArPris1)^
+      prepare_prisoners(def_pris2,ArPris2)^
+      prepare_prisoners(def_pris3,ArPris3)^
+      prepare_prisoners(def_pris4,ArPris4)^
+      prepare_prisoners(def_pris5,ArPris5)^
+      prepare_prisoners(def_pris6,ArPris6);
+
+    prepare_rus_guard(def_guard1,ArGuard1);
+    prepare_rus_fort(def_fort2,[br2_1,br2_2]);
+    prepare_ar_fort(def_fort3,[veh3_1,veh3_2]);
+    prepare_rus_fort(def_fort4,[br4_1,br4_2,br4_3]);
+    prepare_ar_fort(def_fort5,[br5_1,br5_2,br5_3]);
+    prepare_ar_guard(def_eng5,ArGuard5Eng);
+    prepare_ar_guard(def_sci5,ArGuard5Sci);
+    sol1:=prepare_ar_guard(def_sol51,ArGuard5Start1);
+    sol2:=prepare_ar_guard(def_sol52,ArGuard5Start2);
+    prepare_ar_fort(def_fort6,[br6_1,br6_2,br6_3,br6_4,br6_5,br6_6]);
+
+    ComRemember(Sol1^Sol2);
+    for i:=1 to 3 do
+      begin
+        AddComPlaceRemoteCharge(sol1[i],charges1[i][1],charges1[i][2],0);
+        AddComMoveToArea(sol1[i],ArGuard5Sol1);
+      end;
+    for i:=1 to 3 do
+      begin
+        AddComPlaceRemoteCharge(sol2[i],charges2[i][1],charges2[i][2],0);
+        AddComMoveToArea(sol2[i],ArGuard5Sol2);
+      end;
+
+    b=FilterAllUnits([f_type,unit_building]);
+    for i in b do
+      SetBLevel(i,GetBLevel(i) + upg);
+  end;

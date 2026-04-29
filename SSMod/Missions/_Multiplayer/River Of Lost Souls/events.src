@@ -1,0 +1,31 @@
+on BuildingStarted(b,u) do
+begin
+  if GetBType(b) in [b_depot, b_warehouse] then
+    SetBName(b, '@' & GetSide(b));     
+end;
+
+on BuildingCaptured(b,o,e) do
+begin
+  if GetBType(b) in [b_depot, b_warehouse] then
+    SetBName(b, '@' & GetSide(b));
+end;
+
+on UnitDestroyed(j) do
+var x,y,pos,dir;
+begin
+  if GetSide(j) = 0 AND GetClass(j) = class_apeman then
+    CheckApemenAmount;
+
+  if GetBType(j) in [b_depot, b_warehouse] then
+  begin
+    pos:=Side_Positions[GetSide(j)];
+
+    x:=start_def[pos][1];
+    y:=start_def[pos][2];
+
+    KillBattleFlag(FindBattleFlag(x,y));
+  end; 
+end;
+
+on siberiterocketexploded(un,x,y) do
+  SA_OnSiberiteRocketExploded(un,x,y,Your_Side);
