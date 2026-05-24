@@ -50,6 +50,11 @@ Begin;
       Say(Yakotich, 'DYak-01-15');
       Say(Yakotich, 'DYak-01-16');
 
+      If LoadVariable('HintyON', 1) then
+      SelectionQuery([1]);
+
+      HintSpec('CKM-hint', 3);
+
       YakotichTeam := CharacterSelection(
                        '1',
                        5,

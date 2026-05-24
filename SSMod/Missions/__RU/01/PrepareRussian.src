@@ -16,7 +16,7 @@ Begin
      Volkovich := PrepareUnit('Volkovich', false, '');
 
      PlaceUnitInBunker(Sidorov, b3);
-     PlaceUnitInBunker(Volkovich, b2);
+     PlaceUnitInBunker(Volkovich, b1);
 
      PlaceUnitXY(Choroszczanow,88,23,False);
 

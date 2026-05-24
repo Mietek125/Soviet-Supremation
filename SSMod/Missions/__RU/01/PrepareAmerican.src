@@ -18,7 +18,7 @@ begin
      Hc_Gallery = '';
      Hc_Name = '';
      Hc_Importance = 0;
-     Hc_Attr = [];
+     Hc_Attr = [10, 10];
 
      for i = 1 to [3,5,7][Difficulty] do
      begin

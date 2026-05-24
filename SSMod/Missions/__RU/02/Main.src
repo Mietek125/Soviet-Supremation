@@ -1,58 +1,47 @@
-//Misja 2 / 22.03.2023
-//Nie mam pomys³u na t¹ misjê, chuj w dupe ownetowi ~Mietek
-
 Starting
 begin
+     ResetFog;
+     Init;
 
-ResetFog;
-Init;
+     AnimateTrees(true);
 
-AnimateTrees(true);
+     InitRussian;
+     InitAction;
 
-Randomize;
-RandomizeAll;
+     DebugMode;
+end;
 
-InitRussian;
-Action;
+Export Yakotich, Mietek, Smirnovsky, Kostyliev, Maxim;
+Export Kurin;
 
+Export YakotichTeam, OtherTeam;
+Export Tanks;
 
-DebugMode;
+Export Debug;
+
+Export MissionPrefix, PrevMissionPrefix;
+Export VehicleCount;
+
+Export Function Init;
+Begin
+
+SetBName(RuDepot, 'OutpostG1');
+
+MissionPrefix := '02_';
+PrevMissionPrefix := '01_';
+VehicleCount := LoadVariable('01_VehiclesCount', 0);
+//Debug := True;
 
 end;
 
-Export Yakotich, Mietek, Boris, Vasilij, Michail, Constantin;
-Export Maksim, Fiodor, Pavel, Zakhar, Aleksiej, Aleksandr;
-Export Morozov;
-Export MietekCrew;
-Export YakotichCrew;
-
-Export Tank,Pojazd;
-
-Export SelectedPeople;
-
-export debug; //tests only!
-
-Export mission_prefix;
-Export exit_ready;
-
-Export MyPeople;
-
-Function Init;
-begin
-
-mission_prefix := '02_';
-debug := False;
-
-
-end;
-
-Function DebugMode;
+Export Function DebugMode;
 var i;
 begin
-if not debug then
-exit;
+     if not debug then
+     exit;
 
-Difficulty := 3;
-TurnFogOff();
-FogOff(3);
+     Difficulty := 3;
+     TurnFogOff();
+     FogOff(3);
+
 end;

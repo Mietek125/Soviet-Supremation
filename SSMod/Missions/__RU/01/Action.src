@@ -74,13 +74,15 @@ end;
 Every 0$1 Trigger See(6, Yakotich) do
 Begin
 
+     CenterOnXY(85, 15);
      DialogueOn;
      InGameOn;
-     CenterOnXY(85, 15);
      SayNoName(Sidorov, 'DSid-03-01');
      Say(Yakotich, 'DYak-03-02');
      SayNoName(Sidorov, 'DSid-03-03');
      DialogueOff;
+     Game_Speed := 8;
+     CenterOnXY(91, 7);
      ComEnterUnit(Choroszczanow, RuDepot);
      ChangeSideFog(6,3);
      ComMoveXY(Yakotich, 94, 18);
@@ -343,33 +345,25 @@ Begin
      Wait(0$15);
 
      InitAmerican;
-
-     ComMoveToArea(Americans,SouthAttack);
-     AddComAgressiveMove(Americans,90,20);
-     ComMoveToArea(Americans2,NorthAttack);
-     AddComAgressiveMove(Americans2,90,20);
+ 
+     AgressiveMove(Americans, [108, 50]);
+     AgressiveMove(Americans2, [60, 20]);
      SayNoName(AmCommander,'DAmC-06-06');
 
      Wait(0$10);
      ComAgressiveMove(AmCommander,110,40);
-
      American_Attack = True;
 
+
 end;
 
-Every 0$1 Trigger MaximTime and American_Attack do
-var attacker, enemy;
+Every 0$1 Trigger MaximTime = 0$0 and American_Attack do
 Begin
+     AgressiveMove(Americans, [[108, 50], [80, 20]]);
+     AgressiveMove(Americans2, [[60, 20], [80, 20]]);
      enable;
-     enemy = Filterallunits([[f_side, 3], [f_or, [f_not, [f_empty]], [f_type, unit_human]]]);
-     attacker := FilterAllUnits([[f_side, [f_or, 1,  4]]]);
 
-     if not FilterUnitsInArea(enemy, CratesArea) then
-     ComAttackUnit(attacker, RuDepot)
-     else
-     ComAttackUnit(attacker,NearestUnitToUnit(enemy,attacker));
-
-end;
+end;        
 
 
 Every 0$1 Trigger IsInArea(Maxim, CloseBaseArea) do

@@ -55,3 +55,82 @@ for i in tmp do
 
 End;
 
+Export Function GetCratesNearbyXY(x, y, r);
+var _x, _y, min_y, min_x, max_x, max_y;
+begin
+result := [];
+
+if x - r < 0 then
+   min_x := 0
+else
+   min_x := x - r;
+
+if y - r < 0 then
+   min_y := 0
+else
+   min_y := y - r;
+
+max_x := x + r;
+max_y := y + r;
+
+for _x = min_x to max_x do
+    for _y = min_y to max_y do
+        begin
+        if not ValidHex(_x, _y) then
+           continue;
+
+        if GetResourceTypeXY(_x, _y) then
+           result := Replace(result, result + 1, [_x, _y]);
+        end;
+End;
+
+Export Function AgressiveMove(units, path);
+var i, enemy, nearEnemy, cr, side, tag, ignoreCratesWeapon;
+begin
+if not units then
+   exit;
+
+result := UnitFilter(units, [f_ok]);
+side := GetSide(units[1]);
+ignoreCratesWeapon := [ar_selfpropelled_bomb{, ar_bio_bomb}, ru_time_lapser];
+
+if not result then
+   exit;
+
+enemy := FilterAllUnits([f_enemy, side]);
+
+for i in result do
+    begin
+    tag := GetTag(i) + 1;
+    cr := GetCratesNearbyXY(GetX(i), GetY(i), 6);
+
+    if GetType(i) = unit_vehicle and cr and not GetWeapon(i) in ignoreCratesWeapon then
+       ComAttackPlace(i, cr[1][1], cr[1][2])
+    else if path > tag then
+       begin
+       nearEnemy := UnitFilter(enemy, [f_dist, i, 8]);
+
+       if nearEnemy then
+          begin
+          if GetWeapon(i) = ru_time_lapser then
+             ComMoveUnit(i, NearestUnitToUnit(nearEnemy, i))
+          else
+             ComAttackUnit(i, NearestUnitToUnit(nearEnemy, i));
+          end
+       else if GetDistUnitXY(i, path[tag][1], path[tag][2]) > 6 then
+          ComAgressiveMove(i, path[tag][1], path[tag][2])
+       else
+          SetTag(i, tag);
+       end
+    else
+       if enemy then
+          begin
+          if GetWeapon(i) = ru_time_lapser then
+             ComMoveUnit(i, NearestUnitToUnit(enemy, i))
+          else
+             ComAttackUnit(i, NearestUnitToUnit(enemy, i));
+          end;
+    end;
+End;
+
+

@@ -1,8 +1,7 @@
-Every 2$0 do
-begin
 
-CreateCratesArea(rand(2,5),BaseArea,True);
+Every 1$30 Trigger WasInBase do
+Begin
 
-enable;
-
+CreateCratesArea(rand(2,5), CratesArea, True);
+Enable;
 end;
