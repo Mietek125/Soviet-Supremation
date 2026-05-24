@@ -1,3 +1,0 @@
-title='Sector Kappa'
-desc='South of base Gamma \n21st October, ERA + 1 \nWhile Major John Macmillan went away to secure siberite mine in Ovsienko, Powell sent sergeant Lisa Lawson on a sudden rescue mission to parts of Siberia marked as sector Kappa.\n According to recent reports, there was a battle between arabian and russian forces and one of our amarican units was caught in the firefight. They were captured by both the Russians and Arabs.'
-option={id=0,list={'Easy','Normal','Hard','Extreme'},default=2,name='Difficulty'}

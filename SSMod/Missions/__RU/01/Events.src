@@ -88,3 +88,17 @@ Begin
 Create_ColdMeat(Stefan,getX(Stefan), GetY(Stefan), 1);
 
 end;
+
+Every 0$1 Trigger IsDead(Mietek) do
+YouLost('MietekDead');
+
+Every 0$1 Trigger IsDead(Yakotich) do
+YouLost('YakDead');
+
+Every 0$1 Trigger IsDead(RuDepot) do
+YouLost('DepotDead');
+
+Every 0$1 Trigger FilterAllUnits([[f_side, 3], [f_type, unit_human]]) diff [Yakotich, Mietek] do
+YouLost('TeamDead');
+
+

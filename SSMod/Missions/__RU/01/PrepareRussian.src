@@ -15,10 +15,8 @@ Begin
      Choroszczanow := PrepareUnit('Choroszczanow', false, '');
      Volkovich := PrepareUnit('Volkovich', false, '');
 
-     PlaceUnitArea(Sidorov, BSpawn1, False);
-     ComEnterUnit(Sidorov,b1);
-     PlaceUnitArea(Volkovich, BSpawn2, False);
-     ComEnterUnit(Volkovich,b3);
+     PlaceUnitInBunker(Sidorov, b3);
+     PlaceUnitInBunker(Volkovich, b2);
 
      PlaceUnitXY(Choroszczanow,88,23,False);
 

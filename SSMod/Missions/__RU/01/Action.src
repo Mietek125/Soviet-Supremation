@@ -328,8 +328,11 @@ begin
 
 end;
 
-Every 0$1 Trigger MaximTime = 0$0 do
+Every 0$1 Trigger MaximTime = 0$0 and Maxim_Coming do
 Begin
+
+     if not GetSide(Stefan) = 3 then
+     SetLives(Stefan, 1);
 
      PlaceUnitArea(Maxim, NewcomersArea, False);
      PlaceUnitArea(Rybakov, NewcomersArea, False);
@@ -354,6 +357,21 @@ Begin
 
 end;
 
+Every 0$1 Trigger MaximTime and American_Attack do
+var attacker, enemy;
+Begin
+     enable;
+     enemy = Filterallunits([[f_side, 3], [f_or, [f_not, [f_empty]], [f_type, unit_human]]]);
+     attacker := FilterAllUnits([[f_side, [f_or, 1,  4]]]);
+
+     if not FilterUnitsInArea(enemy, CratesArea) then
+     ComAttackUnit(attacker, RuDepot)
+     else
+     ComAttackUnit(attacker,NearestUnitToUnit(enemy,attacker));
+
+end;
+
+
 Every 0$1 Trigger IsInArea(Maxim, CloseBaseArea) do
 Begin
 
@@ -361,7 +379,7 @@ Begin
 
 end;
 
-Every 0$1 Trigger American_Attack = True And IsDead(AmCommander) do
+Every 0$1 Trigger American_Attack = True And FilterAllUnits([[f_side, 4], [f_class, 1]]) = 0 do
 begin
 
      InGameOn;
@@ -370,9 +388,9 @@ begin
      Say(Yakotich, 'DYak-07-03');
      Wait(0$3);
      Say(Yakotich, 'DYak-07-04');
-     Say(Kurin, 'DKur-07-05');
+     SayRadioNoFace(Kurin, 'DKur-07-05');
      Say(Yakotich, 'DYak-07-06');
-     Say(Kurin, 'DKur-07-07');
+     SayRadioNoFace(Kurin, 'DKur-07-07');
 
 End_Of_The_Mission = True;
 
@@ -386,7 +404,7 @@ begin
      If FilterAllUnits([[f_side,3],[f_type, unit_vehicle]]) >= 1 then
      begin
           AddMedal('VehicleMedal',1);
-          SaveVariable(Count(FilterAllUnits([[f_side, 3], [f_type, unit_vehicle]])), '01_VehiclesCount');
+          SaveVariable((FilterAllUnits([[f_side, 3], [f_type, unit_vehicle]])), MissionPrefix & 'VehiclesCount');
           end
      else
          AddMedal('VehicleMedal',-1);
@@ -405,13 +423,13 @@ begin
 
      RewardPeople(FilterAllUnits([[f_side, 3], [f_nation, 3], [f_type, unit_human]]));
 
-     SaveCharacters(Yakotich, Mission_Prefix & 'Yakotich');
-     SaveCharacters(Mietek, Mission_Prefix & 'Mietek');
-     SaveCharacters(Maxim, Mission_Prefix & 'Maxim');
-     SaveCharacters(Kostyliev, Mission_Prefix & 'Kostyliev');
-     SaveCharacters(Smirnovsky, Mission_Prefix & 'Smirnovsky');
+     SaveCharacters(Yakotich, MissionPrefix & 'Yakotich');
+     SaveCharacters(Mietek, MissionPrefix & 'Mietek');
+     SaveCharacters(Maxim, MissionPrefix & 'Maxim');
+     SaveCharacters(Kostyliev, MissionPrefix & 'Kostyliev');
+     SaveCharacters(Smirnovsky, MissionPrefix & 'Smirnovsky');
 
-     SaveCharacters(FilterAllUnits([[f_side, 3], [f_nation, 3], [f_type, unit_human]]) diff [Yakotich, Mietek, Maxim, Kostyliev, Smirnovsky], Mission_Prefix & 'OtherSurvivors');
+     SaveCharacters(FilterAllUnits([[f_side, 3], [f_nation, 3], [f_type, unit_human]]) diff [Yakotich, Mietek, Maxim, Kostyliev, Smirnovsky], MissionPrefix & 'OtherSurvivors');
 
      YouWin;
 

@@ -1,19 +1,3 @@
-Export Function PrepareSolBun(skill, b);
-var un, dir;
-begin
-uc_side := GetSide(b);
-uc_nation := GetNation(b);
-
-dir := GetDir(b) - 3;
-
-if dir < 0 then
-   dir := 6 + dir;
-
-un := CreateHuman;
-SetDir(un, dir);
-PlaceHumanInUnit(un, b);
-End;
-
 Every 1 trigger IsSelected(Pezet) do
 begin
 PezetExp([1,2,3,4]);

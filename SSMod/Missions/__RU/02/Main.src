@@ -1,4 +1,47 @@
 Starting
 begin
+     ResetFog;
+     Init;
+
+     AnimateTrees(true);
+
+     InitRussian;
+     InitAction;
+
+     DebugMode;
+end;
+
+Export Yakotich, Mietek, Smirnovsky, Kostyliev, Maxim;
+Export Kurin;
+
+Export YakotichTeam, OtherTeam;
+Export Tanks;
+
+Export Debug;
+
+Export MissionPrefix, PrevMissionPrefix;
+Export VehicleCount;
+
+Export Function Init;
+Begin
+
+SetBName(RuDepot, 'OutpostG1');
+
+MissionPrefix := '02_';
+PrevMissionPrefix := '01_';
+VehicleCount := LoadVariable('01_VehiclesCount', 0);
+//Debug := True;
+
+end;
+
+Export Function DebugMode;
+var i;
+begin
+     if not debug then
+     exit;
+
+     Difficulty := 3;
+     TurnFogOff();
+     FogOff(3);
 
 end;

@@ -39,7 +39,7 @@ begin
 
     If Difficulty = 3 then
     Begin
-         for k = 1 to 3 do
+         for k = 1 to 4 do
          begin
               PrepareSoldier(rand(1,2),5);
               AmS2 = CreateHuman;
