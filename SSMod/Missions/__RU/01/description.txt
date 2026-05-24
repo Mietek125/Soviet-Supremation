@@ -2,8 +2,8 @@ MISSION
   MAP map.txt
   TEXTS texts.txt
   SOURCES sources.txt
-  LIBRARYSOURCES librarysources.txt
+  LIBARYSOURCES libarysources.txt
   CAMPAIGN 3 1
   AUTOR Mietek
   DISABLED_INPUT_OUTPUT "" ""
-  ANIMTREES SIZE 100 110 END_OF_MISSION
+  SIZE 120 80 END_OF_MISSION

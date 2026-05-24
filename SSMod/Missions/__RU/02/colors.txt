@@ -1,38 +1,53 @@
 begin
 ? type terrain
- ! sat 109
+ ! sat 119
  ! hue 3
- ! all 89
- ! contr 113
+ ! all 87
+ ! contr 136
 new
 ? type grass
- ! rgb 143 112 122
- ! all 73
+? subtype 4
+ ! hue -8
+ ! rgb 105 94 73
+ ! contr 101
+ ! sat 66
 new
-? inident "STree: jehl-smrk-uzky"
- ! rgb 160 136 122
- ! all 80
+? inident vres
+ ! hue -4
+ ! sat 119
+ ! contr 86
 new
-? inident "STree: jehl-smrk-silny"
- ! rgb 140 108 108
- ! all 84
+? inident "Boulder: stone_01"
+ ! contr 86
+ ! hue -5
+ ! sat 101
 new
-? inident "STree: jehl-smrk-stredni"
- ! rgb 153 122 119
- ! all 87
+? inident ker-husty
+ ! hue 1
+ ! rgb 122 105 94
+ ! contr 105
 new
-? inident "STree: ker-rosti"
- ! rgb 77 45 52
- ! all 178
+? inident ker-rosti
+ ! rgb 115 101 59
+ ! contr 84
+ ! all 91
 new
-? inident "STree: ker-husty"
- ! rgb 195 157 140
- ! all 77
+? inident "STree: list-sahara"
+ ! rgb 112 84 91
+ ! contr 88
 new
-? inident stone_02
- ! rgb 153 133 122
- ! all 73
+? inident "STree: list-akat-maly"
+ ! rgb 101 83 45
+ ! contr 80
+ ! hue -8
+new
+? inident "STree: list-dvoupatr-maly"
+ ! sat 105
+ ! hue -25
+ ! contr 96
 new
 ? inident "STree: list-akat-rosti"
- ! rgb 150 108 100
+ ! sat 52
+ ! rgb 91 80 42
+ ! hue 5
 end

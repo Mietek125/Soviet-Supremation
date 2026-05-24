@@ -1,104 +1,160 @@
+On UnitDestroyed(un) do
+begin
+     If GetSide(un) = 1 then
+     begin
 
-Every 0$1 Trigger Researched (3, 47) do
-Begin
+     KillCounter := KillCounter +1;
+     SetAchievementEX('ACH_HUNT', KillCounter);
 
-     DialogueOn;
-     Say(Smirnovsky, 'DVlad-04-04');
-     Say(Yakotich, 'DYak-04-05');
-     Say(Smirnovsky, 'DVlad-04-06');
-     Say(Kostyliev, 'DBog-04-07');
-     DialogueOff;
+     end;
+
+     if un in FilterAllUnits([[f_side, 3], [f_not, [f_nation, 0]], [f_type, unit_human]]) then
+     Begin
+     YouLost('PeopleDead');
+
+     end;
+
+end;
+
+
+
+On BuildingComplete(b) do
+begin
+
+     If GetBType(b) = b_breastwork and breastwork_builded = False then
+     begin
+
+     breastwork_builded = True;
+
+end;
+
+     If GetBType(b) = b_armoury and armoury_builded = False then
+     begin
+
+     armoury_builded = True;
+
+end;
+
+if GetBType(b) = b_workshop and GetSide(b) = 3 then
+begin
+
+Say(Michail,'1Mich-Workshop');
+
+end;
+
+if GetBType(b) = b_lab and GetSide(b) = 3 then
+begin
+
+Say(Vasilij,'1Vas-06');
+
+end;
+
+End;
+
+Every 0$1 Trigger breastwork_builded = True and armoury_builded = True do
+begin
+
+SetAchievement('ACH_FORT');
+
+end;
+
+Every 0$1 Trigger See(3,Aleksandr) and IsOk(Aleksandr) do
+begin
+
+DialogueOn;
+
+Say(Aleksandr,'1Alek-Alek3');
+Say(Yakotich,'1Yak-Alek2');
+Say(Aleksandr,'1Alek-Alek4');
+Say(Mietek,'1Ryn-Alek3');
+
+SetSide(Aleksandr,3);
+
+DialogueOff;
+
+SetAchievement('ACH_ALEKSANDR');
+
+end;
+
+Every 0$1 Trigger Researched(3, 46) do
+begin
+
+DialogueOn;
+
+Say(Vasilij,'1Vas-Power-1');
+Say(Yakotich,'1Yak-Power-1');
+
+DialogueOff;
+
+oil_power_researched := True;
+
+end;
+
+Every 0$1 Trigger Researched(3, 47) do
+begin
+
+DialogueOn;
+
+Say(Vasilij,'1Vas-Engine-1');
+
+DialogueOff;
+
+oil_engine_researched := True;
+
+end;
+
+Every 0$1 Trigger Researched(3, 48) do
+begin
+
+DialogueOn;
+
+Say(Vasilij,'1Vas-Research-1');
+Say(Yakotich,'1Yak-Research-1');
+Say(Vasilij,'1Vas-Research-2');
+
+DialogueOff;
+
+technology1_researched := True;
 
 end;
 
 Every 0$1 trigger FilterAllUnits([[f_type, unit_vehicle], [f_side, 3]]) do
 begin
 
-     InGameOn;
-     CenterOnUnits(RuDepot);
-     Wait(0$3);
-     DialogueOn;
-     Say(Kostyliev,'DBog-04-08');
-     Say(Yakotich,'DYak-04-09');
-     ChangeMissionObjectives('VehOut');
-     DialogueOff;
-     InGameOff;
-     Vehicle_Constructed = True;
+InGameOn;
 
-     If LoadVariable('HintyON', 1) then
-     HintSpec('CKM-hint', 3);
-     
-end;
+CenterOnUnits(RuDep);
 
-Every 0$1 Trigger Researched(3, 46) and Researched(3, 47) and Researched(3, 48) and Researched(3, 82) do
-Begin
+Wait(0$3);
 
-     ChangeMissionObjectives('ResearchOut');
-     All_Techs_Done = True;
+DialogueOn;
 
-end;
+Say(Michail,'1Mich-Tank-1');
+Say(Yakotich,'1Yak-Tank-1');
+Say(Michail,'1Mich-Tank-2');
+Say(Yakotich,'1Yak-Tank-2');
 
-Every 0$1 Trigger StefanSpawn1 and SeeXY(3, 88, 102) and IsDead(Stefan) do
-Begin
+ChangeMissionObjectives('o6');
 
-     DialogueOn;
-     CenterOnXY(88, 102);
-     Say(Yakotich, 'DYak-06-05b');
-     Say(Mietek, 'DMietek-06-06b');
-     DialogueOff;
+DialogueOff;
+
+InGameOff;
+
+vehicle_constructed = True;
 
 end;
 
-Every 0$1 Trigger StefanSpawn2 and SeeXY(3, 135, 88) and IsDead(Stefan) do
-Begin
+Every 0$1 Trigger technology1_researched = True and oil_engine_researched = True and oil_power_researched = True And vehicle_constructed = True do
+begin
 
-     DialogueOn;
-     CenterOnXY(135, 88);
-     Say(Yakotich, 'DYak-06-05b');
-     Say(Mietek, 'DMietek-06-06b');
-     DialogueOff;
+ChangeMissionObjectives('o5');
 
 end;
 
-Every 0$1 Trigger StefanSpawn3 and SeeXY(3, 26, 38) and IsDead(Stefan) do
-Begin
+Every 0$1 Trigger IsInArea(Maksim,BaseArea) do
+begin
 
-     DialogueOn;
-     CenterOnXY(26, 38);
-     Say(Yakotich, 'DYak-06-05b');
-     Say(Mietek, 'DMietek-06-06b');
-     DialogueOff;
+SetSide(MaksimCrew,3);
 
 end;
-
-Every 0$1 Trigger StefanSpawn4 and SeeXY(3, 60, 88) and IsDead(Stefan) do
-Begin
-
-     DialogueOn;
-     CenterOnXY(60, 88);
-     Say(Yakotich, 'DYak-06-05b');
-     Say(Mietek, 'DMietek-06-06b');
-     DialogueOff;
-
-end;
-
-Every 0$1 Trigger not IsOk(Stefan) do
-Begin
-
-Create_ColdMeat(Stefan,getX(Stefan), GetY(Stefan), 1);
-
-end;
-
-Every 0$1 Trigger IsDead(Mietek) do
-YouLost('MietekDead');
-
-Every 0$1 Trigger IsDead(Yakotich) do
-YouLost('YakDead');
-
-Every 0$1 Trigger IsDead(RuDepot) do
-YouLost('DepotDead');
-
-Every 0$1 Trigger FilterAllUnits([[f_side, 3], [f_type, unit_human]]) diff [Yakotich, Mietek] do
-YouLost('TeamDead');
-
 

@@ -1,9 +1,9 @@
 SOURCE_CODES
   ENABLED Main
-  ENABLED PrepareRussian
-  ENABLED Action
   ENABLED Functions
-  ENABLED Events
+  ENABLED PreparePeople
+  ENABLED PrepareAmericans
+  ENABLED Actions
   ENABLED Crates
-  ENABLED PrepareAmerican
+  ENABLED Events
 END_OF_SOURCE_CODES
