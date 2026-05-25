@@ -3,6 +3,8 @@ var tmp, veh;
 Begin;
 
       RevealFogArea(3, MapRevealed);
+      SetSpecResearch(Lab, 999, false);
+      SetSpecResearch(Workshop, 999, false);
 
       InGameOn;
       Wait(0$2);
@@ -42,6 +44,7 @@ Begin;
       tmp := FilterAllUnits([[F_type, unit_human], [f_side, 3]]) diff [Yakotich, Mietek, Maxim];
 
       ComExitBuilding(tmp);
+      ComCancel([Lab, Workshop]);
       AddComMoveToArea(tmp, Gathering);
       AddComTurnUnit(tmp, Yakotich);
 
@@ -52,8 +55,6 @@ Begin;
 
       If LoadVariable('HintyON', 1) then
       SelectionQuery([1]);
-
-      HintSpec('CKM-hint', 3);
 
       YakotichTeam := CharacterSelection(
                        '1',

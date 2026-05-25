@@ -1,3 +1,5 @@
 SOURCE_CODES
   ENABLED Soviet_Functions
+  ENABLED Soviet_HintSystem
+  ENABLED Soviet_GlobalVars
 END_OF_SOURCE_CODES

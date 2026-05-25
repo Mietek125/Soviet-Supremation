@@ -83,6 +83,12 @@ begin
 if not mc_bases or not skirmish then
    exit;
 
+repeat
+ wait(0$1);
+until not mc_block_vehicle_constructed_thread;
+
+mc_block_vehicle_constructed_thread := true;
+
 side := GetSide(vehicle);
 
 for i = 1 to mc_bases do
@@ -93,6 +99,8 @@ for i = 1 to mc_bases do
            mc_defender := ReplaceIn(mc_defender, [i, mc_defender[i] + 1], vehicle)
        else
            mc_vehicles := ReplaceIn(mc_vehicles, [i, mc_vehicles[i] + 1], vehicle);
+
+       mc_block_vehicle_constructed_thread := false;
 
        if GetControl(vehicle) = control_remote then
           begin
@@ -115,6 +123,8 @@ for i = 1 to mc_bases do
        exit;
        end;
     end;
+
+mc_block_vehicle_constructed_thread := false;
 End;
 
 Export Function MCE_CrateSpawn(id, x, y, amount, mode);
@@ -196,6 +206,9 @@ begin
 
 if not mc_bases or not skirmish then
    exit;
+
+if un in mc_turret_list_waiting then
+   mc_turret_list_waiting := mc_turret_list_waiting diff un;
 
 for i = 1 to mc_bases do
     if un in mc_bases[i] or un in mc_construct_list[i] or un in mc_defender[i] or un in mc_vehicles[i] or un in mc_ape[i] or un in mc_ape_in_lab[i] then
@@ -481,4 +494,12 @@ for i = 1 to mc_bases do
        break;
        end;
     end;
+End;
+
+Export Function MCE_WeaponPlaced(building, factory);
+begin
+if not mc_bases or not skirmish then
+   exit;
+
+mc_turret_list_waiting := mc_turret_list_waiting diff building;
 End;

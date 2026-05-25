@@ -24,9 +24,6 @@ begin
      DialogueOff;
      InGameOff;
      Vehicle_Constructed = True;
-
-     If LoadVariable('HintyON', 0) then
-     HintSpec('CKM-hint', 3);
      
 end;
 

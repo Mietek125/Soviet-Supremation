@@ -1,0 +1,42 @@
+Export Function InitRussian;
+var i, tmp;
+Begin
+
+     Uc_Side = 3;
+
+     Platonov := NewCharacter('Platonov');
+
+     Yakotich := PrepareUnit('Yakotich', (not debug), prevMissionPrefix);
+     Mietek := PrepareUnit('Mietek', (not debug), prevMissionPrefix);
+     Maxim := PrepareUnit('Maxim', (not debug), prevMissionPrefix);
+     Smirnovsky := PrepareUnit('Smirnovsky', (not debug), prevMissionPrefix);
+     Kostyliev := PrepareUnit('Kostyliev', (not debug), prevMissionPrefix);
+     Tatiana := PrepareUnit('Tatiana', (not debug), PrevMissionPrefix);
+
+     YakotichTeam := CreateCharacterSet(PrevMissionPrefix & 'YakotichTeam');
+
+     SetClass(Smirnovsky, 4);
+     SetCLass(Kostyliev, 3);
+     SetClass([Mietek, Yakotich], 1);
+
+     Uc_Side = 5;
+
+     Dragunov := PrepareUnit('Dragunov', false, '');
+     Dimitri := PrepareUnit('Dimitri', false, '');
+
+     Plotkov := PrepareUnit('Plotkov', false, '');
+     Cholgovsky := PrepareUnit('Cholgovsky', false, '');
+     Kula := PrepareUnit('Kula', false, '');
+
+
+     PlaceUnitInBunker(Plotkov, b1);
+     PlaceUnitInBunker(Kula, b2);
+     PlaceHumanInUnit(Dragunov, Ovsyenko);
+     PlaceHumanInUnit(Cholgovsky, Ovsyenko);
+     PlaceHumanInUnit(Dimitri, Ovsyenko);
+
+     PrepareSolBun(3, b3);
+
+     //SetClass(OtherTeam, 1);
+
+end;

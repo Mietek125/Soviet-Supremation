@@ -1,0 +1,56 @@
+Starting
+begin
+     ResetFog;
+     Init;
+
+     AnimateTrees(true);
+     ComHold(Kvantovy);
+     PlaceEnvironment(194, 224, 54, 1);
+
+     InitRussian;
+     InitAction;
+
+     DebugMode; 
+end;
+
+Export Yakotich, Mietek, Smirnovsky, Kostyliev, Maxim, Tatiana;
+Export Dragunov, Dimitri, Plotkov, Cholgovsky, Kula;
+Export Platonov;
+
+Export Sikorsky, Gary, Cyrus, Bobby, Lynch, Turner, Jillian, McCreery, Walker;
+Export VanHouten, Steve, Naoma, Magdalene;
+
+Export YakotichTeam, OtherTeam;
+
+Export Debug;
+
+Export MissionPrefix, PrevMissionPrefix;
+Export BeenInMine, CameBackToBase, PlayerGotControl;
+
+Export Function Init;
+Begin
+
+SetBName(Ovsyenko, 'Ovsyenko');
+SetBName(Voroshilov, 'Voroshilov');
+SetBName(Terminal, 'Terminal');
+
+MissionPrefix := '03_';
+PrevMissionPrefix := '02_';
+//Debug := True;
+BeenInMine = False;
+CameBackToBase = False;
+PlayerGotControl = False;
+
+end;
+
+Export Function DebugMode;
+var i;
+begin
+     if not debug then
+     exit;
+
+     Difficulty := 3;
+     TurnFogOff();
+     FogOff(3);
+
+end;

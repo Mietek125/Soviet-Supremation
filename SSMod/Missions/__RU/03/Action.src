@@ -1,0 +1,107 @@
+Export Function InitAction;
+Begin
+
+     InGameOn;
+
+     ComMoveXY(Yakotich, 194, 216);
+     ComMoveXY(Mietek, 197, 217);
+     ComMoveXY(YakotichTeam, 197, 225);
+
+     Wait(0$8);
+
+     Say(Yakotich, 'DYak-01-01');
+
+     ComMoveXY(YakotichTeam, 169, 213);
+     ComMoveXY(Yakotich, 176, 220);
+     ComMoveXY(Mietek, 181, 221);
+     ComMoveXY(Smirnovsky, 176, 205);
+     ComMoveXY(Kostyliev, 184, 209);
+     ComMoveXY(Maxim, 177, 218);
+     ComMoveXY(Tatiana, 165, 206);
+
+     if GetDistUnits(Yakotich, Voroshilov) <= 5 then
+     begin
+
+     ComMoveXY(Yakotich, 173, 220);
+     AddComTurnUnit(Yakotich, Voroshilov);
+     ComMoveXY(Mietek, 170, 218);
+     AddComTurnUnit(Mietek, Voroshilov);
+     ComMoveXY(Tatiana, 165, 219);
+     ComMoveXY(Kostyliev, 165, 220);
+     ComMoveXY(Smirnovsky, 166, 220);
+     ComMoveXY(Maxim, 166, 219);
+     AddComTurnUnit([Tatiana, Kostyliev, Smirnovsky, Maxim], Yakotich);
+     ComMoveToArea(YakotichTeam, GatheringArea);
+     AddComTurnUnit(YakotichTeam, Yakotich);
+
+     Say(Yakotich, 'DYak-01-02');
+     Say(Yakotich, 'DYak-01-03');
+     SayEX(Platonov, 'DPlat-01-04', 0, 1, 1, 0);
+     SayEX(Platonov, 'DPlat-01-05', 0, 1, 1, 0);
+
+     ComTurnUnit(Mietek, Yakotich);
+     ComTurnUnit(Yakotich, Mietek);
+
+     Say(Mietek, 'DMietek-01-06');
+     Say(Yakotich, 'DYak-01-07');
+     Say(Mietek, 'DMietek-01-08');
+     ChangeMissionObjectives('Ob1');
+
+     ComMoveXY(Mietek, 171, 219);
+     ComTurnUnit(Mietek, Yakotich);
+     InGameOff;
+
+     end;
+
+     if See(3, OvsyenkoArea) then
+     begin
+
+     InGameOn;
+     DialogueOn;
+     CenterOnUnits(Yakotich);
+
+     SayNoName(Plotkov, 'DRand-02-01');
+     Say(Yakotich, 'DYak-02-02');
+     SayNoName(Plotkov, 'DRank-02-03');
+     Say(Yakotich, 'DYak-02-04');
+
+     PlaceSeeing(127, 123, 3, -10);
+     CenterOnXY(127, 123);
+     DialogueOff;
+     SetSide([Ovsyenko, b1, b2, b3, oil, sib, Dimitri, Dragunov, Plotkov, Cholgovsky, Kula, transport1, transport2], 3);
+     ComEnterUnit(Yakotich, Ovsyenko);
+
+     Say(Yakotich, 'DYak-02-05');
+     Say(Dimitri, 'DDim-02-06');
+     Say(Yakotich, 'DYak-02-07');
+     Say(Dimitri, 'DDim-02-08');
+     Say(Yakotich, 'DYak-02-09');
+     Say(Dimitri, 'DDim-02-10');
+     Say(Yakotich, 'DYak-02-11');
+     Say(Mietek, 'DMietek-02-12');
+
+     Wait(0$2);
+
+     PlaceEnvironment(193, 223, 54, 1);
+     InitSikorskyAttack;
+
+    end;
+
+    If PlayerGotControl then
+    Begin
+
+    ChangeMissionObjectives('Ob2');
+    InGameOff;
+
+    SetSide(FilterAllUnits([f_side, 6]), 3);
+    Say(Dragunov, 'DDrag-03-01');
+    Say(Dragunov, 'DDrag-03-02');
+    Say(Yakotich, 'DYak-03-03');
+    Say(Smirnovsky, 'DVlad-03-04');
+    Say(Tatiana, 'DTat-03-05');
+    Say(Yakotich, 'DYak-03-06');
+    ChangeMissionObjectives('Ob3');
+
+    end;
+
+end;

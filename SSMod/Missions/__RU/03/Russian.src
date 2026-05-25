@@ -1,0 +1,148 @@
+Export Burlak, Platonov, Petrovova, Titov,
+       Lipshchin, Gleb, Dolgov, Petrosyan, Karamazov, Jan;
+Export ruVehicles;
+Export function PrepareRussian;
+var i, veh, t, tmp, remainingOil, heavyChassis, oilPerVehicle, emptyCargo, oilToAdd, space, techs;
+begin
+techs := LoadVariable(prevMissionPrefix & 'Techs', []);
+
+if techs then
+   for i := 1 to Count(techs) do
+       SetTech(i, 3, techs[i]);
+
+SetBName(supplyBase, 'supply');
+
+uc_nation := nation_russian;
+uc_side := 6;
+
+Platonov  := NewCharacter('Platonov');
+Jan := NewCharacter('Jan');
+
+uc_side := 3;
+
+Burlak    := PrepareUnit('Burlak', (not debug), prevMissionPrefix);
+Karamazov := PrepareUnit('Karamazov', (not debug), prevMissionPrefix);
+Lipshchin := PrepareUnit('Lipshchin', (not debug), prevMissionPrefix);
+Petrosyan := PrepareUnit('Petrosyan', (not debug), prevMissionPrefix);
+Titov     := PrepareUnit('Titov', (not debug), prevMissionPrefix);
+Petrovova := PrepareUnit('Petrovova', (not debug), prevMissionPrefix);
+Gleb      := PrepareUnit('Gleb', (not debug), prevMissionPrefix);
+Dolgov    := PrepareUnit('Dolgov', (not debug), prevMissionPrefix);
+
+result := [Petrovova, Titov, Lipshchin, Gleb, Dolgov, Petrosyan, Karamazov];
+
+tmp := LoadVariable(prevMissionPrefix & 'Vehicles', []);
+
+if debug then
+   tmp := [ [ru_medium_tracked, engine_combustion, control_manual, ru_gun, nation_russian, [0, 0], 0],
+            [ru_medium_tracked, engine_combustion, control_manual, ru_gun, nation_russian, [0, 0], 0],
+            [ru_medium_tracked, engine_combustion, control_manual, ru_gun, nation_russian, [0, 0], -3],
+            [ru_medium_tracked, engine_combustion, control_manual, ru_gun, nation_russian, [0, 0], 0],
+            [ru_medium_tracked, engine_combustion, control_manual, ru_gun, nation_russian, [0, 0], 0],
+            [ru_medium_tracked, engine_combustion, control_manual, ru_cargo_bay, nation_russian, [0, 100], 0],
+            [ru_medium_tracked, engine_combustion, control_manual, ru_cargo_bay, nation_russian, [50, 50], 0 ],
+            [ru_heavy_tracked, engine_combustion, control_manual, ru_big_cargo_bay, nation_russian, [0, 200], 0 ] ];
+
+ruVehicles := [];
+remainingOil := -200;
+
+for i in tmp do
+    begin
+    uc_nation := i[5];
+
+    PrepareVehicle(i[1], i[2], i[3], i[4], 10);
+    veh := CreateVehicle;
+
+    if i[1] in [ru_heavy_tracked, us_heavy_tracked] then
+       penaltyTime := penaltyTime + 3$00;
+
+    if i[4] in [ru_cargo_bay, ru_big_cargo_bay, ar_cargo_bay, us_cargo_bay] then
+       begin
+       if i[6][1] then
+          AddCargo(veh, mat_cans, i[6][1]);
+
+       if i[6][2] then
+          begin
+          remainingOil := remainingOil + i[6][2];
+          end;
+       end;
+
+    if i[7] <> 0 then
+       SetMark(veh, i[7]);
+
+    ruVehicles := Join(ruVehicles, veh);
+    PlaceUnitArea(veh, startArea, false); 
+
+    if result then
+       begin
+       SetDir(result[1], 4);
+       PlaceUnitArea(result[1], startBaseArea, false);
+       result := Delete(result, 1);
+       end;
+    end;
+
+if remainingOil then
+   begin
+   heavyChassis := UnitFilter(ruVehicles, [f_or, [f_chassis, ru_heavy_tracked], [f_chassis, us_heavy_tracked]]);
+
+   if heavyChassis then
+      remainingOil := remainingOil - (Count(heavyChassis) * 30);
+
+   if remainingOil then
+      begin
+      oilPerVehicle := remainingOil div Count(ruVehicles);
+
+      if oilPerVehicle > 90 then
+         oilPerVehicle := 90;
+
+      for i in ruVehicles do
+          begin
+          remainingOil := remainingOil - oilPerVehicle;
+          SetFuel(i, 10 + oilPerVehicle);
+          end;
+
+      if remainingOil < 10 then
+         begin
+         remainingOil := 0;
+         SetFuel(ruVehicles[1], GetFuel(ruVehicles[1]) + remainingOil);
+         end;
+
+      if remainingOil then
+         begin
+         for i in UnitFilter(ruVehicles, [f_or, [f_weapon, ru_cargo_bay], [f_weapon, us_cargo_bay], [f_weapon, ar_cargo_bay], [f_weapon, ru_big_cargo_bay]]) do
+             begin                
+             if remainingOil <= 0 then
+                break;
+
+             if GetWeapon(i) = ru_big_cargo_bay then
+                space := 200
+             else
+                space := 100;
+
+             emptyCargo := space - GetCargo(i, mat_cans);
+
+             if emptyCargo = 0 then
+                continue;
+
+             oilToAdd := remainingOil - emptyCargo;
+
+             if oilToAdd < 0 then
+                oilToAdd := Abs(oilToAdd);
+
+             if oilToAdd > space then
+                oilToAdd := space;
+
+             if remainingOil - oilToAdd < 0 then
+                oilToAdd := remainingOil;
+
+             remainingOil := remainingOil - oilToAdd;
+
+             AddCargo(i, mat_oil, oilToAdd);
+             end;
+         end;
+      end;
+   end;
+
+SetDir(Burlak, 4);
+PlaceUnitXY(Burlak, 177, 216, false);
+End;

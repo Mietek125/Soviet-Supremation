@@ -1,0 +1,42 @@
+Every 1 trigger IsSelected(Kvantovy) or GetLives(Kvantovy) < 1000 do
+begin
+KvantovyExp([1,2,3,4]);
+Wait(0$05);
+Say(Kvantovy,'DKvantovy-Secret-01');
+TeleportUnit(Kvantovy,231,232,300,True);
+Wait(0$05);
+RemoveUnit(Kvantovy);
+SaveVariable(1,'SafeKvantovy');
+SaveCharacters(Kvantovy,'Kvantovy');
+End;
+
+Export Function KvantovyExp(q);
+var dec, q1;
+begin
+  dec = SelectiveQuery('KvantovyQuery', q);
+  case dec of
+   1:begin
+     AddExperience_NoLimit(Yakotich,1,1500);
+     end;
+   2:begin
+     AddExperience_NoLimit(Yakotich,2,1500);
+     end;
+   3:begin
+     AddExperience_NoLimit(Yakotich,3,1500);
+     end;
+    4:begin
+     AddExperience_NoLimit(Yakotich,4,1500);
+     end;
+  end;
+end;
+
+Every 1 Trigger not BeenInMine and IsInArea(Yakotich, DontGoArea) do
+var x, y;
+begin
+
+     enable;
+     x = GetX(Yakotich);
+     y = GetY(Yakotich);
+     ComMoveXY(Yakotich, x+10, y+2);
+
+end;

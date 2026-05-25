@@ -1,0 +1,13 @@
+On Contact(side1, side2) do
+begin
+
+     if GetSide(side1) = 3 and GetSide(side2) = 6 then
+     begin
+
+     CenterOnUnits(Mietek);
+     DialogueOn;
+     Say(Mietek, 'DMietek-AllyAttack');
+     YouLost('AllyAttack');
+     end;
+
+end;

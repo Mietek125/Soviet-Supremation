@@ -1,9 +1,9 @@
 GALLERY
   PORTRET
     PAK male
-    VOICE 124
+    VOICE 123
     PORT_COMPONENTS
-      NAZEV Vasilij
+      NAZEV Smirnovsky
       TYP POZADI
         COMP pokus2-3
         BARVY 304069 85 808080 85 808080 85 808080 85
@@ -92,9 +92,8 @@ GALLERY
   END_OF_PORTRET
   PORTRET
     PAK male
-    VOICE 127
     PORT_COMPONENTS
-      NAZEV Boris
+      NAZEV Karpov
       TYP POZADI
         COMP pokus2-3
         BARVY 987E58 85 808080 85 808080 85 808080 85
@@ -183,9 +182,9 @@ GALLERY
   END_OF_PORTRET
   PORTRET
     PAK male
-    VOICE 123
+    VOICE 125
     PORT_COMPONENTS
-      NAZEV Maksim
+      NAZEV Maxim
       TYP POZADI
         COMP pokus2-3
         BARVY BEBEBA 85 808080 85 808080 85 808080 85
@@ -274,9 +273,9 @@ GALLERY
   END_OF_PORTRET
   PORTRET
     PAK male
-    VOICE 125
+    VOICE 124
     PORT_COMPONENTS
-      NAZEV Michail
+      NAZEV Kostyliev
       TYP POZADI
         COMP pokus2-3
         BARVY 1C243C 85 808080 85 808080 85 808080 85
@@ -365,9 +364,9 @@ GALLERY
   END_OF_PORTRET
   PORTRET
     PAK male
-    VOICE 122
+    VOICE 126
     PORT_COMPONENTS
-      NAZEV Stanislav
+      NAZEV Dragunov
       TYP POZADI
         COMP pokus2-3
         BARVY 629183 85 808080 85 808080 85 808080 85
@@ -457,6 +456,7 @@ GALLERY
   PORTRET
     PAK male
     PORT_COMPONENTS
+      NAZEV Cholgovsky
       TYP POZADI
         COMP pokus2-3
         BARVY A5A04B 85 808080 85 808080 85 808080 85
@@ -635,6 +635,7 @@ GALLERY
   PORTRET
     PAK male
     PORT_COMPONENTS
+      NAZEV Zlatogorsky
       TYP POZADI
         COMP pokus2-3
         BARVY 906060 85 808080 85 808080 85 808080 85
@@ -902,6 +903,7 @@ GALLERY
   PORTRET
     PAK male
     PORT_COMPONENTS
+      NAZEV Bandera
       TYP POZADI
         COMP normalni
         BARVY 304069 85 808080 85 808080 85 808080 85
@@ -991,7 +993,7 @@ GALLERY
   PORTRET
     PAK male
     PORT_COMPONENTS
-      NAZEV Alexander
+      NAZEV Volkovich
       TYP POZADI
         COMP us-pozadi
         BARVY 629183 85 808080 85 808080 85 808080 85
@@ -1081,6 +1083,7 @@ GALLERY
   PORTRET
     PAK male
     PORT_COMPONENTS
+      NAZEV Choroshchanov
       TYP POZADI
         COMP "pokus2 copy"
         BARVY D5D5AC 85 808080 85 808080 85 808080 85
@@ -1259,6 +1262,7 @@ GALLERY
   PORTRET
     PAK male
     PORT_COMPONENTS
+      NAZEV Sidorov
       TYP POZADI
         COMP pokus2-3
         BARVY 4C4C4C 85 808080 85 808080 85 808080 85
@@ -1438,9 +1442,9 @@ GALLERY
   END_OF_PORTRET
   PORTRET
     PAK male
-    VOICE 126
+    VOICE 127
     PORT_COMPONENTS
-      NAZEV Dimitri
+      NAZEV Charnevich
       TYP POZADI
         COMP pokus2-3
         BARVY 304069 85 808080 85 808080 85 808080 85
@@ -1619,6 +1623,7 @@ GALLERY
   PORTRET
     PAK male
     PORT_COMPONENTS
+      NAZEV Plotkov
       TYP POZADI
         COMP pokus2-3
         BARVY D5D5AC 85 808080 85 808080 85 808080 85
@@ -1888,7 +1893,9 @@ GALLERY
   END_OF_PORTRET
   PORTRET
     PAK female
+    VOICE 140
     PORT_COMPONENTS
+      NAZEV Tatyana
       TYP POZADI
         COMP us-pozadibr
         BARVY 421D2A 85 808080 85 808080 85 808080 85

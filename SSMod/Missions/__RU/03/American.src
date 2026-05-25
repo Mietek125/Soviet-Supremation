@@ -1,0 +1,116 @@
+Export Sikorski, VanHouten, Grant;
+Export ovsyenkoSquad, americanSquad, terminalSquad;
+Export function PrepareAmerican;
+begin
+ovsyenkoSquad := [];
+americanSquad := [];
+terminalSquad := [];
+
+SetBName(usBase, 'tau');
+SetBName(ovsyenko, 'ovsyenko');
+SetBName(terminal, 'terminal');
+
+uc_side := 1;
+uc_nation := nation_american;
+
+if LoadVariable('03_SikorskiAlive', true) then
+   begin
+   Sikorski := NewCharacter('Sikorski');
+   PlaceUnitXY(Sikorski, 58, 64, false);
+   ComTurnXY(Sikorski, 57, 64);
+   end
+else
+   begin
+   VanHouten := NewCharacter('VanHouten');
+   PlaceUnitXY(VanHouten, 58, 64, false);
+   ComTurnXY(VanHouten, 57, 64);
+   end;
+
+ovsyenkoSquad := PrepareOvsyenko;
+End;
+
+Function PrepareOvsyenko;
+var i, tmp, list, blevel, people, cleanTrees, x, y, d, btype, weapon;
+begin
+uc_side := 4;
+
+Grant := NewCharacter('Gary');
+Push(result, Grant);
+
+blevel := [3, 4, 5, 6][Difficulty];
+cleanTrees := false;
+
+SetResourceVisibility(122, 114, 4);
+
+// normal squad
+if timeToOvsyenkoFall > prevMissionTime then
+   begin
+   // oil and armoury, a few soldiers
+   list := [
+      [b_oil_mine, 122, 114, 0],
+      [b_armoury, 128, 131, 0]
+   ];
+   people := [4, 1];
+   end
+else if (timeToOvsyenkoFall + 10$00) > prevMissionTime then  // stronger squad
+   begin
+   // oil, armoury, oil plant, one tower, a few soldiers, engineers
+   list := [
+      [b_oil_mine, 122, 114, 0],
+      [b_armoury, 128, 131, 0],
+      [b_oil_power, 125, 116, 5],
+      [b_bunker, 135, 133, 5, us_double_gun]
+   ];
+   people := [[5, 5, 6, 6][Difficulty], 2];
+   end
+else if (timeToOvsyenkoFall + 20$00) > prevMissionTime then  // stronger squad x2
+   begin
+   // oil, armoury, oil plant, two towers, a few soldiers, engineers
+   list := [
+      [b_oil_mine, 122, 114, 0],
+      [b_armoury, 128, 131, 0],
+      [b_oil_power, 125, 116, 5],
+      [b_bunker, 135, 133, 5, us_double_gun],
+      [b_bunker, 129, 114, 4, [us_machine_gun, us_machine_gun, us_gatling_gun, us_gatling_gun][Difficulty]],
+   ];
+   people := [[5, 6, 7, 7][Difficulty], 2];
+   end
+else // stronger squad x3
+   begin
+   // oil, barracks, oil plant, four towers, more soldiers, engineers, no trees, lab
+   list := [
+      [b_oil_mine, 122, 114, 0],
+      [b_barracks, 128, 131, 0],
+      [b_oil_power, 125, 116, 5],
+      [b_bunker, 135, 133, 5, us_double_gun],
+      [b_bunker, 129, 114, 4, [us_machine_gun, us_machine_gun, us_gatling_gun, us_gatling_gun][Difficulty]],
+      [b_bunker, 120, 121, 1, us_double_gun],
+      [b_bunker, 123, 127, 1, us_gatling_gun],
+      [b_lab, 134, 126, 5]
+   ];
+   people := [[5, 6, 7, 8][Difficulty], 2];
+   cleanTrees := true;
+   end;
+
+if cleanTrees then
+   begin
+   RemoveEnvironmentArea(ovsyenkoEnvBaseArea);
+   RemoveEnvironmentArea(ovsyenkoEnvBaseArea);
+   end;
+
+for i in list do
+    begin
+    btype := i[1];
+    x := i[2];
+    y := i[3];
+    d := i[4];
+    weapon := 0;
+
+    if Count(i) = 5 then
+       weapon := i[5];
+
+    RemoveUnitFromHex(x, y);
+
+    PlaceBuilding(btype, [3, 4, 5, 5][Difficulty], x, y, d, weapon);
+    end;
+End;
