@@ -1,0 +1,134 @@
+Export Function InitAction;
+Begin
+
+     RevealFogArea(3, RevealRiverArea);
+     CenterOnXY(158, 39);
+     InGameOn;
+
+     Say(Yakotich, 'DYak-02-01');
+     Say(Maxim, 'DMax-02-02');
+     Say(Maxim, 'DMax-02-03');
+     ChangeMissionObjectives('Ob1');
+
+     InGameOff;
+
+     repeat
+      wait(0$1);
+     until See(3, RuDepot) or See(3, RuB1) or See(3, RuB2) or See(3, RuA1);
+
+     InGameOn;
+
+     ComExitVehicle(FilterAllUnits([[f_side, 3]]));
+
+     InGameOn;
+
+     wait(0$1);
+
+     AddComMoveXY(YakotichTeam, 141, 56);
+     AddComMoveXY(Yakotich, 131, 48);
+     AddComTurnXY(Yakotich, 126, 44);
+     AddComMoveXY(Mietek, 126, 46);
+     AddComTurnXY(Mietek, 126, 44);
+     AddComMoveXY(Smirnovsky, 121, 39);
+     AddComMoveXY(Kostyliev, 133, 42);
+     AddComMoveXY(Maxim, 136, 49);
+     AddComTurnXY(Maxim, 138, 49);
+
+
+end;
+
+     Every 0$3 Trigger IsInArea(Maxim, MaximTalk) do
+     begin
+
+     Say(Maxim, 'DMax-03-01');
+     Say(Yakotich, 'DYak-03-02a');
+     Say(Maxim, 'DMax-03-02');
+     Say(Kostyliev, 'DBog-03-03');
+     Say(Smirnovsky, 'DVlad-03-04');
+     Say(Yakotich, 'DYak-03-05');
+     Say(Yakotich, 'DYak-03-06');
+     CenterOnXY(42, 28);
+     RevealFogArea(3, RevealNorthArea);
+     Say(Maxim, 'DMax-03-07');
+     CenterOnXY(63, 83);
+     RevealFogArea(3, RevealSouthArea);
+     Say(Maxim, 'DMax-03-08');
+     CenterOnXY(127, 43);
+     Say(Mietek, 'DMietek-03-09');
+     Say(Yakotich, 'DYak-03-10');
+     ChangeMissionObjectives('Ob1a');
+     SetSide([RuDepot, RuB1, RuB2, RuA1], 3);
+     InGameOff;
+
+     Wait(0$15);
+     BaseCaptured := True;
+
+     Say(Smirnovsky, 'DVlad-04-01');
+     Say(Mietek, 'DMietek-04-02');
+     Say(Yakotich, 'DYak-04-03');
+     ChangeMissionObjectives('Ob2');
+
+     end;
+
+Every 0$1 Trigger BaseCaptured do
+begin
+
+     SetRestrict(b_depot, 3, true);
+
+     Wait(15$0);
+
+     DialogueOn;
+     InGameOn;
+     Spawn(Tatiana, TatianaSpawn);
+
+     SayRadioNoFace(Tatiana, 'DTat-07-01');
+     Say(Yakotich, 'DYak-07-02');
+     SayRadioNoFace(Tatiana, 'DTat-07-03');
+     Say(Yakotich, 'DYak-07-04b');
+     ChangeMissionObjectives('ObTat');
+
+     DialogueOff;
+     InGameOff;
+
+     Wait(5$0);
+
+     if not GetSide(Tatiana) = 3 then
+     begin
+     TatianaMad := True;
+     repeat
+     ComMoveUnit(Tatiana, Yakotich);
+     until See(3, Tatiana);
+     CenterOnUnits(Tatiana);
+     DialogueOn;
+     Say(Tatiana, 'DTat-07-04a');
+     Say(Yakotich, 'DYak-07-05a');
+     Say(Tatiana, 'DTat-07-06a');
+     Say(Tatiana, 'DTat-07-06');
+     Say(Yakotich, 'DYak-07-07');
+     Say(Tatiana, 'DTat-07-08');
+     Say(Tatiana, 'DYak-07-09');
+     ChangeMissionObjectives('Ob4');
+     CanDismantleGun := True;
+     DialogueOff;
+     SetSide(Tatiana, 3);
+     end;
+end;
+
+Every 0$1 Trigger not TatianaMad and See(3, Tatiana) do
+begin
+
+     CenterOnUnits(Tatiana);
+     DialogueOn;
+     Say(Tatiana, 'DTat-07-04');
+     Say(Yakotich, 'DYak-07-05');
+     Say(Tatiana, 'DTat-07-06');
+     Say(Yakotich, 'DYak-07-07');
+     Say(Tatiana, 'DTat-07-08');
+     Say(Tatiana, 'DYak-07-09');
+     ChangeMissionObjectives('Ob4');
+     CanDismantleGun := True;
+     DialogueOff;
+     SetSide(Tatiana, 3);
+end;
+
+

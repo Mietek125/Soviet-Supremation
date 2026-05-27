@@ -1,0 +1,323 @@
+// starting begin init ;
+   0: CALL 5 0 0
+// end ;
+   4: END
+// export MissionStarted ; export Side6Buildings ; export function init ; begin
+   5: LD_INT 0
+   7: PPUSH
+// MissionStarted := true ;
+   8: LD_ADDR_EXP 1
+  12: PUSH
+  13: LD_INT 1
+  15: ST_TO_ADDR
+// Side6Buildings := [ [ b_workshop , 88 , 16 , 0 ] , [ b_lab , 95 , 10 , 5 ] , [ b_oil_mine , 187 , 219 , 3 ] , [ b_oil_power , 187 , 223 , 3 ] , [ b_oil_power , 184 , 210 , 3 ] , [ b_armoury , 152 , 204 , 2 ] , [ b_armoury , 178 , 207 , 3 ] , [ b_bunker , 157 , 204 , 2 ] , [ b_bunker , 159 , 202 , 2 ] , [ b_bunker , 173 , 209 , 3 ] , [ b_bunker , 166 , 203 , 3 ] , [ b_oil_power , 150 , 213 , 3 ] ] ;
+  16: LD_ADDR_EXP 2
+  20: PUSH
+  21: LD_INT 2
+  23: PUSH
+  24: LD_INT 88
+  26: PUSH
+  27: LD_INT 16
+  29: PUSH
+  30: LD_INT 0
+  32: PUSH
+  33: EMPTY
+  34: LIST
+  35: LIST
+  36: LIST
+  37: LIST
+  38: PUSH
+  39: LD_INT 6
+  41: PUSH
+  42: LD_INT 95
+  44: PUSH
+  45: LD_INT 10
+  47: PUSH
+  48: LD_INT 5
+  50: PUSH
+  51: EMPTY
+  52: LIST
+  53: LIST
+  54: LIST
+  55: LIST
+  56: PUSH
+  57: LD_INT 29
+  59: PUSH
+  60: LD_INT 187
+  62: PUSH
+  63: LD_INT 219
+  65: PUSH
+  66: LD_INT 3
+  68: PUSH
+  69: EMPTY
+  70: LIST
+  71: LIST
+  72: LIST
+  73: LIST
+  74: PUSH
+  75: LD_INT 26
+  77: PUSH
+  78: LD_INT 187
+  80: PUSH
+  81: LD_INT 223
+  83: PUSH
+  84: LD_INT 3
+  86: PUSH
+  87: EMPTY
+  88: LIST
+  89: LIST
+  90: LIST
+  91: LIST
+  92: PUSH
+  93: LD_INT 26
+  95: PUSH
+  96: LD_INT 184
+  98: PUSH
+  99: LD_INT 210
+ 101: PUSH
+ 102: LD_INT 3
+ 104: PUSH
+ 105: EMPTY
+ 106: LIST
+ 107: LIST
+ 108: LIST
+ 109: LIST
+ 110: PUSH
+ 111: LD_INT 4
+ 113: PUSH
+ 114: LD_INT 152
+ 116: PUSH
+ 117: LD_INT 204
+ 119: PUSH
+ 120: LD_INT 2
+ 122: PUSH
+ 123: EMPTY
+ 124: LIST
+ 125: LIST
+ 126: LIST
+ 127: LIST
+ 128: PUSH
+ 129: LD_INT 4
+ 131: PUSH
+ 132: LD_INT 178
+ 134: PUSH
+ 135: LD_INT 207
+ 137: PUSH
+ 138: LD_INT 3
+ 140: PUSH
+ 141: EMPTY
+ 142: LIST
+ 143: LIST
+ 144: LIST
+ 145: LIST
+ 146: PUSH
+ 147: LD_INT 32
+ 149: PUSH
+ 150: LD_INT 157
+ 152: PUSH
+ 153: LD_INT 204
+ 155: PUSH
+ 156: LD_INT 2
+ 158: PUSH
+ 159: EMPTY
+ 160: LIST
+ 161: LIST
+ 162: LIST
+ 163: LIST
+ 164: PUSH
+ 165: LD_INT 32
+ 167: PUSH
+ 168: LD_INT 159
+ 170: PUSH
+ 171: LD_INT 202
+ 173: PUSH
+ 174: LD_INT 2
+ 176: PUSH
+ 177: EMPTY
+ 178: LIST
+ 179: LIST
+ 180: LIST
+ 181: LIST
+ 182: PUSH
+ 183: LD_INT 32
+ 185: PUSH
+ 186: LD_INT 173
+ 188: PUSH
+ 189: LD_INT 209
+ 191: PUSH
+ 192: LD_INT 3
+ 194: PUSH
+ 195: EMPTY
+ 196: LIST
+ 197: LIST
+ 198: LIST
+ 199: LIST
+ 200: PUSH
+ 201: LD_INT 32
+ 203: PUSH
+ 204: LD_INT 166
+ 206: PUSH
+ 207: LD_INT 203
+ 209: PUSH
+ 210: LD_INT 3
+ 212: PUSH
+ 213: EMPTY
+ 214: LIST
+ 215: LIST
+ 216: LIST
+ 217: LIST
+ 218: PUSH
+ 219: LD_INT 26
+ 221: PUSH
+ 222: LD_INT 150
+ 224: PUSH
+ 225: LD_INT 213
+ 227: PUSH
+ 228: LD_INT 3
+ 230: PUSH
+ 231: EMPTY
+ 232: LIST
+ 233: LIST
+ 234: LIST
+ 235: LIST
+ 236: PUSH
+ 237: EMPTY
+ 238: LIST
+ 239: LIST
+ 240: LIST
+ 241: LIST
+ 242: LIST
+ 243: LIST
+ 244: LIST
+ 245: LIST
+ 246: LIST
+ 247: LIST
+ 248: LIST
+ 249: LIST
+ 250: ST_TO_ADDR
+// end ; end_of_file
+ 251: LD_VAR 0 1
+ 255: RET
+// every 0 0$1 trigger MissionStarted do var engs , i ;
+ 256: LD_EXP 1
+ 260: IFFALSE 440
+ 262: GO 264
+ 264: DISABLE
+ 265: LD_INT 0
+ 267: PPUSH
+ 268: PPUSH
+// begin enable ;
+ 269: ENABLE
+// engs := FilterAllUnits ( [ [ f_side , 2 ] , [ f_type , unit_human ] ] ) ;
+ 270: LD_ADDR_VAR 0 1
+ 274: PUSH
+ 275: LD_INT 22
+ 277: PUSH
+ 278: LD_INT 2
+ 280: PUSH
+ 281: EMPTY
+ 282: LIST
+ 283: LIST
+ 284: PUSH
+ 285: LD_INT 21
+ 287: PUSH
+ 288: LD_INT 1
+ 290: PUSH
+ 291: EMPTY
+ 292: LIST
+ 293: LIST
+ 294: PUSH
+ 295: EMPTY
+ 296: LIST
+ 297: LIST
+ 298: PPUSH
+ 299: CALL_OW 69
+ 303: ST_TO_ADDR
+// if GetClass ( engs ) = 2 and FilterAllUnits ( [ [ f_side , 2 ] , [ f_class , 2 ] ] ) >= 6 then
+ 304: LD_VAR 0 1
+ 308: PPUSH
+ 309: CALL_OW 257
+ 313: PUSH
+ 314: LD_INT 2
+ 316: EQUAL
+ 317: IFFALSE 353
+ 319: PUSH
+ 320: LD_INT 22
+ 322: PUSH
+ 323: LD_INT 2
+ 325: PUSH
+ 326: EMPTY
+ 327: LIST
+ 328: LIST
+ 329: PUSH
+ 330: LD_INT 25
+ 332: PUSH
+ 333: LD_INT 2
+ 335: PUSH
+ 336: EMPTY
+ 337: LIST
+ 338: LIST
+ 339: PUSH
+ 340: EMPTY
+ 341: LIST
+ 342: LIST
+ 343: PPUSH
+ 344: CALL_OW 69
+ 348: PUSH
+ 349: LD_INT 6
+ 351: GREATEREQUAL
+ 352: AND
+ 353: IFFALSE 440
+// begin for i in engs do
+ 355: LD_ADDR_VAR 0 2
+ 359: PUSH
+ 360: LD_VAR 0 1
+ 364: PUSH
+ 365: FOR_IN
+ 366: IFFALSE 431
+// AddComBuild ( i , Side6Buildings [ 1 ] [ 1 ] , Side6Buildings [ 1 ] [ 2 ] , Side6Buildings [ 1 ] [ 3 ] , Side6Buildings [ 1 ] [ 4 ] ) ;
+ 368: LD_VAR 0 2
+ 372: PPUSH
+ 373: LD_EXP 2
+ 377: PUSH
+ 378: LD_INT 1
+ 380: ARRAY
+ 381: PUSH
+ 382: LD_INT 1
+ 384: ARRAY
+ 385: PPUSH
+ 386: LD_EXP 2
+ 390: PUSH
+ 391: LD_INT 1
+ 393: ARRAY
+ 394: PUSH
+ 395: LD_INT 2
+ 397: ARRAY
+ 398: PPUSH
+ 399: LD_EXP 2
+ 403: PUSH
+ 404: LD_INT 1
+ 406: ARRAY
+ 407: PUSH
+ 408: LD_INT 3
+ 410: ARRAY
+ 411: PPUSH
+ 412: LD_EXP 2
+ 416: PUSH
+ 417: LD_INT 1
+ 419: ARRAY
+ 420: PUSH
+ 421: LD_INT 4
+ 423: ARRAY
+ 424: PPUSH
+ 425: CALL_OW 205
+ 429: GO 365
+ 431: POP
+ 432: POP
+// wait ( 0 0$1 ) ;
+ 433: LD_INT 35
+ 435: PPUSH
+ 436: CALL_OW 67
+// end ; end ;
+ 440: PPOPN 2
+ 442: END

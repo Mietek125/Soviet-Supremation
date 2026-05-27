@@ -68,7 +68,7 @@ GAMEINIT
       TIME 30
       POWER 0
       ATTACK 0
-      DEFENSE 115
+      DEFENSE 85
       HUMANS 6
       OBSTACLE 0
       SHAPE 19   -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  -2 0  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  0 2  1 2  2 2
@@ -509,7 +509,7 @@ GAMEINIT
       TIME 30
       POWER 0
       ATTACK 0
-      DEFENSE 60
+      DEFENSE 40
       HUMANS 1
       OBSTACLE 1
       SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
@@ -526,7 +526,7 @@ GAMEINIT
       TIME 60
       POWER 15
       ATTACK 0
-      DEFENSE 90
+      DEFENSE 50
       HUMANS 1
       OBSTACLE 1
       SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
@@ -544,7 +544,7 @@ GAMEINIT
       TIME 120
       POWER 25
       ATTACK 0
-      DEFENSE 100
+      DEFENSE 65
       HUMANS 0
       OBSTACLE 1
       SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
@@ -686,7 +686,7 @@ GAMEINIT
       TIME 30
       POWER 0
       ATTACK 0
-      DEFENSE 100
+      DEFENSE 80
       HUMANS 5
       OBSTACLE 0
       SHAPE 19   -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  -2 0  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  0 2  1 2  2 2
@@ -1092,7 +1092,7 @@ GAMEINIT
       TIME 30
       POWER 0
       ATTACK 0
-      DEFENSE 50
+      DEFENSE 35
       HUMANS 1
       OBSTACLE 1
       SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
@@ -1109,7 +1109,7 @@ GAMEINIT
       TIME 55
       POWER 15
       ATTACK 0
-      DEFENSE 90
+      DEFENSE 45
       HUMANS 1
       OBSTACLE 1
       SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
@@ -1186,7 +1186,7 @@ GAMEINIT
       TIME 80
       POWER 0
       ATTACK 0
-      DEFENSE 85
+      DEFENSE 80
       HUMANS 7
       OBSTACLE 0
       SHAPE 19   -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  -2 0  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  0 2  1 2  2 2
@@ -1204,7 +1204,7 @@ GAMEINIT
       TIME 60
       POWER 0
       ATTACK 0
-      DEFENSE 125
+      DEFENSE 90
       HUMANS 7
       OBSTACLE 0
       SHAPE 19   -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  -2 0  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  0 2  1 2  2 2
@@ -1570,7 +1570,7 @@ GAMEINIT
       TIME 35
       POWER 0
       ATTACK 0
-      DEFENSE 65
+      DEFENSE 45
       HUMANS 1
       OBSTACLE 1
       SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
@@ -1587,7 +1587,7 @@ GAMEINIT
       TIME 65
       POWER 20
       ATTACK 0
-      DEFENSE 105
+      DEFENSE 55
       HUMANS 1
       OBSTACLE 1
       SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
@@ -1604,7 +1604,7 @@ GAMEINIT
       TIME 130
       POWER 25
       ATTACK 0
-      DEFENSE 110
+      DEFENSE 70
       HUMANS 0
       OBSTACLE 1
       SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1

@@ -1,0 +1,80 @@
+Export Function InitRussian;
+var i, Russians;
+Begin
+
+     Uc_Side = 6;
+
+     Kurin := PrepareUnit('Kurin', (not debug), '');
+     Tatiana := PrepareUnit('Tatiana', (not debug), '');
+
+     Uc_Side = 3;
+
+     Yakotich := PrepareUnit('Yakotich', (not debug), prevMissionPrefix);
+     Mietek := PrepareUnit('Mietek', (not debug), prevMissionPrefix);
+     Maxim := PrepareUnit('Maxim', (not debug), prevMissionPrefix);
+     Smirnovsky := PrepareUnit('Smirnovsky', (not debug), prevMissionPrefix);
+     Kostyliev := PrepareUnit('Kostyliev', (not debug), prevMissionPrefix);
+
+     YakotichTeam := CreateCharacterSet(MissionPrefix & 'YakotichTeam');
+
+     Russians := FilterAllUnits([[f_side, 3], [f_or, [f_type, unit_human], f_type, unit_vehicle]]);
+     for i in Russians do
+     SetDir(Russians, 4);
+
+     SetClass(Smirnovsky, 4);
+     SetClass(Kostyliev, 3);
+     SetClass([Mietek, Yakotich, Maxim], 1);
+
+     If VehicleCount >= 3 then
+     VehicleCount = 3;   
+     
+     if VehicleCount = 3 then
+     begin
+     uc_nation = nation_russian;
+     vc_chassis = ru_medium_wheeled;
+     vc_control = control_manual;
+     vc_engine = engine_combustion;
+     vc_fuel_battery = 75;
+     vc_weapon = ru_heavy_machine_gun;
+     Tank1 = CreateVehicle;
+     Tank2 = CreateVehicle;
+     Tank3 = CreateVehicle;
+     PlaceUnitArea(Tank1, SpawnVehArea, False);
+     PlaceUnitArea(Tank2, SpawnVehArea, False);
+     PlaceUnitArea(Tank3, SpawnVehArea, False);
+     PlaceHumanInUnit(Yakotich, Tank1);
+     PlaceHumanInUnit(Mietek, Tank2);
+     PlaceHumanInUnit(Kostyliev, Tank3);
+     end
+     else if VehicleCount = 2 then
+     begin
+     Tank1 = CreateVehicle;
+     Tank2 = CreateVehicle;
+     PlaceUnitArea(Tank1, SpawnVehArea, False);
+     PlaceUnitArea(Tank2, SpawnVehArea, False);
+     PlaceHumanInUnit(Yakotich, Tank1);
+     PlaceUnitArea(Mietek, SpawnCrewArea, False);
+     PlaceHumanInUnit(Kostyliev, Tank2);
+     end
+     else if VehicleCount = 1 then
+     begin
+     Tank1 = CreateVehicle;
+     PlaceUnitArea(Tank1, SpawnVehArea, False);
+     PlaceUnitArea(Yakotich, SpawnCrewArea, False);
+     PlaceUnitArea(Mietek, SpawnCrewArea, False);
+     PlaceHumanInUnit(Kostyliev, Tank1);
+     end
+     else if VehicleCount = 0 then
+     begin
+     PlaceUnitArea(Kostyliev, SpawnVehArea, False);
+     PlaceUnitArea(Yakotich, SpawnCrewArea, False);
+     PlaceUnitArea(Mietek, SpawnCrewArea, False);
+     end;
+              
+     PlaceUnitArea(Smirnovsky, SpawnCrewArea, False);
+     PlaceUnitArea(Maxim, SpawnCrewArea, False);
+
+     for i in YakotichTeam do
+     PlaceUnitArea(i, SpawnCrewArea, false);
+
+end;

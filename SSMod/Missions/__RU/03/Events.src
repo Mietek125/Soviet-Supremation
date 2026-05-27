@@ -11,3 +11,10 @@ begin
      end;
 
 end;
+
+{on BuildingComplete(un) do
+begin
+
+ if GetSide(un) = 6 then b_list := b_list diff b_list[1];
+
+end;

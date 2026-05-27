@@ -1,0 +1,150 @@
+Every 1 trigger IsSelected(Jarcin) or GetLives(Jarcin) < 1000 do
+begin
+JarcinExp([1,2,3,4]);
+Wait(0$05);
+Say(Jarcin,'DJarcin-Secret-01');
+TeleportUnit(Jarcin,231,232,300,True);
+Wait(0$05);
+RemoveUnit(Jarcin);
+SaveVariable(1,'SafeJarcin');
+SaveCharacters(Jarcin,'Jarcin');
+End;
+
+Export Function JarcinExp(q);
+var dec, q1;
+begin
+  dec = SelectiveQuery('JarcinQuery', q);
+  case dec of
+   1:begin
+     AddExperience_NoLimit(Yakotich,1,1000);
+     end;
+   2:begin
+     AddExperience_NoLimit(Yakotich,2,1000);
+     end;
+   3:begin
+     AddExperience_NoLimit(Yakotich,3,1000);
+     end;
+    4:begin
+     AddExperience_NoLimit(Yakotich,4,1000);
+     end;
+  end;
+end;
+
+Every 1 Trigger not AmericansHeld and FilterUnitsInArea(DontGoArea, [[f_side, 3], [f_or, [f_type, unit_human], [f_type, unit_vehicle]]]) do
+var x, y, kutas;
+begin
+
+     enable;
+     kutas := FilterUnitsInArea(DontGoArea, [[f_side, 3], [f_or, [f_type, unit_human], [f_type, unit_vehicle]]]);
+     x = GetX(kutas);
+     y = GetY(kutas);
+     ComMoveXY(kutas, x+10, y+2);
+
+end;
+
+Export function InitDeadSoldiers;
+var i, un1, un2, un3, un4, hexes1, hexes2, hexes3, hexes4;
+begin
+hexes1 := AreaToList(AmSoldMeat, 0);
+hexes2 := AreaToList(AmMechMeat, 0);
+hexes3 := [126, 44];
+hexes4 := [138, 49];
+
+
+for i = 1 to 5 do
+    begin
+    uc_side := 4;
+    uc_nation := 1;
+
+    hc_gallery := '';
+    hc_name := '';
+    PrepareHuman(rand(1,2), class_soldier, 1);
+    un1 := CreateHuman;
+    SetDir(un1, 0);
+    Create_ColdMeat(un1, hexes1[1][i], hexes1[2][i], true);
+    end;
+
+for i = 1 to 2 do
+    begin
+    PrepareHuman(rand(1,2), class_mechanic, 1);
+    un2 := CreateHuman;
+    SetDir(un2, 0);
+    Create_ColdMeat(un2, hexes2[1][i], hexes2[2][i], true);
+    end;
+
+for i = 1 to 1 do
+    begin
+    uc_side := 9;
+    uc_nation := 3;
+    PrepareHuman(1, class_soldier, 1);
+    un3 := CreateHuman;
+    SetDir(un3, 0);
+    Create_ColdMeat(un3, 126, 44, true);
+    end;
+
+for i = 1 to 2 do
+    begin
+    PrepareHuman(rand(1,2), class_scientistic, 1);
+    un4 := CreateHuman;
+    SetDir(un4, 1);
+    Create_ColdMeat(un4, 138, 49, true);
+    end;
+
+End;
+
+
+Every 0$1 Trigger BaseCaptured do
+begin
+enable;
+
+if KurinTime then
+   begin
+   KurinTime := KurinTime - 0$1;
+   display_strings := ['#KurinTime', KurinTime];
+   end
+else
+   begin
+   display_strings := '';
+   disable;
+   InGameOn;
+   DialogueOn;
+   SayEX(Kurin, 'DKurin-09-01', 0, 1, 1, 1);
+   SayEX(Kurin, 'DKurin-09-02', 0, 1, 1, 1);
+   Say(Yakotich, 'DYak-09-03');
+   ChangeMissionObjectives('Ob5');
+   InGameOff;
+   DialogueOff;
+   end;
+End;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

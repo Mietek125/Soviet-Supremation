@@ -133,4 +133,10 @@ for i in result do
     end;
 End;
 
+Export Function Spawn(units, area);
+begin
+     PlaceUnitArea(units, area, 1);
+end;
+
+
 

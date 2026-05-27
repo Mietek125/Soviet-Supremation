@@ -48,7 +48,10 @@ Begin
      ChangeMissionObjectives('Ob1');
 
      ComMoveXY(Mietek, 171, 219);
-     ComTurnUnit(Mietek, Yakotich);
+     AddComTurnUnit(Mietek, Yakotich);
+
+     MissionStarted := True;
+
      InGameOff;
 
      end;
@@ -68,7 +71,7 @@ Begin
      PlaceSeeing(127, 123, 3, -10);
      CenterOnXY(127, 123);
      DialogueOff;
-     SetSide([Ovsyenko, b1, b2, b3, oil, sib, Dimitri, Dragunov, Plotkov, Cholgovsky, Kula, transport1, transport2], 3);
+     SetSide([Ovsyenko, b1, b2, b3, oil, sib, OilPower1, OilPower2, Dimitri, Dragunov, Plotkov, Cholgovsky, Kula, transport1, transport2], 3);
      ComEnterUnit(Yakotich, Ovsyenko);
 
      Say(Yakotich, 'DYak-02-05');

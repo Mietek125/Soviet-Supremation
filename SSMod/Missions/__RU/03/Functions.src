@@ -37,6 +37,10 @@ begin
      enable;
      x = GetX(Yakotich);
      y = GetY(Yakotich);
-     ComMoveXY(Yakotich, x+10, y+2);
+     ComMoveXY(Yakotich, x+2, y+10);
 
 end;
+
+
+
+

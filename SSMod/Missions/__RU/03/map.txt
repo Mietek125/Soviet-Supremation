@@ -159,11 +159,11 @@ HEXES
   LINE 72 36 151
     t4vS t2vSs9 r6vTsn r6vZsn r6vf r6vasj r6vasD r6vXsT r6vSsj vS vS vS vSf2 vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSsH r6vUsn vasH vasL vYsK vWsK vW vW vW r6vWsG r6vVsT r6vSsr r6vSsr r6vSsr r6vMsr r6vGsr r6vEsr vAsa vA vAsA v9sJ v6sS v4sK v2sK v2s9 v3sP v6s8 v7sO v7sO vA vA vAsG vAsG vAsG vAsG vAsG vCsG vCsG r7vE r7vE r7vE r7vCsL r7vC r7vAsK r7v9sD r6v9sD r6v9sD v9 r7v9 v9 v8sZ r6v6sp r6v5sh r6v5so r6vBsf r7vG vGs9 vHs9 vI vIsP r7vL vL vJsK vIsC vHsC vFsK vF vDsK vD vD vCsC vAsK vA v8sL v8sL v8sG v8sG v9s8 v8sL v8sL v8sL v8sL v8sL v8sL v8sL v8sG v8sG t2vA t4vA
   LINE 73 37 152
-    t4vS t2vSsP r6vVsn r6vbsW r6vasj r6vZsD r6vUsr r6vSsj vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSsH vUsn r6vasA vas9 r6va vWsa vW vW vVsD r6vVsD r6vQsr r6vPsr r6vMsr r6vMsr r6vMsr r6vGsr r6vEsL vAsa vA vAsA vB v9sJ v6sR v2sq v2 v2s8 v3sO v5sG v5sG v7sO v8sG v7sT v7sO v8sG v8sG v8sG v9sO vC r7vCsG r7vAsb r7vAsb r7vAsb r7vAsL r6v7sj r6v7sT r6v9 r6v9 v9 r7v9sQ r7v9sQ r7v9sQ r7vCsY r6vAsp r6vAso r6vBsg r6vG vG vGsH vI vI r7vIsP vL vJsK vJ vIsC vHsC vFsK vF vDsK vD vCsC vAsK vA v8sL v6sL v6sG v6sG v7sG v7sL v6sL v6sL v6sL v6sL v6sL v6sL v6sG v6sG v8sG t2v8sG t4v8sL
+    t4vS t2vSsP r6vVsn r6vbsW r6vasj r6vZsD r6vUsr r6vSsj vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSsH vUsn r6vasA vas9 r6va vWsa vW vWf2 vVsD r6vVsD r6vQsr r6vPsr r6vMsr r6vMsr r6vMsr r6vGsr r6vEsL vAsa vA vAsA vB v9sJ v6sR v2sq v2 v2s8 v3sO v5sG v5sG v7sO v8sG v7sT v7sO v8sG v8sG v8sG v9sO vC r7vCsG r7vAsb r7vAsb r7vAsb r7vAsL r6v7sj r6v7sT r6v9 r6v9 v9 r7v9sQ r7v9sQ r7v9sQ r7vCsY r6vAsp r6vAso r6vBsg r6vG vG vGsH vI vI r7vIsP vL vJsK vJ vIsC vHsC vFsK vF vDsK vD vCsC vAsK vA v8sL v6sL v6sG v6sG v7sG v7sL v6sL v6sL v6sL v6sL v6sL v6sL v6sG v6sG v8sG t2v8sG t4v8sL
   LINE 74 37 152
     t4vS t2vSs9 vTsP r6vWse r6vWsj r6vUsr r6vTsr r6vSsL vS vSf2 vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSsX r6vWsf vb r6vasC vWsb vVsD vVsD vVsD vSsT r6vPsr r6vKsr r6vJsr r6vJsT r6vGsr r6vGsr vEsL vCsK vAsJ vAsI vBsB vB v9sK v8sC v2sq v2 v2s8 v2sO v2sO v4sO v5sO v5sT v5sG v5sO v5sO v5sO v6sO v9sO r6v6sr r6v6sr r6v4sr r6v4sr r6v4sr r6v4sr r6v4sT r6v4se v9 v9sQ r7v9sQ vCsY vCsY vCsY vG r6vGsQ vGsR vG vG vGsH vI vI vIsP r7vL vJsK vJ vIsD vGsL vFsL vF vDsK vD vCsC vAsK v8sL v8sL v6sL v6 v6 v6s8 v6s8 v6sD v6 v6 v6 v6 v6 v6 v6 v6sG t2v6sG t4v6sG
   LINE 75 38 153
-    t4vS t2vSsH r6vUsG r6vTsT r6vSsb r6vSsL r6vSsD vS vS vS vSf2 vS vS vS vS vS vS vS vS vS vS vSsQ vSsQ vSsQ vSsQ vSsR vSsI vUsX vYsO vYsT r6vVsj vVsD vSsT vSsT vSsT r6vMsr r6vJsr r6vJsD vJ vGsS vG vEsK vCsK vC vC vC vBsC v9sK v8sC v6sK v2sa v2sK v1sD v1s8 v1sO v1sW v1sW v2sO v2sO v2sO v2sO v3sO v6sO v6sT r6v1sj r6v1sj v1sT v1sT v1sT v1sT v1sO r6v4se v9sP vCsY vCsY vG vG vG r7vGsP vJ vGsR vGsB vGsA vHs9 vIsI vIsO r7vL vJsL vJ r6vFsb r6vEsb vEsL vDsL vDsL vD vD vCsC v6sq v6sL v6sL v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 t2v6 t4v6
+    t4vS t2vSsH r6vUsG r6vTsT r6vSsb r6vSsL r6vSsD vS vS vS vSf2 vS vS vS vS vS vS vS vS vSf2 vS vSsQ vSsQ vSsQ vSsQ vSsR vSsI vUsX vYsO vYsT r6vVsj vVsD vSsT vSsT vSsT r6vMsr r6vJsr r6vJsD vJ vGsS vG vEsK vCsK vC vC vC vBsC v9sK v8sC v6sK v2sa v2sK v1sD v1s8 v1sO v1sW v1sW v2sO v2sO v2sO v2sO v3sO v6sO v6sT r6v1sj r6v1sj v1sT v1sT v1sT v1sT v1sO r6v4se v9sP vCsY vCsY vG vG vG r7vGsP vJ vGsR vGsB vGsA vHs9 vIsI vIsO r7vL vJsL vJ r6vFsb r6vEsb vEsL vDsL vDsL vD vD vCsC v6sq v6sL v6sL v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 t2v6 t4v6
   LINE 76 38 153
     t4vS t2vS vSsG vSsL r6vSsD r6vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSsP vV vV vV vV vUsB vUsA vVsO vY r6vSsr r6vQsj r6vQsj r6vMsr r6vMsr r6vMsr r6vIsb vIsD vIsD vIsD vGsK vG vEsJ vCsJ vCsB vCsB vBsK vB v9sK v8sC v4sa v4 v1sS v1 v1 v1 v1 v1s8 v1s8 v1s8 v1s8 v1sG v3sO v3sO r6v1sj v1 v1 v1 v1 v1 v1 v1sO r6v4sn r6vAsn vG vG vG vG vGs9 r7vHsH vJ vHsJ vHsA vHsQ vIsI vK r7vKs8 vHsb vGsT vFsb r6vEsD r6vE vDsD vD vD vD vCsC v6sq v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 t2v6 t4v6
   LINE 77 39 154
@@ -263,13 +263,13 @@ HEXES
   LINE 124 62 177
     t4 t2 "" "" "" "" "" sX v4sI v4sI v4sI v4sI v4sI v5sI v5sI v5sI v5sI v5sI v5sI v5sI v6sI v7sI v7sI r6v7sI r6v9sX r6vDsI vDsQ vEsI vGsI vIsI vIsJ vI vGsK vEsK vE vAsa v8sK r6v4sa sa "" "" sH v2sH r7v4sH r7v6sH r7v8sH r7vAsH vCsH vEsH vGsH vIsH vKsH vMs9 vNs9 vOsH vQsH vSsH vUsH vWsH vY vY vY vY vY vY vY vY vY vYfe vY vY vY vY vY vWsK vUsK r6vPsi r6vJsq r6vEsj r6vEsb r6vEsb r6vDsC r6v7sq r6v5sK r6v5sC v6 v6 v5sC v4sD v4s8 v5sH v7sH v9 v9sH vB vB v9sK v9 v9s9 vA r6v8sJ r6v8 r6v8sf r6vDs9 r6vBsS r6vAsB r6vAsB r6vA r6vA r6v6sZ r6v6 v6 v6 v6 t2v6 t4v6
   LINE 125 63 178
-    t4 t2 "" "" "" "" sH v2sn v6sI v6sI v6sI v6sI v6sI v7sA v7sA v7sA v7sA v7sB v7 v7sI v8sI v9sI v9sJ r6v9sA r6vAsf vFsA vGsI vGsI vIsI vK vIsK vI vGsK vEsK vE vAsa r6v4sq r6sa "" "" "" sH v2sH r7v4sH r7v6sH r7v8sH r7vAsH vCsH vEsH vGsH vIsH vKsH vMs9 vNs9 vOsH vQsH vSsH vUsH vWsH vY vY vY vY vY vY vY vY vY vY vY vY vYf8 vY vWsK vW r6vQsq r6vKsq r6vEsq r6vE r6vE r6vCsL r6v7sr r6v5sL r6v5sC v6 v6 v5sC v4sC v4 v4sH v6s9 v7sH v9 v9sG vB v9sK v9 v9 v9s9 vA r6v8sJ r6v8s9 r6v9sf r6vE r6vBsS r6vB r6vAsB r6vA r6vAsA r6v6sh r6v6sh v6 v6 v6 t2v6 t4v6
+    t4 t2 "" "" "" "" sH v2sn v6sI v6sI v6sI v6sI v6sI v7sA v7sA v7sA v7sA v7sB v7 v7sI v8sI v9sI v9sJ r6v9sA r6vAsf vFsA vGsI vGsI vIsI vK vIsK vI vGsK vEsK vE vAsa r6v4sq r6sa "" "" "" sH v2sH r7v4sH r7v6sH r7v8sH r7vAsH vCsH vEsH vGsH vIsH vKsH vMs9 vNs9 vOsH vQsH vSsH vUsH vWsH vY vY vY vY vY vY vY vY vY vY vY vY vYf8 vYfW vWsK vW r6vQsq r6vKsq r6vEsq r6vE r6vE r6vCsL r6v7sr r6v5sL r6v5sC v6 v6 v5sC v4sC v4 v4sH v6s9 v7sH v9 v9sG vB v9sK v9 v9 v9s9 vA r6v8sJ r6v8s9 r6v9sf r6vE r6vBsS r6vB r6vAsB r6vA r6vAsA r6v6sh r6v6sh v6 v6 v6 t2v6 t4v6
   LINE 126 63 178
     t4 t2 "" "" "" "" sH r6v2sn r6v8sA v8sA v8sA v8sA v8sA v8sA v8sA v8sB v8 v8 v7sB v7sI v9sA vAsI vBsI vAsR r6vAsI r6vCso vGsI vIsI vIsI vK vIsK vI vHsC vFsK vEsC vAsa v8sK r6v2sq r6sK "" "" "" sH v2sH r7v4sH r7v6sH r7v8sG v8sW v8sm vBse vFsO vGsW vKsH vMsH vO vOsH vQsH vSsH vUsH vWsH vY vY vY vY vY vY vYfe vY vY vY vY vY vY vY vWsK r6vQsq r6vKsq r6vEsq r6vE r6vCsL vCsL r6v7si r6v5sK r6v5 v5s8 v5sD v5sD v4sC v4 v4sH v6s9 v7sH v9 v9 v9sG v9sL v9 v9 v9 v9s9 r6vA r6v8sH r6v8sf r6vDs8 r6vDs8 r6vBsf r6vBsh r6vAsZ r6vAsA r6vBso r6vBsp r6v6sh r6v6 v6 t2v6 t4v6
   LINE 127 64 179
     t4 t2 "" "" "" "" r6sP r6v3sn r6v9sA v9sA v9sA v9sA v9sA v9sA v9sB v8sB v8sB v8 v8 v8sH vAsH vCsI vDsI r6vCsR r6vCso vIsI vIsI vK vK vK vIsK vI vHsC vFsK vBsa v9sK r6v3sq r6v2sC sK "" "" "" sH r7v2sH r7v4sH r7v6sG r7v6sG v6sG v8sO vBsW r6vFs9 vGsX vKsH vMsG vMsG vOsH vQsH vSsX vW vWsH vY vY vY vY vY vY vY vY vY vY vY vY vY vWsK r6vW r6vQsq r6vKsq r6vEsq r6vCsS vBsD r6vBsD r6v5sq r6v5 v5 v4sD v4sD v4sD v4s9 v4sH v6s9 v7sH v9 v9 v9 v9 v9 v9 v9 v9s9 vA r6v8sH r6v8 r6v8se r6vD r6vDsP r6vG r6vEsR r6vBsp r6vBso r6vH r6vBsp r6v6sh r6v6 v6 t2v6 t4v6
   LINE 128 64 179
-    t4 t2 "" "" "" "" r6sY r6v3sA r6v4sn vAsA vAsA vAsA vAsA vAsA vAsB v9sB v9sB v8sB v8sA v8sI vAsH vCsH vEs9 vFsA r6vFsQ vIsI vK vK vK vK vK vIsK vI vGsK vEsK vAsa v8sK r6v2sq sK "" "" "" "" sH r7v2sH r7v4sG r7v4sG v4sG v5sO v8sO r6vBsf r6vGsH vIsG vKsG r6vKsG r6vMsG r6vOsH r6vQsf vVsH vWsH vY vY vY vY vY vY vY vY vY vY vY vYf8 vY vWsK r6vVsD r6vSsb r6vMsq r6vHsi vFsK vBsa vAsD r6v5sr r6v4sD v4sD v4sD v4 v4 v4s9 v5 v5sH v7sH v9 v9 v9sI v9sJ v9 v9 v8sD v8s8 v9s8 r6v8sG r6v8 r6v8 r6v8se r6vCs8 r6vCsW r6vFsG r6vH r6vBso r6vBso r6vH r6vBsp r6v6sh r6v6 t2v6 t4v6
+    t4 t2 "" "" "" "" r6sY r6v3sA r6v4sn vAsA vAsA vAsA vAsA vAsA vAsB v9sB v9sB v8sB v8sA v8sI vAsH vCsH vEs9 vFsA r6vFsQ vIsI vK vK vK vK vK vIsK vI vGsK vEsK vAsa v8sK r6v2sq sK "" "" "" "" sH r7v2sH r7v4sG r7v4sG v4sG v5sO v8sO r6vBsf r6vGsH vIsG vKsG r6vKsG r6vMsG r6vOsH r6vQsf vVsH vWsH vY vY vY vY vY vY vY vY vY vY vY vYf8 vYfW vWsK r6vVsD r6vSsb r6vMsq r6vHsi vFsK vBsa vAsD r6v5sr r6v4sD v4sD v4sD v4 v4 v4s9 v5 v5sH v7sH v9 v9 v9sI v9sJ v9 v9 v8sD v8s8 v9s8 r6v8sG r6v8 r6v8 r6v8se r6vCs8 r6vCsW r6vFsG r6vH r6vBso r6vBso r6vH r6vBsp r6v6sh r6v6 t2v6 t4v6
   LINE 129 65 180
     t4r6so t2r6so r6so so r6so r6so r6v4so r6v4so r6vAsQ vBsJ vBsA vBsA vBsA vBsB vAsB vA v9sB v9sA v9sA vAsA vBsH vDs9 vEsH vGsH vIsH vKsI vKsJ vK vK vK vK vIsK vI vGsK vCsa vAsK r6v4sq r6v2sK sK "" "" "" "" sG r7v2sG r7v2sG r7v2sG v2sO v5sO r6v8sO r6vBsf vEsW vIsG r6vHsT r6vHse r6vIsm r6vMsn r6vSsf vX vXs8 vY vY vY vY vY vY vY vY vY vY vY vY vY r6vVsS r6vPsr r6vMsr r6vHsi vH vDsa vAsS r6v4sr r6v4sD v4 v4 v4 v4 v4s9 v5 v5sH v7sH v9 v9 v9sH vB v9sK v9 v8sC v8 v8s9 v9 r6v8sQ r6v8sR r6v8sI r6vAsG r6vBs8 r6vBsW r6vBsm r6vDsb r6vBsI r6vBso r6vH r6vBsp r6v6sh v6 t2v6 t4v6
   LINE 130 65 180
@@ -407,13 +407,13 @@ HEXES
   LINE 196 98 213
     t4 t2 "" "" "" "" "" r6sf r6v5sn r6vBsP r6vE r6vCsJ r6vBsB r6v5sp r6sh sA sI sI sg r6v1so r6v7so r6vDso r6vDsp r6v7sp r6v5sp r6sh r6sh r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 197 99 214
-    t4 t2 "" "" "" "" sf r6v5sn r6vBsH r6vDs9 r6vE r6vCsK r6vBsC r6v5sp r6v1sh v1sQ v2sY v2sY r6v5sI r6v7sn r6vDsn r6vJ r6vDsq r6vBsK r6v5sp r6v5sp r6sh r6sh "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S sA sA sA sA sA sA sB sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" sf r6v5sn r6vBsH r6vDs9 r6vE r6vCsK r6vBsC r6v5sp r6v1sh v1sQ v2sY v2sY r6v5sI r6v7sn r6vDsn r6vJ r6vDsq r6vBsK r6v5sp r6v5sp r6sh r6sh "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA sA sA sA sA sA sB sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 198 99 214
     t4 t2 "" "" "" "" "" r6sn r6v6sn r6vCs9 r6vDs8 r6vDsD r6vBsK r6vB r6v6sh v4sR v4sQ v6 r6v6 r6v6sn r6vCsf r6vHsG r6vDsr r6vBsK r6vB r6vB r6v5sp r6v5sp r6sh "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sI v1sI v1sI v1sI v1sI v1sJ v1sJ sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 199 100 215
     t4 t2 "" "" "" "" sn r6v6sn r6vCs9 r6vD r6vCsD r6vCsD r6vBsC r6vB r6v7sa v7 v6sB r6v6sA r6v6sY r6vAsn r6vGs8 r6vDsW r6vBsK r6vB vB vB vB r6v5sp r6sh "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA sA sA sA r6sA v1sI v3sI v3sI v3sI v3sI v3sJ v3sJ v1sJ sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 200 100 215
-    t4 t2 "" "" "" "" s9 r6v1sn r6v7sn r6vD r6vCsD r6vC r6vC r6vBsC r6v8sS v7sC v7 r6v7sY r6v7sg r6vAsn r6vG r6vG r6vBsi r6vB vB vB vB vB r6v5sp r6sh "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sI v1sI v1sI r6v1sI r6v1sI v3sI v5sI v5sI v5sI v5sI v5sJ v3sJ v1sJ sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" s9 r6v1sn r6v7sn r6vD r6vCsD r6vC r6vC r6vBsC r6v8sS v7sC v7 r6v7sY r6v7sg r6vAsn r6vG r6vG r6vBsi r6vB vB vB vB vB r6v5sp r6sh "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sI v1sI v1sI r6v1sI r6v1sI v3sI v5sI v5sI v5sI v5sI v5sJ v3sJ v1sJ sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 201 101 216
     t4 t2 "" "" "" "" r6sf r6v5sn r6vBsG r6vCsD r6vC r6vBsD r6vBsD r6vB r6v8sR v7sB r6v7sY r6vBs9 r6vCsH r6vEsH r6vG r6vBsi r6vB vB vB vB vB vB r6v5sp r6sh "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sI v3sI v3sI v3sI v3sI r6v3sI v5sI v7 v7 v7 v7 v5sJ v3sJ v1sJ sB sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 202 101 216
@@ -1496,16 +1496,12 @@ ENVIROMENT
     sii3
   ON_HEX 153 81
     sMi8
-  ON_HEX 66 82
-    sDiG
   ON_HEX 102 82
     sbiA
   ON_HEX 104 82
     sLi2
   ON_HEX 112 82
     sbi4
-  ON_HEX 67 83
-    sDiB
   ON_HEX 104 83
     sii7
   ON_HEX 113 83
@@ -1522,8 +1518,6 @@ ENVIROMENT
     sii6
   ON_HEX 136 84
     sii8
-  ON_HEX 67 85
-    sDih
   ON_HEX 109 85
     sbi9
   ON_HEX 126 85
@@ -1536,8 +1530,6 @@ ENVIROMENT
     sii7
   ON_HEX 49 87
     sbi8
-  ON_HEX 68 87
-    sDiA
   ON_HEX 127 87
     sii1
   ON_HEX 130 87
@@ -4306,26 +4298,26 @@ END_OF_BASES
 RANDOMS
   MICROLOGIC 2 0 1
   RANDOM_SEED 1 1446317045
-  RANDOM_SEED 2 -591224959
-  RANDOM_SEED 3 259340299
+  RANDOM_SEED 2 -1777386728
+  RANDOM_SEED 3 43034599
   RANDOM_SEED 4 857944668
   RANDOM_SEED 5 -361675186
   RANDOM_SEED 6 1283126848
-  RANDOM_SEED 7 -1659641717
+  RANDOM_SEED 7 2120186871
   RANDOM_SEED 8 1751026996
   RANDOM_SEED 9 -722287904
-  RANDOM_SEED 10 -658719218
+  RANDOM_SEED 10 -1431613734
   RANDOM_SEED 11 1243301773
   RANDOM_SEED 12 911650
   RANDOM_SEED 13 2004086437
   RANDOM_SEED 14 378023
-  RANDOM_SEED 15 1140575641
+  RANDOM_SEED 15 1413651237
   RANDOM_SEED 16 907772
   RANDOM_SEED 17 1931189875
   RANDOM_SEED 18 353399119
   RANDOM_SEED 19 -423323973
   RANDOM_SEED 20 758098213
-  RANDOM_SEED 21 1027708930
+  RANDOM_SEED 21 -930867842
   RANDOM_SEED 22 2016646415
   WIND_TIME 811490 811553 811576
   WIND_STRENGTH 36.7606167791381 52.0 53.3803083895691
@@ -4352,7 +4344,7 @@ NEW_UNITS
         COLOR_CODE 1BMYO
         FACE 0
         SPEAKER E
-        VOICE 11
+        VOICE 13
         RANDOM_SEED -1802328903
     END_OF_DEFINITION
     GAME_STATE
@@ -5568,6 +5560,116 @@ NEW_UNITS
         ANIM 0 T
         LEAN 0 0 0
     END_OF_GAME_STATE
+  UNIT 167 BUILDING
+    DEFINITION
+      IDENT OilPower2
+      POS 135 125 4
+      SIDE 5
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 85 LEVEL 1 BASE 6
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 31 T 125 1
+      MOVE 135 125 4 6 F
+      UNITMODE F 135 125
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 6 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2030 2182 0
+      FROM_TO_POS 135 125 0 135 125 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 168 BUILDING
+    DEFINITION
+      IDENT OilPower1
+      POS 136 128 5
+      SIDE 5
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 85 LEVEL 1 BASE 6
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 31 T 125 1
+      MOVE 136 128 5 6 F
+      UNITMODE F 136 128
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2016 2236 0
+      FROM_TO_POS 136 128 0 136 128 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 169 BUILDING
+    DEFINITION
+      POS 57 75 5
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 31 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 57 75 5 6 F
+      UNITMODE F 57 75
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 546 1294 0
+      FROM_TO_POS 57 75 0 57 75 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        TURRET_WEAPON 11
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 171 BUILDING
+    DEFINITION
+      POS 70 73 5
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 31 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 70 73 5 6 F
+      UNITMODE F 70 73
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 938 1250 0
+      FROM_TO_POS 70 73 0 70 73 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        TURRET_WEAPON 6
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
   UNIT -1 CRATE
     DEFINITION
       POS 170 230 5
@@ -5604,7 +5706,7 @@ LASER_EFECTS
 END_OF_LASER_EFECTS
 
 USER_INTERFACE
-  VIEW 678 3192 2180 1204 1
+  VIEW -56 632 2180 1204 1
   MASHA_FLAG 2 F F
 END_OF_USER_INTERFACE
 
@@ -6488,6 +6590,74 @@ SEXTRA
   255
   1
     164
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    167
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    168
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    169
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    171
     2
       20
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
