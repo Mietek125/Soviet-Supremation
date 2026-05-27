@@ -1,0 +1,72 @@
+Starting
+begin
+     ResetFog;
+     Init;
+
+     AnimateTrees(true);
+     ComHold(Kvantovy);
+     PlaceEnvironment(194, 224, 54, 1);
+
+     InitRussian;
+     InitAction;
+
+     DebugMode; 
+end;
+
+Export Yakotich, Mietek, Smirnovsky, Kostyliev, Maxim, Tatiana;
+Export Dragunov, Dimitri, Plotkov, Cholgovsky, Kula;
+Export Platonov;
+
+Export Sikorsky, Gary, Cyrus, Bobby, Lynch, Turner, Jillian, McCreery, Walker;
+Export VanHouten, Steve, Naoma, Magdalene;
+
+Export YakotichTeam, OtherTeam;
+
+Export Debug;
+
+Export MissionPrefix, PrevMissionPrefix;
+Export MissionStarted, BeenInMine, CameBackToBase, PlayerGotControl;
+
+Export Side6Buildings;
+
+Export Function Init;
+Begin
+
+SetBName(Ovsyenko, 'Ovsyenko');
+SetBName(Voroshilov, 'Voroshilov');
+SetBName(Terminal, 'Terminal');
+
+MissionPrefix := '03_';
+PrevMissionPrefix := '02_';
+//Debug := True;
+MissionStarted := False;
+BeenInMine := False;
+CameBackToBase := False;
+PlayerGotControl := False;
+
+Side6Buildings := [[b_workshop, 165, 222, 0],
+                  [b_lab, 179, 224, 5],
+                  [b_oil_mine, 187, 219, 3],
+                  [b_oil_power, 187, 223, 3],
+                  [b_oil_power, 184, 210, 3],
+                  [b_armoury, 152, 204, 2],
+                  [b_armoury, 178, 207, 3],
+                  [b_bunker, 157, 204, 2],
+                  [b_bunker, 159, 202, 2],
+                  [b_bunker, 173, 209, 3],
+                  [b_bunker, 166, 203, 3],
+                  [b_oil_power, 150, 213, 3]];
+
+end;
+
+Export Function DebugMode;
+var i;
+begin
+     if not debug then
+     exit;
+
+     Difficulty := 3;
+     TurnFogOff();
+     FogOff(3);
+
+end;

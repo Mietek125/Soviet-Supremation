@@ -1,0 +1,59 @@
+Export Function InitAmerican;
+var i,j,k,l;
+begin
+
+     Uc_Side = 4;
+     Uc_Nation = 1;
+     Hc_Gallery = 'us';
+     Hc_Face_Number = 23;
+     Hc_Name = 'John Henry';
+     Hc_Attr = [15,12];
+     Hc_Importance = 100;
+     Hc_Sex = Sex_Male;
+     Hc_Skills = [7,2,3,2];
+
+     AmCommander = CreateHuman;
+     PlaceUnitArea(AmCommander,NewcomersArea,False);
+
+     Hc_Gallery = '';
+     Hc_Name = '';
+     Hc_Importance = 0;
+     Hc_Attr = [10, 10];
+
+     for i = 1 to [3,5,7][Difficulty] do
+     begin
+          PrepareSoldier(rand(1,2),[2,3,4][Difficulty]);
+          AmS = CreateHuman;
+          Americans := Americans ^ AmS;
+          PlaceUnitArea(AmS,NewcomersArea,False);
+     end;
+
+    for j = 1 to [0,1,2][Difficulty] do
+    begin
+         PrepareScientist(rand(1,2),[2,3,4][Difficulty]);
+         AmSc = CreateHuman;
+         Americans := Americans ^ AmSc;
+         PlaceUnitArea(AmSc,NewcomersArea,False);
+
+    end;
+
+    If Difficulty = 3 then
+    Begin
+         for k = 1 to 4 do
+         begin
+              PrepareSoldier(rand(1,2),5);
+              AmS2 = CreateHuman;
+              Americans2 := Americans2 ^ AmS2;
+              PlaceUnitArea(AmS2,NewcomersArea,False);
+         end;
+
+         for l = 1 to 1 do
+         begin
+              PrepareScientist(rand(1,2),5);
+              AmSc2 = CreateHuman;
+              Americans2 := Americans2 ^ AmSc2;
+              PlaceUnitArea(AmSc2,NewcomersArea,False);
+         end;
+    end;
+
+end;

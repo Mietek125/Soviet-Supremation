@@ -68,7 +68,7 @@ GAMEINIT
       TIME 30
       POWER 0
       ATTACK 0
-      DEFENSE 115
+      DEFENSE 85
       HUMANS 6
       OBSTACLE 0
       SHAPE 19   -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  -2 0  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  0 2  1 2  2 2
@@ -509,7 +509,7 @@ GAMEINIT
       TIME 30
       POWER 0
       ATTACK 0
-      DEFENSE 55
+      DEFENSE 40
       HUMANS 1
       OBSTACLE 1
       SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
@@ -526,7 +526,7 @@ GAMEINIT
       TIME 60
       POWER 15
       ATTACK 0
-      DEFENSE 85
+      DEFENSE 50
       HUMANS 1
       OBSTACLE 1
       SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
@@ -542,9 +542,9 @@ GAMEINIT
       SIBERIUM 0
       CANS 20
       TIME 120
-      POWER 20
+      POWER 25
       ATTACK 0
-      DEFENSE 85
+      DEFENSE 65
       HUMANS 0
       OBSTACLE 1
       SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
@@ -668,7 +668,7 @@ GAMEINIT
       POWER 0
       ATTACK 0
       DEFENSE 70
-      HUMANS 6
+      HUMANS 5
       OBSTACLE 0
       SHAPE 19   -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  -2 0  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  0 2  1 2  2 2
       FLEK_TYPE 2
@@ -686,8 +686,8 @@ GAMEINIT
       TIME 30
       POWER 0
       ATTACK 0
-      DEFENSE 100
-      HUMANS 6
+      DEFENSE 80
+      HUMANS 5
       OBSTACLE 0
       SHAPE 19   -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  -2 0  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  0 2  1 2  2 2
       FLEK_TYPE 2
@@ -1092,7 +1092,7 @@ GAMEINIT
       TIME 30
       POWER 0
       ATTACK 0
-      DEFENSE 45
+      DEFENSE 35
       HUMANS 1
       OBSTACLE 1
       SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
@@ -1109,7 +1109,7 @@ GAMEINIT
       TIME 55
       POWER 15
       ATTACK 0
-      DEFENSE 85
+      DEFENSE 45
       HUMANS 1
       OBSTACLE 1
       SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
@@ -1182,12 +1182,12 @@ GAMEINIT
       KIND 4
       OIL 0
       SIBERIUM 0
-      CANS 30
-      TIME 65
+      CANS 40
+      TIME 80
       POWER 0
       ATTACK 0
-      DEFENSE 85
-      HUMANS 6
+      DEFENSE 80
+      HUMANS 7
       OBSTACLE 0
       SHAPE 19   -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  -2 0  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  0 2  1 2  2 2
       FLEK_TYPE 2
@@ -1200,12 +1200,12 @@ GAMEINIT
       KIND 5
       OIL 0
       SIBERIUM 0
-      CANS 30
-      TIME 35
+      CANS 50
+      TIME 60
       POWER 0
       ATTACK 0
-      DEFENSE 125
-      HUMANS 6
+      DEFENSE 90
+      HUMANS 7
       OBSTACLE 0
       SHAPE 19   -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  -2 0  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  0 2  1 2  2 2
       FLEK_TYPE 2
@@ -1570,7 +1570,7 @@ GAMEINIT
       TIME 35
       POWER 0
       ATTACK 0
-      DEFENSE 60
+      DEFENSE 45
       HUMANS 1
       OBSTACLE 1
       SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
@@ -1585,9 +1585,9 @@ GAMEINIT
       SIBERIUM 0
       CANS 20
       TIME 65
-      POWER 15
+      POWER 20
       ATTACK 0
-      DEFENSE 85
+      DEFENSE 55
       HUMANS 1
       OBSTACLE 1
       SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
@@ -1602,9 +1602,9 @@ GAMEINIT
       SIBERIUM 0
       CANS 20
       TIME 130
-      POWER 20
+      POWER 25
       ATTACK 0
-      DEFENSE 85
+      DEFENSE 70
       HUMANS 0
       OBSTACLE 1
       SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
@@ -1714,7 +1714,7 @@ GAMEINIT
       TIME 130
       POWER 0
       ATTACK 0
-      DEFENSE 85
+      DEFENSE 150
       HUMANS 0
       OBSTACLE 0
       SHAPE 1   0 0

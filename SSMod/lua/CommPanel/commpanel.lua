@@ -109,35 +109,30 @@ function canChangeProfessions(HUMAN,BUILDING,MAXCLASS) -- Only Called by Vanilla
 end;
 
 function getButtons(BUTTONS,STATE,PAGEID)
-	return RESULT_IGNORE, BUTTONS;
+    local BUT,BUT_OR,BUT_ID;
 
---[[
-	local BUT,BUT_OR,BUT_ID;
-
-	for b=1,9 do
-		for h=1,2 do
-			BUT = BUTTONS[b][h];
-			
-			if BUT.ID >= 0 then			
-				BUT_OR = BUTTON_OVERRIDES[BUT.COMMAND];
-				if BUT_OR ~= nil then
-					BUT_ID = BUT_OR.func(STATE,BUT.ID);
-					if BUT_ID ~= BUT.ID then
-						BUTTONS[b][h] = GET_BUTTON(BUT_ID);
-						BUT           = BUTTONS[b][h];
-					end;
-				end;
-			
-				if BUT.ID >= 0 then
-					if isInArray(BUT.ID,{BUTTON_UPGRADELAB1,BUTTON_UPGRADELAB2}) then
-                        BUT.ID = -BUT.ID;
+    for b=1,9 do
+        for h=1,2 do
+            BUT = BUTTONS[b][h];
+            
+            if BUT.ID >= 0 then            
+                BUT_OR = BUTTON_OVERRIDES[BUT.COMMAND];
+                if BUT_OR ~= nil then
+                    BUT_ID = BUT_OR.func(STATE,BUT.ID);
+                    if BUT_ID ~= BUT.ID then
+                        BUTTONS[b][h] = GET_BUTTON(BUT_ID);
+                        BUT           = BUTTONS[b][h];
                     end;
-				end;			
-			end;
-		end;
-	end;
+                end;
+            
+                if BUT.ID >= 0 then
+                    -- Handle State HERE!
+                end;            
+            end;
+        end;
+    end;
 
-	return RESULT_TRUE_MIXED, BUTTONS;--]]
+    return RESULT_TRUE_MIXED, BUTTONS;
 end;
 
 -- [Result Types] --
@@ -403,6 +398,8 @@ BUTTON_ATTACK2              = 242; -- Not Used
 BUTTON_SWITCH_AMMO          = 263;
 BUTTON_COLLECT_CRATES       = 264;
 BUTTON_CP_SHEIK             = 265;
+BUTTON_LR_COMP4             = 275;
+BUTTON_LR_COMP5             = 276;
 
 -- [[BUTTON COMMANDS]] --
 COMMAND_ICONGROUPCANCEL      = 0;
@@ -651,6 +648,7 @@ COMMAND_RESEARCH_CUSTOM      = 242; -- Custom Research
 COMMAND_HOLDFIRE             = 243;
 COMMAND_CP_SHEIK             = 244;
 
+
 TAG_SHEIK = 500;
 
 -- [[OVERRIDES]] --
@@ -673,6 +671,18 @@ BUTTON_OVERRIDES[COMMAND_PLACEEXP] = {
 										return BUTTONID;
 									end;
 									};
+BUTTON_OVERRIDES[COMMAND_LR_COMP1] = {
+                                                    func=function (STATE, BUTTONID)
+                                local UL = GET_UPGRADE_LEVEL(27,STATE.SIDE);
+                                                            if (UL == 4) then
+                                                                    return BUTTON_LR_COMP4;
+                                                            elseif (UL == 5) then
+                                                                    return BUTTON_LR_COMP5;
+                                                            end;
+
+                                                            return BUTTONID;
+									end;
+                                    };
 									
 BUTTON_OVERRIDES[COMMAND_ACTIONRESUME] = {
 									func=function (STATE,BUTTONID)

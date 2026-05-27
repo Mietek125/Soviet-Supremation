@@ -92,7 +92,7 @@ HEXES
   LINE 37 19 118
     t4v4 t2v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4s9 v5sH v7sP vA vA vA vA vA vA v7sR v5sJ v4sBf8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4 v4 v4 v4 v4 v4 v4 v2sJ r4sJ r4 r4 r4 r4 r4sG rBv2sG rBv2sG v4 v4 v4 v4 v4 v4 v4 v4 rAv4 rAv4 rAv4 rAv4 v4 v4 r6v4 r6v4se r6v4se r6v4se r6v4se r6v4se r6v4se r6v4se r6v4se r6v9sm r6v9sm t2r6v9sm t4r6v9sr
   LINE 38 19 118
-    t4v4 t2v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4s9 v5sH v7sP vA vA vA vA vA vA vA v7sR v5sJf8 v4sBf8 v4sBf8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4 v4 v4 v4 v4 v4 v4 v2sJ r4sJ r4 r4 r4 r4 r4sG r4sG rBv2sG rBv2sG v4 v4 v4 v4 v4 v4 rAv4 rAv4 rAv4 rAv4 rAv4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 r6v4se r6v4se t2r6v4se t4r6v4se
+    t4v4 t2v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4S v4s9 v5sH v7sP vA vA vA vA vA vA vA v7sR v5sJf8 v4sBf8 v4sBf8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4 v4 v4 v4 v4 v4 v4 v2sJ r4sJ r4 r4 r4 r4 r4sG r4sG rBv2sG rBv2sG v4 v4 v4 v4 v4 v4 rAv4 rAv4 rAv4 rAv4 rAv4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 r6v4se r6v4se t2r6v4se t4r6v4se
   LINE 39 20 119
     t4v4 t2v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4s9 v5sP v8sH vA vA vA vA vA vA vA v7sRf8 v5sJf8 v5sJf8 v4sBf8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4f8 v4 v4 v4 v4 v4 v4 v4 v2sJ r4sJ r4sJ r4 r4 r4 r4 r4sG r4sG rBv2sG rBv2sG v4 v4 v4 v4 v4 rAv4 rAv4 rAv4 rAv4 rAv4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 t2v4 t4v4
   LINE 40 20 119
@@ -190,7 +190,7 @@ HEXES
   LINE 86 43 142
     t4vB t2vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB v9sJ v7sJ v5sJ v4sB v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4sQ r6v4sQ r6v7so r6v7so r6v7so r6v7so r6vDsQ r6vDsQ r6vDsQ r6vDsQ r6vDsQ r6vDsQ r6vDso r6vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ r6vIsD r6vDsr r6v7sq r6v4sS r6v4 v4 rAv4 rAv4 rAv4 v4 v4 v4sH v6sH v8 v8 v8 v8 v8 v8 v8 v8 t2v8 t4v8
   LINE 87 44 143
-    t4vB t2vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB v9sJ v7sJ v5sJ v4sR v4 v4 v4S v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 r6v4 r6v4sQ r6v7so r6v7so r6vDso r6vDso r6vDso r6vDso r6vGsQ vGsQ vGsQ vGsQ vGsQ vGsQ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ r6vIsD r6vDsj r6v7sr r6v4sS r6v4 v4 rAv4 rAv4 rAv4 rAv4 v4 v4sH v6sH v8 v8 v8 v8 v8 v8 v8 v8 v8 t2v8 t4v8
+    t4vB t2vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB v9sJ v7sJ v5sJ v4sR v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 r6v4 r6v4sQ r6v7so r6v7so r6vDso r6vDso r6vDso r6vDso r6vGsQ vGsQ vGsQ vGsQ vGsQ vGsQ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ r6vIsD r6vDsj r6v7sr r6v4sS r6v4 v4 rAv4 rAv4 rAv4 rAv4 v4 v4sH v6sH v8 v8 v8 v8 v8 v8 v8 v8 v8 t2v8 t4v8
   LINE 88 44 143
     t4vB t2vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB v9sJ v7sJ v7sJ v4sR v4sR v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 r6v4 r6v4 r6v4sQ r6v4sQ r6v4sQ r6v7so r6vDso r6vDso r6vJ r6vJ r6vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ r6vIsD r6vDsj r6v7sr r6v4sT r6v4 v4 rAv4 rAv4 rAv4 rAv4 v4 v4sH v6sH v8 v8 v8 v8 v8 v8 v8 v8 v8 t2v8 t4v8
   LINE 89 45 144
@@ -208,9 +208,9 @@ HEXES
   LINE 95 48 147
     t4r6vDso t2r6vJso r6vJso r6vPso r6vPsp r6vOsB r6vOso r6vOsp r6vIsp r6vCsp r6vBsB r6vB vB vB vB vB vB vB vB vB vB vB vB vB v9sJ v7sJ v4sR v4 v4 r6v4sQ r6v4sQ r6v4sQ r6v7so r6vDso r6vDso vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ r6vDsq r6v7sq r6v4sS v4 v4 rAv4 rAv4 rAv4 v4 v4 v4 v4sH v6sH v8 v8 v8 v8 v8 v8 v8 v8sH r6vAsn r6vGs9 t2r6vH t4r6vH
   LINE 96 48 147
-    t4r6vDso t2r6vJso r6vPso r6vPso r6vV r6vPsp r6vPsp r6vU r6vOsq r6vIsq r6vCsq r6vBsC r6vB vB vB vB vB vB vB vB vB vB vB vB vB v9sJ v7sJ v4sR v4sQ r6v4sQ r6v7so r6v7so r6v7so r6vDso r6vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ r6vJsg r6vJsg r6vJsh vJsJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ r6vDsq r6v7sq r6v4sS v4 v4 rAv4 rAv4 rAv4 v4 v4 v4sH v6sH v8 v8 v8 v8 v8 v8 v8 v8 r6v8sP r6vBsn t2r6vH t4r6vH
+    t4r6vDso t2r6vJso r6vPso r6vPso r6vV r6vPsp r6vPsp r6vU r6vOsq r6vIsq r6vCsq r6vBsC r6vB vB vB vB vB vB vB vB vB vB vB vB vB v9sJ v7sJ v4sR v4sQ r6v4sQ r6v7so r6v7so r6v7so r6vDso r6vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ r6vJsg r6vJsg r6vJsh vJsJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ r6vDsq r6v7sq r6v4sS v4 v4 rAv4 rAv4 rAv4 v4 v4 v4sH v6sH v8 v8 v8 v8 v8 v8 v8 r6v8 r6v8sP r6vBsn t2r6vH t4r6vH
   LINE 97 49 148
-    t4r6vJso t2r6vPso r6vV r6vV r6vV r6vV r6vUsB r6vPsi r6vJsq r6vDsq r6vBsK r6vB vB vB vB vB vB vB vB vB vB vB vB vB vB v9sJ v7sJ v7sJ r6v7sI r6v7so r6vD r6vD r6vDso r6vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ r6vJsf r6vOsQ r6vOsQ r6vLsp vJsJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ r6vDsq r6v7sq r6v4sS r6v4 v4 rAv4 rAv4 rAv4 rAv4 v4 v4 v4sH v6sH v8 v8 v8 v8 v8 v8 v8 v8 r6v8sP r6vBsn t2r6vH t4r6vH
+    t4r6vJso t2r6vPso r6vV r6vV r6vV r6vV r6vUsB r6vPsi r6vJsq r6vDsq r6vBsK r6vB vB vB vB vB vB vB vB vB vB vB vB vB vB v9sJ v7sJ v7sJ r6v7sI r6v7so r6vD r6vD r6vDso r6vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ r6vJsf r6vOsQ r6vOsQ r6vLsp vJsJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ r6vDsq r6v7sq r6v4sS r6v4 v4 rAv4 rAv4 rAv4 rAv4 v4 v4 v4sH v6sH v8 v8 v8 v8 v8 r6v8 r6v8 r6v8 r6v8sP r6vBsn t2r6vH t4r6vH
   LINE 98 49 148
     t4vJso t2r6vPso r6vV r6vV r6vV r6vV r6vV r6vUsB r6vPsp r6vJsq r6vDsq r6vBsJ r6vBsJ vB vB vB vB vB vB vB vB vB vB vB vB vB v9sJ v9sJ v9sI r6v9sI r6vBsH r6vD r6vDso r6vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJsH r6vLsn r6vR r6vR r6vLsq vJsK vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ r6vDsq r6v7sq r6v4sS v4 v4 rAv4 rAv4 rAv4 v4 v4 v4sH v6sH v8 v8 v8 r6v8 r6v8 r6v8 r6v8 r6v8 r6v8sP r6vBsn t2r6vH t4vH
   LINE 99 50 149
@@ -218,7 +218,7 @@ HEXES
   LINE 100 50 149
     t4vPso t2r6vV r6vV vV vV vV r6vV r6vV r6vV r6vPsp r6vJsp r6vJsp r6vDsp vBsJ vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB r6vB r6vBsH r6vDsn r6vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ r6vJsH r6vLsn r6vOsT r6vJsi r6vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ r6vDsq r6v7sq r6v4sS v4 v4 rAv4 rAv4 rAv4 rAv4 v4 v4 v4sP r6v7sX r6v8sQ r6vBso r6vBso r6vBso r6vBso r6vBso r6vBso r6vBso vH t2vH t4vH
   LINE 101 51 150
-    t4r6vV t2r6vV vV vV vV vV vV vV r6vV r6vPsp r6vPsR r6vJsq r6vDsq r6vBsK vB vB vB vB vB vB vB vB vB vB vB vB vB vB r6vB r6vBsH r6vDsn r6vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ r6vJsf r6vO r6vJsi r6vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ r6vJ r6vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ r6vDsq r6v7sq r6v4sS v4 v4 rAv4 rAv4 rAv4 v4 v4 v4s9 r6v5sn r6vBso r6vBso vH vH vH vH vH vH vH vH t2vH t4vH
+    t4r6vV t2r6vV vV vV vV vV vV vV r6vV r6vPsp r6vPsR r6vJsq r6vDsq r6vBsK vB vB vB vB vB vB vB vB vB vB vB vB vB vB r6vB r6vBsH r6vDsn r6vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ r6vJsf r6vO r6vJsi r6vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ r6vJ r6vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ r6vDsq r6v7sq r6v4sS v4 v4 rAv4 rAv4 rAv4 v4 v4 v4s9 r6v5sn r6vBso r6vBso r6vH vH vH vH vH vH vH vH t2vH t4vH
   LINE 102 51 150
     t4r6vV t2r6vV vV vV vV vV vV vV vV r6vV r6vSsR r6vMsq r6vGsq r6vBsi r6vB vB vB vB vB vB vB vB vB vB vB vB vB vB r6vB r6vBsH r6vDsn vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ r6vJsf r6vO r6vJsi r6vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ r6vJ r6vJ r6vJ r6vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ r6vDsq r6v7sq r6v4sS r6v4 v4 rAv4 rAv4 rAv4 rAv4 v4 v4s9 r6v5sn r6vBsn r6vH r6vH vH vH vH vH vH vH vH t2vH t4vH
   LINE 103 52 151
@@ -621,20 +621,10 @@ ENVIROMENT
     sci2
   ON_HEX 94 47
     sei8
-  ON_HEX 26 48
-    sMi2
-  ON_HEX 30 48
-    sMi5
-  ON_HEX 31 48
-    sdi7
-  ON_HEX 32 48
-    sci5
   ON_HEX 36 48
     sci1
   ON_HEX 88 48
     sci1
-  ON_HEX 25 49
-    sdiA
   ON_HEX 34 49
     sci3
   ON_HEX 44 49
@@ -697,8 +687,6 @@ ENVIROMENT
     sdi7
   ON_HEX 42 60
     sMi7
-  ON_HEX 35 61
-    sMi9
   ON_HEX 38 62
     sci6
   ON_HEX 39 63
@@ -707,8 +695,6 @@ ENVIROMENT
     sdi8
   ON_HEX 94 64
     sMi7
-  ON_HEX 38 65
-    sMi4
   ON_HEX 40 65
     sciA
   ON_HEX 48 65
@@ -911,6 +897,8 @@ ENVIROMENT
     sci1
   ON_HEX 83 94
     sdi4
+  ON_HEX 85 94
+    sxi1
   ON_HEX 63 95
     sdi9
   ON_HEX 84 96
@@ -933,12 +921,16 @@ ENVIROMENT
     sMi8
   ON_HEX 78 99
     sci4
+  ON_HEX 84 99
+    sKi7
   ON_HEX 137 99
     sMi4
   ON_HEX 138 99
     sMi3
   ON_HEX 73 100
     sdiA
+  ON_HEX 94 100
+    sKi6
   ON_HEX 123 100
     sci1
   ON_HEX 147 100
@@ -965,6 +957,8 @@ ENVIROMENT
     sMi7
   ON_HEX 77 104
     sci2
+  ON_HEX 94 104
+    sKiM
   ON_HEX 111 104
     sMi6
   ON_HEX 120 104
@@ -1021,8 +1015,6 @@ ENVIROMENT
     sci6
   ON_HEX 90 108
     sMi9
-  ON_HEX 96 108
-    sMi7
   ON_HEX 105 108
     sMi2
   ON_HEX 107 108
@@ -1061,7 +1053,7 @@ ATTITUDES
 END_OF_ATTITUDES
 
 TECHS
-  PARAMS 98 9
+  PARAMS 100 9
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
@@ -1144,6 +1136,8 @@ TECHS
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
   F F F T F F T F F F T F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
@@ -1287,26 +1281,26 @@ END_OF_BASES
 RANDOMS
   MICROLOGIC 2 0 1
   RANDOM_SEED 1 -1255328828
-  RANDOM_SEED 2 601877680
-  RANDOM_SEED 3 -1877171075
+  RANDOM_SEED 2 1508349545
+  RANDOM_SEED 3 1394606213
   RANDOM_SEED 4 1037992412
   RANDOM_SEED 5 1664236366
   RANDOM_SEED 6 688383115
-  RANDOM_SEED 7 381157936
+  RANDOM_SEED 7 377873684
   RANDOM_SEED 8 1921572769
   RANDOM_SEED 9 1628448812
-  RANDOM_SEED 10 -1501996324
+  RANDOM_SEED 10 485036384
   RANDOM_SEED 11 580925031
   RANDOM_SEED 12 1013886984
   RANDOM_SEED 13 87151146
   RANDOM_SEED 14 867124951
-  RANDOM_SEED 15 -1318905004
+  RANDOM_SEED 15 1706127394
   RANDOM_SEED 16 1547262221
   RANDOM_SEED 17 461256520
   RANDOM_SEED 18 541112429
   RANDOM_SEED 19 801640483
   RANDOM_SEED 20 945479860
-  RANDOM_SEED 21 726104233
+  RANDOM_SEED 21 179021755
   RANDOM_SEED 22 1496770466
   WIND_TIME -1 -1 0
   WIND_STRENGTH 36.7606167791381 52.0 53.3803083895691
@@ -1375,7 +1369,7 @@ NEW_UNITS
         COLOR_CODE 1
         FACE 0
         SPEAKER A
-        VOICE 11
+        VOICE 15
         RANDOM_SEED 1058308592
     END_OF_DEFINITION
     GAME_STATE
@@ -1417,7 +1411,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 15
+        VOICE 11
         RANDOM_SEED -1339547463
     END_OF_DEFINITION
     GAME_STATE
@@ -1501,7 +1495,7 @@ NEW_UNITS
         COLOR_CODE 2BM
         FACE 0
         SPEAKER A
-        VOICE 1
+        VOICE 3
         RANDOM_SEED -1579057654
     END_OF_DEFINITION
     GAME_STATE
@@ -1543,7 +1537,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 1
+        VOICE 3
         RANDOM_SEED -698785669
     END_OF_DEFINITION
     GAME_STATE
@@ -1625,7 +1619,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 3
+        VOICE 5
         RANDOM_SEED 87151146
     END_OF_DEFINITION
     GAME_STATE
@@ -1665,7 +1659,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 3
+        VOICE 5
         RANDOM_SEED -730162808
     END_OF_DEFINITION
     GAME_STATE
@@ -1705,7 +1699,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 3
+        VOICE 5
         RANDOM_SEED 1762047094
     END_OF_DEFINITION
     GAME_STATE
@@ -1745,7 +1739,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 1
+        VOICE 3
         RANDOM_SEED -998247820
     END_OF_DEFINITION
     GAME_STATE
@@ -1785,7 +1779,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 5
+        VOICE 3
         RANDOM_SEED -574667006
     END_OF_DEFINITION
     GAME_STATE
@@ -1825,7 +1819,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 5
+        VOICE 1
         RANDOM_SEED 320776608
     END_OF_DEFINITION
     GAME_STATE
@@ -1865,7 +1859,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 1
+        VOICE 5
         RANDOM_SEED -1742473778
     END_OF_DEFINITION
     GAME_STATE
@@ -1905,7 +1899,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 5
+        VOICE 1
         RANDOM_SEED 1652345612
     END_OF_DEFINITION
     GAME_STATE
@@ -2025,7 +2019,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 3
+        VOICE 5
         RANDOM_SEED -2143381466
     END_OF_DEFINITION
     GAME_STATE
@@ -2065,7 +2059,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 5
+        VOICE 3
         RANDOM_SEED 87151146
     END_OF_DEFINITION
     GAME_STATE
@@ -2145,7 +2139,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 1
+        VOICE 3
         RANDOM_SEED 1762047094
     END_OF_DEFINITION
     GAME_STATE
@@ -2944,7 +2938,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 5
+        VOICE 3
         RANDOM_SEED -83994994
     END_OF_DEFINITION
     GAME_STATE
@@ -2983,7 +2977,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 1
+        VOICE 5
         RANDOM_SEED 1463399884
     END_OF_DEFINITION
     GAME_STATE
@@ -3100,7 +3094,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 3
+        VOICE 1
         RANDOM_SEED 1717321958
     END_OF_DEFINITION
     GAME_STATE
@@ -3139,7 +3133,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 1
+        VOICE 3
         RANDOM_SEED 311209828
     END_OF_DEFINITION
     GAME_STATE
@@ -3178,7 +3172,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 1
+        VOICE 5
         RANDOM_SEED 2030833778
     END_OF_DEFINITION
     GAME_STATE
@@ -3217,7 +3211,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 5
+        VOICE 1
         RANDOM_SEED 1646427024
     END_OF_DEFINITION
     GAME_STATE
@@ -3256,7 +3250,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 1
+        VOICE 3
         RANDOM_SEED -1108677570
     END_OF_DEFINITION
     GAME_STATE
@@ -3273,45 +3267,6 @@ NEW_UNITS
       DRAW 1876 1546 0
       FROM_TO_POS 111 88 3 111 88 3
       FROM_TO_XY 1876 1546 1876 1546
-      LAST_ACTION 0
-      HUMAN
-        ANIM_LEGS T
-        ACTIVE_ATTACK 1
-    END_OF_GAME_STATE
-  UNIT 165 HUMAN
-    DEFINITION
-      POS 115 98 5
-      SIDE 0
-      NATION 0
-      HP 1000
-      HUMAN
-        NAME ""
-        SEX 1
-        ATTR 10 10
-        CLASS 14
-        BSKILLS 0 0 0 0
-        EXPERIENCES 1936 7137 1987 7811
-        COLORS 6715532 2044990
-        COLOR_CODE 8BM
-        FACE 0
-        SPEAKER A
-        VOICE 1
-        RANDOM_SEED 492249596
-    END_OF_DEFINITION
-    GAME_STATE
-      ACTION 0 F 1 1
-      MOVE 115 98 5 6 F
-      UNITMODE T 115 98
-      STATE 4 24
-      WEAPON_LOADING 0 0
-      ATTACK 0 0 F 0
-      PLAN 0 T
-      ANIM_STATES 0 0 0 0
-      MASHA_FLAG 0 DYING 0
-      SELECTION 0 0 0 0
-      DRAW 1848 1726 0
-      FROM_TO_POS 115 98 5 115 98 5
-      FROM_TO_XY 1848 1726 1848 1726
       LAST_ACTION 0
       HUMAN
         ANIM_LEGS T
@@ -3334,7 +3289,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 3
+        VOICE 1
         RANDOM_SEED -1367572406
     END_OF_DEFINITION
     GAME_STATE
@@ -3395,45 +3350,6 @@ NEW_UNITS
         ANIM_LEGS T
         ACTIVE_ATTACK 1
     END_OF_GAME_STATE
-  UNIT 168 HUMAN
-    DEFINITION
-      POS 106 103 3
-      SIDE 0
-      NATION 0
-      HP 1000
-      HUMAN
-        NAME ""
-        SEX 1
-        ATTR 10 10
-        CLASS 14
-        BSKILLS 0 0 0 0
-        EXPERIENCES 5052 3168 8983 7990
-        COLORS 5992571 2635088
-        COLOR_CODE 8BM
-        FACE 0
-        SPEAKER A
-        VOICE 1
-        RANDOM_SEED 717666454
-    END_OF_DEFINITION
-    GAME_STATE
-      ACTION 0 F 1 1
-      MOVE 106 103 3 6 F
-      UNITMODE T 106 103
-      STATE 4 24
-      WEAPON_LOADING 0 0
-      ATTACK 0 0 F 0
-      PLAN 0 T
-      ANIM_STATES 0 0 0 0
-      MASHA_FLAG 0 DYING 0
-      SELECTION 0 0 0 0
-      DRAW 1526 1816 0
-      FROM_TO_POS 106 103 3 106 103 3
-      FROM_TO_XY 1526 1816 1526 1816
-      LAST_ACTION 0
-      HUMAN
-        ANIM_LEGS T
-        ACTIVE_ATTACK 1
-    END_OF_GAME_STATE
   UNIT 169 HUMAN
     DEFINITION
       POS 60 91 0
@@ -3451,7 +3367,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 5
+        VOICE 1
         RANDOM_SEED -207983212
     END_OF_DEFINITION
     GAME_STATE
@@ -3529,7 +3445,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 1
+        VOICE 5
         RANDOM_SEED -1771803968
     END_OF_DEFINITION
     GAME_STATE
@@ -3568,7 +3484,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 3
+        VOICE 1
         RANDOM_SEED 1613759982
     END_OF_DEFINITION
     GAME_STATE
@@ -3607,7 +3523,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 1
+        VOICE 3
         RANDOM_SEED 1432089132
     END_OF_DEFINITION
     GAME_STATE
@@ -3646,7 +3562,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 5
+        VOICE 3
         RANDOM_SEED 1213346554
     END_OF_DEFINITION
     GAME_STATE
@@ -3685,7 +3601,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 1
+        VOICE 3
         RANDOM_SEED 1929465816
     END_OF_DEFINITION
     GAME_STATE
@@ -3763,7 +3679,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 5
+        VOICE 3
         RANDOM_SEED 405082052
     END_OF_DEFINITION
     GAME_STATE
@@ -3802,7 +3718,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 1
+        VOICE 5
         RANDOM_SEED 1977628114
     END_OF_DEFINITION
     GAME_STATE
@@ -3880,7 +3796,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 5
+        VOICE 3
         RANDOM_SEED 1700832158
     END_OF_DEFINITION
     GAME_STATE
@@ -3958,7 +3874,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 1
+        VOICE 5
         RANDOM_SEED -637807352
     END_OF_DEFINITION
     GAME_STATE
@@ -3997,7 +3913,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 3
+        VOICE 1
         RANDOM_SEED 668775414
     END_OF_DEFINITION
     GAME_STATE
@@ -4036,7 +3952,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 3
+        VOICE 1
         RANDOM_SEED 1535612404
     END_OF_DEFINITION
     GAME_STATE
@@ -4114,7 +4030,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 3
+        VOICE 5
         RANDOM_SEED 383530272
     END_OF_DEFINITION
     GAME_STATE
@@ -4153,7 +4069,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 1
+        VOICE 5
         RANDOM_SEED 592430414
     END_OF_DEFINITION
     GAME_STATE
@@ -4192,7 +4108,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 1
+        VOICE 5
         RANDOM_SEED 810008204
     END_OF_DEFINITION
     GAME_STATE
@@ -4231,7 +4147,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 3
+        VOICE 1
         RANDOM_SEED 2143249498
     END_OF_DEFINITION
     GAME_STATE
@@ -4309,7 +4225,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 1
+        VOICE 5
         RANDOM_SEED 942552998
     END_OF_DEFINITION
     GAME_STATE
@@ -4387,7 +4303,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 3
+        VOICE 5
         RANDOM_SEED -1497142478
     END_OF_DEFINITION
     GAME_STATE
@@ -4426,7 +4342,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 1
+        VOICE 3
         RANDOM_SEED 153620560
     END_OF_DEFINITION
     GAME_STATE
@@ -4465,7 +4381,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 3
+        VOICE 5
         RANDOM_SEED 1913678590
     END_OF_DEFINITION
     GAME_STATE
@@ -4638,6 +4554,18 @@ NEW_UNITS
     END_OF_GAME_STATE
   UNIT -1 CRATE
     DEFINITION
+      POS 85 16 1
+      SIDE 0
+      NATION 153
+      HP 200
+      CRATE
+        SIZE 5 -1 CRATE_TYPE 1
+    END_OF_DEFINITION
+    GAME_STATE
+    CRATERS 2 0 -1
+    END_OF_GAME_STATE
+  UNIT -1 CRATE
+    DEFINITION
       POS 19 32 0
       SIDE 0
       NATION 153
@@ -4799,12 +4727,11 @@ SIDE 9 10
 END_OF_DEBRIEFING
 
 AREAS
-  ACTIVE 1
-  LAST 84
+  ACTIVE 17
+  LAST 90
   AREA 1
     NAME CratesArea
     COLOR 0E06FF
-    VISIBLE
     SHORTCUT 1
     LINES 50 0 73 46
     ----++++++++++++++++++++++++++++++++++++++++++++++-----------------------
@@ -4872,43 +4799,42 @@ AREAS
   AREA 3
     NAME Road
     COLOR 008000
-    VISIBLE
     SHORTCUT 2
-    LINES 117 76 13 34
-    -------++++--
-    ------++++++-
-    ----+++++++++
-    ---++++++++++
-    --+++++++++--
-    --++++++-----
-    --++++-------
-    -+++++-------
-    +++++--------
-    -++++--------
-    -+++---------
-    -+++---------
-    --++---------
-    --++---------
-    --++---------
-    --++---------
-    --+++--------
-    ---++--------
-    ---+++-------
-    ----++-------
-    ----+++------
-    -----++------
-    -----+++-----
-    ------++-----
-    ------+++----
-    -------++----
-    -------+++---
-    --------++---
-    --------+++--
-    ---------++--
-    ---------+++-
-    ----------++-
-    ----------+++
-    -----------++
+    LINES 118 76 37 34
+    ---+++++-----------------------------
+    -++++++++++--------------------------
+    -++++++++++++------------------------
+    --+++++++++++++----------------------
+    --+++++++++++++++--------------------
+    --+++++++++++++++++++++--------------
+    -++++++++++++++++++++++--------------
+    -+++++++++++++++++++++++-------------
+    ++++++++++++++++++++++++-------------
+    +++++++++++++++++++++++++------------
+    +++++++++++++++++++++++++------------
+    -+++++++++++++++++++++++++-----------
+    -+++++++++++++++++++++++++-----------
+    -++++++++++++++++++++++++++----------
+    --+++++++++++++++++++++++++----------
+    --++++++++++++++++++++++++++---------
+    ---+++++++++++++++++++++++++---------
+    ---++++++++++++++++++++++++++--------
+    ---++++++++++++++++++++++++++--------
+    ----++++++++++++++++++++++++++-------
+    ----++++++++++++++++++++++++++-------
+    -----++++++++++++++++++++++++++------
+    -----++++++++++++++++++++++++++------
+    ------++++++++++++++++++++++++++-----
+    ------++++++++++++++++++++++++++-----
+    -------++++++++++++++++++++++++++----
+    -------++++++++++++++++++++++++++----
+    --------++++++++++++++++++++++++++---
+    --------++++++++++++++++++++++++++---
+    ---------++++++++++++++++++++++++++--
+    ---------++++++++++++++++++++++++++--
+    ---------+++++++++++++++++++++++++++-
+    ----------++++++++++++++++++++++++++-
+    ----------+++++++++++++++++++++++++++
   AREA 4
     NAME Cave
     COLOR FF9F79
@@ -4947,64 +4873,43 @@ AREAS
     LINES 73 83 1 1
     +
   AREA 6
-    NAME SoldSpawn1
+    NAME SoldSpawn3
     COLOR 0E86FF
     VISIBLE
     SHORTCUT 6
-    LINES 38 45 1 1
-    +
+    LINES 24 36 3 3
+    ++-
+    +++
+    -++
   AREA 7
-    NAME SoldSpawn2
+    NAME SoldSpawn1
     COLOR F9FF9B
     VISIBLE
     SHORTCUT 7
-    LINES 88 102 1 1
-    +
+    LINES 87 101 3 3
+    ++-
+    +++
+    -++
   AREA 8
-    NAME SoldSpawn3
+    NAME SoldSpawn2
     COLOR FF799B
     VISIBLE
     SHORTCUT 8
-    LINES 135 88 1 1
-    +
+    LINES 97 84 41 7
+    +----------------------------------------
+    -----------------------------------------
+    -----------------------------------------
+    -----------------------------------------
+    --------------------------------------++-
+    --------------------------------------+++
+    ---------------------------------------++
   AREA 9
     NAME SoldSpawnFree
     COLOR F9FF9B
     VISIBLE
     SHORTCUT 9
-    LINES 44 78 36 32
-    +++++-------------------------------
-    +++++++++---------------------------
-    +++++++++++-------------------------
-    ++++++++++++------------------------
-    +++++++++++++-----------------------
-    ++++++++++++++----------------------
-    +++++++++++++++---------------------
-    -+++++++++++++++--------------------
-    -++++++++++++++++-------------------
-    --+++++++++++++++++-----------------
-    ---+++++++++++++++++----------------
-    ----+++++++++++++++++---------------
-    -------------+++++++++--------------
-    ---------------++++++++-------------
-    ----------------++++++++------------
-    -----------------+++++++++----------
-    ------------------+++++++++---------
-    -------------------+++++++++--------
-    -------------------++++++++++-------
-    --------------------++++++++++------
-    --------------------++++++++++------
-    ---------------------++++++++++-----
-    ---------------------+++++++++++----
-    ---------------------++++++++++++---
-    ----------------------+++++++++++---
-    ----------------------++++++++++++--
-    -----------------------+++++++++++--
-    -----------------------++++++++++++-
-    -----------------------++++++++++++-
-    ------------------------++++++++++++
-    ------------------------++++++++++++
-    ------------------------++++++++++++
+    LINES 60 88 1 1
+    +
   AREA 10
     NAME CivSPawn
     COLOR 8CFF9B
@@ -5206,6 +5111,128 @@ AREAS
     -------------++++++
     --------------+++++
     ---------------++++
+  AREA 16
+    NAME NewcomersArea
+    COLOR FF889F
+    VISIBLE
+    SHORTCUT 1
+    LINES 22 43 18 27
+    ++++++++----------
+    +++++++++---------
+    -++++++++---------
+    -+++++++++--------
+    --++++++++--------
+    --+++++++++-------
+    ---++++++++-------
+    ---++-------------
+    ----++------------
+    ----++------------
+    -----++-----------
+    -----+++----------
+    ------+++---------
+    ------++++--------
+    -------++++-------
+    -------++++++-----
+    --------++++++----
+    --------++++++----
+    ---------++++++---
+    ---------+++++++--
+    ----------++++++--
+    ----------+++++++-
+    -----------++++++-
+    -----------+++++++
+    ------------++++++
+    ------------++++++
+    -------------+++++
+  AREA 17
+    NAME CloseBaseArea
+    COLOR B9FF25
+    SHORTCUT 1
+    LINES 74 7 28 25
+    ---------+++++--------------
+    ---+++++++++++++------------
+    -++++++++++++++++-----------
+    ++++++++++++++++++----------
+    +++++++++++++++++++---------
+    -+++++++++++++++++++--------
+    -++++++++++++++++++++-------
+    -+++++++++++++++++++++------
+    --+++++++++++++++++++++-----
+    --+++++++++++++++++++++-----
+    ---+++++++++++++++++++++----
+    ---++++++++++++++++++++++---
+    ----+++++++++++++++++++++---
+    ----++++++++++++++++++++++--
+    -----+++++++++++++++++++++--
+    ------+++++++++++++++++++++-
+    ------+++++++++++++++++++++-
+    -------++++++++++++++++++++-
+    --------+++++++++++++++++++-
+    ----------+++++++++++++++++-
+    -----------++++++++++++++++-
+    -------------++++++++++++++-
+    ---------------++++++++++++-
+    -----------------++++++++++-
+    ----------------------++++++
+  AREA 18
+    NAME NorthAttack
+    COLOR B9BEFF
+    VISIBLE
+    SHORTCUT 1
+    LINES 48 24 7 9
+    ++-----
+    -++----
+    -+++---
+    --+++--
+    ---++--
+    ---+++-
+    ----+++
+    ----+++
+    -----++
+  AREA 19
+    NAME SouthAttack
+    COLOR F2BEFF
+    VISIBLE
+    SHORTCUT 2
+    LINES 106 52 7 5
+    ++++++-
+    -++++++
+    -++++++
+    ---++++
+    -----++
+  AREA 20
+    NAME #SND#potok\potucek.wav
+    COLOR 0EFFB2
+    VISIBLE
+    SHORTCUT 1
+    LINES 70 29 51 20
+    +--------------------------------------------------
+    ---------------------------------------------------
+    ---------------------------------------------------
+    ---------------------------------------------------
+    ---------------------------------------------------
+    ---------------------------------------------------
+    ---------------------------------------------------
+    ---------------------------------------------------
+    ---------------------------------------------------
+    ---------------------------------------------------
+    ---------------------------------------------------
+    ---------------------------------------------------
+    ---------------------------------------------------
+    ---------------------------------------------------
+    --------------------------+------------------------
+    ---------------------------------------------------
+    ---------------------------------------------------
+    ---------------------------------------------------
+    ---------------------------------------------------
+    --------------------------------------------------+
+  AREA 21
+    NAME #SND#vodopad\velky.wav
+    COLOR 0EFFE6
+    VISIBLE
+    SHORTCUT 2
+    LINES 44 6 1 1
+    +
 END_OF_AREAS
 
 SEXTRA
@@ -6043,23 +6070,6 @@ SEXTRA
 
   255
   1
-    165
-    2
-      20
-      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-    3
-      F
-    4
-      F
-    5
-      0 0
-    6
-      0
-    7
-      F
-
-  255
-  1
     166
     2
       20
@@ -6078,23 +6088,6 @@ SEXTRA
   255
   1
     167
-    2
-      20
-      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-    3
-      F
-    4
-      F
-    5
-      0 0
-    6
-      0
-    7
-      F
-
-  255
-  1
-    168
     2
       20
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

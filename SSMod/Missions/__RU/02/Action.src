@@ -1,0 +1,88 @@
+Export Function InitAction;
+var tmp, veh;
+Begin;
+
+      RevealFogArea(3, MapRevealed);
+      SetSpecResearch(Lab, 999, false);
+      SetSpecResearch(Workshop, 999, false);
+
+      InGameOn;
+      Wait(0$2);
+      SayEX(Kurin,'DKurin-01-01', 0, 1, 1, 1);
+      Wait(0$2);
+      Say(Yakotich, 'DYak-01-02');
+      SayEX(Kurin,'DKurin-01-03', 0, 1, 1, 1);
+      SayEX(Kurin,'DKurin-01-04', 0, 1, 1, 1);
+      Say(Yakotich, 'DYak-01-05');
+      SayEX(Kurin,'DKurin-01-06', 0, 1, 1, 1);
+      Say(Yakotich, 'DYak-01-07');
+
+      ComExitBuilding(Mietek);
+      AddComEnterUnit(Mietek, RuDepot);
+
+      Wait(0$11);
+
+      Say(Mietek, 'DMietek-01-08');
+      Say(Yakotich, 'DYak-01-09');
+      Say(Mietek, 'DMietek-01-10');
+
+      ComExitBuilding([Mietek, Yakotich]);
+      AddComMoveToArea([Yakotich, Mietek], MaximTalk);
+      AddComTurnUnit([Mietek, Yakotich], Maxim);
+
+      ComExitBuilding(Maxim);
+      AddComMoveXY(Maxim, 90, 19);
+      AddComTurnUnit(Maxim, Mietek);
+
+      Wait(0$7);
+
+      Say(Maxim, 'DMax-01-11');
+      Say(Yakotich, 'DYak-01-12');
+      Say(Maxim, 'DMax-01-13');
+      Say(Yakotich, 'DYak-01-14');
+
+      tmp := FilterAllUnits([[F_type, unit_human], [f_side, 3]]) diff [Yakotich, Mietek, Maxim];
+
+      ComExitBuilding(tmp);
+      ComCancel([Lab, Workshop]);
+      AddComMoveToArea(tmp, Gathering);
+      AddComTurnUnit(tmp, Yakotich);
+
+      Wait(0$15);
+
+      Say(Yakotich, 'DYak-01-15');
+      Say(Yakotich, 'DYak-01-16');
+
+      If LoadVariable('HintyON', 1) then
+      SelectionQuery([1]);
+
+      YakotichTeam := CharacterSelection(
+                       '1',
+                       5,
+                       5,
+                       [sel_change_class, Yakotich, Mietek, Maxim, Kostyliev, Smirnovsky, sel_changeable, sel_change_class] ^
+                       [sel_not_hired, sel_not_changeable, sel_dont_change_class] ^
+                       [sel_changeable, sel_change_class] ^ OtherTeam,
+                       [[class_engineer, 1], [class_scientistic, 1], [class_mechanic, 0], [class_soldier, 0]]
+                  );
+
+      Say(Yakotich, 'DYak-01-17');
+      Say(Yakotich, 'DYak-01-18');
+
+      ComMoveXY(YakotichTeam, 67, 19);
+      ComMoveXY(Smirnovsky, 67, 19);
+      ComMoveXY(Maxim, 67, 19);
+      ComEnterUnit(OtherTeam diff YakotichTeam, RuDepot);
+
+      ComEnterUnit([Mietek, Yakotich, Kostyliev], Tanks);
+      AddComMoveXY([Mietek, Yakotich, Kostyliev], 67, 19);
+
+      Wait(0$3);
+
+      SaveCharacters(YakotichTeam diff [Yakotich, Mietek, Maxim, Kostyliev, Smirnovsky], MissionPrefix & 'YakotichTeam');
+      SaveCharacters(OtherTeam diff [YakotichTeam, Yakotich, Mietek, Maxim, Kostyliev, Smirnovsky], MissionPrefix & 'OtherTeam');
+
+      ChangeMap(1, '%_cont');
+                        
+
+end;

@@ -1,0 +1,75 @@
+// Misja 02-cont / 24.06.2023
+// Dzwonili do mnie jak na kiblu siedzia³em... Wieprz! ~Konon
+
+Starting
+begin
+
+ResetFog;
+Init;
+
+AnimateTrees(true);
+
+Randomize;
+RandomizeAll;                                                                
+
+InitRussian;
+InitAction;
+//InitAmerican;
+InitDeadSoldiers;
+
+DebugMode;
+
+SetBName(AmDep1,'mi');
+SetBName(AmDep2,'ni');
+SetBName(RuDepot,'OutpostG2');
+
+SetAttitude(9,3,1,True);
+
+end;
+
+Export Yakotich, Mietek, Smirnovsky, Kostyliev, Maxim;
+Export Tatiana;
+Export YakotichTeam, YakotichTeam2;
+Export VehicleCount, Tank1, Tank2, Tank3;
+
+Export Kurin;
+Export KurinTime;
+
+Export debug;
+
+Export PrevMissionPrefix, MissionPrefix;
+Export AmericansHeld, BaseCaptured, TatianaMad, BunkerBuilt, CargoBuilt, GunBuilt, CanDismantleGun, GunDismantled;
+
+Export Function Init;
+begin
+
+PrevMissionPrefix := '01_';
+MissionPrefix := '02_';
+//debug := True;
+VehicleCount := LoadVariable('01_VehiclesCount', 0);
+AmericansHeld := False;
+BaseCaptured := False;
+TatianaMad := False;
+BunkerBuilt := False;
+CargoBuilt := False;
+GunBuilt := False;
+CanDismantleGun := False;
+GunDismantled := False;
+
+KurinTime := 30$0;
+
+end;
+
+Export Function DebugMode;
+var i;
+begin
+if not debug then
+exit;
+
+Difficulty := 3;
+TurnFogOff();
+FogOff(3);
+end;
+
+
+

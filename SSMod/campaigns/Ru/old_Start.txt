@@ -1,5 +1,5 @@
 VARIABLES 0
-CHARACTERS 79
+CHARACTERS 87
   Abdul 1
     DEFINE
       NAME Abdul
@@ -868,5 +868,93 @@ CHARACTERS 79
       CHAR @ 0 0
       RANDSEED 0
       VOICE 1 GALLERY YakotichMod 22
+    END_OF_DEFINE
+  Zlatogorsky 1
+    DEFINE
+      NAME Zlatogorsky
+      HUMAN 1 1 3
+      ATTR 11 10
+      SKILLS 2 48120 1 6900 1 21300 2 17790
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY YakotichMod 8
+    END_OF_DEFINE
+  Rybakov 1
+    DEFINE
+      NAME Rybakov
+      HUMAN 1 3 3
+      ATTR 10 11
+      SKILLS 1 570 1 44010 3 17700 1 10230
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY YakotichMod 7
+    END_OF_DEFINE
+  Karpov 1
+    DEFINE
+      NAME Karpov
+      HUMAN 1 2 3
+      ATTR 9 12
+      SKILLS 2 39150 4 9720 0 14730 0 17130
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY YakotichMod 2
+    END_OF_DEFINE
+  Dimitri 1
+    DEFINE
+      NAME Dimitri
+      HUMAN 1 1 3
+      ATTR 10 11
+      SKILLS 4 17130 2 6570 0 72300 0 19710
+      LAST_MISSION 3
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY YakotichMod 17
+    END_OF_DEFINE
+  Dragunov 1
+    DEFINE
+      NAME Dragunov
+      HUMAN 1 4 3
+      ATTR 11 10
+      SKILLS 2 15030 0 9810 1 12570 3 82830
+      LAST_MISSION 3
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY YakotichMod 5
+    END_OF_DEFINE
+  Plotkov 1
+    DEFINE
+      NAME Plotkov
+      HUMAN 1 1 3
+      ATTR 9 12
+      SKILLS 2 81300 2 22260 1 3090 1 16230
+      LAST_MISSION 3
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY YakotichMod 19
+    END_OF_DEFINE
+  Cholgovsky 1
+    DEFINE
+      NAME Cholgovsky
+      HUMAN 1 2 3
+      ATTR 10 11
+      SKILLS 1 27030 3 19350 1 6210 1 51420
+      LAST_MISSION 3
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY YakotichMod 6
+    END_OF_DEFINE
+  Kula 1
+    DEFINE
+      NAME Kula
+      HUMAN 1 1 3
+      ATTR 9 12
+      SKILLS 4 17040 0 72300 2 22890 0 6900
+      LAST_MISSION 3
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY Jan 1
     END_OF_DEFINE
 END

@@ -15,10 +15,8 @@ Begin
      Choroszczanow := PrepareUnit('Choroszczanow', false, '');
      Volkovich := PrepareUnit('Volkovich', false, '');
 
-     PlaceUnitArea(Sidorov, BSpawn1, False);
-     ComEnterUnit(Sidorov,b1);
-     PlaceUnitArea(Volkovich, BSpawn2, False);
-     ComEnterUnit(Volkovich,b3);
+     PlaceUnitInBunker(Sidorov, b3);
+     PlaceUnitInBunker(Volkovich, b1);
 
      PlaceUnitXY(Choroszczanow,88,23,False);
 
@@ -27,5 +25,16 @@ Begin
      PlaceUnitArea(Kostyliev, CivSpawn, False);
 
      ComTurnXY([Mietek, Smirnovsky, Kostyliev], 93, 12);
+
+     Zlatogorsky := PrepareUnit('Zlatogorsky', false, '');
+     Rybakov := PrepareUnit('Rybakov', false, '');
+     Karpov := PrepareUnit('Karpov', false, '');
+     Maxim := PrepareUnit('Maxim', false, '');
+
+     Kurin := PrepareUnit('Kurin', false, '');
+
+     Uc_Side := 5;
+
+     Stefan := PrepareUnit('Stefan', false, '');
 
 end;

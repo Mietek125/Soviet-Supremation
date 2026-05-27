@@ -1,30 +1,12 @@
-Export Function PrepareSolBun(skill, b);
-var un, dir;
-begin
-uc_side := GetSide(b);
-uc_nation := GetNation(b);
-
-dir := GetDir(b) - 3;
-
-if dir < 0 then
-   dir := 6 + dir;
-
-un := CreateHuman;
-SetDir(un, dir);
-PlaceHumanInUnit(un, b);
-End;
-
-Every 1 trigger IsSelected(Pezet) do
+Every 1 trigger IsSelected(Pezet) or GetLives(Pezet) < 1000 do
 begin
 PezetExp([1,2,3,4]);
 Wait(0$05);
-
-Say(Pezet,'1Pezet-Sikret');
-ToLua('ShowVideo');
-TeleportUnit(Pezet,139,74,120,True);
+Say(Pezet,'DPezet-Secret-01');
+TeleportUnit(Pezet,153,108,150,True);
 Wait(0$05);
 RemoveUnit(Pezet);
-SaveVariable(1,'PezetSaved');
+SaveVariable(1,'SafePezet');
 SaveCharacters(Pezet,'Pezet');
 End;
 
@@ -63,7 +45,27 @@ Begin
   end;
 end;
 
+// Czas do przybycia maksima
+Every 0$1 Trigger Maxim_Coming do
+begin
+enable;
 
+if MaximTime then
+   begin
+   MaximTime := MaximTime - 0$1;
+   display_strings := ['#MaximTime', MaximTime];
+   end
+else
+   begin
+   display_strings := '';
+   disable;
+   end;
+End;
+
+export function IsInAreaSide(area, side);
+begin
+     result := FilterUnitsInArea(area, [f_side, side]);
+end;
 
 
 

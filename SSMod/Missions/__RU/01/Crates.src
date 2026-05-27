@@ -1,5 +1,5 @@
 
-Every 1$0 Trigger WasInBase do
+Every 1$30 Trigger WasInBase do
 Begin
 
 CreateCratesArea(rand(2,5), CratesArea, True);

@@ -99,7 +99,7 @@ GAMEINIT
       CHASSIS_TYPE  4 
         NAME "E(Heavy tracked)C(Heavy tracked)"
         NATION American
-        WEIGHT 3
+        WEIGHT 4
         SYMBOL u-heavyt
         OIL 0
         SIBERIUM 0
@@ -619,7 +619,7 @@ GAMEINIT
         SYMBOL w-u-gg
         OIL 0
         SIBERIUM 0
-        CANS 30
+        CANS 25
         TIME 50
         SOUND_NAME GatlingGun
         SOUND_TYPE 0
@@ -629,7 +629,7 @@ GAMEINIT
         DISCHARGE R2
         WEIGHT 2  3
         ATTACK
-          MINMAX_RANGE 1  10
+          MINMAX_RANGE 1  12
           FREQUENCY 20  25
           DAMAGE 45 25 15
           EFF 45 25 15
@@ -638,12 +638,12 @@ GAMEINIT
         PRODUCED_IN 3
         TECHNOLOGY 69
       WEAPON_TYPE  5 
-        NAME "E(Double gun)C(Double gun)"
+        NAME "E(Gun)C(Gun)"
         NATION American
         SYMBOL w-u-double
         OIL 0
         SIBERIUM 0
-        CANS 40
+        CANS 45
         TIME 60
         SOUND_NAME DoubleGun
         SOUND_TYPE 0
@@ -654,8 +654,8 @@ GAMEINIT
         ATTACK
           MINMAX_RANGE 4  12
           FREQUENCY 2  80
-          DAMAGE 250 222 150
-          EFF 10 50 35
+          DAMAGE 250 300 150
+          EFF 25 30 15
           ANIM 2  2  3
         END_OF_ATTACK
         PRODUCED_IN 17
@@ -666,7 +666,7 @@ GAMEINIT
         SYMBOL w-u-heavy
         OIL 0
         SIBERIUM 0
-        CANS 50
+        CANS 55
         TIME 85
         SOUND_NAME HeavyGun
         SOUND_TYPE 0
@@ -676,7 +676,7 @@ GAMEINIT
         WEIGHT 3  3
         ATTACK
           MINMAX_RANGE 4  15
-          FREQUENCY 1  93
+          FREQUENCY 1  90
           DAMAGE 300 500 300
           EFF 30 50 30
           ANIM 1  2  3
@@ -853,7 +853,7 @@ GAMEINIT
         SYMBOL w-a-lg
         OIL 0
         SIBERIUM 0
-        CANS 15
+        CANS 25
         TIME 30
         SOUND_NAME LightGun
         SOUND_TYPE 0
@@ -898,7 +898,7 @@ GAMEINIT
         SYMBOL w-a-gg
         OIL 0
         SIBERIUM 0
-        CANS 30
+        CANS 25
         TIME 50
         SOUND_NAME GatlingGun
         SOUND_TYPE 0
@@ -920,9 +920,9 @@ GAMEINIT
         NAME "E(Flame-thrower)C(Flame-thrower)"
         NATION Arabian
         SYMBOL w-a-flame
-        OIL 75
+        OIL 60
         SIBERIUM 0
-        CANS 80
+        CANS 45
         TIME 120
         SOUND_NAME Flame
         SOUND_TYPE 0
@@ -933,7 +933,7 @@ GAMEINIT
         ATTACK
           MINMAX_RANGE 3  11
           FREQUENCY 30  75
-          DAMAGE 100 25 75
+          DAMAGE 150 50 75
           EFF 35 10 25
           ANIM 1  10  3
           ATTACKGROUND 
@@ -947,7 +947,7 @@ GAMEINIT
         SYMBOL w-a-gun
         OIL 0
         SIBERIUM 0
-        CANS 60
+        CANS 35
         TIME 80
         SOUND_NAME Gun
         SOUND_TYPE 0
@@ -956,10 +956,10 @@ GAMEINIT
         SIGHT 9
         WEIGHT 2  3
         ATTACK
-          MINMAX_RANGE 4  10
+          MINMAX_RANGE 3  10
           FREQUENCY 1  35
-          DAMAGE 200 250 150
-          EFF 20 25 15
+          DAMAGE 200 250 250
+          EFF 20 25 25
           ANIM 1  2  3
         END_OF_ATTACK
         PRODUCED_IN 17
@@ -982,8 +982,8 @@ GAMEINIT
           MINMAX_RANGE 6  16
           FREQUENCY 3  90
 	  FREQDELAY 10
-          DAMAGE 500 200 300
-          EFF 50 20 30
+          DAMAGE 500 250 300
+          EFF 50 25 30
           ANIM 1  4  3
 		  ACCURACY 2 4 2
         END_OF_ATTACK
@@ -1041,7 +1041,7 @@ GAMEINIT
         SYMBOL w-r-gg
         OIL 0
         SIBERIUM 0
-        CANS 25
+        CANS 35
         TIME 50
         SOUND_NAME GatlingGun
         SOUND_TYPE 0
@@ -1087,7 +1087,7 @@ GAMEINIT
         SYMBOL w-r-rlaunch
         OIL 0
         SIBERIUM 0
-        CANS 60
+        CANS 65
         TIME 100
         SOUND_NAME rocketLauncher
         SOUND_TYPE 0
@@ -1099,16 +1099,16 @@ GAMEINIT
           MINMAX_RANGE 8  18
           FREQUENCY 6  175
 	  FREQDELAY 15
-          DAMAGE 300 150 300
-          EFF 50 15 30
+          DAMAGE 550 150 350
+          EFF 55 15 35
           ANIM 1  4  3
           ACCURACY 10 6 6
         END_OF_ATTACK
         ATTACK
           MINMAX_RANGE  5  16 
           FREQUENCY  1  35
-          DAMAGE 500 150 300
-          EFF 50 15 30
+          DAMAGE 550 150 350
+          EFF 55 15 35
           ANIM  1  4  3 
         END_OF_ATTACK
 		COMMBUTTONPAGE 78
@@ -1131,8 +1131,8 @@ GAMEINIT
         ATTACK
           MINMAX_RANGE 5  15
           FREQUENCY 2  150
-          DAMAGE 200 600 400
-          EFF 20 60 40
+          DAMAGE 200 550 350
+          EFF 20 35 35
           ANIM 2  2  3
         END_OF_ATTACK
         PRODUCED_IN 17
@@ -1142,8 +1142,8 @@ GAMEINIT
         NATION Russian
         SYMBOL w-r-rocket
         OIL 0
-        SIBERIUM 0
-        CANS 80
+        SIBERIUM 10
+        CANS 85
         TIME 140
         SOUND_NAME Rocket
         SOUND_TYPE 0
@@ -1539,7 +1539,7 @@ GAMEINIT
           EFF 0 0 0
           ANIM 0 0 0
         END_OF_ATTACK
-      WEAPON_TYPE  88
+      WEAPON_TYPE  82
         NAME "E(Crane)C(Crane)"
         NATION Arabian
         SYMBOL n-a-crane
@@ -1566,25 +1566,7 @@ GAMEINIT
         PRODUCED_IN 23
         TECHNOLOGY 85
         COMMBUTTONPAGE 72
-      WEAPON_TYPE  89 
-        NAME "E(Heavy Cargo bay)C(Heavy Cargo bay)"
-        NATION Russian
-        SYMBOL n-cargo
-        OIL 0
-        SIBERIUM 0
-        CANS 50
-        TIME 35
-        SOUND_NAME none
-        SOUND_TYPE 0
-        SEL_XY 0 0
-        ROTATE_TYPE Firm
-        MODIFY_CHASSIS 1
-        SIGHT 9
-        WEIGHT 3  3
-        PRODUCED_IN 19
-        CARGO_SIZE 20
-        TECHNOLOGY 83
-       WEAPON_TYPE  91 
+       WEAPON_TYPE  83 
         NAME "E(Biological Bomb)C(Biological Bomb)"
         NATION Arabian
         SYMBOL w-a-sbb
@@ -1608,7 +1590,7 @@ GAMEINIT
         END_OF_ATTACK
         PRODUCED_IN 21
         TECHNOLOGY 81
-       WEAPON_TYPE  92 
+       WEAPON_TYPE  84 
         NAME "E(Mortar)C(Mortar)"
         NATION Arabian
         SYMBOL w-a-mortar
@@ -1634,11 +1616,50 @@ GAMEINIT
         TECHNOLOGY 39
         PAYLOADOVERRIDE 27
         BASE_WEAPON 3
-      WEAPON_TYPE  93 
-        NAME "E(Flame thrower)C(Flame thrower)"
+		WEAPON_TYPE  85
+        NAME "E(Heavy Gun)C(Heavy Gun)"
+        NATION Arabian
+        SYMBOL w-a-atg
+        OIL 0
+        SIBERIUM 0
+        CANS 45
+        TIME 80
+        SOUND_NAME Gun
+        SOUND_TYPE 0
+        SEL_XY 0 0
+        ROTATE_TYPE Free
+        SIGHT 9
+        WEIGHT 2  3
+        ATTACK
+          MINMAX_RANGE 4  14
+          FREQUENCY 1  105
+          DAMAGE 250 600 250
+          EFF 25 60 25
+          ANIM 1  2  3
+        END_OF_ATTACK		
+      WEAPON_TYPE  90 
+        NAME "E(Heavy Cargo bay)C(Heavy Cargo bay)"
+        NATION Russian
+        SYMBOL n-cargo
+        OIL 0
+        SIBERIUM 0
+        CANS 50
+        TIME 35
+        SOUND_NAME none
+        SOUND_TYPE 0
+        SEL_XY 0 0
+        ROTATE_TYPE Firm
+        MODIFY_CHASSIS 1
+        SIGHT 9
+        WEIGHT 3  3
+        PRODUCED_IN 19
+        CARGO_SIZE 20
+        TECHNOLOGY 83
+      WEAPON_TYPE  91 
+        NAME "E(Flame-thrower)C(Flame-thrower)"
         NATION Russian
         SYMBOL w-r-flame
-        OIL 50
+        OIL 75
         SIBERIUM 0
         CANS 60
         TIME 175
@@ -1652,39 +1673,15 @@ GAMEINIT
         ATTACK
           MINMAX_RANGE 3  11
           FREQUENCY 60  120
-          DAMAGE 100 25 75
+          DAMAGE 150 50 75
           EFF 35 10 25
           ANIM 2  10  3
           ATTACKGROUND 
         END_OF_ATTACK
         PRODUCED_IN 17
         TECHNOLOGY 70
-	CANDESTROYENV 1
-       WEAPON_TYPE  97 
-        NAME "E(Artilery)C(Artilery)"
-        NATION American
-        SYMBOL w-u-art
-        OIL 0
-        SIBERIUM 0
-        CANS 150
-        TIME 180
-        SOUND_NAME HeavyGun
-        SOUND_TYPE 0
-        SEL_XY 0 0
-        ROTATE_TYPE Free_gyro
-        SIGHT 9
-        WEIGHT 3  3
-        ATTACK
-          MINMAX_RANGE 10  35
-          FREQUENCY 10  999
-          DAMAGE 500 1000 1500
-          EFF 50 100 150
-          ANIM 3  2  10
-          ATTACKGROUND
-        END_OF_ATTACK
-        PRODUCED_IN 44
-        TECHNOLOGY 80
-       WEAPON_TYPE  98 
+	    CANDESTROYENV 1
+       WEAPON_TYPE  92 
         NAME "E(Russian Radar)C(Russian Radar)"
         NATION Russian
         SYMBOL n-r-radar
@@ -1700,24 +1697,8 @@ GAMEINIT
         SIGHT -20
         WEIGHT 1  3
         PRODUCED_IN 20
-        TECHNOLOGY 94
-      WEAPON_TYPE  99 
-        NAME "E(Hack)C(Hack)"
-        NATION American
-        SYMBOL n-u-hack
-        OIL 0
-        SIBERIUM 0
-        CANS 400
-        TIME 250
-        SOUND_NAME none
-        SOUND_TYPE 0
-        SEL_XY 0 0
-        ROTATE_TYPE Rotate
-        MODIFY_CHASSIS 0
-        SIGHT 9
-        WEIGHT 3  3
-        COMMBUTTONPAGE 74
-      WEAPON_TYPE  110 
+        TECHNOLOGY 94	
+      WEAPON_TYPE  93 
         NAME "E(Static Crane)C(Static Crane)"
         NATION Russian
         SYMBOL n-r-crane
@@ -1743,131 +1724,7 @@ GAMEINIT
         END_OF_ATTACK
 		TECHNOLOGY 91
         PRODUCED_IN 19
-      WEAPON_TYPE  111 
-        NAME "E(Calliope Rocketry)C(Calliope Rocketry)"
-        NATION American
-        SYMBOL am-calliope
-        OIL 0
-        SIBERIUM 0
-        CANS 80
-        TIME 120
-        SOUND_NAME rocketLauncher
-        SOUND_TYPE 0
-        SEL_XY 0 0
-        ROTATE_TYPE Free_gyro
-        SIGHT 13
-        WEIGHT 3  3
-        ATTACK
-          MINMAX_RANGE 10  22
-          FREQUENCY 10  420
-          FREQDELAY 20
-          DAMAGE 350 150 350
-          EFF 65 15 35
-	  ACCURACY 1 5 7
-          ANIM 2  4  3
-        END_OF_ATTACK
-        PRODUCED_IN 18
-        TECHNOLOGY 92
-      WEAPON_TYPE  112 
-        NAME "E(Siberite Gun)C(Siberite Gun)"
-        NATION American
-        SYMBOL am-siberite-gun
-        OIL 0
-        SIBERIUM 30
-        CANS 70
-        TIME 120
-        SOUND_NAME HeavyGun
-        SOUND_TYPE 0
-        SEL_XY 0 0
-        ROTATE_TYPE Limited
-        SIGHT 9
-        WEIGHT 3  3
-        ATTACK
-          MINMAX_RANGE 6  15
-          FREQUENCY 1  105
-          DAMAGE 400 200 400
-          EFF 40 20 40
-          ANIM 2  32  3
-          LUA_ID 98
-          LUA_WEAPONRANGETYPE 1
-          LUA_PHASE_END 0
-          ATTACKGROUND
-        END_OF_ATTACK
-		DENY_ENGINE 1 2
-		DENY_ENGINE_HINT 6884		
-        PRODUCED_IN 44
-        TECHNOLOGY 93
-		WEAPON_TYPE  113 
-        NAME "E(Salvo Gun)C(Salvo Gun)"
-        NATION American
-        SYMBOL w-u-autoloader
-        OIL 0
-        SIBERIUM 0
-        CANS 80
-        TIME 100
-        SOUND_NAME HeavyGun
-        SOUND_TYPE 0
-        SEL_XY 0 0
-        ROTATE_TYPE Free_gyro
-        SIGHT 13
-        WEIGHT 3  3
-        ATTACK
-          MINMAX_RANGE 6  15
-          FREQUENCY 3  175
-          FREQDELAY 20
-          DAMAGE 300 500 300
-          EFF 30 50 30
-          ANIM 2  32  3
-        END_OF_ATTACK
-        PRODUCED_IN 44
-        TECHNOLOGY 98
-		WEAPON_TYPE  114
-        NAME "E(Heavy Gun)C(Heavy Gun)"
-        NATION Arabian
-        SYMBOL w-a-atg
-        OIL 0
-        SIBERIUM 0
-        CANS 40
-        TIME 80
-        SOUND_NAME Gun
-        SOUND_TYPE 0
-        SEL_XY 0 0
-        ROTATE_TYPE Free
-        SIGHT 9
-        WEIGHT 2  3
-        ATTACK
-          MINMAX_RANGE 4  14
-          FREQUENCY 1  105
-          DAMAGE 250 600 200
-          EFF 25 60 20
-          ANIM 1  2  3
-        END_OF_ATTACK
-		WEAPON_TYPE  115
-        NAME "E(Ion Laser)C(Ion Laser)"
-        NATION American
-        SYMBOL w-u-las
-        OIL 0
-        SIBERIUM 15
-        CANS 60
-        TIME 110
-        SOUND_NAME Laser
-        SOUND_TYPE 0
-        SEL_XY 0 0
-        ROTATE_TYPE Free_gyro
-        SIGHT 13
-        WEIGHT 3  3
-        ATTACK
-          MINMAX_RANGE 3  13
-          FREQUENCY 1  5
-          DAMAGE 150 150 75
-          EFF 50 50 35
-          ANIM 1  8  0
-          ATTACKGROUND
-        END_OF_ATTACK
-        PRODUCED_IN 44
-        TECHNOLOGY 98
-		CUSTOMLASER 4
-		WEAPON_TYPE  116
+		WEAPON_TYPE  94
         NAME "E(MineSweeper)C(MineSweeper)"
         NATION Russian
         SYMBOL n-doze
@@ -1890,7 +1747,151 @@ GAMEINIT
           ANIM 0  12  0
         END_OF_ATTACK
         PRODUCED_IN 19
-        TECHNOLOGY 100
+        TECHNOLOGY 100		
+       WEAPON_TYPE  100 
+        NAME "E(Artilery)C(Artilery)"
+        NATION American
+        SYMBOL w-u-art
+        OIL 0
+        SIBERIUM 0
+        CANS 150
+        TIME 200
+        SOUND_NAME art
+        SOUND_TYPE 0
+        SEL_XY 0 0
+        ROTATE_TYPE Limited
+        SIGHT 13
+        WEIGHT 4  4
+        ATTACK
+          MINMAX_RANGE 10  35
+          FREQUENCY 10  1500
+		  FREQDELAY 35
+          DAMAGE 500 1000 1500
+          EFF 50 100 150
+	      ACCURACY 1 4 5		  
+          ANIM  1  2  3
+          ATTACKGROUND
+        END_OF_ATTACK
+        PRODUCED_IN 44
+        TECHNOLOGY 80
+      WEAPON_TYPE  101 
+        NAME "E(Hack)C(Hack)"
+        NATION American
+        SYMBOL n-u-hack
+        OIL 0
+        SIBERIUM 250
+        CANS 500
+        TIME 250
+        SOUND_NAME none
+        SOUND_TYPE 0
+        SEL_XY 0 0
+        ROTATE_TYPE Rotate
+        MODIFY_CHASSIS 0
+        SIGHT 9
+        WEIGHT 3  3
+        COMMBUTTONPAGE 74
+      WEAPON_TYPE  102
+        NAME "E(Calliope Rocketry)C(Calliope Rocketry)"
+        NATION American
+        SYMBOL am-calliope
+        OIL 0
+        SIBERIUM 0
+        CANS 80
+        TIME 120
+        SOUND_NAME rocketLauncher
+        SOUND_TYPE 0
+        SEL_XY 0 0
+        ROTATE_TYPE Free_gyro
+        SIGHT 13
+        WEIGHT 3  3
+        ATTACK
+          MINMAX_RANGE 10  22
+          FREQUENCY 10  420
+          FREQDELAY 20
+          DAMAGE 350 150 350
+          EFF 65 15 35
+          ANIM 2  4  3
+        END_OF_ATTACK
+        PRODUCED_IN 18
+        TECHNOLOGY 92
+      WEAPON_TYPE  103 
+        NAME "E(Siberite Gun)C(Siberite Gun)"
+        NATION American
+        SYMBOL am-siberite-gun
+        OIL 0
+        SIBERIUM 30
+        CANS 70
+        TIME 120
+        SOUND_NAME HeavyGun
+        SOUND_TYPE 0
+        SEL_XY 0 0
+        ROTATE_TYPE Limited
+        SIGHT 9
+        WEIGHT 3  3
+        ATTACK
+          MINMAX_RANGE 6  15
+          FREQUENCY 1  105
+          DAMAGE 400 200 400
+          EFF 40 20 40
+          ANIM  1  2  3 
+          LUA_ID 98
+          LUA_WEAPONRANGETYPE 1
+          LUA_PHASE_END 0
+          ATTACKGROUND
+        END_OF_ATTACK
+		DENY_ENGINE 1 2
+		DENY_ENGINE_HINT 6884		
+        PRODUCED_IN 44
+        TECHNOLOGY 93
+		WEAPON_TYPE  104 
+        NAME "E(Salvo Gun)C(Salvo Gun)"
+        NATION American
+        SYMBOL w-u-autoloader
+        OIL 0
+        SIBERIUM 0
+        CANS 80
+        TIME 100
+        SOUND_NAME autoloader
+        SOUND_TYPE 0
+        SEL_XY 0 0
+        ROTATE_TYPE Limited
+        SIGHT 9
+        WEIGHT 3  3
+        ATTACK
+          MINMAX_RANGE 6  15
+          FREQUENCY 3  175
+          FREQDELAY 20
+          DAMAGE 300 500 300
+          EFF 30 50 30
+          ANIM  1  2  3 
+        END_OF_ATTACK
+        PRODUCED_IN 44
+        TECHNOLOGY 98
+		WEAPON_TYPE  105
+        NAME "E(Ion Laser)C(Ion Laser)"
+        NATION American
+        SYMBOL w-u-las
+        OIL 0
+        SIBERIUM 15
+        CANS 50
+        TIME 110
+        SOUND_NAME Laser
+        SOUND_TYPE 0
+        SEL_XY 0 0
+        ROTATE_TYPE Free_gyro
+        SIGHT 13
+        WEIGHT 3  3
+        ATTACK
+          MINMAX_RANGE 4  13
+          FREQUENCY 1  5
+          DAMAGE 200 200 100
+          EFF 20 20 10
+          ANIM 1  8  0
+          ATTACKGROUND
+        END_OF_ATTACK
+        PRODUCED_IN 44
+        TECHNOLOGY 98
+		CUSTOMLASER 4
 	END_OF_WEAPONS
   END_OF_VEHICLES
 END_OF_GAMEINIT

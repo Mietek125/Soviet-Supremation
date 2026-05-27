@@ -1,0 +1,9 @@
+MISSION
+  MAP map.txt
+  TEXTS texts.txt
+  SOURCES sources.txt
+  LIBRARYSOURCES librarysources.txt
+  CAMPAIGN 3 3
+  AUTOR Mietek
+  DISABLED_INPUT_OUTPUT CharsAm09cont CharsAm09contout
+  ANIMTREES SIZE 116 240 END_OF_MISSION

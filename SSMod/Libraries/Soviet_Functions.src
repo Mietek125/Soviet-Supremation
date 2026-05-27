@@ -1,0 +1,142 @@
+Export Function PrepareSolBun(skill, b);
+var un, dir;
+begin
+uc_side := GetSide(b);
+uc_nation := GetNation(b);
+
+dir := GetDir(b) - 3;
+
+if dir < 0 then
+   dir := 6 + dir;
+
+un := CreateHuman;
+SetDir(un, dir);
+PlaceHumanInUnit(un, b);
+End;
+
+Export Function PrepareUnit(ident, exist_mode, prefix);
+var unit;
+begin
+
+if exist_mode then
+   unit := CreateCharacter(prefix&ident)
+else
+   unit := NewCharacter(ident);
+
+result := unit;
+End;
+
+Export Function PlaceUnitInBunker(un, b);
+var dir;
+begin
+dir := GetDir(b);
+
+if dir < 3 then
+   dir := dir + 3
+    else
+      dir := dir - 3;
+
+SetDir(un, dir);
+PlaceHumanInUnit(un, b);
+End;
+
+Export Function GetCountOfBuildingsInBase(base, btype);
+var i, tmp;
+begin
+result := 0;
+tmp := FilterAllUnits([f_btype, btype]);
+
+if not base or not tmp then
+   exit;
+
+for i in tmp do
+    if GetBase(i) = base then
+       result := result + 1;
+
+End;
+
+Export Function GetCratesNearbyXY(x, y, r);
+var _x, _y, min_y, min_x, max_x, max_y;
+begin
+result := [];
+
+if x - r < 0 then
+   min_x := 0
+else
+   min_x := x - r;
+
+if y - r < 0 then
+   min_y := 0
+else
+   min_y := y - r;
+
+max_x := x + r;
+max_y := y + r;
+
+for _x = min_x to max_x do
+    for _y = min_y to max_y do
+        begin
+        if not ValidHex(_x, _y) then
+           continue;
+
+        if GetResourceTypeXY(_x, _y) then
+           result := Replace(result, result + 1, [_x, _y]);
+        end;
+End;
+
+Export Function AgressiveMove(units, path);
+var i, enemy, nearEnemy, cr, side, tag, ignoreCratesWeapon;
+begin
+if not units then
+   exit;
+
+result := UnitFilter(units, [f_ok]);
+side := GetSide(units[1]);
+ignoreCratesWeapon := [ar_selfpropelled_bomb{, ar_bio_bomb}, ru_time_lapser];
+
+if not result then
+   exit;
+
+enemy := FilterAllUnits([f_enemy, side]);
+
+for i in result do
+    begin
+    tag := GetTag(i) + 1;
+    cr := GetCratesNearbyXY(GetX(i), GetY(i), 6);
+
+    if GetType(i) = unit_vehicle and cr and not GetWeapon(i) in ignoreCratesWeapon then
+       ComAttackPlace(i, cr[1][1], cr[1][2])
+    else if path > tag then
+       begin
+       nearEnemy := UnitFilter(enemy, [f_dist, i, 8]);
+
+       if nearEnemy then
+          begin
+          if GetWeapon(i) = ru_time_lapser then
+             ComMoveUnit(i, NearestUnitToUnit(nearEnemy, i))
+          else
+             ComAttackUnit(i, NearestUnitToUnit(nearEnemy, i));
+          end
+       else if GetDistUnitXY(i, path[tag][1], path[tag][2]) > 6 then
+          ComAgressiveMove(i, path[tag][1], path[tag][2])
+       else
+          SetTag(i, tag);
+       end
+    else
+       if enemy then
+          begin
+          if GetWeapon(i) = ru_time_lapser then
+             ComMoveUnit(i, NearestUnitToUnit(enemy, i))
+          else
+             ComAttackUnit(i, NearestUnitToUnit(enemy, i));
+          end;
+    end;
+End;
+
+Export Function Spawn(units, area);
+begin
+     PlaceUnitArea(units, area, 1);
+end;
+
+
+

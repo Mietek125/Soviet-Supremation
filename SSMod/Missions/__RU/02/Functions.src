@@ -1,0 +1,10 @@
+Export Function SelectionQuery(q);
+var dec, q1;
+begin
+  dec = SelectiveQuery('WhatPeopleToChoose', q);
+  case dec of
+   1:begin
+     exit;
+     end;
+  end;
+end;
