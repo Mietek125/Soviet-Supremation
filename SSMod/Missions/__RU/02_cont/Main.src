@@ -1,5 +1,10 @@
-// Misja 02-cont / 24.06.2023
-// Dzwonili do mnie jak na kiblu siedzia³em... Wieprz! ~Konon
+{
+General Info:
+Status: 0%
+
+Global Vars:
+SaveVariable(SafeJarcin, 1); If value = 1 will be in last mission
+}
 
 Starting
 begin
@@ -10,14 +15,16 @@ Init;
 AnimateTrees(true);
 
 Randomize;
-RandomizeAll;                                                                
+RandomizeAll;
+
+PrepareDifficulty;
+PrepareAmericanHeroes;
+PrepareSouthBase;
+PrepareNorthBase;
 
 InitRussian;
 InitAction;
-//InitAmerican;
 InitDeadSoldiers;
-
-DebugMode;
 
 SetBName(AmDep1,'mi');
 SetBName(AmDep2,'ni');
@@ -25,27 +32,33 @@ SetBName(RuDepot,'OutpostG2');
 
 SetAttitude(9,3,1,True);
 
-end;
+
+End;
 
 Export Yakotich, Mietek, Smirnovsky, Kostyliev, Maxim;
 Export Tatiana;
 Export YakotichTeam, YakotichTeam2;
 Export VehicleCount, Tank1, Tank2, Tank3;
 
-Export Kurin;
+Export Kurin, Platonov, Grishko, Burlak;
 Export KurinTime;
 
-Export debug;
+Export UsSoldMinLevel, UsSoldMaxLevel;
+Export AIEnable;
+Export amDestroyedBuildings;
+Export will, Mike;
+
+Export Debug;
 
 Export PrevMissionPrefix, MissionPrefix;
-Export AmericansHeld, BaseCaptured, TatianaMad, BunkerBuilt, CargoBuilt, GunBuilt, CanDismantleGun, GunDismantled;
+Export AmericansHeld, BaseCaptured, TatianaMad, BunkerBuilt, CargoBuilt, GunBuilt, CanDismantleGun, GunDismantled, EndOfMission;
 
 Export Function Init;
 begin
-
+debug := true;
 PrevMissionPrefix := '01_';
 MissionPrefix := '02_';
-//debug := True;
+
 VehicleCount := LoadVariable('01_VehiclesCount', 0);
 AmericansHeld := False;
 BaseCaptured := False;
@@ -55,21 +68,26 @@ CargoBuilt := False;
 GunBuilt := False;
 CanDismantleGun := False;
 GunDismantled := False;
+EndOfMission := False;
+
+UsSoldMinLevel := 0;
+UsSoldMaxLevel := 0;
+
+AiEnable = 1;
+amDestroyedBuildings = [];
 
 KurinTime := 30$0;
-
 end;
 
-Export Function DebugMode;
+Every 0$1 trigger debug do
 var i;
 begin
-if not debug then
-exit;
 
 Difficulty := 3;
-TurnFogOff();
 FogOff(3);
-end;
 
+enable;
 
-
+for i in FilterAllUnits([[f_side, 3], [f_type, unit_human], [f_not, [f_lives, 1000]]]) do
+    SetLives(i, 1000);
+End;

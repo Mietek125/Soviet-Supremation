@@ -1,9 +1,0 @@
-SOURCE_CODES
-  ENABLED Main
-  ENABLED PrepareAmerican
-  ENABLED Functions
-  ENABLED AI
-  ENABLED Events
-  ENABLED Action
-  ENABLED PrepareRussian
-END_OF_SOURCE_CODES

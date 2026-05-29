@@ -1,8 +1,0 @@
-begin
-? type grass
- ! rgb 90 60 77
-new
-? type single_tree
- ! rgb 90 55 59
- ! all 120
-end

@@ -26,8 +26,8 @@ Begin
      SetClass([Mietek, Yakotich, Maxim], 1);
 
      If VehicleCount >= 3 then
-     VehicleCount = 3;   
-     
+     VehicleCount = 3;
+
      if VehicleCount = 3 then
      begin
      uc_nation = nation_russian;
@@ -39,9 +39,9 @@ Begin
      Tank1 = CreateVehicle;
      Tank2 = CreateVehicle;
      Tank3 = CreateVehicle;
-     PlaceUnitArea(Tank1, SpawnVehArea, False);
-     PlaceUnitArea(Tank2, SpawnVehArea, False);
-     PlaceUnitArea(Tank3, SpawnVehArea, False);
+     PlaceUnitArea(Tank1, VehArea, False);
+     PlaceUnitArea(Tank2, VehArea, False);
+     PlaceUnitArea(Tank3, VehArea, False);
      PlaceHumanInUnit(Yakotich, Tank1);
      PlaceHumanInUnit(Mietek, Tank2);
      PlaceHumanInUnit(Kostyliev, Tank3);
@@ -50,8 +50,8 @@ Begin
      begin
      Tank1 = CreateVehicle;
      Tank2 = CreateVehicle;
-     PlaceUnitArea(Tank1, SpawnVehArea, False);
-     PlaceUnitArea(Tank2, SpawnVehArea, False);
+     PlaceUnitArea(Tank1, VehArea, False);
+     PlaceUnitArea(Tank2, VehArea, False);
      PlaceHumanInUnit(Yakotich, Tank1);
      PlaceUnitArea(Mietek, SpawnCrewArea, False);
      PlaceHumanInUnit(Kostyliev, Tank2);
@@ -59,18 +59,18 @@ Begin
      else if VehicleCount = 1 then
      begin
      Tank1 = CreateVehicle;
-     PlaceUnitArea(Tank1, SpawnVehArea, False);
+     PlaceUnitArea(Tank1, VehArea, False);
      PlaceUnitArea(Yakotich, SpawnCrewArea, False);
      PlaceUnitArea(Mietek, SpawnCrewArea, False);
      PlaceHumanInUnit(Kostyliev, Tank1);
      end
      else if VehicleCount = 0 then
      begin
-     PlaceUnitArea(Kostyliev, SpawnVehArea, False);
+     PlaceUnitArea(Kostyliev, VehArea, False);
      PlaceUnitArea(Yakotich, SpawnCrewArea, False);
      PlaceUnitArea(Mietek, SpawnCrewArea, False);
      end;
-              
+
      PlaceUnitArea(Smirnovsky, SpawnCrewArea, False);
      PlaceUnitArea(Maxim, SpawnCrewArea, False);
 

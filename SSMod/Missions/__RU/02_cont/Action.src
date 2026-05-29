@@ -131,4 +131,85 @@ begin
      SetSide(Tatiana, 3);
 end;
 
+Every 0$1 Trigger AmericansHeld and FilterAllUnits([[f_or, [f_side, 1], [f_side, 4]], [f_type, unit_human]]) do
+begin
+
+     InGameOn;
+     CenterOnUnits(Yakotich);
+     Say(Yakotich, 'DYak-10-01');
+     SayEX(Kurin, 'DKurin-10-02', 0, 1, 1, 1);
+     SayEX(Mike, 'DMike-10-03', 0, 0, 1, 1);
+     SayEX(Kurin, 'DKurin-10-04', 0, 1, 1, 1);
+     SayEX(Grishko, 'DGrishko-10-05', 0, 1, 1, 1);
+     SayEX(Kurin, 'DKurin-10-06', 0, 1, 1, 1);
+     Wait(0$2);
+     SayEX(Grishko, 'DGrishko-10-07', 0, 1, 1, 1);
+     SayEX(Kurin, 'DKurin-10-08', 0, 1, 1, 1);
+     SayEX(Grishko, 'DGrishko-10-09', 0, 1, 1, 1);
+     SayEX(Kurin, 'DKurin-10-10', 0, 1, 1, 1);
+     Say(Yakotich, 'DYak-10-11');
+     Wait(0$5);
+     SayEX(Kurin, 'DKurin-10-12', 0, 1, 1, 1);
+     SayEX(Burlak, 'DBurlak-10-13', 0, 0, 1, 1);
+     SayEX(Kurin, 'DKurin-10-14', 0, 1, 1, 1);
+     SayEffect('DGunSound-10-15');
+     Say(Mietek, 'DMietek-10-16');
+     SayEX(Platonov, 'DPlat-10-17', 0, 1, 1, 1);
+     Say(Yakotich, 'DYak-10-18');
+     SayEX(Platonov, 'DPlat-10-19', 0, 1, 1, 1);
+     Say(Yakotich, 'DYak-10-20');
+     SayEX(Platonov, 'DPlat-10-21', 0, 1, 1, 1);
+     Say(Yakotich, 'DYak-10-22');
+     Say(Mietek, 'DMietek-10-23');
+     Say(Tatiana, 'DTat-10-24');
+     Say(Maxim, 'DMax-10-25');
+     Say(Yakotich, 'DYak-10-26');
+
+     EndOfMission := True;
+end;
+
+
+Every 0$1 Trigger EndOfMission do
+begin
+
+     If GetSide(Tatiana) = 3 and not TatianaMad then
+          AddMedal('TatianaMedal', 1)
+     else
+     begin
+         AddMedal('VehicleMedal',-1);
+         SaveVariable(TatianaMad, MissionPrefix & 'TatianaMad');
+     end;
+
+    { If All_Techs_Done then
+        AddMedal('ResearchMedal',1)
+     else
+         AddMedal('ResearchMedal',-1); }
+
+     If GunBuilt and CargoBuilt and BunkerBuilt then
+        AddMedal('SideQuestsMedal',1)
+     else
+         AddMedal('SideQuestsMedal',-1);
+
+     GiveMedals('Medals');
+
+     RewardPeople(FilterAllUnits([[f_side, 3], [f_nation, 3], [f_type, unit_human]]));
+
+     SaveCharacters(Yakotich, MissionPrefix & 'Yakotich');
+     SaveCharacters(Mietek, MissionPrefix & 'Mietek');
+     SaveCharacters(Maxim, MissionPrefix & 'Maxim');
+     SaveCharacters(Kostyliev, MissionPrefix & 'Kostyliev');
+     SaveCharacters(Smirnovsky, MissionPrefix & 'Smirnovsky');
+     SaveCharacters(Tatiana, MissionPrefix & 'Tatiana');
+
+     SaveCharacters(FilterAllUnits([[f_side, 3], [f_nation, 3], [f_type, unit_human]]) diff [Yakotich, Mietek, Maxim, Kostyliev, Smirnovsky, Tatiana], MissionPrefix & 'YakotichTeam');
+
+     YouWin;
+
+end;
+
+
+
+
+
+
 
