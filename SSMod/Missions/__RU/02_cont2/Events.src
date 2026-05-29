@@ -64,3 +64,20 @@ end;
 Every 0$1 trigger not IsInUnit(will) and IsOk(AmDep1) and GetSide(AmDep1) = 1 do
 ComEnterUnit(will, AmDep1);
 
+Every 0$1 Trigger IsDead(RuDepot) do
+YouLost('DepotDead');
+
+On UnitDestroyed(un) do
+begin
+     if un in FilterAllUnits([[f_side, 3], [f_not, [f_nation, 0]], [f_type, unit_human]]) diff [Yakotich, Mietek] then
+     Begin
+     YouLost('TeamDead');
+     end;
+
+     if un = Yakotich then
+     YouLost('YakDead');
+
+     if un = Mietek then
+     YouLost('MietekDead');
+
+end;

@@ -138,5 +138,75 @@ begin
      PlaceUnitArea(units, area, 1);
 end;
 
+Every 0$2 trigger AIEnable do
+begin
+enable;
 
+RepairBuilding(1, AmDep1, AmNorthBaseArea);
+RepairBuilding(4, AmDep2, AmSouthBaseArea);
+//craneRepair(1, crane, AmNorthBaseArea, craneParkArea);
+CraneRepairBuild(1, AmNorthBaseArea, amDestroyedBuildings);
+HealUnitInBase(1, AmNorthHealArea, AmNorthBaseArea, AmLab1);
+
+if IsDying(AmDep1) or GetSide(AmDep1) = 3 then
+   DefendDepot(1, AmDep1)
+else
+    EnterBunkerOrBarrack(1, AmNorthBaseArea);
+
+if IsDying(AmDep2) or GetSide(AmDep2) = 3 then
+   DefendDepot(4, AmDep2)
+else
+    EnterBunkerOrBarrack(4, AmSouthBaseArea);
+End;
+
+
+Every 0$1 trigger not IsInUnit(will) and IsOk(AmDep1) and GetSide(AmDep1) = 1 do
+ComEnterUnit(will, AmDep1);
+
+Every 0$2 trigger AIEnable do
+begin
+enable;
+
+RepairBuilding(1, AmDep1, AmNorthBaseArea);
+RepairBuilding(4, AmDep2, AmSouthBaseArea);
+//craneRepair(1, crane, AmNorthBaseArea, craneParkArea);
+CraneRepairBuild(1, AmNorthBaseArea, amDestroyedBuildings);
+HealUnitInBase(1, AmNorthHealArea, AmNorthBaseArea, AmLab1);
+
+if IsDying(AmDep1) or GetSide(AmDep1) = 3 then
+   DefendDepot(1, AmDep1)
+else
+    EnterBunkerOrBarrack(1, AmNorthBaseArea);
+
+if IsDying(AmDep2) or GetSide(AmDep2) = 3 then
+   DefendDepot(4, AmDep2)
+else
+    EnterBunkerOrBarrack(4, AmSouthBaseArea);
+End;
+
+Export Function ComRepairVehicleAndReturn(driver);
+var vehicle;
+begin
+if not driver or not IsInUnit(driver) then
+   exit;
+
+vehicle := IsInUnit(driver);
+SetTaskList(driver, [
+   ['\', 0, 0, 0, 0, 0, 0],
+   ['E', 0, 0, vehicle, 0, 0, 0]
+]);
+End;
+
+Export Function AddComRepairVehicleAndReturn(driver);
+var vehicle;
+begin
+if not driver or not IsInUnit(driver) then
+   exit;
+
+vehicle := IsInUnit(driver);
+AddTaskList(driver, [
+   ['\', 0, 0, 0, 0, 0, 0],
+   ['E', 0, 0, vehicle, 0, 0, 0]
+]);
+End;
 

@@ -16,6 +16,8 @@ IT_LR_RemoteTurret = 95;
 IT_LR_Comp4 = 96;
 IT_LR_Comp4 = 97;
 IT_LR_SalvoGun = 98;
+IT_LR_IonLaser = 99;
+IT_LR_MineSweeper = 100;
 
 -- buttons.txt
 SOS_TECH = {
@@ -90,7 +92,15 @@ SOS_TECH = {
     {
         TECH = IT_LR_SalvoGun,
         BUTTON = 190
-    }	
+    },
+    {
+        TECH = IT_LR_IonLaser,
+        BUTTON = 268
+    },
+    {
+        TECH = IT_LR_MineSweeper,
+        BUTTON = 114
+    }		
 }
  
 function GetLabQueueIcon(ID)

@@ -1,0 +1,43 @@
+{
+Am Commander - Peter Williams
+}
+
+Export amConvoy;
+Export function PrepareAmericanHeroes;
+var tmp;
+begin
+     Uc_Side := 1;
+
+     Hc_Name := 'Peter Williams';
+     Hc_Gallery := 'SecondCharsGal';
+     Hc_Face_Number := 80;
+     Hc_Skills := [6,5,2,2];
+     will := CreateHuman;
+PlaceHumanInUnit(will, AmDep1);
+
+end;
+
+Export function PrepareSouthBase;
+var i, un;
+begin
+RespawnInside(4, 1, AmDep2, rand(UsSoldMinLevel, UsSoldMaxLevel), 2, [2, 3, 4][Difficulty]);
+RespawnInside(4, 1, AmA2, rand(UsSoldMinLevel, UsSoldMaxLevel), 1, [2, 3, 5][Difficulty]);
+RespawnInside(4, 1, AmB5, rand(UsSoldMinLevel, UsSoldMaxLevel), 1, 1);
+RespawnInside(4, 1, AmB6, rand(UsSoldMinLevel, UsSoldMaxLevel), 1, 1);
+RespawnInside(4, 1, AmLab2, rand(UsSoldMinLevel, UsSoldMaxLevel), 4, [1, 1, 2][Difficulty]);
+RespawnInside(4, 1, AmFactory2, rand(UsSoldMinLevel, UsSoldMaxLevel), 3, [2, 2, 3][Difficulty]);
+end;
+
+Export function PrepareNorthBase;
+var i;
+begin
+RespawnInside(1, 1, AmDep1, rand(UsSoldMinLevel, UsSoldMaxLevel), 2, [1, 2, 3][Difficulty]);
+RespawnInside(1, 1, AmA1, rand(UsSoldMinLevel, UsSoldMaxLevel), 1, [1, 2, 3][Difficulty]);
+for i in FilterUnitsInArea(AmNorthBaseArea, [[f_btype, 31]]) do
+    RespawnInside(1, 1, i, rand(UsSoldMinLevel + 1, UsSoldMaxLevel + 1), 1, 1);
+for i in FilterUnitsInArea(AmNorthBaseArea, [[f_btype, 32]]) do
+    RespawnInside(1, 1, i, rand(UsSoldMinLevel, UsSoldMaxLevel), 1, 1);
+RespawnInside(1, 1, AmFactory1, rand(UsSoldMinLevel, UsSoldMaxLevel), 3, [4, 5, 6][Difficulty]);
+RespawnInside(1, 1, crane1, rand(UsSoldMinLevel, UsSoldMaxLevel), 3, 1);
+RespawnInside(1, 1, AmLab1, rand(UsSoldMinLevel, UsSoldMaxLevel), 4, [2, 3, 4][Difficulty]);
+end;

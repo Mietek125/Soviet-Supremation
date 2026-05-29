@@ -1712,7 +1712,7 @@ GAMEINIT
         ROTATE_TYPE Free_gyro
         MODIFY_CHASSIS 0
         SIGHT 9
-        WEIGHT 3  4
+        WEIGHT 4  4
         ATTACK
           MINMAX_RANGE 1  5
           FREQUENCY 75  1
@@ -1765,13 +1765,14 @@ GAMEINIT
         ATTACK
           MINMAX_RANGE 10  35
           FREQUENCY 10  1500
-		  FREQDELAY 35
-          DAMAGE 500 1000 1500
-          EFF 50 100 150
+		  FREQDELAY 25
+          DAMAGE 500 500 750
+          EFF 50 50 75
 	      ACCURACY 1 4 5		  
           ANIM  1  2  3
           ATTACKGROUND
         END_OF_ATTACK
+		CANSHOOTWHILEMOVING 0
         PRODUCED_IN 44
         TECHNOLOGY 80
       WEAPON_TYPE  101 
@@ -1791,7 +1792,7 @@ GAMEINIT
         WEIGHT 3  3
         COMMBUTTONPAGE 74
       WEAPON_TYPE  102
-        NAME "E(Calliope Rocketry)C(Calliope Rocketry)"
+        NAME "E(Calliope Rocket)C(Calliope Rocket)"
         NATION American
         SYMBOL am-calliope
         OIL 0

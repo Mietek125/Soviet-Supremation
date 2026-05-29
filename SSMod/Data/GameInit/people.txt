@@ -61,7 +61,7 @@ GAMEINIT
         ANIM_COUNT 86 
         SOUND_NAME machineGun
         SOUND_CYCLE 0
-        ATTACKS 1 
+        ATTACKS 2 
         ATTACK 1 
           MINMAX_RANGE  1  8 
           FREQUENCY  30  45 
@@ -69,6 +69,14 @@ GAMEINIT
           EFF 19 14 5
           ANIM  1  1  2 
         END_OF_ATTACK
+        ATTACK 2 
+          MINMAX_RANGE  3  10 
+          FREQUENCY  1  105 
+          DAMAGE 75 125 150
+          EFF 20 30 35
+          ANIM  1  6  5 
+        END_OF_ATTACK		
+		CANUSEMINES 1
       CLASS 2 
         NAME "E(Engineer)C(Dìlník)"
         CLASS_TYPE 2 
@@ -164,6 +172,7 @@ GAMEINIT
         NAME "E(Sniper)C(Ostøelovaè)"
         CLASS_TYPE 1 
         SIGHT_BONUS 1 4
+        SPEED_BONUS 6 1		
         SYMBOLS
           u-m-snip
           u-f-snip
@@ -483,6 +492,39 @@ GAMEINIT
         SOUND_NAME none
         SOUND_CYCLE 0
         ATTACKS 0 
+		CLASS 30 
+        NAME "E(Sapper)C(Sapper)"
+        CLASS_TYPE 1 
+        ARMOR_BONUS 9 5
+        SIGHT_BONUS 1 1
+        SPEED_BONUS 9 -1			
+        SYMBOLS
+          u-m-sol
+          u-f-sol
+          a-m-sol
+          a-f-sol
+          r-m-sol
+          r-f-sol
+        FALL_DIRECTIONS
+           0 
+           5 
+           5 
+           1 
+           0 
+           2 
+        ANIM_COUNT 86 
+        SOUND_NAME submachineGun
+        SOUND_CYCLE 0
+        ATTACKS 1 
+        ATTACK 1 
+          MINMAX_RANGE  1  6 
+          FREQUENCY  50  30 
+          DAMAGE 15 10 3
+          EFF 15 10 3
+          ANIM  1  1  2 
+        END_OF_ATTACK		
+		COMMBUTTONPAGE 83
+		CANUSEMINES 1
     END_OF_CLASSES
   END_OF_PEOPLE
 END_OF_GAMEINIT
