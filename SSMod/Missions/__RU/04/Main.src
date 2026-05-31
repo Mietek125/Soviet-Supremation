@@ -1,0 +1,67 @@
+Starting
+var b, n;
+begin
+
+ResetFog;
+Init;
+
+SetBname(NorthLenin,'lenin');
+SetBname(SouthLenin,'lenin');
+SetBname(MorozovBase,'OperationCentre');
+SetBname(YakotichBase,'Kamenev');
+SetBname(BukovBase,'Kuybyshev');
+SetBname(BierezovBase,'Zinoviev');
+
+AnimateTrees(true);
+
+Randomize;
+RandomizeAll;
+
+for b in FilterUnitsInArea(SouthLeninArea,[[f_type, unit_building]]) do
+    ComLinkToBase(SouthLenin, b);
+
+for n in FilterUnitsInArea(NorthLeninArea,[[f_type, unit_building]]) do
+    ComLinkToBase(NorthLenin, n);
+
+ComHold(Janusz);
+ComHold(Rahol);
+
+end;
+
+Export YakotichTeam, BierezovCrew, PompaCrew, BukovCrew, GaydarCrew, NorthLeninCrew, SouthLeninCrew, CheckpointsCrew, SouthCheckpointCrew, HeikeCrew, OmarCrew, RolfCrew, SchulzCrew; //Ekipy
+Export Yakotich, Mietek, Kostyliev, Smirnovsky, Maxim, Tatiana, Dragunov; //Nasi Ludzie
+Export Heike, Omar, Schulz, Bergkamp;                         //Dowódcy Arabów
+Export Tank, Cargo1, Cargo2;                                  //Tranport z 03
+Export Natasha, Belkov2, Oblukov, Kovalyuk, Kozlov;           //Ekipa Nataszy
+Export Bierezov, Sharonov, Lesov, Aleinik, Korotajev, Bautin; //G³ówni Bierezowa
+Export Pompa, Smirnov, Petrov, Konajev, Radenko;              //Ekipa Pompy
+Export Morozov, Platonov, Popov, Gaydar, Bukov, Yashin;       //Dowódcy Ruskich
+
+Export PrepareTime;
+
+export Debug; //tests only!
+
+Export PrevMissionPrefix, MissionPrefix;
+Export StartEnded, RussianAI, HeikeAI, OmarAI, BergkampAI, SchulzAI;
+
+
+Function Init;
+begin
+
+SetAttitude(9,3,1,True);
+SetAttitude(9,4,1,True);
+SetAttitude(9,6,1,True);
+ChangeSideFog(9,3);
+
+PrevMissionPrefix := '03_';
+MissionPrefix := '04_';
+//Debug := True;
+
+StartEnded := False;
+RussianAI := False;
+HeikeAI := False;
+OmarAI := False;
+BergkampAI := False;
+SchulzAI := False;
+
+end;

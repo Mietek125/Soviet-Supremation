@@ -151,8 +151,8 @@ Export function EnterBunkerOrBarrack(side, area);
 var i, j, soldiersList, turretList, tmp, barrackList, insideUnits;
 begin
 soldiersList := FilterUnitsInArea(area, [[f_side, side], [f_outside], [f_lives, 700], [f_not, [f_hastask]], [f_or, [f_class, 1], [f_class, 5], [f_class, 8], [f_class, 9]]]);
-turretList := FilterUnitsInArea(area, [[f_side, side], [f_btype, 32], [f_empty], [f_lives, 251]]);
-barrackList := FilterUnitsInArea(area, [[f_side, side], [f_or, [f_btype, 4], [f_btype, 5]], [f_lives, 251]]);
+turretList := FilterUnitsInArea(area, [[f_side, side], [f_or, [f_btype, b_breastwork], [f_btype, b_bunker]], [f_empty], [f_lives, 251]]);
+barrackList := FilterUnitsInArea(area, [[f_side, side], [f_or, [f_btype, b_armoury], [f_btype, b_barracks]], [f_lives, 251]]);
 
 if barrackList then
    begin
@@ -181,6 +181,71 @@ if barrackList then
       end;
    end;
 End;
+
+Export Function Spawn(units, area);
+begin
+     PlaceUnitArea(units, area, 1);
+end;
+
+Every 0$2 trigger AIEnable do
+begin
+enable;
+
+RepairBuilding(1, AmDep1, AmNorthBaseArea);
+RepairBuilding(4, AmDep2, AmSouthBaseArea);
+//craneRepair(1, crane, AmNorthBaseArea, craneParkArea);
+CraneRepairBuild(1, AmNorthBaseArea, amDestroyedBuildings);
+HealUnitInBase(1, AmNorthHealArea, AmNorthBaseArea, AmLab1);
+
+if IsDying(AmDep1) or GetSide(AmDep1) = 3 then
+   DefendDepot(1, AmDep1)
+else
+    EnterBunkerOrBarrack(1, AmNorthBaseArea);
+
+if IsDying(AmDep2) or GetSide(AmDep2) = 3 then
+   DefendDepot(4, AmDep2)
+else
+    EnterBunkerOrBarrack(4, AmSouthBaseArea);
+End;
+
+
+Every 0$1 trigger not IsInUnit(will) and IsOk(AmDep1) and GetSide(AmDep1) = 1 do
+ComEnterUnit(will, AmDep1);
+
+Every 0$2 trigger AIEnable do
+begin
+enable;
+
+RepairBuilding(1, AmDep1, AmNorthBaseArea);
+RepairBuilding(4, AmDep2, AmSouthBaseArea);
+//craneRepair(1, crane, AmNorthBaseArea, craneParkArea);
+CraneRepairBuild(1, AmNorthBaseArea, amDestroyedBuildings);
+HealUnitInBase(1, AmNorthHealArea, AmNorthBaseArea, AmLab1);
+
+if IsDying(AmDep1) or GetSide(AmDep1) = 3 then
+   DefendDepot(1, AmDep1)
+else
+    EnterBunkerOrBarrack(1, AmNorthBaseArea);
+
+if IsDying(AmDep2) or GetSide(AmDep2) = 3 then
+   DefendDepot(4, AmDep2)
+else
+    EnterBunkerOrBarrack(4, AmSouthBaseArea);
+End;
+
+Export Function ComRepairVehicleAndReturn(driver);
+var vehicle;
+begin
+if not driver or not IsInUnit(driver) then
+   exit;
+
+vehicle := IsInUnit(driver);
+SetTaskList(driver, [
+   ['\', 0, 0, 0, 0, 0, 0],
+   ['E', 0, 0, vehicle, 0, 0, 0]
+]);
+End;
+
 
 Every 1 trigger IsSelected(Jarcin) or GetLives(Jarcin) < 1000 do
 begin

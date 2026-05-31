@@ -79,7 +79,7 @@ begin
 
      DialogueOn;
      InGameOn;
-     Spawn(Tatiana, TatianaSpawn);
+     PlaceUnitArea(Tatiana, TatianaSpawn, True);
 
      SayRadioNoFace(Tatiana, 'DTat-07-01');
      Say(Yakotich, 'DYak-07-02');

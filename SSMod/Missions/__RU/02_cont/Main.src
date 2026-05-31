@@ -51,7 +51,7 @@ Export will, Mike;
 Export Debug;
 
 Export PrevMissionPrefix, MissionPrefix;
-Export AmericansHeld, BaseCaptured, TatianaMad, BunkerBuilt, CargoBuilt, GunBuilt, CanDismantleGun, GunDismantled, EndOfMission, AmericansGotAway;
+Export AmericansHeld, BaseCaptured, TatianaMad, BunkerBuilt, CargoBuilt, GunBuilt, CanDismantleGun, GunDismantled, EndOfMission, AmericansGotAway, FirstContact;
 
 Export Function Init;
 begin
@@ -69,6 +69,7 @@ GunBuilt := False;
 CanDismantleGun := False;
 GunDismantled := False;
 EndOfMission := False;
+FirstContact := False;
 
 AmericansGotAway := 0;
 

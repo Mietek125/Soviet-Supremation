@@ -9,18 +9,6 @@ begin
      end;
 end;
 
-On VehicleRecycled(factory, vehicle, side, nation, x, y, direction, chassis, control, motor, weapon) Do
-begin
-
-     if not GunDismantled and CanDismantleGun and GetWeapon(weapon) = 3 or GetWeapon(weapon) = 5 or GetWeapon(weapon) = 6 then
-     begin
-          GunDismantled := True;
-          SetTech(tech_gun, 3, state_enabled);
-          SetRestrict(b_ext_gun, 3, state_enabled);
-     end;
-
-end;
-
 On VehicleConstructed(vehicle, building) Do
 begin
 
@@ -51,13 +39,30 @@ begin
      BunkerBuilt := True;
 end;
 
-On Contact(side1, side2) do
+On VehicleRecycled(BuildingID, VehicleID, Side, Nation, X,Y, Direction, Chassis, Controller, Engine, Weapon) do
+begin
+if Side = 3 and Nation = 1 and Weapon in [3,5,6] and GunDismantled = false then
 begin
 
-     if GetSide(side1) = 3 and GetSide(side2) = 4 or GetSide(side1) = 4 and GetSide(side2) = 3 or GetSide(side1) = 3 and GetSide(side2) = 1 or GetSide(side1) = 1 and GetSide(side2) = 3 then
-     begin
-          CenterOnUnits(side2);
-          Say(Yakotich, 'DYak-06-01');
+GunDismantled := True;
+SetTech(39,3,1);
+SetRestrict(17,3,1);
+
+end;
+
+end;
+
+On Contact(side1,side2) do
+var i;
+begin
+    if ((side1 = 4 and side2 = 3) or (side1 = 3 and side2 = 4) or (side1 = 3 and side2 = 1) or (side1 = 1 and side2 = 3)) and not FirstContact then
+    begin
+        for i in side1 do
+        begin
+        CenterOnUnits(i);
+        Say(Yakotich, 'DYak-06-01');
+        FirstContact := True;
+        end;
     end;
 end;
 

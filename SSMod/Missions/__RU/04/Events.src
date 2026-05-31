@@ -1,0 +1,298 @@
+Every 0$1 Trigger IsDead(YakotichBase) or IsDead(NorthLenin) or IsDead(SouthLenin) do
+begin
+
+YouLost('DepotDead');
+
+end;
+
+On Contact(s1, s2) do
+begin
+  if (s1 = 3 and s2 = 6) or (s2 = 3 and s1 = 4) then
+  begin
+  YouLost('AllyAttacked');
+  end;
+end;
+
+On BuildingCaptured(cb,bfs,cu) do
+begin
+
+     If GetSide(cb) = 6 and GetSide(cu) = 3 or GetSide(cb) = 4 and GetSide(cu) = 3 then
+     begin
+
+     YouLost('AllyAttacked');
+     end;
+end;
+
+on BuildingComplete(b) do
+var i;
+begin
+ if GetSide(b)=6 then
+  for i = 1 to 4 do
+  AI_BList := Delete(AI_BList, [1, 5][IsDead(AI_Depo)+1]);
+
+ if GetSide(b)=6 and GetBType(b)=b_depot then AI_Depo := b;
+ if GetSide(b)=6 and GetBType(b)=b_lab then AI_Lab := b;
+ if GetSide(b)=6 and GetBType(b)=b_workshop then AI_Fac := b;
+end;
+
+on VehicleConstructed(veh, fac) do
+var i;
+begin
+ if GetSide(veh)=6 and fac = AI_Fac then
+  begin
+   for i = 1 to 4 do
+    AI_VehList := Delete(AI_VehList, 1);
+   if not GetWeapon(veh) in [us_cargo_bay, us_bulldozer, us_crane] then AI_AttVehList := AI_AttVehList ^ veh;
+   if AI_AttVehList >= AI_AttVehNum then
+    begin
+     MC_AddToAttackLogic(AI_AttVehList);
+       Case Rand(1,3) of
+        1:McMove(75, AI_AttVehList, [ [76, 21] ], [mc_move_waitwp, mc_move_agressive]);
+        2:McMove(75, AI_AttVehList, [ [76, 57] ], [mc_move_waitwp, mc_move_agressive]);
+        3:McMove(75, AI_AttVehList, [ [55, 85] ], [mc_move_waitwp, mc_move_agressive]);
+        end;
+    end;
+  end;
+
+     If GetWeapon(veh) = 89 and GetSide(veh) = 6 then
+     Begin
+
+     Wait(0$5);
+
+     DialogueOn;
+
+     CenterNowOnUnits(veh);
+
+     SayRadio(Bukov,'D8-Bukov-01');
+     SayRadio(Bukov,'D8-Bukov-02');
+
+     ResQuery(1);
+
+     SetAreaMapShow(LeninCargo,2);
+
+     CenterNowOnXY(102,165);
+
+     DialogueOff;
+
+//     AddComTransport(vehicle,BukovBase,mat_cans);
+//     AddComGive(vehicle,SouthLenin);
+//     AddComRefuel(vehicle,SouthLenin);
+
+     Repeat
+
+     AddComTransport(veh,BukovBase,mat_cans);
+     AddComGive(veh,SouthLenin);
+     SetFuel(veh,85);
+
+     wait(0$1);
+     Until fall_back = True;
+
+     If fall_back = True then
+     ComMoveXY(veh,110,168);
+
+end;
+
+end;
+
+on ResearchComplete(tech, lab) do
+begin
+ if GetSide(lab)=6 and tech in AI_TechList then
+  AI_TechList := AI_TechList diff tech;
+
+ if GetSide(lab)=6 and tech = 32 then
+ AI_BList := AI_BList ^ [b_bunker, 81, 92, 1,
+                        b_bunker, 71, 83, 0,
+                        b_bunker, 59, 73, 0,
+                        b_bunker, 95, 121, 1,
+                        b_bunker, 100, 130, 1,
+                        b_bunker, 51, 65, 0,
+                        b_armoury, 99, 111, 1,
+                        b_bunker, 94, 116, 1,
+                        b_bunker, 86, 100, 1,
+                        b_bunker, 85, 97, 1,
+                        b_turret, 74, 95, 4,
+                        b_turret, 99, 127, 3]; ;
+
+ if GetSide(lab)=6 and tech = 27 then
+ AI_VehList := AI_VehList ^ [ru_medium_wheeled, engine_combustion, control_computer, ru_cargo_bay,
+                             ru_medium_tracked, engine_combustion, control_computer, ru_crane,
+                             ru_medium_tracked, engine_combustion, control_computer, ru_crane];
+
+end;
+
+on UnitDestroyed(un) do
+var bb;
+begin
+
+     if un = Yakotich then
+        YouLost('YakotichDead');
+
+     if un = Mietek then
+        YouLost('MietekDead');
+
+     if un in FilterAllUnits([[f_side, 3], [f_not, [f_nation, 0]], [f_type, unit_human]]) then
+        YouLost('PeopleDead');
+
+
+ if GetType(un)=unit_building and GetSide(un)=6 then
+  begin
+   bb := [];
+   case GetBType(un) of
+   b_depot, b_warehouse: bb := b_depot;
+   b_lab, b_lab_half, b_lab_full: bb := b_lab;
+   b_workshop, b_factory: bb := b_workshop;
+   b_armoury, b_barracks: bb := b_armoury;
+   end;
+   if bb = [] then bb := GetBType(un);
+
+   if GetBType(un) in [b_depot, b_warehouse] then
+    AI_BList := Insert(AI_BList, 1, [bb, GetX(un), GetY(un), GetDir(un)])
+   else
+    AI_BList := AI_BList ^ [bb, GetX(un), GetY(un), GetDir(un)];
+  end;
+
+ if un in AI_AttVehList then AI_AttVehList := AI_AttVehList diff un;
+ if GetWeapon(un)=ru_cargo_bay then AI_VehList := AI_VehList ^ [ru_medium_wheeled, engine_combustion, control_computer, ru_cargo_bay];
+ if GetWeapon(un)=ru_crane then AI_VehList := AI_VehList ^ [ru_medium_tracked, engine_combustion, control_computer, ru_crane];
+
+
+end;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+On ApemanTamed(ape,scientist) do
+begin
+
+If GetSide(ape) = 3 and apeman_tamed = False then
+begin
+
+DialogueOn;
+
+Say(Grigori,'4Grig-Ape-02');
+Say(Yakotich,'4Yak-Ape-02');
+Say(Grigori,'4Grig-Ape-03');
+
+DialogueOff;
+
+apeman_tamed = True;
+
+end;
+end;
+
+On VehicleRecycled(BuildingID, VehicleID, Side, Nation, X,Y, Direction, Chassis, Controller, Engine, Weapon) do
+begin
+if Side = 3 and Nation = 2 and Weapon = 26  then
+begin
+
+SetTech(70,3,1);
+
+end;
+
+end;
+
+{if GetControl(vehicle) = control_remote and GetSide(vehicle) = 2 then
+   begin
+
+   Wait(0$3);
+
+   Connect(vehicle);
+
+   newAttackers := Replace(newAttackers, newAttackers + 1, vehicle);
+
+   if newAttackers >= [4,5,6][Difficulty] then
+      begin
+      attackers := attackers union newAttackers;
+      newAttackers := [];
+      end;
+ end;}
+
+
+Every 0$1 Trigger Researched(6,84) do
+begin
+     AddComConstruct(BukovF,24,1,1,89);
+end;
+
+Every 0$1 Trigger Researched(3,34) do
+begin
+    DialogueOn;
+    Say(Vasilij,'4Vas-HG-01');
+    DialogueOff;
+    ChangeMissionObjectives('hg2');
+    heavy_gun_researched = True;
+end;
+
+Every 0$1 Trigger Researched(3,1) do
+begin
+     DialogueOn;
+     Say(Grigori,'4Grig-Ape-01');
+     Say(Yakotich,'4Yak-Ape-01');
+     DialogueOff;
+end;
+
+Every 0$1 Trigger Researched(3,70) do
+begin
+     DialogueOn;
+     Say(Stanislav,'4Stan-Flame-01');
+     Say(Stanislav,'4Stan-Flame-02');
+     Say(Stanislav,'4Stan-Flame-03');
+     ChangeMissionObjectives('flame');
+     flame_researched = True;
+     DialogueOff;
+end;
+
+
+{Every 0$1 Trigger IsInArea(FilterUnitsInArea(NorthLeninArea,[[f_side,6],[f_empty],[f_constructed],[f_btype, b_bunker]]),NorthLeninArea) do
+Begin
+
+     ComEnterUnit(FilterUnitsInArea(NorthLeninArea[[f_side,6],[f_class,1],[f_outside]]),FilterUnitsInArea(NorthLeninArea,[[f_side,6],[f_empty],[f_constructed],[f_btype, b_bunker]]));
+
+     If FilterUnitsInArea(NorthLeninArea[[f_side,6],[f_class,1],[f_outside]])) =< 0 then
+     begin
+
+     ComExitBuilding(NorthLeninArea[[f_side,6],[f_class,1],[f_inside],[f_btype, b_barracks]]));
+
+end;
+
+    If FilterUnitsInArea(NorthLeninArea,[[f_side,6],[f_empty],[f_constructed],[f_btype, b_bunker]]) =< 0 then
+    Begin
+
+    ComEnterUnit(FilterUnitsInArea(NorthLeninArea[[f_side,6],[f_class,1],[f_outside]]),NorthLeninArea[[f_side,6],[f_class,1],[f_inside],[f_btype, b_barracks]]));
+
+end;
+
+End;
+
+
+
+
