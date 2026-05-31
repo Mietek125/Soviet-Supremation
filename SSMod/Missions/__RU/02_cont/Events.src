@@ -24,7 +24,7 @@ end;
 On VehicleConstructed(vehicle, building) Do
 begin
 
-     if GetWeapon(vehicle) = 44 then
+     if not GunBuilt and GetWeapon(vehicle) = 44 then
      begin
           InGameOn;
           CenterOnUnits(vehicle);
@@ -81,3 +81,22 @@ begin
      YouLost('MietekDead');
 
 end;
+
+Every 0$1 Trigger GetSide(Tatiana) = 3 do
+CanDismantleGun = True;
+
+Every 0$1 Trigger FilterUnitsInArea(EscapeArea,[[F_or, [f_side, 1], [f_side, 4]], [f_type, unit_human]]) do
+var unit;
+begin
+     enable;
+
+     for unit in FilterUnitsInArea(EscapeArea, [[F_or, [f_side, 1], [f_side, 4]], [f_type, unit_human]]) do
+     begin
+     RemoveUnit(IsDrivenBy(unit));
+     RemoveUnit(unit);
+     AmericansGotAway := AmericansGotAway +1;
+     end;
+end;
+
+Every 0$1 Trigger AmericansGotAway >= [10,7,5][Difficulty] do
+YouLost('AmericansGotAway');

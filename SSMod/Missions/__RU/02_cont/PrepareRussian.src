@@ -5,9 +5,13 @@ Begin
      Uc_Side = 6;
 
      Kurin := PrepareUnit('Kurin', (not debug), '');
+     Platonov := PrepareUnit('Platonov', (not debug), '');
+     Grishko := PrepareUnit('Grishko', (not debug), '');
      Tatiana := PrepareUnit('Tatiana', (not debug), '');
 
      Uc_Side = 3;
+
+     Burlak := PrepareUnit('Burlak', (not debug), '');
 
      Yakotich := PrepareUnit('Yakotich', (not debug), prevMissionPrefix);
      Mietek := PrepareUnit('Mietek', (not debug), prevMissionPrefix);

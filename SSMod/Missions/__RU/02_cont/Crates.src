@@ -1,0 +1,9 @@
+Every 2$0 Trigger BaseCaptured do
+var i;
+Begin
+enable;
+
+for i = 1 to 3 do
+CreateCratesArea(rand(3,5), CratesArea, True);
+
+end;

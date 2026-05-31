@@ -51,11 +51,11 @@ Export will, Mike;
 Export Debug;
 
 Export PrevMissionPrefix, MissionPrefix;
-Export AmericansHeld, BaseCaptured, TatianaMad, BunkerBuilt, CargoBuilt, GunBuilt, CanDismantleGun, GunDismantled, EndOfMission;
+Export AmericansHeld, BaseCaptured, TatianaMad, BunkerBuilt, CargoBuilt, GunBuilt, CanDismantleGun, GunDismantled, EndOfMission, AmericansGotAway;
 
 Export Function Init;
 begin
-debug := true;
+//Debug := true;
 PrevMissionPrefix := '01_';
 MissionPrefix := '02_';
 
@@ -70,6 +70,8 @@ CanDismantleGun := False;
 GunDismantled := False;
 EndOfMission := False;
 
+AmericansGotAway := 0;
+
 UsSoldMinLevel := 0;
 UsSoldMaxLevel := 0;
 
@@ -79,7 +81,7 @@ amDestroyedBuildings = [];
 KurinTime := 30$0;
 end;
 
-Every 0$1 trigger debug do
+Every 0$1 trigger Debug do
 var i;
 begin
 

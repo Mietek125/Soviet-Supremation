@@ -1,7 +1,6 @@
 Export Function InitAction;
 Begin
 
-     RevealFogArea(3, RevealRiverArea);
      CenterOnXY(158, 39);
      InGameOn;
 
@@ -10,6 +9,7 @@ Begin
      Say(Maxim, 'DMax-02-03');
      ChangeMissionObjectives('Ob1');
 
+     RevealFogArea(3, RevealRiverArea);
      InGameOff;
 
      repeat
@@ -86,7 +86,6 @@ begin
      SayRadioNoFace(Tatiana, 'DTat-07-03');
      Say(Yakotich, 'DYak-07-04b');
      ChangeMissionObjectives('ObTat');
-
      DialogueOff;
      InGameOff;
 
@@ -131,7 +130,7 @@ begin
      SetSide(Tatiana, 3);
 end;
 
-Every 0$1 Trigger AmericansHeld and FilterAllUnits([[f_or, [f_side, 1], [f_side, 4]], [f_type, unit_human]]) do
+Every 0$1 Trigger AmericansHeld and FilterAllUnits([[f_or, [f_side, 1], [f_side, 4]], [f_type, unit_human]]) = 0 do
 begin
 
      InGameOn;
@@ -170,20 +169,28 @@ end;
 
 
 Every 0$1 Trigger EndOfMission do
+var unit;
 begin
 
      If GetSide(Tatiana) = 3 and not TatianaMad then
           AddMedal('TatianaMedal', 1)
      else
      begin
-         AddMedal('VehicleMedal',-1);
+         AddMedal('TatianaMedal',-1);
          SaveVariable(TatianaMad, MissionPrefix & 'TatianaMad');
      end;
 
-    { If All_Techs_Done then
-        AddMedal('ResearchMedal',1)
+     If AmericansGotAway = 0 then
+     begin
+        AddMedal('AmericansMedal',1);
+        for unit in FilterAllUnits([[f_side, 3]]) do
+        AddExperience_NoLimit(unit,1,500);
+     end
+     else if
+         AmericansGotAway <= [4,2,1][Difficulty] then
+         AddMedal('AmericansMedal',2)
      else
-         AddMedal('ResearchMedal',-1); }
+         AddMedal('ResearchMedal',-1);
 
      If GunBuilt and CargoBuilt and BunkerBuilt then
         AddMedal('SideQuestsMedal',1)

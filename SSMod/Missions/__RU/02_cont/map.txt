@@ -13,11 +13,11 @@ END_OF_MAIN_DEFINITIONS
 
 HEXES
   LINE 0 0 139
-    t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4r7v4 t4r7v4sA t4r6v4sg t4r6v5sZ t4r6v8 t4r6v8sI t4r6v8sY t4r6vAsJ t4r6v5si t4r7v4sC t4r7v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4r5sah3 t4r5h3 t4r5h3 t4r5h3 t4r5h3 t4r5h3 t4r5h3 t4r5h3 t4r5h3 t4r5sXh3 t4r6v4sn t4r6vA t4r6vA t4r6vA t4r6vA t4r6vA t4r6vAsn t4r6vGsQ t4r6vGsR t4r6vGsO t4r6vJ t4r6vJ t4r6vJ t4r6vJ t4r6vJ t4r6vJ t4r6vJ t4r6vJ t4r6vJ t4r6vJ t4r6vJ t4r6vGsR t4r6vG t4r6vG t4vAsq t4r6vA t4r7vA t4r6vAsQ t4r6vAsR t4r6vA t4r6vA t4r6v4sq t4r6v3sC t4r4sSh1 t4r4h1 t4r4h1 t4r4h1 t4r4h1 t4r4h1 t4r4h1 t4r4h1 t4r4h1 t4r4h1 t4r4h1 t4r4h1 t4r4h1 t4r4sXh1 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4
+    t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4r7v4 t4r7v4sA t4r6v4sg t4r6v5sZ t4r6v8 t4r6v8sI t4r6v8sY t4r6vAsJ t4r6v5si t4r7v4sC t4r7v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4r5sah3 t4r5h3 t4r5h3 t4r5h3 t4r5h3 t4r5h3 t4r5h3 t4r5h3 t4r5h3 t4r5sXh3 t4r6v4sn t4r6vA t4r6vA t4r6vA t4r6vA t4r6vA t4r6vAsn t4r6vGsQ t4r6vGsR t4r6vGsO t4r6vJ t4r6vJ t4r6vJ t4r6vJ t4r6vJ t4r6vJ t4r7vJ t4r6vJ t4r6vJ t4r6vJ t4r6vJ t4r6vGsR t4r6vG t4r6vG t4r6vAsq t4r6vA t4r6vA t4r6vAsQ t4r6vAsR t4r6vA t4r6vA t4r6v4sq t4r6v3sC t4r4sSh1 t4r4h1 t4r4h1 t4r4h1 t4r4h1 t4r4h1 t4r4h1 t4r4h1 t4r4h1 t4r4h1 t4r4h1 t4r4h1 t4r4h1 t4r4sXh1 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4 t4v4
   LINE 1 1 140
-    t4v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2r7v4 t2r7v4 t2r7v4sA t2r6v5sY t2r6v9 t2r6v8sP t2r6v8sY t2r6vAsY t2r6vCsJ t2r6v6sq t2r7v4sK t2r7v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2r5sah3 t2r5h3 t2r5h3 t2r5h3 t2r5h3 t2r5h3 t2r5h3 t2r5h3 t2r5h3 t2r5sXh3 t2r6v4sn t2r6vA t2r6vAsQ t2r6vAsR t2r6vA t2r6vAsn t2r6vGsP t2r6vJ t2r6vHsG t2r6vHsG t2r6vHsG t2r6vGsT t2r6vGsO t2r6vHsG t2r6vHsG t2r6vHsG t2r6vHsG t2r6vHsG t2r6vHsG t2r6vHsG t2r6vJ t2r6vGsR t2r6vGsJ t2r6vG t2r6vAsq t2r7vA t2r6vAsQ t2r6vD t2r6vAsS t2r6vA t2r6v4sq t2r6v4 t2r4sah1 t2r4h1 t2r4h1 t2r4h1 t2r4h1 t2r4h1 t2r4h1 t2r4h1 t2r4h1 t2r4h1 t2r4h1 t2r4h1 t2r4h1 t2r4h1 t2r4sXh1 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t4v4
+    t4v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2r7v4 t2r7v4 t2r7v4sA t2r6v5sY t2r6v9 t2r6v8sP t2r6v8sY t2r6vAsY t2r6vCsJ t2r6v6sq t2r7v4sK t2r7v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2r5sah3 t2r5h3 t2r5h3 t2r5h3 t2r5h3 t2r5h3 t2r5h3 t2r5h3 t2r5h3 t2r5sXh3 t2r6v4sn t2r6vA t2r6vAsQ t2r6vAsR t2r6vA t2r6vAsn t2r6vGsP t2r6vJ t2r6vHsG t2r6vHsG t2r6vHsG t2r6vGsT t2r6vGsO t2r6vHsG t2r6vHsG t2r6vHsG t2r6vHsG t2r6vHsG t2r6vHsG t2r6vHsG t2r6vJ t2r6vGsR t2r6vGsJ t2r6vG t2r6vAsq t2r6vA t2r6vAsQ t2r6vD t2r6vAsS t2r6vA t2r6v4sq t2r6v4 t2r4sah1 t2r4h1 t2r4h1 t2r4h1 t2r4h1 t2r4h1 t2r4h1 t2r4h1 t2r4h1 t2r4h1 t2r4h1 t2r4h1 t2r4h1 t2r4h1 t2r4sXh1 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t2v4 t4v4
   LINE 2 1 140
-    t4v4 t2v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 r7v4 r7v4sA r7v4sI r6v5so r6v9sJ r6v9sH r6vBs9 r6vCsH r6vE r6v8sq r7v4sa r7v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 r5sah2 r5h2 r5h2 r5h2 r5h2 r5h2 r5h2 r5h2 r5h3 r5sXh3 r6v4sn r6vA r6vAsP r6vD r6vAsR r6vA r6vAsn r6vGsO r6vGsO r6vH r6vHsG r6vGsO r6vG r6vGs9 r6vH r6vH r6vHs8 r6vHs8 r6vHs8 r6vHs8 r6vHsG r6vJ r6vIsC r6vGsK r6vAsq r7vA r6vAsQ r6vD r6vAsS r6vA r6v4sq r6v4 r4sah1 r4h1 r4h1 r4h1 r4h1 r4h1 r4h1 r4h1 r4h1 r4h1 r4h1 r4h1 r4h1 r4h1 r4sXh1 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 t2v4 t4v4
+    t4v4 t2v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 r7v4 r7v4sA r7v4sI r6v5so r6v9sJ r6v9sH r6vBs9 r6vCsH r6vE r6v8sq r7v4sa r7v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 r5sah2 r5h2 r5h2 r5h2 r5h2 r5h2 r5h2 r5h2 r5h3 r5sXh3 r6v4sn r6vA r6vAsP r6vD r6vAsR r6vA r6vAsn r6vGsO r6vGsO r6vH r6vHsG r6vGsO r6vG r6vGs9 r6vH r6vH r6vHs8 r6vHs8 r6vHs8 r6vHs8 r6vHsG r6vJ r6vIsC r6vGsK r6vAsq r6vA r6vAsQ r6vD r6vAsS r6vA r6v4sq r6v4 r4sah1 r4h1 r4h1 r4h1 r4h1 r4h1 r4h1 r4h1 r4h1 r4h1 r4h1 r4h1 r4h1 r4h1 r4sXh1 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 t2v4 t4v4
   LINE 3 2 141
     t4v4 t2v4 v4f2 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 r7v4 r7v4sI r6v5sQ r6v6so r6vBsB r6vAsB r6vAs9 r6vBs9 r6vBsO r6v8sr r7v4sa r7v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 r5sah2 r5h2 r5h2 r5h2 r5h2 r5h2 r5h2 r5h2 r5h3 r5sXh3 r6v4sn r6vA r6vAsP r6vD r6vAsR r6vA r6vAsm r6vG r6vGs8 r6vGsO r6vJ r6vGsT r6vGs8 r6vH r6vH r6vHs9 r6vI r6vI r6vI r6vHs8 r6vHsG r6vGsT r6vGsL r6vAsq r6vA r6vAsP r6vD r6vAsS r6vA r6v5si r6v4sC r4sah1 r4h1 r4h1 r4h1 r4h1 r4h1 r4h1 r4h1 r4h1 r4h1 r4h1 r4h1 r4h1 r4h1 r4sXh1 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 t2v4 t4v4
   LINE 4 2 141
@@ -61,9 +61,9 @@ HEXES
   LINE 23 12 151
     t4v4 t2v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 v4f2 v4f2 v4f2 v4f2 v4f2 v4 v4 v4f2 v4 v4 v4 r7v4 r7v4s8 r6v4sG r6v6s8 r6v6sD r7v4sL v4sD v4 v4 v4 r4v4 r4sah1 r4h1 r4h1 r4h1 r4h1 r4h1 r4h1 r4sXh1 r4v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 t2v4 t4v4
   LINE 24 12 151
-    t4v4 t2v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 v4f2 v4f2 v4f2 v4 v4 v4 v4f2 v4 v4 v4 r7v4 r6v4sG r6v5s8 r7v4sL v4 v4 v4 v4 r4v4 r4sah1 r4h1 r4h1 r4h1 r4h1 r4h1 r4h1 r4sXh1 r4v4 r4v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4S v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 t2v4 t4v4
+    t4v4 t2v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 v4f2 v4f2 v4f2 v4 v4 v4 v4f2 v4 v4 v4 r7v4 r6v4sG r6v5s8 r7v4sL v4 v4 v4 v4 r4v4 r4sah1 r4h1 r4h1 r4h1 r4h1 r4h1 r4h1 r4sXh1 r4v4 r4v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 t2v4 t4v4
   LINE 25 13 152
-    t4v4 t2v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4f2 v4 v4 v4 v4 v4 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 v4f2 v4f2 v4 v4 v4 v4 v4 v4 v4 r7v4f2 r7v4s8f2 r7v4sDf2 v4f2 v4f2 v4f2 v4f2 v4 r4v4 r4sah1 r4h1 r4h1 r4h1 r4h1 r4h1 r4h1 r4sXh1 r4v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4S v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 t2v4 t4v4
+    t4v4 t2v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4f2 v4 v4 v4 v4 v4 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 v4f2 v4f2 v4 v4 v4 v4 v4 v4 v4 r7v4f2 r7v4s8f2 r7v4sDf2 v4f2 v4f2 v4f2 v4f2 v4 r4v4 r4sah1 r4h1 r4h1 r4h1 r4h1 r4h1 r4h1 r4sXh1 r4v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 t2v4 t4v4
   LINE 26 13 152
     t4v4 t2v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 rAv4 rAv4 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 rAv4f2 v4 v4 v4 v4 v4 v4f2 v4f2 v4f2 r7v4f2 r7v4f2 v4f2 v4f2 v4f2 v4f2 v4f2 v4f2 r4sah1f2 r4h1f2 r4h1 r4h1 r4h1 r4h1 r4h1 r4sXh1 r4v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4sI v4sI v4sJ v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 t2v4 t4v4
   LINE 27 14 153
@@ -75,7 +75,7 @@ HEXES
   LINE 30 15 154
     t4v4 t2v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 rAv4 rAv4 rAv4 rAv4 rAv4 rAv4 rAv4 rAv4 rAv4 rAv4 rAv4 v4 v4f2 v4f2 v4f2 v4f2 v4f2 v4f2 v4f2 v4f2 v4f2 v4f2 v4f2 r4v4 r4sah1f2 r4h1f2 r4h1f2 r4h1f2 r4h1 r4h1 r4sXh1 r4v4 r4v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4sP r7v7 r7v6sC r7v6 r7v6 r7v6 r7v6 r7v6 v4sJ v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 t2v4 t4v4
   LINE 31 16 155
-    t4v4 t2v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 rAv4 rAv4 rAv4 rAv4 rAv4 rAv4 rAv4 rAv4 rAv4 rAv4 v4 v4 v4f2 v4f2 v4f2 v4f2 v4f2 v4f2 v4f2 v4f2 v4f2 v4f2 r4v4f2 r4sah1f2 r4h1f2 r4h1f2 r4h1 r4h1 r4h1 r4sXh1 r4v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4s9 v5sH r7v6sD r7v6 r7v6 r7v6 r7v6 r7v6 r7v6 v4sK v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 t2v4 t4v4
+    t4v4 t2v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 rAv4 rAv4 rAv4 rAv4 rAv4 rAv4 rAv4 rAv4 rAv4 rAv4 v4 v4 v4f2 v4f2 v4f2 v4f2 v4f2 v4f2 v4f2 v4f2 v4f2 v4f2 r4v4f2 r4sah1f2 r4h1f2 r4h1f2 r4h1 r4h1 r4h1 r4sXh1 r4v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4s9 v5sH r7v6sD r7v6 r7v6 r7v6 r7v6 r7v6 r7v6 v4sK v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4S v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 t2v4 t4v4
   LINE 32 16 155
     t4v4 t2v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4f2 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 rAv4 rAv4 rAv4 rAv4 rAv4 rAv4 rAv4 rAv4 rAv4 v4 v4 v4f2 v4f2 v4f2 v4f2 v4f2 v4f2 v4f2 v4f2 v4f2 r4v4f2 r4sah1f2 r4h1f2 r4h1f2 r4h1f2 r4h1 r4h1 r4sXh1 r4v4 r4v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4s9 v5s9 r7v6 r7v6 r7v6 r7v6 r7v6 r7v6sA r7v6sB v4sK v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 v4 t2v4 t4v4
   LINE 33 17 156
@@ -843,30 +843,6 @@ TECHS
   PARAMS 100 9
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
@@ -875,17 +851,41 @@ TECHS
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F F T T T F F T F F T F F T F F T F F T F F T F F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
   F F F F T T T F F T F F T F F T F F T F F T F F T F F T F F
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F F T T T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F F T T T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F F T T T F F T F F T F F T F F T F F T F F T F F T F F
   F F F F T T T F F F T F T F F T F F T F F T F F T F F T F F
   F F F F T T T F F F T F T F F T F F T F F T F F T F F T F F
   F F F F T T T F F F T F F T T T F F T F F T F F T F F T F F
@@ -900,18 +900,19 @@ TECHS
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F F T T T F F T F F T F F T F F T F F T F F T F F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
   F F F F T T T F F T F F T F F T F F T F F T F F T F F T F F
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F F T T T F F F T F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
@@ -919,28 +920,27 @@ TECHS
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F F T T T F F F T F T F F T F F T F F T F F T F F T F F
   F F F F T T T F F F T F T F F T F F T F F T F F T F F T F F
   F F F F T T T F F T F F T F F T F F T F F T F F T F F T F F
   F F F F T T T F F T F F T F F T F F T F F T F F T F F T F F
   F F F F T T T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F F T T T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
   F F F F T T T F F F T F T F F T F F T F F T F F T F F T F F
   F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T F F
 END_OF_TECHS
 
 RESTRICTS
@@ -1087,26 +1087,26 @@ END_OF_BASES
 RANDOMS
   MICROLOGIC 2 0 1
   RANDOM_SEED 1 2144617242
-  RANDOM_SEED 2 1485892036
-  RANDOM_SEED 3 -1332570852
+  RANDOM_SEED 2 1487302830
+  RANDOM_SEED 3 1724962258
   RANDOM_SEED 4 1784077557
   RANDOM_SEED 5 1968253133
   RANDOM_SEED 6 1578386952
-  RANDOM_SEED 7 418319452
+  RANDOM_SEED 7 1239368856
   RANDOM_SEED 8 1954382051
   RANDOM_SEED 9 604574836
-  RANDOM_SEED 10 -1082269364
+  RANDOM_SEED 10 -1345813306
   RANDOM_SEED 11 1045859
   RANDOM_SEED 12 32708849
   RANDOM_SEED 13 975979706
   RANDOM_SEED 14 1881244068
-  RANDOM_SEED 15 -1136673074
+  RANDOM_SEED 15 934497758
   RANDOM_SEED 16 2107945759
   RANDOM_SEED 17 2039742367
   RANDOM_SEED 18 817283106
   RANDOM_SEED 19 1203489966
   RANDOM_SEED 20 498171245
-  RANDOM_SEED 21 -209992838
+  RANDOM_SEED 21 -449929558
   RANDOM_SEED 22 978891200
   WIND_TIME -1 -1 0
   WIND_STRENGTH 36.7606167791381 52.0 53.3803083895691
@@ -3150,7 +3150,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 5
+        VOICE 1
         RANDOM_SEED 2108452976
     END_OF_DEFINITION
     GAME_STATE
@@ -3190,7 +3190,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 1
+        VOICE 3
         RANDOM_SEED 715219486
     END_OF_DEFINITION
     GAME_STATE
@@ -3230,7 +3230,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 5
+        VOICE 1
         RANDOM_SEED 343068892
     END_OF_DEFINITION
     GAME_STATE
@@ -3310,7 +3310,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 3
+        VOICE 5
         RANDOM_SEED -462088958
     END_OF_DEFINITION
     GAME_STATE
@@ -3550,7 +3550,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 3
+        VOICE 5
         RANDOM_SEED 87063204
     END_OF_DEFINITION
     GAME_STATE
@@ -3590,7 +3590,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 5
+        VOICE 1
         RANDOM_SEED -1563627086
     END_OF_DEFINITION
     GAME_STATE
@@ -3790,7 +3790,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 5
+        VOICE 1
         RANDOM_SEED 881241558
     END_OF_DEFINITION
     GAME_STATE
@@ -3870,7 +3870,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 3
+        VOICE 5
         RANDOM_SEED 1602654818
     END_OF_DEFINITION
     GAME_STATE
@@ -3910,7 +3910,7 @@ NEW_UNITS
         COLOR_CODE 8BM
         FACE 0
         SPEAKER A
-        VOICE 1
+        VOICE 3
         RANDOM_SEED -571563520
     END_OF_DEFINITION
     GAME_STATE
@@ -4211,7 +4211,7 @@ NEW_UNITS
       POS 124 39 0
       SIDE 9
       NATION 3
-      HP 1
+      HP 29
       BUILDING
         TYPE 89 LEVEL 1 BASE 3
     END_OF_DEFINITION
@@ -4237,7 +4237,7 @@ NEW_UNITS
       POS 132 37 0
       SIDE 9
       NATION 3
-      HP 1
+      HP 51
       BUILDING
         TYPE 85 LEVEL 1 BASE 3
     END_OF_DEFINITION
@@ -4263,7 +4263,7 @@ NEW_UNITS
       POS 142 61 0
       SIDE 4
       NATION 1
-      HP 1000
+      HP 251
       VEHICLE
         CHASSIS 1 COMBINATION 1 1 3
     END_OF_DEFINITION
@@ -4293,7 +4293,7 @@ NEW_UNITS
       POS 120 54 0
       SIDE 4
       NATION 1
-      HP 1000
+      HP 31
       VEHICLE
         CHASSIS 1 COMBINATION 1 1 3
     END_OF_DEFINITION
@@ -4510,7 +4510,7 @@ LASER_EFECTS
 END_OF_LASER_EFECTS
 
 USER_INTERFACE
-  VIEW 1782 112 2180 1204 1
+  VIEW 1782 184 2180 1204 1
   MASHA_FLAG 2 F F
 END_OF_USER_INTERFACE
 
@@ -4541,7 +4541,7 @@ SIDE 9 10
 END_OF_DEBRIEFING
 
 AREAS
-  ACTIVE 25
+  ACTIVE 13
   LAST 33
   AREA 1
     NAME AmSoldSpawn
@@ -4890,46 +4890,77 @@ AREAS
   AREA 13
     NAME DontGoArea
     COLOR 0DFFA2
-    LINES 58 47 23 22
-    -------++++------------
-    ------+++++++----------
-    ------++++++++---------
-    ------+++++++++--------
-    ------+++++++++--------
-    ------+++++++++--------
-    -----++++++++++--------
-    ----+++++++++++--------
-    ----++++++++++++-------
-    ---+++++++++++++-------
-    --++++++++++++++-------
-    -++++++++++++++++------
-    +++++++++++++++++------
-    ++++++++++++++++++-----
-    ++++++++++++++++++-----
-    -++++++++++++++++++----
-    --++++++++++++++++++---
-    ---+++++++++-++++++++--
-    ----++++++++--++++++++-
-    ------++++-----++++++++
-    ----------------+++++++
-    -----------------+++++-
+    LINES 51 0 30 69
+    +++++++++++-------------------
+    -+++++++++++------------------
+    --++++++++++------------------
+    ---++++++++++-----------------
+    ----+++++++++-----------------
+    ---------+++++----------------
+    ------------++----------------
+    --------------+---------------
+    --------------++--------------
+    ---------------+--------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    ------------------------------
+    --------------++++------------
+    -------------+++++++----------
+    -------------++++++++---------
+    -------------+++++++++--------
+    -------------+++++++++--------
+    -------------+++++++++--------
+    ------------++++++++++--------
+    -----------+++++++++++--------
+    -----------++++++++++++-------
+    ----------+++++++++++++-------
+    ---------++++++++++++++-------
+    --------++++++++++++++++------
+    -------+++++++++++++++++------
+    -------++++++++++++++++++-----
+    -------++++++++++++++++++-----
+    --------++++++++++++++++++----
+    ---------++++++++++++++++++---
+    ----------+++++++++-++++++++--
+    -----------++++++++--++++++++-
+    -------------++++-----++++++++
+    -----------------------+++++++
+    ------------------------+++++-
   AREA 14
-    NAME DontGoNorth
-    COLOR 0900FF
-    VISIBLE
-    SHORTCUT 1
-    LINES 52 0 15 10
-    +++++++++++----
-    +++++++++++----
-    -+++++++++++---
-    --++++++++++---
-    ---++-+++++++--
-    ----------+++--
-    ------------++-
-    -------------+-
-    -------------++
-    --------------+
-  AREA 15
     NAME VehArea
     COLOR 8C31FF
     VISIBLE
@@ -4944,13 +4975,13 @@ AREAS
     -----
     -----
     ----+
-  AREA 16
+  AREA 15
     NAME CraneParkArea
     COLOR 0EFF33
     SHORTCUT 1
     LINES 27 17 1 1
     +
-  AREA 17
+  AREA 16
     NAME AmNorthHealArea
     COLOR FF86F1
     SHORTCUT 1
@@ -4962,7 +4993,7 @@ AREAS
     --+++++-
     ---+++++
     ----+++-
-  AREA 18
+  AREA 17
     NAME MaximTalk
     COLOR FF9F51
     SHORTCUT 1
@@ -4996,14 +5027,14 @@ AREAS
     ------------------------+++++--
     --------------------------+++--
     ----------------------------+--
-  AREA 19
+  AREA 18
     NAME TatianaSpawn
     COLOR FF0651
     VISIBLE
     SHORTCUT 3
     LINES 180 93 1 1
     +
-  AREA 20
+  AREA 19
     NAME AmSoldMeat
     COLOR FFB951
     VISIBLE
@@ -5016,14 +5047,14 @@ AREAS
     --------------
     --------------
     -------------+
-  AREA 21
+  AREA 20
     NAME AmMechMeat
     COLOR FF5ED9
     VISIBLE
     SHORTCUT 6
     LINES 125 56 14 1
     +------------+
-  AREA 22
+  AREA 21
     NAME RevealRiverArea
     COLOR 1A5DFF
     SHORTCUT 1
@@ -5128,7 +5159,7 @@ AREAS
     -------------------------------------------------------------------+++++++++-
     -------------------------------------------------------------------+++++++++-
     --------------------------------------------------------------------+++++++++
-  AREA 23
+  AREA 22
     NAME RevealNorthArea
     COLOR FF6051
     SHORTCUT 7
@@ -5184,7 +5215,7 @@ AREAS
     ----------------------+++++------
     -----------------------++++------
     ------------------------+++------
-  AREA 24
+  AREA 23
     NAME RevealSouthArea
     COLOR B2FF51
     SHORTCUT 8
@@ -5201,7 +5232,7 @@ AREAS
     ---------+++++++++++
     -----------+++++++++
     --------------++++++
-  AREA 25
+  AREA 24
     NAME EscapeArea
     COLOR 13FF51
     VISIBLE

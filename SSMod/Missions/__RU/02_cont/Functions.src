@@ -187,7 +187,7 @@ begin
 JarcinExp([1,2,3,4]);
 Wait(0$05);
 Say(Jarcin,'DJarcin-Secret-01');
-TeleportUnit(Jarcin,231,232,300,True);
+TeleportUnit(Jarcin,78,0,300,True);
 Wait(0$05);
 RemoveUnit(Jarcin);
 SaveVariable(1,'SafeJarcin');
@@ -214,27 +214,16 @@ begin
   end;
 end;
 
-Every 1 Trigger not AmericansHeld and FilterUnitsInArea(DontGoArea, [[f_side, 3], [f_or, [f_type, unit_human], [f_type, unit_vehicle]]]) do
-var x, y, kutas;
+every 1 trigger AmericansHeld = false AND FilterUnitsInArea(DontGoArea, [[f_side, 3], [f_or, [f_type, unit_human], [f_type, unit_vehicle]]]) > 0 do
+var unit;
 begin
+    enable;
 
-     enable;
-     kutas := FilterUnitsInArea(DontGoArea, [[f_side, 3], [f_or, [f_type, unit_human], [f_type, unit_vehicle]]]);
-     x = GetX(kutas);
-     y = GetY(kutas);
-     ComMoveXY(kutas, x+10, y+2);
-
+    for unit in FilterUnitsInArea(DontGoArea, [[f_side, 3], [f_or, [f_type, unit_human], [f_type, unit_vehicle]]]) do
+    begin
+        //InGameOn;
+    ComMoveXY(unit,95,59);
 end;
-
-Every 1 Trigger not AmericansHeld and FilterUnitsInArea(DontGoNorth, [[f_side, 3], [f_or, [f_type, unit_human], [f_type, unit_vehicle]]]) do
-var x, y, kutas;
-begin
-
-     enable;
-     kutas := FilterUnitsInArea(DontGoArea, [[f_side, 3], [f_or, [f_type, unit_human], [f_type, unit_vehicle]]]);
-     x = GetX(kutas);
-     y = GetY(kutas);
-     ComMoveXY(kutas, x+10, y+5);
 
 end;
 
