@@ -1,0 +1,10 @@
+GAMEINIT
+  CUSTOM_PROJECTILES
+    ID 1
+    NAME "missiles\projektil_ar"
+    ID 2
+    NAME "missiles\projektil_ru"
+    ID 3
+    NAME "missiles\projektil_us"
+  END_OF_CUSTOM_PROJECTILES
+END_OF_GAMEINIT

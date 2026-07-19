@@ -1,6 +1,6 @@
 Every 0$1 trigger LoadVariable('HintyON', 0) do
 begin
-
+     enable;
      if not LoadVariable('HintMG', 0) and FilterAllUnits([[f_side, 3], [f_or, [f_weapon, 42], [f_weapon, 24], [f_weapon, 2], [f_bweapon, 42], [f_bweapon, 24], [f_bweapon, 2]]]) then
      begin
      HintSpec('MachineGun-hint', 3);

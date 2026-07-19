@@ -1,3 +1,25 @@
+//Dodawanie syba do sk³adu jak masz engów w kopalni, dzia³a równie¿ na boty
+Every 0$10 Trigger FilterAllUnits([f_btype, b_siberite_mine]) do
+var depot, mine, miners, SibInDepot, i, j, tmp;
+begin
+
+     enable;
+
+     mine := FilterAllUnits([f_btype, b_siberite_mine]);
+     for i in mine do
+     begin
+          miners := UnitsInside(i);
+          depot := GetBase(i);
+
+          for j in miners do
+           if GetClass(j)=class_engineer then
+          begin
+               SibInDepot := GetResourceType(depot, 3);
+               SetResourceType(depot, 3, SibInDepot + 1);
+          end;
+     end;
+end;
+
 Export Function PrepareSolBun(skill, b);
 var un, dir;
 begin
@@ -133,70 +155,6 @@ for i in result do
     end;
 End;
 
-Export Function Spawn(units, area);
-begin
-     PlaceUnitArea(units, area, 1);
-end;
-
-Every 0$2 trigger AIEnable do
-begin
-enable;
-
-RepairBuilding(1, AmDep1, AmNorthBaseArea);
-RepairBuilding(4, AmDep2, AmSouthBaseArea);
-//craneRepair(1, crane, AmNorthBaseArea, craneParkArea);
-CraneRepairBuild(1, AmNorthBaseArea, amDestroyedBuildings);
-HealUnitInBase(1, AmNorthHealArea, AmNorthBaseArea, AmLab1);
-
-if IsDying(AmDep1) or GetSide(AmDep1) = 3 then
-   DefendDepot(1, AmDep1)
-else
-    EnterBunkerOrBarrack(1, AmNorthBaseArea);
-
-if IsDying(AmDep2) or GetSide(AmDep2) = 3 then
-   DefendDepot(4, AmDep2)
-else
-    EnterBunkerOrBarrack(4, AmSouthBaseArea);
-End;
-
-
-Every 0$1 trigger not IsInUnit(will) and IsOk(AmDep1) and GetSide(AmDep1) = 1 do
-ComEnterUnit(will, AmDep1);
-
-Every 0$2 trigger AIEnable do
-begin
-enable;
-
-RepairBuilding(1, AmDep1, AmNorthBaseArea);
-RepairBuilding(4, AmDep2, AmSouthBaseArea);
-//craneRepair(1, crane, AmNorthBaseArea, craneParkArea);
-CraneRepairBuild(1, AmNorthBaseArea, amDestroyedBuildings);
-HealUnitInBase(1, AmNorthHealArea, AmNorthBaseArea, AmLab1);
-
-if IsDying(AmDep1) or GetSide(AmDep1) = 3 then
-   DefendDepot(1, AmDep1)
-else
-    EnterBunkerOrBarrack(1, AmNorthBaseArea);
-
-if IsDying(AmDep2) or GetSide(AmDep2) = 3 then
-   DefendDepot(4, AmDep2)
-else
-    EnterBunkerOrBarrack(4, AmSouthBaseArea);
-End;
-
-Export Function ComRepairVehicleAndReturn(driver);
-var vehicle;
-begin
-if not driver or not IsInUnit(driver) then
-   exit;
-
-vehicle := IsInUnit(driver);
-SetTaskList(driver, [
-   ['\', 0, 0, 0, 0, 0, 0],
-   ['E', 0, 0, vehicle, 0, 0, 0]
-]);
-End;
-
 Export Function AddComRepairVehicleAndReturn(driver);
 var vehicle;
 begin
@@ -208,5 +166,122 @@ AddTaskList(driver, [
    ['\', 0, 0, 0, 0, 0, 0],
    ['E', 0, 0, vehicle, 0, 0, 0]
 ]);
+End;
+
+Export function RespawnInside(side, nation, build, skill, class, count);
+var i, un;
+begin
+for i = 1 to count do
+    begin
+    uc_side = side;
+    uc_nation = nation;
+
+    hc_gallery = '';
+    hc_name = '';
+    PrepareHuman(false, class, skill);
+
+    un = CreateHuman;
+    PlaceHumanInUnit(un, build);
+    end;
+End;
+
+{Export Function PrepareBase(side, nation, area, skill, w, l, a, e);
+var i, j, btype, t, h;
+begin
+
+     uc_side = side;
+     uc_nation = nation;
+
+     for i in FilterUnitsInArea(area, [[f_side, side], [f_type, unit_building], [f_not, [f_btype, b_control_tower]]]) do
+     begin
+       btype := 0;
+         case GetBType(i) of
+                   b_depot, b_warehouse: btype := 1;
+                   b_barracks, b_armoury: btype := 2;
+                   b_lab, b_lab_half, b_lab_full: btype := 3;
+                   b_workshop, b_factory: btype := 4;
+                   b_breastwork, b_bunker: btype := 5;
+                   end;
+
+                   t := [e, a, l, w, 1][btype];
+                            for j = 1 to t do
+                                begin
+                                     InitHc;
+                                     Case btype of
+                                     1:PrepareEngineer(Rand(1, 2), skill);
+                                     2:PrepareSoldier(1, skill);
+                                     3:PrepareScientist(Rand(1, 2), skill);
+                                     4:PrepareMechanic(Rand(1, 2), skill);
+                                     5:PrepareSoldier(1, skill);
+                                     end;
+                                if not btype = 5 then
+                                  begin
+                                     h = CreateHuman;
+                                     if btype = 1 then PlaceUnitXY(h, ShiftX(GetX(i), GetDir(i), Rand(3, 6)), ShiftY(GetY(i), GetDir(i), Rand(3, 6)), false)
+                                     else
+                                     PlaceHumanInUnit(h, i);
+                                     end;
+                                  end;
+     end;
+end;    }
+
+export function PrepareBase(side, nation, area, skill, w, l, a, e);
+var i, j, btype, t, h;
+begin
+
+     uc_side = side;
+     uc_nation = nation;
+
+     for i in FilterUnitsInArea(area, [[f_side, side], [f_type, unit_building], [f_not, [f_btype, b_control_tower]] ]) do
+     begin
+       btype := 0;
+         case GetBType(i) of
+                   b_depot, b_warehouse: btype := 1;
+                   b_armoury, b_barracks: btype := 2;
+                   b_lab, b_lab_half, b_lab_full: btype := 3;
+                   b_workshop, b_factory: btype := 4;
+                   b_breastwork, b_bunker: btype := 5;
+                   end;
+
+                   t := [e, a, l, w, 1][btype];
+                            for j = 1 to t do
+                                begin
+                                     InitHc;
+                                     Case btype of
+                                     1:PrepareEngineer(Rand(1, 2), skill);
+                                     2:PrepareSoldier(Rand(1, 2), skill);
+                                     3:PrepareScientist(Rand(1, 2), skill);
+                                     4:PrepareMechanic(Rand(1, 2), skill);
+                                     5:PrepareSoldier(Rand(1, 2), skill);
+                                     end;
+                                     h = CreateHuman;
+                                     if btype = 1 then PlaceUnitXY(h, ShiftX(GetX(i), GetDir(i), Rand(3, 6)), ShiftY(GetY(i), GetDir(i), Rand(3, 6)), false)
+                                     else
+                                     PlaceHumanInUnit(h, i);
+                                end;
+     end;
+
+end;
+
+Export Function Count(array);
+begin
+result := array + 0;
+End;
+
+Export Function IsEmpty(building);
+begin
+if not building then
+   exit;
+
+result := building in FilterAllUnits([[f_side, GetSide(building)], [f_empty]]);
+End;
+
+Export Function IsNotFull(building);
+var places;
+begin
+if not building then
+   exit;
+
+result := UnitFilter(building, [f_not, [f_full]]);
 End;
 

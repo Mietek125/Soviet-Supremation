@@ -492,11 +492,11 @@ GAMEINIT
       POWER 0
       ATTACK 0
       DEFENSE 45
-      HUMANS 0
+      HUMANS 3
       OBSTACLE 1
       SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
       FLEK_TYPE 1
-      ENTRANCES 0
+      ENTRANCES 3   -1 -2  0 -2  1 -1
       IDENT u-siberiummine
       TECHNOLOGY 20
     BUILDING  30 
@@ -1075,7 +1075,7 @@ GAMEINIT
       POWER 0
       ATTACK 0
       DEFENSE 40
-      HUMANS 0
+      HUMANS 3
       OBSTACLE 0
       SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
       FLEK_TYPE 1
@@ -1553,11 +1553,11 @@ GAMEINIT
       POWER 0
       ATTACK 0
       DEFENSE 50
-      HUMANS 0
+      HUMANS 3
       OBSTACLE 0
       SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
       FLEK_TYPE 1
-      ENTRANCES 0
+      ENTRANCES 3   -1 -2  0 -2  1 -1
       IDENT r-siberiummine
       TECHNOLOGY 20
     BUILDING  89 

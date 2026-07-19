@@ -230,15 +230,15 @@ GAMEINIT
         ATTACKS 1 
         ATTACK 1 
           MINMAX_RANGE  7  15 
-          FREQUENCY  1  74 
-          DAMAGE 600 240 120
-          EFF 16 16 16
+          FREQUENCY  1  105 
+          DAMAGE 400 200 100
+          EFF 40 20 10
           ANIM  1  6  5 
         END_OF_ATTACK
       CLASS 9 
         NAME "E(Bazooka)C(Bazuker)"
         CLASS_TYPE 1 
-        ARMOR_BONUS 3 12
+        ARMOR_BONUS 3 10
         SPEED_BONUS 5 -3
         SYMBOLS
           u-m-baz
@@ -259,22 +259,22 @@ GAMEINIT
         SOUND_CYCLE 0
         ATTACKS 3 
         ATTACK 1 
-          MINMAX_RANGE  4  13 
-          FREQUENCY  1  99 
-          DAMAGE 333 312 250
-          EFF 10 25 25
+          MINMAX_RANGE  5  13 
+          FREQUENCY  1  175 
+          DAMAGE 200 250 250
+          EFF 20 25 25
           ANIM  1  4  3 
         END_OF_ATTACK
         ATTACK 2 
-          MINMAX_RANGE  4  13 
-          FREQUENCY  1  99 
+          MINMAX_RANGE  5  13 
+          FREQUENCY  1  210 
           DAMAGE 0 0 0
           EFF 0 0 0
           ANIM  1  15  3 
         END_OF_ATTACK
         ATTACK 3 
-          MINMAX_RANGE  4  13 
-          FREQUENCY  1  99 
+          MINMAX_RANGE  5  13 
+          FREQUENCY  1  210 
           DAMAGE 0 0 0
           EFF 0 0 0
           ANIM  1  16  3 

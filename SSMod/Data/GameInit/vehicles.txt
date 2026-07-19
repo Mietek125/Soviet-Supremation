@@ -1837,13 +1837,14 @@ GAMEINIT
           ANIM  1  2  3 
           LUA_ID 98
           LUA_WEAPONRANGETYPE 1
-          LUA_PHASE_END 0
+          LUA_PHASE_END 0		  
           ATTACKGROUND
         END_OF_ATTACK
 		DENY_ENGINE 1 2
 		DENY_ENGINE_HINT 6884		
         PRODUCED_IN 44
         TECHNOLOGY 93
+		PAYLOADOVERRIDE 20
 		WEAPON_TYPE  104 
         NAME "E(Salvo Gun)C(Salvo Gun)"
         NATION American
