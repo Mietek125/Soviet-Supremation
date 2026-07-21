@@ -442,6 +442,9 @@ function SpecialWeapon:doAttack(TIME, X, Y, DIRECTION, DAMAGE)
 	OW_SET_SPECIAL_ATTACK_TIME(TIME-1);
 end;
 
+--OW_DRAW_ATTACK_EX(TIME, X, Y, DIRECTION, PROJECTILE, PALETTE, MODE, AFTER_MODE, Z_OFF, USE_SECOND_BARREL = FALSE, START_X = -1, START_Y = -1);
+--Z_OFF = 75 
+
 ---------------------------
 --WEAPONS--
 ---------------------------
@@ -650,7 +653,8 @@ function Weap_RocketLauncher:doFireWeapon(ATTACKTARGET, X, Y, FIRST)
 end;
 
 function Weap_RocketLauncher:doDrawAttack(TIME, X, Y, DIRECTION, STARTX, STARTY)
-	OW_DRAW_ATTACK(TIME, X, Y, DIRECTION, WEAP_ID);
+    --OW_DRAW_ATTACK(TIME, X, Y, DIRECTION, WEAP_ID);
+    OW_DRAW_ATTACK_EX(TIME, X, Y, DIRECTION, 1, 0, 10, 4, 0);
 end;
 
 function Weap_RocketLauncher:getAmount(R)
@@ -1331,7 +1335,7 @@ end;
 SpecWeap_Mine = SpecialWeapon.make();
 function SpecWeap_Mine:doAttack(TIME, X, Y, DIRECTION, DAMAGE)
 	local side, unitid = 0, 0;
-	if (UNIT ~= nil) then
+	if (UNIT.ID ~= nil) then
 		side   = UNIT.SIDE;
 		unitid = UNIT.ID;
 	end;	
@@ -1550,6 +1554,163 @@ function Weap_ToxinSprayer:doAttack(TIME, X, Y, DIRECTION, DAMAGE)
 	OW_REGISTER_SPECIAL_ATTACK_LUAWEAPON(duration,range,X,Y,0,range);
 end;
 
+--[[
+ Rakiety nowo-stare aby miały kolory i inny model
+--]]
+
+Weap_RocketLauncher_Example              = BasicWeapon.make();
+Weap_RocketLauncher_Example.doFireWeapon = Weap_RocketLauncher.doFireWeapon;
+Weap_RocketLauncher_Example.getAmount    = Weap_RocketLauncher.getAmount;
+Weap_RocketLauncher_Example.doAttack     = Weap_RocketLauncher.doAttack;
+
+function Weap_RocketLauncher_Example:doDrawAttack(TIME, X, Y, DIRECTION, STARTX, STARTY)
+	local Proj = UNIT.NATION;
+	
+	if (Proj < 1) or (Proj > 3) then
+		Proj = 2;
+	end;
+		
+	OW_DRAW_ATTACK_EX(TIME, X, Y, DIRECTION, UNIT.NATION, UNIT.SIDE, 10, 1, 0);
+end;
+
+--[[
+ NOWA BAZOOKA ABY RAKIETY MIAŁY KOLORY
+--]]
+
+Weap_Bazooka_Example             = BasicWeapon.make();
+Weap_Bazooka_Example.doFireWeapon = Weap_Bazooka.doFireWeapon;
+Weap_Bazooka_Example.getAmount    = Weap_Bazooka.getAmount;
+Weap_Bazooka_Example.doAttack     = Weap_Bazooka.doAttack;
+
+function Weap_Bazooka_Example:doDrawAttack(TIME, X, Y, DIRECTION, STARTX, STARTY)
+	local Proj = UNIT.NATION;
+
+	if (Proj < 1) or (Proj > 3) then
+		Proj = 2;
+	end;
+
+	OW_DRAW_ATTACK_EX(TIME, X, Y, DIRECTION, 4, UNIT.SIDE, 10, 1, 0);
+end;
+
+--[[
+ NOWY TESTOWY MIOTACZ FLAME
+--]]
+--[[
+Weap_Flame_Example             = BasicWeapon.make();
+Weap_Flame_Example.doFireWeapon = Weap_Flame.doFireWeapon;
+Weap_Flame_Example.getAmount    = Weap_Flame.getAmount;
+Weap_Flame_Example.doAttack     = Weap_Flame.doAttack;
+
+function Weap_Flame_Example:doShoot(ATTACKTARGET, X, Y)
+	local Proj = UNIT.NATION;
+
+	if (Proj < 1) or (Proj > 3) then
+		Proj = 2;
+	end;
+
+	OW_DRAW_ATTACK_EX(TIME, X, Y, DIRECTION, 6, 0, 5, 0, 0);
+end;
+--]]
+
+--[[
+
+OW_DRAW_ATTACK_EX(TIME, X, Y, DIRECTION, PROJECTILE, PALETTE, MODE, AFTER_MODE, Z_OFF, USE_SECOND_BARREL = FALSE, START_X = -1, START_Y = -1);
+Z_OFF = 75 for mortar and siberite rocket. Its the arc of the shots.
+When PALETTE is 0 it has no side colours. When above its the side.
+
+PROJECTILE and PALETTE are ignored when MODE is not 10,11,12,13.
+
+MODE
+1 = Bazooka
+2 = Mortar
+3 = Balista 
+4 = Siberite Rocket (American)
+5 = Flamethrower
+6 = Siberite Rocket (Russian)
+7 = American Rocket
+8 = Russian Rocket
+9 = Arabian Rocket
+10 = Custom Bazooka
+11 = Custom Projectile
+12 = Custom Siberite Rocket
+13 = Custom Rocket
+
+AFTER_MODE (Explosion left behind)
+-1 = Do Nothing
+1 = Bazooka
+2 = Mortar
+3 = Time Bazooka (Not used by OW. Don't know what it does)
+4 = Rocket
+
+--]]
+
+--[[
+ AHEAD
+--]]
+
+Weap_RocketLauncher_Example_AHEAD              = BasicWeapon.make();
+Weap_RocketLauncher_Example_AHEAD.doFireWeapon = Weap_RocketLauncher.doFireWeapon;
+Weap_RocketLauncher_Example_AHEAD.getAmount    = Weap_RocketLauncher.getAmount;
+Weap_RocketLauncher_Example_AHEAD.doAttack     = Weap_RocketLauncher.doAttack;
+
+function Weap_RocketLauncher_Example_AHEAD:doDrawAttack(TIME, X, Y, DIRECTION, STARTX, STARTY)	
+	OW_DRAW_ATTACK_EX(TIME, X, Y, DIRECTION, 1, UNIT.SIDE, 10, 4, 0);
+end;
+
+function Weap_RocketLauncher_Example_AHEAD:doAttack(TIME, X, Y, DIRECTION, DAMAGE)
+	local hx,hy,hex, j;
+	local units = BasicList.make();
+	
+	hex = OW_GET_HEX(X,Y);
+	
+	if OW_VALID_HEX(hx,hy) and (hex.UNIT ~= nil) then
+		units:add({ID=hex.UNIT.ID,AMOUNT=100});
+	end;
+	
+	for i=1,SETTING_ROCKET_RANGE do
+		hx,hy = X+dxh[4]*i,Y+dyh[4]*i;
+		hex = OW_GET_HEX(hx,hy);
+
+		for dir = 0, 5 do
+			for d = 1, i do
+				if OW_VALID_HEX(hx,hy) and (hex.UNIT ~= nil) then
+					j = 1;
+					while (j <= units.COUNT) and (units.LIST[j].ID ~= hex.UNIT.ID) do
+						j = j + 1;
+					end;
+			
+					if j > units.COUNT then
+						units:add({ID=hex.UNIT.ID,AMOUNT=self:getAmount(i)});
+					else
+						if hex.UNIT.typ ~= TYPE_HUMAN then
+							units.LIST[j].AMOUNT = units.LIST[j].AMOUNT+self:getAmount(i);
+						end;
+					end;
+				end;
+				hx = hx+dxh[dir];
+				hy = hy+dyh[dir];
+			end;
+		end;
+	end;
+	
+	for i=1,units.COUNT do
+		OW_WEAPON_APPLY_ATTACK_EX(units.LIST[i].ID,DAMAGE,units.LIST[i].AMOUNT/100,1);
+	end;
+	
+	if OW_VALID_HEX(X,Y) and (hex.UNIT ~= nil) then
+		units = OW_GET_UNITS_WITHIN_RANGE(10,X,Y);
+		local u;
+		
+		for i = 1,units.COUNT do
+			u = units.UNITS[i];
+			if u.ID ~= hex.UNIT.ID then
+				OW_REGISTER_ATTACK(3+math.floor(u.DISTANCE/3),WEAPONTYPE_PRISM2,u.XS,u.YS,6,X,Y);
+			end;
+		end;
+	end;
+end;
+
+
 ---------------------------
 --     WEAPON INDEX      --
 ---------------------------
@@ -1597,6 +1758,12 @@ WeaponList[101] = Weap_Prism2;
 WeaponList[102] = SpecWeap_Contamination_Test;
 WeaponList[103] = SpecWeap_Contamination_Test;
 WeaponList[104] = SpecWeap_Contamination_Test;
+
+WeaponList[200] = Weap_RocketLauncher_Example;
+WeaponList[201] = Weap_RocketLauncher_Example_AHEAD;
+WeaponList[202] = Weap_Bazooka_Example;
+WeaponList[203] = Weap_Flame_Example;
+
 
 ---------------------------
 -- EDIT ABOVE THIS POINT --

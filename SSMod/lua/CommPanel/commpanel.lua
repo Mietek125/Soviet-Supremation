@@ -127,12 +127,57 @@ function getButtons(BUTTONS,STATE,PAGEID)
             
                 if BUT.ID >= 0 then
                     -- Handle State HERE!
-                end;            
+                end;      
+
+                if BUT.ID == 5 then
+                  LUA_TO_DEBUGLOG('Hello');
+                end;      
             end;
         end;
     end;
 
     return RESULT_TRUE_MIXED, BUTTONS;
+end;
+
+function wrappedDump(o, OFFSET, DONE) --more or less a better table serializer for debugging
+    local DONE = DONE or {};
+    local typ = type(o);
+    if (typ == 'table')  then
+        if(DONE[o]) then
+            return tostring(o);
+        end;
+        DONE[o] = true;
+        local padding = '\n' .. string.rep("  ", OFFSET);
+        local s = '{ ';
+        for k, v in pairs(o) do
+        
+            s = s .. padding .. '[' .. wrappedDump(k,OFFSET,DONE) .. '] = ';
+            if( isInArray(k,{"inList","parent"}) )then --no matter HOW you look at this, you will not want this getting dumped any time soon
+                s = s .. tostring(o) .. ",";
+            else
+                s = s .. wrappedDump(v,OFFSET+1,DONE) .. ",";
+            end;
+        end;
+        padding = '\n' .. string.rep("  ", OFFSET-1);
+        return s .. padding .. '}';
+    elseif (typ == "string") then
+        return string.format("%q", o);
+    else
+        return tostring(o);
+    end;
+end;
+
+function dump(...)
+    local res = '';
+    for i=1,select('#',...) do
+        res = res .. wrappedDump(select(i,...), 0) .. "\n";
+    end;
+    return res;
+end;
+
+function DEBUGLOG(...)
+    return LUA_TO_DEBUGLOG(dump(...));
+    --return LUA_TO_DEBUGLOG(serializeTable({...}));
 end;
 
 -- [Result Types] --
@@ -400,6 +445,7 @@ BUTTON_COLLECT_CRATES       = 264;
 BUTTON_CP_SHEIK             = 265;
 BUTTON_LR_COMP4             = 275;
 BUTTON_LR_COMP5             = 276;
+BUTTON_CP_SAPPER            = 288;
 
 -- [[BUTTON COMMANDS]] --
 COMMAND_ICONGROUPCANCEL      = 0;
@@ -647,9 +693,11 @@ COMMAND_LUA_CUSTOM           = 241; -- Custom LUA (Runs lua when button pressed)
 COMMAND_RESEARCH_CUSTOM      = 242; -- Custom Research
 COMMAND_HOLDFIRE             = 243;
 COMMAND_CP_SHEIK             = 244;
+COMMAND_CP_SAPPER			 = 245;
 
 
 TAG_SHEIK = 500;
+TAG_SAPPER = 501;
 
 -- [[OVERRIDES]] --
 
@@ -659,6 +707,10 @@ end;
 
 function canChangeToSheik(STATE)
 	return (STATE.CURHUMAN ~= nil) and (STATE.CURHUMAN.CLASS ~= class_noble) and (GET_TAG(STATE.CURHUMAN.ID) == TAG_SHEIK) and STATE.CURHUMAN.ACTIVITY ~= act_change_class;
+end;
+
+function canChangeToSapper(STATE)
+	return (STATE.CURHUMAN ~= nil) and (STATE.CURHUMAN.CLASS ~= class_sapper) and (GET_TAG(STATE.CURHUMAN.ID) == TAG_SAPPER) and STATE.CURHUMAN.ACTIVITY ~= act_change_class;
 end;
 
 BUTTON_OVERRIDES = {};
@@ -681,7 +733,7 @@ BUTTON_OVERRIDES[COMMAND_LR_COMP1] = {
                                                             end;
 
                                                             return BUTTONID;
-									end;
+														end;
                                     };
 									
 BUTTON_OVERRIDES[COMMAND_ACTIONRESUME] = {
@@ -722,6 +774,8 @@ BUTTON_OVERRIDES[COMMAND_CP_AMERICANSNIPER] = {
 													return BUTTON_CP_KAMIKAZE;
 												elseif canChangeToSheik(STATE) then
 													return BUTTON_CP_SHEIK;
+												elseif canChangeToSapper(STATE) then
+													return BUTTON_CP_SAPPER;
 												else
 													return BUTTON_CP_ARABMORTAR;
 												end;

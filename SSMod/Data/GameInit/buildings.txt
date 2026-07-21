@@ -1686,6 +1686,25 @@ GAMEINIT
       ISEXTENSION
       ICON 2FE_Solar
       IDENT a-solarext
+	BUILDING  99 
+      NAME "E(Ar. remote turret)C(Ar. remote turret)"
+      NATION 2
+      KIND 46
+      OIL 0
+      SIBERIUM 0
+      CANS 30
+      TIME 75
+      POWER 25
+      ATTACK 0
+      DEFENSE 50
+      HUMANS 0
+      OBSTACLE 1
+      SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
+      FLEK_TYPE 1
+      ENTRANCES 3   -1 -2  0 -2  1 -1
+      IDENT a-bunker
+      TECHNOLOGY 32
+	  COMMBUTTONPAGE 85
     BUILDING  74 
       NAME "E(Ru. Behemoth)C(Ru. Behemoth)"
       NATION 3

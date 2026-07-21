@@ -5,6 +5,7 @@ Begin
 
      ComMoveXY(Yakotich, 194, 216);
      ComMoveXY(Mietek, 197, 217);
+     ComMoveXY([Smirnovsky, Maxim, Kostyliev, Tatiana], 197, 225);
      ComMoveXY(YakotichTeam, 197, 225);
 
      Wait(0$8);
@@ -12,27 +13,31 @@ Begin
      Say(Yakotich, 'DYak-01-01');
 
      ComMoveXY(YakotichTeam, 169, 213);
-     ComMoveXY(Yakotich, 176, 220);
+     ComMoveXY(Yakotich, 172, 220);
      ComMoveXY(Mietek, 181, 221);
      ComMoveXY(Smirnovsky, 176, 205);
      ComMoveXY(Kostyliev, 184, 209);
      ComMoveXY(Maxim, 177, 218);
      ComMoveXY(Tatiana, 165, 206);
 
-     if GetDistUnits(Yakotich, Voroshilov) <= 5 then
-     begin
+end;
 
-     ComMoveXY(Yakotich, 173, 220);
+Every 0$1 Trigger GetDistUnits(Yakotich, Voroshilov) <= 5 do
+begin
+
+     AddComMoveXY(Yakotich, 173, 220);
      AddComTurnUnit(Yakotich, Voroshilov);
      ComMoveXY(Mietek, 170, 218);
      AddComTurnUnit(Mietek, Voroshilov);
-     ComMoveXY(Tatiana, 165, 219);
-     ComMoveXY(Kostyliev, 165, 220);
-     ComMoveXY(Smirnovsky, 166, 220);
-     ComMoveXY(Maxim, 166, 219);
+     AddComMoveXY(Tatiana, 165, 219);
+     AddComMoveXY(Kostyliev, 165, 220);
+     AddComMoveXY(Smirnovsky, 166, 220);
+     AddComMoveXY(Maxim, 166, 219);
      AddComTurnUnit([Tatiana, Kostyliev, Smirnovsky, Maxim], Yakotich);
-     ComMoveToArea(YakotichTeam, GatheringArea);
+     AddComMoveToArea(YakotichTeam, GatheringArea);
      AddComTurnUnit(YakotichTeam, Yakotich);
+
+     Wait(0$5);
 
      Say(Yakotich, 'DYak-01-02');
      Say(Yakotich, 'DYak-01-03');
@@ -47,32 +52,39 @@ Begin
      Say(Mietek, 'DMietek-01-08');
      ChangeMissionObjectives('Ob1');
 
+     SetSide(FilterAllUnits([[f_side, 3]]) diff Yakotich, 6);
+
      ComMoveXY(Mietek, 171, 219);
      AddComTurnUnit(Mietek, Yakotich);
 
      MissionStarted := True;
 
      InGameOff;
+     ChangeSideFog(6, 3);
 
-     end;
+end;
 
-     if See(3, OvsyenkoArea) then
+Every 0$1 Trigger See(3, b1) or See(3, b2) or See(3, b3) do
      begin
 
      InGameOn;
      DialogueOn;
      CenterOnUnits(Yakotich);
+     BeenInMine := True;
 
      SayNoName(Plotkov, 'DRand-02-01');
      Say(Yakotich, 'DYak-02-02');
-     SayNoName(Plotkov, 'DRank-02-03');
-     Say(Yakotich, 'DYak-02-04');
+     SayNoName(Plotkov, 'DRand-02-03');
+     Say(Yakotich, 'DYak-02-04'); 
 
-     PlaceSeeing(127, 123, 3, -10);
+     ChangeSideFog(6, 3);
+     PlaceSeeing(127, 123, 3, -15);
      CenterOnXY(127, 123);
      DialogueOff;
      SetSide([Ovsyenko, b1, b2, b3, oil, sib, OilPower1, OilPower2, Dimitri, Dragunov, Plotkov, Cholgovsky, Kula, transport1, transport2], 3);
      ComEnterUnit(Yakotich, Ovsyenko);
+
+     Wait(0$12);
 
      Say(Yakotich, 'DYak-02-05');
      Say(Dimitri, 'DDim-02-06');
@@ -81,7 +93,7 @@ Begin
      Say(Yakotich, 'DYak-02-09');
      Say(Dimitri, 'DDim-02-10');
      Say(Yakotich, 'DYak-02-11');
-     Say(Mietek, 'DMietek-02-12');
+     SayRadio(Mietek, 'DMietek-02-12');
 
      Wait(0$2);
 
@@ -89,9 +101,9 @@ Begin
      PlaceEnvironment(154, 224, 53, 1);
      InitSikorskyAttack;
 
-    end;
+end;
 
-    If PlayerGotControl then
+Every 0$1 Trigger PlayerGotControl do
     Begin
 
     ChangeMissionObjectives('Ob2');
@@ -106,6 +118,120 @@ Begin
     Say(Yakotich, 'DYak-03-06');
     ChangeMissionObjectives('Ob3');
 
-    end;
+end;
+
+Every 0$1 Trigger GetSide(Ovsyenko) = 3 and PlayerGotControl do
+begin
+
+     OvsyenkoRecovered := True;
+
+     DialogueOn;
+
+     Say(Yakotich, 'DYak-05-01');
+     SayEX(Platonov, 'DPlat-05-02', 0, 1, 1, 0);
+     Say(Dimitri, 'DDim-05-03');
+     Say(Yakotich, 'DYak-05-04');
+     Say(Yakotich, 'DYak-05-05');
+     Say(Dragunov, 'DDrag-05-06');
+     Say(Yakotich, 'DYak-05-07');
+     Say(Dimitri, 'DDim-05-08');
+     Say(Yakotich, 'DYak-05-09');
+     Say(Mietek, 'DMietek-05-10');
+
+     DialogueOff;
+     ChangeMissionObjectives('Ob4');
 
 end;
+
+Every 0$1 Trigger FilterAllUnits([[f_and, [f_side, 1], [f_side, 6]], [f_type, unit_human]]) = 0 and OvsyenkoRecovered do
+begin
+
+     InGameOn;
+
+     Say(Yakotich, 'DYak-06-01');
+     Say(Mietek, 'DMietek-06-02');
+     
+     InitBurlakSpawn;
+     CenterOnUnits(Burlak);
+
+     SayRadio(Burlak, 'DBurlak-06-03');
+     Say(Yakotich, 'DYak-06-04');
+     SayRadio(Burlak, 'DBurlak-06-05');
+     CenterOnUnits(Yakotich);
+     SayEX(Platonov, 'DPlat-06-06', 0, 1, 1, 0);
+     Say(Yakotich, 'DYak-06-07');
+     SayEX(Platonov, 'DPlat-06-08', 0, 1, 1, 0);
+     SayEX(Platonov, 'DPlat-06-09', 0, 1, 1, 0);
+     Say(Yakotich, 'DYak-06-10');
+     Say(Yakotich, 'DYak-06-11');
+     Say(Dimitri, 'DDim-06-12');
+     Say(Burlak, 'DBurlak-06-13');
+
+     EndOfMission := True;
+
+end;
+
+Every 0$1 Trigger EndOfMission do
+var unit;
+begin
+
+     If not OvsyenkoDestroyed then
+          AddMedal('OvsyenkoMedal', 1)
+     else
+     begin
+         AddMedal('OvsyenkoMedal', -2);
+     end;
+
+     If SibPowerComplete and SibEngineConstructed then
+        AddMedal('SiberiteMedal', 1)
+     else if
+         not SibPowerComplete or not SibEngineConstructed then
+         AddMedal('SiberiteMedal',-1);
+
+     If RocketLaunchersConstructed >= 3 then
+        AddMedal('RocketsMedal',1)
+     else
+         AddMedal('RocketsMedal',-1);
+
+     GiveMedals('Medals');
+
+     RewardPeople(FilterAllUnits([[f_side, 3], [f_nation, 3], [f_type, unit_human]]));
+
+     SaveCharacters(Yakotich, MissionPrefix & 'Yakotich');
+     SaveCharacters(Mietek, MissionPrefix & 'Mietek');
+     SaveCharacters(Maxim, MissionPrefix & 'Maxim');
+     SaveCharacters(Kostyliev, MissionPrefix & 'Kostyliev');
+     SaveCharacters(Smirnovsky, MissionPrefix & 'Smirnovsky');
+     SaveCharacters(Tatiana, MissionPrefix & 'Tatiana');
+     SaveCharacters(Dragunov, MissionPrefix & 'Dragunov');
+     SaveCharacters(Dimitri, MissionPrefix & 'Dimitri');
+     
+     SaveCharacters([Cholgovsky, Plotkov], MissionPrefix & 'DimitriTeam');
+     SaveCharacters(FilterAllUnits([[f_side, 3], [f_nation, 3], [f_type, unit_human]]) diff [Yakotich, Mietek, Maxim, Kostyliev, Smirnovsky, Tatiana, Dragunov, Dimitri, DimitriTeam], MissionPrefix & 'YakotichTeam');
+
+     YouWin;
+
+end;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

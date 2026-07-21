@@ -1,19 +1,47 @@
 Export Function InitAmericans;
 Begin
 
-     Uc_Side = 4;
+     Uc_Side := 4;
+     Uc_Nation := 1;
 
      Hc_Name := 'Jeremy Sikorski';
      Hc_Gallery := 'us';
      Hc_Face_Number := 19;
      Hc_Skills := [6,2,4,1];
+     Hc_Importance := 100;
      Sikorsky := CreateHuman;
+
+     Gary := NewCharacter('Gary');
+     Bobby := NewCharacter('Bobby');
+     Cyrus := NewCharacter('Cyrus');
 
      Hc_Name := 'Henry Lynch';
      Hc_Gallery := 'SecondCharsGal';
      Hc_Face_Number := 49;
      Hc_Skills := [6,4,2,3];
+     Hc_Importance := 0;
      Lynch := CreateHuman;
+
+     Hc_Name := 'Hallie Jilian';
+     Hc_Gallery := 'SecondCharsGal';
+     Hc_Face_Number := 39;
+     Hc_Skills := [3,6,2,4];
+     Hc_Sex := Sex_Female;
+     Jillian := CreateHuman;
+
+     Hc_Name := 'Michael Turner';
+     Hc_Gallery := 'SecondCharsGal';
+     Hc_Face_Number := 62;
+     Hc_Skills := [4,6,3,2];
+     Hc_Sex := Sex_Male;
+     Turner := CreateHuman;
+
+     Hc_Name := 'Peter McCreery';
+     Hc_Gallery := 'SecondCharsGal';
+     Hc_Face_Number := 58;
+     Hc_Skills := [1,0,2,6];
+     Hc_Class := 4;
+     McCreery := CreateHuman;
 
      Hc_Name := 'Michael Walker';
      Hc_Gallery := 'SecondCharsGal';
@@ -21,28 +49,7 @@ Begin
      Hc_Skills := [2,2,5,6];
      Walker := CreateHuman;
 
-     Hc_Name := 'Hallie Jilian';
-     Hc_Gallery := 'SecondCharsGal';
-     Hc_Face_Number := 39;
-     Hc_Skills := [3,6,2,4];
-     Jillian := CreateHuman;
-
-     Hc_Name := 'Michael Turner';
-     Hc_Gallery := 'SecondCharsGal';
-     Hc_Face_Number := 62;
-     Hc_Skills := [4,6,3,2];
-     Turner := CreateHuman;
-
-     Hc_Name := 'Peter McCreery';
-     Hc_Gallery := 'SecondCharsGal';
-     Hc_Face_Number := 58;
-     Hc_Skills := [1,0,2,6];
-     McCreery := CreateHuman;
-
-
-     Gary := NewCharacter('Gary');
-     Bobby := NewCharacter('Bobby');
-     Cyrus := NewCharacter('Cyrus');
+     SikorskyCrew := SikorskyCrew ^ Gary ^ Cyrus ^ Bobby ^ Lynch ^ Jillian ^ Turner ^ McCreery ^ Walker;
 
      Uc_Side = 1;
 
@@ -69,35 +76,40 @@ Begin
 end;
 
 Export Function InitSikorskyAttack;
-var SikorskyCrew;
+var i;
 Begin
 
-     SikorskyCrew := [Gary, Cyrus, Bobby, Lynch, Jillian, Turner, McCreery, Walker];
+     CutsceneOn := True;
+     CutsceneOnDepot := True;
 
-     PlaceUnitArea(SikorskyCrew, SikorskyCrewSpawn, False);
+     for i in SikorskyCrew do
+     PlaceUnitArea(i, SikorskyCrewSpawn, False);
      ComHold(SikorskyCrew);
-     PlaceUnitXY(Sikorsky, 114, 97, False);
+     PlaceUnitXY(Sikorsky, 112, 90, False);
 
      Say(Sikorsky, 'DSik-02-13');
-     ComAttackUnit(Sikorsky, b3);
      Say(Dimitri, 'DDim-02-14');
+
+     repeat
+     Wait(0$1);
+     ComAttackUnit(Sikorsky, b3);
      ComAgressiveMove(SikorskyCrew, 127, 121);
+     until GetLives(b3) <= 950;
 
-     if GetLives(b3) <= 900 then
-     begin
 
-          MineExplosion(111, 116, 1);
+          MineExplosion(126, 113, 1);
+          //MineExplosion(126, 113, 1);
 
           Wait(0$2);
 
-          ComAttackUnit(Sikorsky, NearestUnitToUnit(Sikorsky, FilterAllUnits([[f_side, 3], [f_type, unit_human], [f_class, 1]])));
+          ComAttackUnit(Sikorsky, NearestUnitToUnit(Sikorsky, FilterAllUnits([[f_side, 6], [f_type, unit_human], [f_class, 1]])));
           AddComAttackUnit(Sikorsky, Ovsyenko);
 
           Say(Yakotich, 'DYak-02-15');
-          Say(Sikorsky, 'DSik-02-16');
+          SayNoName(Sikorsky, 'DSik-02-16');
 
-          ComExitBuilding([Yakotich, Dimitri, Dragunov, Cholgovsky]);
-          AddComAttackUnit([Yakotich, Dimitri], Sikorsky);
+          ComExitBuilding([Yakotich, Dimitri, Dragunov, Cholgovsky, Plotkov, Kula]);
+          AddComAttackUnit(Yakotich, Sikorsky);
           AddComMoveXY(Yakotich, 169, 217);
           AddComMoveXY(Dimitri, 172, 218);
           AddComTurnUnit(Dimitri, Yakotich);
@@ -107,32 +119,43 @@ Begin
           AddComTransport(Cholgovsky, Ovsyenko, mat_siberit);
           AddComEnterUnit(Dragunov, transport2);
           AddComTransport(Dragunov, Ovsyenko, mat_siberit);
-          AddComMoveXY([Cholgovsky, Dragunov], 146, 207);
+          AddComMoveXY([Cholgovsky, Dragunov, Plotkov, Kula], 146, 207);
 
      end;
-
-     if GetLives(Sikorsky) <= 800 then
-     begin
-
-          SayEffect('D1-smrtsikora');
+Every 0$1 Trigger GetLives(Sikorsky) <= 900 do
+begin
+          SayEffect('DSikDead');
           SetLives(Sikorsky, 1);
 
           ComMoveXY(SikorskyCrew, 127, 126);
           Wait(0$5);
           SayNoName(Jillian, 'DFem-02-18');
 
+          CutsceneOnDepot := False;
+
           MineExplosion(124, 117, 1);
           Wait(0$0.5);
           MineExplosion(122, 122, 1);
+          MineExplosion(130, 119, 1);
           Wait(0$0.3);
-          MineExplosion(134, 134, 1);
+          MineExplosion(135, 130, 1);
           Wait(0$0.5);
           MineExplosion(135, 125, 1);
+          MineExplosion(134, 121, 1);
           Wait(0$3);
           SayNoName(Turner, 'DMal-02-19');
+          Wait(0$2);
           Say(Yakotich, 'DYak-02-20');
           CenterOnXY(169, 217);
+
           SayEX(Platonov,'DPlat-02-21', 0, 1, 1, 0);
+
+          RemoveSeeing(127, 123, 3);
+          SetLives(Ovsyenko, 1000);
+          SetClass([Jillian, Turner], 2);
+          AddComFree(FilterAllUnits([[f_side, 6], [f_type, unit_human]]));
+          SetSide([Ovsyenko, b1, b2, b3, oil, sib, OilPower1, OilPower2], 4);
+
           SayEX(Platonov,'DPlat-02-22', 0, 1, 1, 0);
           SayEX(Platonov,'DPlat-02-23', 0, 1, 1, 0);
           Say(Yakotich, 'DYak-02-24');
@@ -145,6 +168,6 @@ Begin
           Say(Yakotich, 'DYak-02-28');
 
           PlayerGotControl := True;
+          CutsceneOn := False;
 
-     end;
 end;

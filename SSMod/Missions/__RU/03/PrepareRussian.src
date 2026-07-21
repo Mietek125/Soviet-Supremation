@@ -2,9 +2,11 @@ Export Function InitRussian;
 var i, tmp;
 Begin
 
-     Uc_Side = 3;
+     Uc_Side = 6;
 
      Platonov := NewCharacter('Platonov');
+
+     Uc_Side := 3;
 
      Yakotich := PrepareUnit('Yakotich', (not debug), prevMissionPrefix);
      Mietek := PrepareUnit('Mietek', (not debug), prevMissionPrefix);
@@ -13,13 +15,18 @@ Begin
      Kostyliev := PrepareUnit('Kostyliev', (not debug), prevMissionPrefix);
      Tatiana := PrepareUnit('Tatiana', (not debug), PrevMissionPrefix);
 
-     YakotichTeam := CreateCharacterSet(PrevMissionPrefix & 'YakotichTeam');
+     YakotichTeam := CreateCharacterSet(PrevMissionPrefix & 'YakotichTeam');         
 
      SetClass(Smirnovsky, 4);
      SetCLass(Kostyliev, 3);
      SetClass([Mietek, Yakotich], 1);
 
-     Uc_Side = 5;
+     tmp := tmp ^ Yakotich ^ Mietek ^ Maxim ^ Smirnovsky ^ Kostyliev ^ Tatiana ^ YakotichTeam;
+
+     for i in tmp do
+     PlaceUnitArea(i, SpawnArea, False);
+
+     Uc_Side = 9;
 
      Dragunov := PrepareUnit('Dragunov', false, '');
      Dimitri := PrepareUnit('Dimitri', false, '');
@@ -32,11 +39,58 @@ Begin
      PlaceUnitInBunker(Plotkov, b1);
      PlaceUnitInBunker(Kula, b2);
      PlaceHumanInUnit(Dragunov, Ovsyenko);
-     PlaceHumanInUnit(Cholgovsky, Ovsyenko);
+     PlaceHumanInUnit(Cholgovsky, sib);
      PlaceHumanInUnit(Dimitri, Ovsyenko);
 
      PrepareSolBun(3, b3);
 
      //SetClass(OtherTeam, 1);
+
+end;
+
+Export Function InitBurlakSpawn;
+var i;
+begin
+
+     Uc_Side := 6;
+
+     Burlak := PrepareUnit('Burlak', false, '');
+     Titov := PrepareUnit('Titov', false, '');
+     Petrovova := PrepareUnit('Petrovova', false, '');
+     Karamazov := PrepareUnit('Karamazov', false, '');
+     Dolgov := PrepareUnit('Dolgov', false, '');
+     Petrosyan := PrepareUnit('Petrosyan', false, '');
+     Lipshchin := PrepareUnit('Lipshchin', false, '');
+     Gleb := PrepareUnit('Gleb', false, '');
+
+     RemoveUnit(FilterUnitsInArea(BurlakDeleteArea, [f_type, unit_building]));
+
+    for i = 1 to 6 do
+    begin
+    uc_nation = nation_russian;
+    vc_chassis = rand(ru_medium_tracked, ru_heavy_tracked);
+    vc_control = control_manual;
+    vc_engine = engine_combustion;
+    vc_fuel_battery = 20;
+    vc_weapon = rand(ru_gatling_gun, ru_gun);
+    BurlakVehicles := CreateVehicle;
+    PlaceUnitArea(BurlakVehicles, BurlakSpawnArea, False);
+    end;
+
+    PlaceHumanInUnit([Titov, Petrovova, Dolgov, Petrosyan, Lipshchin, Gleb], FilterUnitsInArea(BurlakSpawnArea, [[f_type, unit_vehicle], [f_empty]]));
+
+    vc_chassis = (ru_medium_tracked);
+    vc_weapon = (ru_cargo_bay);
+    BurlakCargoBay := CreateVehicle;
+    PlaceUnitArea(BurlakCargoBay, BurlakSpawnArea, False);
+    PlaceHumanInUnit(Karamazov, BurlakCargoBay);
+
+    uc_nation = nation_arabian;
+    vc_chassis = (ar_half_tracked);
+    vc_weapon = (ar_flame_thrower);
+    BurlakVeh := CreateVehicle;
+    PlaceUnitArea(BurlakVeh, BurlakSpawnArea, False);
+    PlaceHumanInUnit(Burlak, BurlakVeh);
+
 
 end;

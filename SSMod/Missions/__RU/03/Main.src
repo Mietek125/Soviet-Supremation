@@ -8,6 +8,7 @@ begin
      PlaceEnvironment(194, 224, 54, 1);
 
      InitRussian;
+     InitAmericans;
      InitAction;
 
      DebugMode; 
@@ -16,16 +17,21 @@ end;
 Export Yakotich, Mietek, Smirnovsky, Kostyliev, Maxim, Tatiana;
 Export Dragunov, Dimitri, Plotkov, Cholgovsky, Kula;
 Export Platonov;
+Export Burlak, Titov, Petrovova, Karamazov, Dolgov, Petrosyan, Lipshchin, Gleb;
+
+Export BurlakVeh, BurlakVehicles, BurlakCargoBay;
 
 Export Sikorsky, Gary, Cyrus, Bobby, Lynch, Turner, Jillian, McCreery, Walker;
 Export VanHouten, Steve, Naoma, Magdalene;
 
-Export YakotichTeam, OtherTeam;
+Export YakotichTeam, OtherTeam, SikorskyCrew, DimitriTeam;
 
 Export Debug;
 
 Export MissionPrefix, PrevMissionPrefix;
-Export MissionStarted, BeenInMine, CameBackToBase, PlayerGotControl;
+Export MissionStarted, BeenInMine, CameBackToBase, PlayerGotControl, CutsceneOn, CutsceneOnDepot,
+RocketLaunchersConstructed, SibEngineConstructed, SibPowerComplete, OvsyenkoRecovered, FirstRocket,
+OvsyenkoDestroyed, EndOfMission, MineBuilt;
 
 Export Side6Buildings;
 
@@ -35,6 +41,9 @@ Begin
 SetBName(Ovsyenko, 'Ovsyenko');
 SetBName(Voroshilov, 'Voroshilov');
 SetBName(Terminal, 'Terminal');
+SetBName(Delta, 'Delta2');
+
+SetAttitude(9,3,1,True);
 
 MissionPrefix := '03_';
 PrevMissionPrefix := '02_';
@@ -43,6 +52,14 @@ MissionStarted := False;
 BeenInMine := False;
 CameBackToBase := False;
 PlayerGotControl := False;
+SibPowerComplete := False;
+SibEngineConstructed := False;
+RocketLaunchersConstructed := 0;
+OvsyenkoRecovered := False;
+FirstRocket := False;
+OvsyenkoDestroyed := False;
+EndOfMission := False;
+MineBuilt := False;
 
 Side6Buildings := [[b_workshop, 165, 222, 0],
                   [b_lab, 179, 224, 5],

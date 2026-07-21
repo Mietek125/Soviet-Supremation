@@ -16,24 +16,6 @@ case Difficulty of
 end;
 End;
 
-
-Export function RespawnInside(side, nation, build, skill, class, count);
-var i, un;
-begin
-for i = 1 to count do
-    begin
-    uc_side = side;
-    uc_nation = nation;
-
-    hc_gallery = '';
-    hc_name = '';
-    PrepareHuman(false, class, skill);
-
-    un = CreateHuman;
-    PlaceHumanInUnit(un, build);
-    end;
-End;     
-
 Export function RepairBuilding(side, building, area);
 var buildingsList, i, eng, engineerOkInside, engineerOkOutside;
 begin

@@ -1,0 +1,121 @@
+begin
+? inident "STree: jehl-smrk-stredni"
+ ! all 100
+ ! sat 77
+ ! rgb 115 100 100
+new
+? type grass
+ ! sat 48
+ ! all 74
+ ! rgb 115 100 100
+new
+? inident "Boulder: stone_01"
+ ! all 100
+new
+? inident "Boulder: stone_04"
+ ! all 100
+new
+? inident "Boulder: stone_06"
+ ! all 100
+new
+? inident "Boulder: ker"
+ ! all 100
+new
+? inident "STree: list-platan-spal"
+ ! all 101
+ ! sat 129
+new
+? inident "STree: ker-husty"
+ ! all 100
+ ! sat 77
+ ! rgb 122 100 100
+new
+? inident "STree: jehl-smrk-uzky-spal"
+ ! all 105
+new
+? inident "STree: list-dub"
+ ! all 84
+ ! sat 84
+new
+? inident "STree: list-jerab-spal"
+ ! all 66
+ ! sat 115
+new
+? inident "Boulder: stone_03"
+ ! all 100
+new
+? inident "Boulder: stone_02"
+ ! all 87
+ ! sat 52
+new
+? inident "STree: parez"
+ ! all 105
+ ! sat 84
+new
+? inident "STree: list-dvoupatr-maly"
+ ! all 110
+ ! sat 136
+new
+? inident "STree: ker-rosti"
+ ! all 100
+ ! sat 94
+ ! rgb 150 100 100
+new
+? inident "STree: list-dvoupatr"
+ ! sat 56
+ ! all 87
+ ! rgb 143 100 100
+new
+? inident "STree: list-kastan-vanek"
+ ! all 100
+ ! sat 80
+ ! rgb 119 100 100
+new
+? inident "Boulder: houby"
+ ! all 100
+new
+? inident "STree: list-akat-maly"
+ ! sat 59
+ ! all 100
+ ! rgb 143 100 100
+new
+? inident "Boulder: stone_07"
+ ! all 100
+ ! sat 70
+new
+? inident "STree: jehl-smrk-maly"
+ ! all 100
+ ! sat 80
+ ! rgb 119 100 100
+new
+? inident "STree: list-briza-vyssi"
+ ! all 100
+ ! sat 77
+new
+? inident "STree: list-briza"
+ ! all 100
+ ! sat 66
+ ! rgb 129 100 100
+new
+? inident "Boulder: mrcha"
+ ! all 100
+new
+? inident "STree: jehl-smrk-stredni-suchy"
+ ! all 87
+new
+? type building
+ ! contr 108
+ ! all 87
+new
+? inident "STree: list-sahara"
+ ! rgb 129 100 100
+ ! all 91
+new
+? inident "STree: jehl-smrk-silny"
+ ! rgb 119 100 100
+ ! all 85
+ ! contr 89
+new
+? inident "STree: jehl-smrk-stredni-spal"
+ ! all 147
+end

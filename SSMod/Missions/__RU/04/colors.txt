@@ -1,97 +1,133 @@
 begin
 ? inident "STree: jehl-smrk-stredni"
- ! all 100
- ! sat 80
+ ! all 80
+ ! sat 90
+ ! rgb 115 100 100
 new
 ? type grass
- ! sat 48
- ! all 74
+ ! sat 60
+ ! all 65
+ ! rgb 115 100 100
 new
 ? inident "Boulder: stone_01"
- ! all 100
+ ! all 80
 new
 ? inident "Boulder: stone_04"
- ! all 100
+ ! all 80
 new
 ? inident "Boulder: stone_06"
- ! all 100
+ ! all 80
 new
 ? inident "Boulder: ker"
- ! all 100
+ ! all 80
 new
 ? inident "STree: list-platan-spal"
- ! all 70
- ! sat 300
+ ! all 80
+ ! sat 140
 new
 ? inident "STree: ker-husty"
- ! all 100
- ! sat 77
+ ! all 80
+ ! sat 90
+ ! rgb 122 100 100
 new
 ? inident "STree: jehl-smrk-uzky-spal"
- ! all 105
+ ! all 90
 new
 ? inident "STree: list-dub"
- ! all 84
- ! sat 84
+ ! all 75
+ ! sat 75
 new
 ? inident "STree: list-jerab-spal"
- ! all 66
- ! sat 115
+ ! all 50
+ ! sat 130
 new
 ? inident "Boulder: stone_03"
- ! all 100
+ ! all 80
 new
 ? inident "Boulder: stone_02"
  ! all 87
  ! sat 52
 new
 ? inident "STree: parez"
- ! all 87
- ! sat 84
+ ! all 90
+ ! sat 95
 new
 ? inident "STree: list-dvoupatr-maly"
- ! all 126
- ! sat 136
- ! hue -352
+ ! all 90
+ ! sat 150
 new
 ? inident "STree: ker-rosti"
- ! all 100
- ! sat 94
+ ! all 80
+ ! sat 110
+ ! rgb 150 100 100
 new
 ? inident "STree: list-dvoupatr"
- ! sat 52
- ! all 87
+ ! sat 70
+ ! all 70
+ ! rgb 143 100 100
 new
 ? inident "STree: list-kastan-vanek"
- ! all 100
- ! sat 101
+ ! all 80
+ ! sat 100
+ ! rgb 119 100 100
 new
 ? inident "Boulder: houby"
- ! all 100
+ ! all 80
 new
 ? inident "STree: list-akat-maly"
- ! sat 59
- ! all 100
+ ! sat 70
+ ! all 80
+ ! rgb 143 100 100
 new
 ? inident "Boulder: stone_07"
- ! all 100
+ ! all 80
  ! sat 70
 new
 ? inident "STree: jehl-smrk-maly"
- ! all 100
- ! sat 80
+ ! all 80
+ ! sat 90
+ ! rgb 119 100 100
 new
 ? inident "STree: list-briza-vyssi"
- ! all 100
- ! sat 77
+ ! all 80
+ ! sat 90
 new
 ? inident "STree: list-briza"
- ! all 100
- ! sat 66
+ ! all 90
+ ! sat 60
+ ! rgb 129 100 100
 new
 ? inident "Boulder: mrcha"
- ! all 100
+ ! all 80
 new
 ? inident "STree: jehl-smrk-stredni-suchy"
- ! all 136
+ ! all 75
+new
+? type building
+ ! contr 120
+ ! all 85
+new
+? inident "STree: list-sahara"
+ ! rgb 129 100 100
+ ! all 75
+new
+? inident "STree: jehl-smrk-silny"
+ ! rgb 119 100 100
+ ! all 80
+ ! contr 100
+new
+? inident "STree: jehl-smrk-stredni-spal"
+ ! all 120
+new
+? type vehicle
+ ! contr 120
+ ! all 85
+new
+? type human
+ ! contr 100
+ ! all 80
+new
+? type crate
+ ! contr 110
+ ! all 90
 end

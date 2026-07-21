@@ -2,7 +2,7 @@ MAIN_DEFINITIONS
   SIZE 116 240
   TICK 0
   PLAYER_NUMBER 3
-  FOG_TYPE 2
+  FOG_TYPE 0
   FOGSIDES 1 2 3 4 5 6 7 8
   MAP_GBI 03.gbi
   MUCHY_RECT 0 0 0 0
@@ -413,7 +413,7 @@ HEXES
   LINE 199 100 215
     t4 t2 "" "" "" "" sn r6v6sn r6vCs9 r6vD r6vCsD r6vCsD r6vBsC r6vB r6v7sa v7 v6sB r6v6sA r6v6sY r6vAsn r6vGs8 r6vDsW r6vBsK r6vB vB vB vB r6v5sp r6sh "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA sA sA sA r6sA v1sI v3sI v3sI v3sI v3sI v3sJ v3sJ v1sJ sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 200 100 215
-    t4 t2 "" "" "" "" s9 r6v1sn r6v7sn r6vD r6vCsD r6vC r6vC r6vBsC r6v8sS v7sC v7 r6v7sY r6v7sg r6vAsn r6vG r6vG r6vBsi r6vB vB vB vB vB r6v5sp r6sh "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sI v1sI v1sI r6v1sI r6v1sI v3sI v5sI v5sI v5sI v5sI v5sJ v3sJ v1sJ sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" s9 r6v1sn r6v7sn r6vD r6vCsD r6vC r6vC r6vBsC r6v8sS v7sC v7 r6v7sY r6v7sg r6vAsn r6vG r6vG r6vBsi r6vB vB vB vB vB r6v5sp r6sh "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sI v1sI v1sI r6v1sI r6v1sI v3sI v5sI v5sI v5sI v5sI v5sJ v3sJ v1sJ sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 201 101 216
     t4 t2 "" "" "" "" r6sf r6v5sn r6vBsG r6vCsD r6vC r6vBsD r6vBsD r6vB r6v8sR v7sB r6v7sY r6vBs9 r6vCsH r6vEsH r6vG r6vBsi r6vB vB vB vB vB vB r6v5sp r6sh "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sI v3sI v3sI v3sI v3sI r6v3sI v5sI v7 v7 v7 v7 v5sJ v3sJ v1sJ sB sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 202 101 216
@@ -4051,36 +4051,36 @@ TECHS
   F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
   F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
   F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F F T T T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
   F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
   F T F T T F T T F F T T T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F F T T T T F T T F T T F T T F T T F T T F
   F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F T T T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F T T T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F T T T T F T T F T T F T T F T T F T T F
   F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
   F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
   F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
@@ -4255,41 +4255,41 @@ BASES
   POOL 1
   POOL 2
   POOL 3
-  POOL 4
     CANS 500
     OIL 100
     SIBERIUM 10
-  POOL 5
+  POOL 4
     CANS 500
     OIL 250
+  POOL 5
   POOL 6
     CANS 300
     OIL 250
-    SIBERIUM 100
+    SIBERIUM 25
 
   BASE 1
     POOL_NUM 1
     SIDE 1
-    UNIT 88
+    UNIT 106
   BASE 2
     POOL_NUM 2
     SIDE 1
-    UNIT 106
+    UNIT 107
   BASE 3
     POOL_NUM 3
     SIDE 1
-    UNIT 107
+    UNIT 120
   BASE 4
     POOL_NUM 4
-    SIDE 1
-    UNIT 120
-  BASE 5
-    POOL_NUM 5
     SIDE 6
     UNIT 150
+  BASE 5
+    POOL_NUM 5
+    SIDE 1
+    UNIT 88
   BASE 6
     POOL_NUM 6
-    SIDE 5
+    SIDE 9
     UNIT 74
 END_OF_BASES
 
@@ -4298,26 +4298,26 @@ END_OF_BASES
 RANDOMS
   MICROLOGIC 2 0 1
   RANDOM_SEED 1 1446317045
-  RANDOM_SEED 2 -1777386728
-  RANDOM_SEED 3 -570378099
+  RANDOM_SEED 2 1834393758
+  RANDOM_SEED 3 302893
   RANDOM_SEED 4 857944668
   RANDOM_SEED 5 -361675186
   RANDOM_SEED 6 1283126848
-  RANDOM_SEED 7 -1087555803
+  RANDOM_SEED 7 -635767995
   RANDOM_SEED 8 1751026996
   RANDOM_SEED 9 -722287904
-  RANDOM_SEED 10 -1752676642
+  RANDOM_SEED 10 -920307368
   RANDOM_SEED 11 1243301773
   RANDOM_SEED 12 911650
   RANDOM_SEED 13 2004086437
   RANDOM_SEED 14 378023
-  RANDOM_SEED 15 -2074053981
+  RANDOM_SEED 15 -1984507453
   RANDOM_SEED 16 907772
   RANDOM_SEED 17 1931189875
   RANDOM_SEED 18 353399119
   RANDOM_SEED 19 -423323973
   RANDOM_SEED 20 758098213
-  RANDOM_SEED 21 318786900
+  RANDOM_SEED 21 -1623372091
   RANDOM_SEED 22 2016646415
   WIND_TIME 811490 811553 811576
   WIND_STRENGTH 36.7606167791381 52.0 53.3803083895691
@@ -4371,7 +4371,7 @@ NEW_UNITS
     DEFINITION
       IDENT Ovsyenko
       POS 122 118 2
-      SIDE 5
+      SIDE 9
       NATION 3
       HP 1000
       BUILDING
@@ -4398,7 +4398,7 @@ NEW_UNITS
     DEFINITION
       IDENT sib
       POS 136 123 4
-      SIDE 5
+      SIDE 9
       NATION 3
       HP 1000
       BUILDING
@@ -4423,13 +4423,13 @@ NEW_UNITS
     END_OF_GAME_STATE
   UNIT 88 BUILDING
     DEFINITION
-      IDENT usBase
+      IDENT Delta
       POS 64 64 4
       SIDE 1
       NATION 1
       HP 1000
       BUILDING
-        TYPE 2 LEVEL 1 BASE 1
+        TYPE 2 LEVEL 1 BASE 5
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4455,7 +4455,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 29 LEVEL 1 BASE 1
+        TYPE 29 LEVEL 1 BASE 5
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 400 1
@@ -4482,7 +4482,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 6 LEVEL 1 BASE 1
+        TYPE 6 LEVEL 1 BASE 2
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4509,7 +4509,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 10 LEVEL 1 BASE 1
+        TYPE 10 LEVEL 1 BASE 2
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4535,7 +4535,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 7 LEVEL 1 BASE 1
+        TYPE 7 LEVEL 1 BASE 2
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4561,7 +4561,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 8 LEVEL 1 BASE 1
+        TYPE 8 LEVEL 1 BASE 2
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4587,7 +4587,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 11 LEVEL 1 BASE 1
+        TYPE 11 LEVEL 1 BASE 2
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4613,7 +4613,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 121 LEVEL 1 BASE 1
+        TYPE 121 LEVEL 1 BASE 2
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4639,7 +4639,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 31 LEVEL 1 BASE 1
+        TYPE 31 LEVEL 1 BASE 2
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4667,7 +4667,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 31 LEVEL 1 BASE 1
+        TYPE 31 LEVEL 1 BASE 2
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4696,7 +4696,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 94 LEVEL 1 BASE 1
+        TYPE 94 LEVEL 1 BASE 2
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4722,7 +4722,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 30 LEVEL 1 BASE 1
+        TYPE 30 LEVEL 1 BASE 2
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4776,7 +4776,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 33 LEVEL 1 BASE 2
+        TYPE 33 LEVEL 1 BASE 1
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4802,7 +4802,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 33 LEVEL 1 BASE 3
+        TYPE 33 LEVEL 1 BASE 2
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4828,7 +4828,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 28 LEVEL 1 BASE 3
+        TYPE 28 LEVEL 1 BASE 2
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 111 1
@@ -4854,7 +4854,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 25 LEVEL 1 BASE 1
+        TYPE 25 LEVEL 1 BASE 2
     END_OF_DEFINITION
     GAME_STATE
       ACTION 31 T 125 1
@@ -4881,7 +4881,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 19 LEVEL 1 BASE 2 PARAMS 21 24
+        TYPE 19 LEVEL 1 BASE 1 PARAMS 21 24
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4908,7 +4908,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 26 LEVEL 1 BASE 2
+        TYPE 26 LEVEL 1 BASE 1
     END_OF_DEFINITION
     GAME_STATE
       ACTION 31 T 125 1
@@ -4934,7 +4934,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 26 LEVEL 1 BASE 3
+        TYPE 26 LEVEL 1 BASE 2
     END_OF_DEFINITION
     GAME_STATE
       ACTION 31 T 125 1
@@ -4960,7 +4960,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 25 LEVEL 1 BASE 1
+        TYPE 25 LEVEL 1 BASE 2
     END_OF_DEFINITION
     GAME_STATE
       ACTION 31 T 125 1
@@ -4986,7 +4986,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 26 LEVEL 1 BASE 2
+        TYPE 26 LEVEL 1 BASE 1
     END_OF_DEFINITION
     GAME_STATE
       ACTION 31 T 125 1
@@ -5012,7 +5012,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 31 LEVEL 1 BASE 2
+        TYPE 31 LEVEL 1 BASE 1
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -5041,7 +5041,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 1 LEVEL 1 BASE 4
+        TYPE 1 LEVEL 1 BASE 3
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -5067,7 +5067,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 28 LEVEL 1 BASE 4
+        TYPE 28 LEVEL 1 BASE 3
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 111 1
@@ -5093,7 +5093,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 30 LEVEL 1 BASE 4
+        TYPE 30 LEVEL 1 BASE 3
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -5119,7 +5119,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 30 LEVEL 1 BASE 4
+        TYPE 30 LEVEL 1 BASE 3
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -5145,7 +5145,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 30 LEVEL 1 BASE 4
+        TYPE 30 LEVEL 1 BASE 3
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -5171,7 +5171,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 17 LEVEL 1 BASE 4 PARAMS 20 20
+        TYPE 17 LEVEL 1 BASE 3 PARAMS 20 20
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -5198,7 +5198,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 3 LEVEL 1 BASE 1
+        TYPE 3 LEVEL 1 BASE 3
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -5224,7 +5224,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 30 LEVEL 1 BASE 1
+        TYPE 30 LEVEL 1 BASE 3
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -5250,7 +5250,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 25 LEVEL 1 BASE 4
+        TYPE 25 LEVEL 1 BASE 3
     END_OF_DEFINITION
     GAME_STATE
       ACTION 31 T 125 1
@@ -5302,7 +5302,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 30 LEVEL 1 BASE 4
+        TYPE 30 LEVEL 1 BASE 3
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -5325,7 +5325,7 @@ NEW_UNITS
     DEFINITION
       IDENT b2
       POS 120 122 1
-      SIDE 5
+      SIDE 9
       NATION 3
       HP 1000
       BUILDING
@@ -5352,7 +5352,7 @@ NEW_UNITS
     DEFINITION
       IDENT b3
       POS 128 113 3
-      SIDE 5
+      SIDE 9
       NATION 3
       HP 1000
       BUILDING
@@ -5379,7 +5379,7 @@ NEW_UNITS
     DEFINITION
       IDENT b1
       POS 135 132 5
-      SIDE 5
+      SIDE 9
       NATION 3
       HP 1000
       BUILDING
@@ -5406,7 +5406,7 @@ NEW_UNITS
     DEFINITION
       IDENT oil
       POS 122 114 3
-      SIDE 5
+      SIDE 9
       NATION 3
       HP 1000
       BUILDING
@@ -5479,7 +5479,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 64 LEVEL 5 BASE 5
+        TYPE 64 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -5502,7 +5502,7 @@ NEW_UNITS
     DEFINITION
       IDENT transport1
       POS 130 124 2
-      SIDE 5
+      SIDE 9
       NATION 3
       HP 1000
       VEHICLE
@@ -5533,7 +5533,7 @@ NEW_UNITS
     DEFINITION
       IDENT transport2
       POS 129 126 2
-      SIDE 5
+      SIDE 9
       NATION 3
       HP 1000
       VEHICLE
@@ -5564,7 +5564,7 @@ NEW_UNITS
     DEFINITION
       IDENT OilPower2
       POS 135 125 4
-      SIDE 5
+      SIDE 9
       NATION 3
       HP 1000
       BUILDING
@@ -5591,7 +5591,7 @@ NEW_UNITS
     DEFINITION
       IDENT OilPower1
       POS 136 128 5
-      SIDE 5
+      SIDE 9
       NATION 3
       HP 1000
       BUILDING
@@ -5621,7 +5621,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 31 LEVEL 1 BASE 1
+        TYPE 31 LEVEL 1 BASE 2
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -5649,7 +5649,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 31 LEVEL 1 BASE 1
+        TYPE 31 LEVEL 1 BASE 2
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -5706,7 +5706,7 @@ LASER_EFECTS
 END_OF_LASER_EFECTS
 
 USER_INTERFACE
-  VIEW 484 3144 2180 1252 1
+  VIEW 616 3192 2180 1204 1
   MASHA_FLAG 2 F F
 END_OF_USER_INTERFACE
 
@@ -5737,12 +5737,11 @@ SIDE 9 10
 END_OF_DEBRIEFING
 
 AREAS
-  ACTIVE 4
-  LAST 69
+  ACTIVE 12
+  LAST 77
   AREA 1
     NAME OvsyenkoArea
     COLOR 0EFFEC
-    VISIBLE
     SHORTCUT 1
     LINES 116 108 22 29
     -+++++++++------------
@@ -5777,7 +5776,6 @@ AREAS
   AREA 2
     NAME GatheringArea
     COLOR 0EFFD2
-    VISIBLE
     SHORTCUT 2
     LINES 170 212 5 5
     +----
@@ -5827,7 +5825,6 @@ AREAS
   AREA 4
     NAME SikorskyCrewSpawn
     COLOR AC4AFF
-    VISIBLE
     SHORTCUT 1
     LINES 106 79 7 7
     ++-----
@@ -5837,6 +5834,215 @@ AREAS
     -++++++
     -++++++
     ---++++
+  AREA 5
+    NAME SpawnArea
+    COLOR 0EFFE6
+    SHORTCUT 1
+    LINES 197 233 8 6
+    +-------
+    +++++---
+    +++++++-
+    +++++++-
+    +++++++-
+    -+++++++
+  AREA 6
+    NAME BurlakSpawnArea
+    COLOR FFD95D
+    VISIBLE
+    SHORTCUT 1
+    LINES 146 218 54 18
+    +-----------------------------------------------------
+    -------------------------------------------------+----
+    ------------------------------------------------------
+    ------------------------------------------------------
+    ----------------------------------------------------+-
+    ----+-------------------------------------------+-----
+    ------------------------------------------------------
+    ------------------------------------------------------
+    ------------------------------------------------------
+    -----------------------------------------------------+
+    ------------------------------------------------------
+    -------+----------------------------------------------
+    ------------------------------------------------------
+    -----------------------------------------------------+
+    ------------------------------------------------------
+    ------------------------------------------------------
+    ------+-----------------------------------------------
+    ---------+-------------------------------------------+
+  AREA 7
+    NAME CratesRu1
+    COLOR 7938FF
+    VISIBLE
+    SHORTCUT 1
+    LINES 137 192 19 23
+    ----++-------------
+    -++++++++----------
+    -+++++++++---------
+    +++++++++++--------
+    ++++++++++++-------
+    +++++++++++++------
+    +++++++++++++------
+    ++++++++++++++-----
+    ++++++++++++++-----
+    +++++++++++++++----
+    -++++++++++++++----
+    -++++++++++++++----
+    -+++++++++++++++---
+    --++++++++++++++---
+    --+++++++++++++++--
+    ---++++++++++++++--
+    ---+++++++++++++++-
+    ----++++++++++++++-
+    -----+++++++++++++-
+    -----++++++++++++++
+    --------+++++++++++
+    ------------+++++++
+    ---------------++++
+  AREA 8
+    NAME CratesAm
+    COLOR C6FF4B
+    SHORTCUT 2
+    LINES 62 100 33 15
+    -------++++++++------------------
+    ++++---++++++++++----------------
+    -++++++++++++++++++++------------
+    -++++++++++++++++++++++----------
+    -++++++++++++++++++++++++++------
+    -++++++++++++++++++++++++++++----
+    --+++++++++++++++++++++++++++----
+    --++++++++++++++++++++++++++++---
+    ---++++++++++++++++++++++++++++--
+    ---++++++++++++++++++++++++++++--
+    ----++++++++++++++++++++++++++++-
+    ----++++++++++++++++++++++++++++-
+    -----++++++++++++++++++++++++++++
+    -----------++++++++++++++++++++++
+    ------------------------+++++++++
+  AREA 9
+    NAME BurlakDeleteArea
+    COLOR CC37FF
+    SHORTCUT 1
+    LINES 143 210 64 30
+    +++-------------------------------------------------------------
+    +++++++---------------------------------------------------------
+    +++++++---------------------------------------------------------
+    -+++++++--------------------------------------------------------
+    -+++++++--------------------------------------------------------
+    -++++++++-------------------------------------------------------
+    --+++++++----------------------------------------++++++---------
+    --++++++++---------------------------------------++++++++-------
+    ---+++++++---------------------------------------+++++++++------
+    ---++++++++--------------------------------------+++++++++------
+    ---++++++++--------------------------------------+++++++++------
+    ----+++++++--------------------------------------++++++++++-----
+    ----++++++++-------------------------------------++++++++++-----
+    -----+++++++-------------------------------------++++++++++-----
+    -----+++++++-------------------------------------+++++++++++----
+    -----++++++++------------------------------------+++++++++++----
+    ------+++++++------------------------------------+++++++++++----
+    ------+++++++------------------------------------++++++++++++---
+    ------++++++++-----------------------------------++++++++++++---
+    -------+++++++-----------------------------------++++++++++++---
+    -------++++++++-----------------------------------+++++++++++---
+    --------+++++++-----------------------------------++++++++++++--
+    --------+++++++-----------------------------------++++++++++++--
+    --------++++++++----------------------------------++++++++++++--
+    --------++++++++----------------------------------++++++++++++--
+    ---------+++++++-----------------------------------+++++++++++--
+    ---------++++++++----------------------------------++++++++++++-
+    ---------++++++++----------------------------------++++++++++++-
+    ---------+++++++++----------------------------------+++++++++++-
+    ------------++------------------------------------------++++++++
+  AREA 10
+    NAME CratesRu2
+    COLOR CC37FF
+    VISIBLE
+    SHORTCUT 1
+    LINES 178 198 16 18
+    -------++-------
+    ----++++++------
+    ---++++++++-----
+    --+++++++++-----
+    -+++++++++++----
+    ++++++++++++----
+    +++++++++++++---
+    -+++++++++++++--
+    --++++++++++++--
+    --+++++++++++++-
+    ---++++++++++++-
+    ---+++++++++++++
+    ----++++++++++++
+    ----++++++++++++
+    -----+++++++++++
+    -----++++++++++-
+    -------++++++++-
+    ---------++++---
+  AREA 11
+    NAME CratesRu3
+    COLOR 0E4CFF
+    VISIBLE
+    SHORTCUT 2
+    LINES 142 165 26 25
+    -++++++++++++++++---------
+    ++++++++++++++++++--------
+    ++++++++++++++++++--------
+    -++++++++++++++++++-------
+    -++++++++++++++++++-------
+    -++++++++++++++++++-------
+    --++++++++++++++++++------
+    --++++++++++++++++++------
+    ---++++++++++++++++++-----
+    ---++++++++++++++++++-----
+    ---++++++++++++++++++-----
+    ----++++++++++++++++++----
+    ----++++++++++++++++++----
+    ----+++++++++++++++++++---
+    -----++++++++++++++++++---
+    -----++++++++++++++++++---
+    ------++++++++++++++++++--
+    ------++++++++++++++++++--
+    ------+++++++++++++++++++-
+    -------++++++++++++++++++-
+    -------++++++++++++++++++-
+    -----------+++++++++++++++
+    --------------++++++++++++
+    ------------------++++++++
+    ----------------------++++
+  AREA 12
+    NAME CratesOvs
+    COLOR 8CFF4B
+    VISIBLE
+    SHORTCUT 3
+    LINES 143 104 20 29
+    ++------------------
+    -+++----------------
+    --++++--------------
+    --+++++-------------
+    ---+++++------------
+    ---++++++-----------
+    ----+++++-----------
+    ----++++++----------
+    ----+++++++---------
+    ----++++++++--------
+    ----++++++++--------
+    ----+++++++++-------
+    -----+++++++++------
+    -----+++++++++------
+    -----++++++++++-----
+    -----++++++++++-----
+    -----+++++++++++----
+    -----+++++++++++----
+    -----++++++++++++---
+    -----++++++++++++---
+    -----++++++++++++---
+    -----+++++++++++++--
+    -----+++++++++++++--
+    ------++++++++++++--
+    ------+++++++++++++-
+    ------+++++++++++++-
+    --------++++++++++++
+    ----------++++++++++
+    -------------+++++++
 END_OF_AREAS
 
 SEXTRA
@@ -6675,5 +6881,7 @@ SEXTRA
   255
   30
   0 254
+  50
+  253
 END_OF_SEXTRA
 

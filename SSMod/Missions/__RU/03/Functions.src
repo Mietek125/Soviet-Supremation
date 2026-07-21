@@ -30,6 +30,17 @@ begin
   end;
 end;
 
+Export Function SibQuery(q);
+var dec, q1;
+begin
+  dec = SelectiveQuery('SibMineQuery', q);
+  case dec of
+   1:begin
+     exit;
+     end;
+  end;
+end;
+
 Every 1 Trigger not BeenInMine and IsInArea(Yakotich, DontGoArea) do
 var x, y;
 begin
@@ -37,7 +48,41 @@ begin
      enable;
      x = GetX(Yakotich);
      y = GetY(Yakotich);
+
+     DialogueOn;
+
+     Say(Yakotich, 'DYak-border');
+
+     DialogueOff;
+     InGameOn;
+
      ComMoveXY(Yakotich, x+2, y+10);
+     Wait(0$3);
+
+     InGameOff;
+
+
+end;
+
+Every 0$1 Trigger CutsceneOn do
+begin
+     enable;
+
+     SetLives(FilterAllUnits([[f_side, 3], [f_or, [f_type, unit_human], [f_type, unit_vehicle]]]), 1000);
+
+     if not CutsceneOn then
+     disable;
+
+end;
+
+Every 0$1 Trigger CutsceneOnDepot do
+begin
+     enable;
+
+     SetLives(FilterAllUnits([[f_side, 3], [f_or, [f_type, unit_human], [f_type, unit_vehicle]]]), 1000);
+
+     if not CutsceneOnDepot then
+     disable;
 
 end;
 

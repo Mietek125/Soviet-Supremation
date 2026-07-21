@@ -90,127 +90,127 @@ HEXES
   LINE 38 19 118
     t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 39 20 119
-    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 40 20 119
-    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 41 21 120
-    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 42 21 120
-    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 43 22 121
-    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 44 22 121
-    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 45 23 122
-    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 46 23 122
-    t4 t2 "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 47 24 123
-    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 48 24 123
-    t4 t2 "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 49 25 124
-    t4 t2 "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 50 25 124
-    t4 t2 "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 51 26 125
-    t4 t2 "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 52 26 125
-    t4 t2 "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 53 27 126
-    t4 t2 "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 54 27 126
-    t4 t2 "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 55 28 127
-    t4 t2 "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 56 28 127
-    t4 t2 "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 57 29 128
-    t4 t2 "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 58 29 128
-    t4 t2 "" "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 59 30 129
-    t4 t2 "" "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 fA fA fA fA fA fA fA f2 f2 "" "" "" "" f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 60 30 129
-    t4 t2 "" "" "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 fA fA fA fA fA fA fA fA fA fA fA f8 "" "" "" f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 61 31 130
-    t4 t2 "" "" "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 fA fA fA fA fA fA fA fA fA fA fA fA fA fA fA f6 f6 f#84 f#84 f#84 f#84 f#84 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 62 31 130
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 fE fE fE fE fU fQ fQ fQ fQ fQ fQ fA fA fA fE fE fE fE f#86 f#86 f#86 f#84 f#84 f#84 f#84 f#84 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 63 32 131
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 f6 fE fE fU fU fU fU fU fU fQ fQ f#9A f#9A f#9A f#9E f#8E f#8E f#8E fE fE f#86 f#86 f#86 f#96 f#94 f#94 f#94 f#94 f#94 f#90 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 64 32 131
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 f6 fE fE fU fU fU fU fU fU fU f#9E f#9E f#9A f#9A f#9E f#9E f#9E f#9E f#8E f#8E f#8E f#8E f#9E f#96 f#96 f#96 f#96 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 65 33 132
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 f6 f6 fE fU fU f#3E f#3E f#3E f#3E f#3E f#BE f#BE f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#8E f#9E f#9E f#9E f#96 f#96 f#96 f#96 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 f#80 f#80 f#80 f#84 f#84 f#84 f#84 f#84 f#94 f#94 fG fG fG f#90 f#90 f#80 f#80 f#80 f#80 f#80 "" t2 t4
   LINE 66 33 132
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 f6 f6 fE f#3E f#3E f#3E f#3E f#3E f#3E f#BE f#BE f#BE f#BE f#BE f#BE f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#96 f#96 f#96 f#96 f#96 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#94 f#84 f#84 f#84 f#84 f#94 f#94 f#94 f#94 fK f#94 f#94 f#90 f#90 f#90 f#90 f#90 f#80 f#80 f#80 t2f#80 t4f#80
   LINE 67 34 133
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 f6 f6 f6 f#3E f#3E f#3E f#3E f#3E f#3E f#3E f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#96 f#96 f#96 f#96 f#96 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#84 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 f#90 f#90 f#80 f#80 t2f#80 t4f#80
   LINE 68 34 133
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 f6 f6 fc f#3E f#3E f#3E f#3E f#3E f#3E f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 f#90 f#90 t2f#80 t4f#80
   LINE 69 35 134
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 f6 f6 fc f#3E f#3E f#3E f#3E f#3E f#3E f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#9E f#9E f#9E f#9E f#9E f#9E f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 f#90 f#90 t2f#80 t4f#80
   LINE 70 35 134
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 f6 fc fc f#3E f#3E f#3E f#3E f#3E f#3E f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#9E f#9E f#9E f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 t2f#90 t4f#90
   LINE 71 36 135
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 f6 fc fc fs f#3E f#3E f#3E f#3E f#3E f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#9E f#DE f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 t2f#90 t4f#90
   LINE 72 36 135
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 f6 fc fc fs f#3E f#3E f#3E f#3E f#3E f#BC f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#DE f#DE f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 t2f#90 t4f#90
   LINE 73 37 136
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 f6 fc fc fs f#3E f#3E fy fy fy f#BC f#BC f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#FE f#FE f#DE f#DE f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 t2f#90 t4f#90
   LINE 74 37 136
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 fc fc fa fq fy fy fy fy f#BC f#BC f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#FE f#FE f#FE f#DE f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 t2f#90 t4f#90
   LINE 75 38 137
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 fc fc fa fq fy fy fy fy fy f#BC f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#FE f#FE f#FE f#FE f#DE f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 t2f#90 t4f#90
   LINE 76 38 137
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 fc fc fc fq fq fy fy fy fy f#BC f#BC f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#FE f#FE f#FE f#FE f#FE f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 t2f#90 t4f#90
   LINE 77 39 138
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 fc fc fc fq fy fy fy fy f#BC f#BC f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#FE f#FE f#FE f#FE f#FE f#DE f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 t2f#90 t4f#90
   LINE 78 39 138
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 fc fc fc fq fq fy fy fy fy f#BC f#BC f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#FE f#FE f#FE f#FE f#FE f#FE f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 t2f#90 t4f#90
   LINE 79 40 139
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 fc fc fc fc fq fq fy fy fy f#BC f#BC f#BE f#BE f#BE f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BE f#FE f#FE f#FE f#FE f#FE f#FE f#FE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 t2f#90 t4f#90
   LINE 80 40 139
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 fc fc fc fq fq fy fy fy fy f#BC f#BC f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FE f#FE f#FE f#FE f#FE f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 t2f#90 t4f#90
   LINE 81 41 140
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 fc fc fc fc fq fq fy fy fy f#BC f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FF f#FF f#FE f#FE f#FE f#FE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 t2f#90 t4f#90
   LINE 82 41 140
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 fc fc fc fa fq fq fy fy fz f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FF f#FF f#FF f#FF f#FE f#FE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 t2f#90 t4f#90
   LINE 83 42 141
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 fc fc fc fa fq fq fq fy fz fz f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FF f#FF f#FF f#FF f#FE f#FE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 t2f#90 t4f#90
   LINE 84 42 141
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 fc fc fc fa fq fq fr fz fz f#BD f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FF f#FF f#FF f#FF f#FF f#FF f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 t2f#90 t4f#90
   LINE 85 43 142
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 fc fc fa fa fq fr fr fz fz f#BD f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FF f#FF f#FF f#FF f#FF f#DF f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 t2f#90 t4f#90
   LINE 86 43 142
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 fc fc fa fa fa fr fr fr fz fz f#BD f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FF f#FF f#FF f#FF f#FF f#FF f#DF f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 t2f#90 t4f#90
   LINE 87 44 143
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f2 f2 f2 f2 f2 f2 f2 f2 f6 fc fa fa fa fb fr fr fr fr fz f#BD f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FF f#FF f#FF f#FF f#FF f#DF f#D7 f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 t2f#90 t4f#90
   LINE 88 44 143
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f6 fa fa fa fb fb fr fr fr fr fz f#BD f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FF f#FF f#FF f#FF f#DF f#D7 f#D7 f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 t2f#90 t4f#90
   LINE 89 45 144
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f4 fa fa fb fb fb fr fr fr fr fr f#BD f#BD f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FF f#FF f#FF f#FF f#D7 f#D7 f#D7 f#D7 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 t2f#90 t4f#90
   LINE 90 45 144
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" f2 f2 f2 f2 f2 f2 f2 "" "" "" fa fb fb fb fb fb fr fr fr fr f#B5 f#BD f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FF f#FF f#F7 f#D7 f#D7 f#D7 f#D7 f#D7 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 t2f#90 t4f#90
   LINE 91 46 145
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" f2 f2 f2 f2 f2 f2 "" "" "" "" fa fb fb fb fb fb fr fr fr fr fr f#B5 f#B5 f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#F7 f#F7 f#F7 f#D7 f#D7 f#D7 f#D7 f#D7 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 t2f#90 t4f#90
   LINE 92 46 145
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" f2 f2 f2 "" f2 f2 f2 f2 f2 "" "" "" f2 f2 f2 f2 f2 "" "" "" "" "" "" fX fb fb fb fb fb fb fr fr fr fr f#B5 f#B5 f#B5 f#B5 f#B5 f#B3 f#B3 f#B3 f#B7 f#F7 f#F7 f#C7 f#D7 f#D7 f#D7 f#D7 f#D7 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 t2f#90 t4f#90
   LINE 93 47 146
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f2 f2 "" "" "" "" "" "" f2 f2 "" "" "" "" "" "" "" f1 f1 fX fb fb fb fb fb fb fr fr fr fr f#B5 f#B5 f#B1 f#B1 f#B1 f#B1 f#B3 f#B7 f#C7 f#C7 f#C7 f#C7 f#D7 f#D5 f#D5 f#D5 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 f#90 f#90 t2f#80 t4f#80
   LINE 94 47 146
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f1 f1 fX fX fX fb fb fb fb fb fb fr fn fn f#B1 f#B1 f#B1 f#B1 f#A1 f#A1 f#81 f#C5 f#C5 f#C5 f#C5 f#C5 f#D5 f#D5 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D0 f#D4 f#D4 f#D4 f#D4 f#C4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 f#90 f#90 t2f#80 t4f#80
   LINE 95 48 147
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f1 f1 f1 f1 fX fX fX fX fX fX fX fX fX fX fX fX fX f#A1 f#A1 f#81 f#81 f#81 f#C1 f#C5 f#C5 f#C5 f#C5 f#C5 f#D5 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D0 f#D0 f#D0 f#D0 f#D4 f#C4 f#C4 f#C4 f#C4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 f#90 f#90 f#80 f#80 t2f#80 t4f#80
   LINE 96 48 147
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f1 f1 f1 f1 f1 fX fX fX fX fX fX fX fX fX fX fX fX f1 f1 f1 f1 f#81 f#81 f#C1 f#C1 f#C5 f#C5 f#C5 f#C4 f#C4 f#D4 f#D4 f#D0 f#D0 f#D0 f#D0 f#D0 f#C0 f#C0 f#C0 f#C4 f#C4 f#84 f#84 f#84 f#94 f#94 f#94 fK fK f#94 f#94 f#90 f#90 f#90 f#90 f#90 f#80 f#80 f#80 t2f#80 t4f#80
   LINE 97 49 148
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f1 f1 f1 f1 f1 f1 f1 f1 fX fX fX fX fX fX fX f1 f1 f1 f1 f1 f1 f1 f#81 f#81 f#C1 f#C1 f#C1 f#C1 f#C1 f#C0 f#C0 f#C0 f#C0 f#C0 f#C0 f#C0 f#C0 f#C0 f#C0 f#C0 f#C0 f#C0 f#80 f#84 f#84 f#84 f#84 f#84 fK fK fG fG fG f#90 f#90 f#80 f#80 f#80 f#80 f#80 "" t2 t4
   LINE 98 49 148
-    t4 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t4
+    t4 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f#81 t2f#81 t2f#81 t2f#C1 t2f#C1 t2f#C1 t2f#C0 t2f#C0 t2f#C0 t2f#C0 t2f#C0 t2f#C0 t2f#C0 t2f#C0 t2f#C0 t2f#C0 t2f#C0 t2f#C0 t2f#80 t2f#80 t2f#80 t2f#80 t2f#80 t2f#80 t2f#80 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t4
   LINE 99 50 149
-    t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4
+    t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f#81 t4f#81 t4f#81 t4f#81 t4f#C1 t4f#C0 t4f#C0 t4f#C0 t4f#C0 t4f#C0 t4f#C0 t4f#C0 t4f#C0 t4f#C0 t4f#C0 t4f#C0 t4f#80 t4f#80 t4f#80 t4f#80 t4f#80 t4f#80 t4f#80 t4f#80 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4
 END_OF_HEXES
 
 EXTERNAL_NODES nodes.bin
@@ -283,14 +283,14 @@ EXTERNAL_SECTORS sectors.bin
 ATTITUDES
   PARAMS 9
   1 0 0 0 0 0 0 0 0 0
-  0 1 2 2 2 2 2 2 2 2
-  0 2 1 2 2 2 2 2 2 2
-  0 2 2 1 2 2 2 2 2 2
-  0 2 2 2 1 2 2 2 2 2
-  0 2 2 2 2 1 2 2 2 2
-  0 2 2 2 2 2 1 2 2 2
-  0 2 2 2 2 2 2 1 2 2
-  0 2 2 2 2 2 2 2 1 2
+  0 1 1 1 1 1 1 1 1 2
+  0 1 1 1 1 1 1 1 1 2
+  0 1 1 1 1 1 1 1 1 2
+  0 1 1 1 1 1 1 1 1 2
+  0 1 1 1 1 1 1 1 1 2
+  0 1 1 1 1 1 1 1 1 2
+  0 1 1 1 1 1 1 1 1 2
+  0 1 1 1 1 1 1 1 1 2
   0 2 2 2 2 2 2 2 2 1
   FLAG 9
   T T T T T T T T T T
@@ -356,7 +356,6 @@ TECHS
   F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
   F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
   F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
-  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
   F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
   F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
   F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
@@ -393,11 +392,12 @@ TECHS
   F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
   F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
   F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
-  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
   F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
-  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
 END_OF_TECHS
 
 RESTRICTS
@@ -498,7 +498,11 @@ END_OF_RESTRICTS
 MISSION_OBJECTIVES 0
 
 SPECS
-  PARAMS 0 9
+  PARAMS 2 9
+    57 84 2
+    F F F F F F F F F F
+    68 86 2
+    F F F F F F F F F F
   FLAG 0 0
 END_OF_SPECS
 
@@ -513,6 +517,7 @@ BASES
     CANS 1000
     OIL 250
     SIBERIUM 100
+  POOL 3
 
   BASE 1
     POOL_NUM 1
@@ -522,6 +527,10 @@ BASES
     POOL_NUM 2
     SIDE 2
     UNIT 3309
+  BASE 3
+    POOL_NUM 3
+    SIDE 1
+    UNIT 3362
 END_OF_BASES
 
 
@@ -529,26 +538,26 @@ END_OF_BASES
 RANDOMS
   MICROLOGIC 2 0 1
   RANDOM_SEED 1 753208480
-  RANDOM_SEED 2 -222307422
+  RANDOM_SEED 2 2014893416
   RANDOM_SEED 3 925772155
   RANDOM_SEED 4 1542757151
   RANDOM_SEED 5 1971542774
   RANDOM_SEED 6 -1418428441
-  RANDOM_SEED 7 496181698
+  RANDOM_SEED 7 -64871210
   RANDOM_SEED 8 -1884144979
   RANDOM_SEED 9 -1752787220
-  RANDOM_SEED 10 -1076467326
+  RANDOM_SEED 10 -785773208
   RANDOM_SEED 11 1724635388
   RANDOM_SEED 12 1333583782
   RANDOM_SEED 13 895708692
   RANDOM_SEED 14 1793692172
-  RANDOM_SEED 15 -13778771
+  RANDOM_SEED 15 -1381450903
   RANDOM_SEED 16 907772
   RANDOM_SEED 17 1489549514
   RANDOM_SEED 18 136448
   RANDOM_SEED 19 -1254614339
   RANDOM_SEED 20 -974283553
-  RANDOM_SEED 21 565392102
+  RANDOM_SEED 21 -1643530438
   RANDOM_SEED 22 299074839
   WIND_TIME 974842 974865 974890
   WIND_STRENGTH 36.7606167791381 52.0 53.3803083895691
@@ -1154,7 +1163,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 1
+        VOICE 3
         RANDOM_SEED 895708692
     END_OF_DEFINITION
     GAME_STATE
@@ -1193,7 +1202,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 1
+        VOICE 3
         RANDOM_SEED 1657889261
     END_OF_DEFINITION
     GAME_STATE
@@ -1271,7 +1280,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 5
+        VOICE 3
         RANDOM_SEED 371145659
     END_OF_DEFINITION
     GAME_STATE
@@ -1349,7 +1358,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 3
+        VOICE 1
         RANDOM_SEED -516072871
     END_OF_DEFINITION
     GAME_STATE
@@ -1388,7 +1397,7 @@ NEW_UNITS
         COLOR_CODE 2BM
         FACE 0
         SPEAKER A
-        VOICE 1
+        VOICE 5
         RANDOM_SEED 743092198
     END_OF_DEFINITION
     GAME_STATE
@@ -1427,7 +1436,7 @@ NEW_UNITS
         COLOR_CODE 3BMYO
         FACE 0
         SPEAKER A
-        VOICE 5
+        VOICE 1
         RANDOM_SEED 255620423
     END_OF_DEFINITION
     GAME_STATE
@@ -1466,7 +1475,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 3
+        VOICE 1
         RANDOM_SEED 839976012
     END_OF_DEFINITION
     GAME_STATE
@@ -1583,7 +1592,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 1
+        VOICE 3
         RANDOM_SEED -520732141
     END_OF_DEFINITION
     GAME_STATE
@@ -1622,7 +1631,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 13
+        VOICE 15
         RANDOM_SEED -84804152
     END_OF_DEFINITION
     GAME_STATE
@@ -1700,7 +1709,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 15
+        VOICE 13
         RANDOM_SEED -675601954
     END_OF_DEFINITION
     GAME_STATE
@@ -1739,7 +1748,7 @@ NEW_UNITS
         COLOR_CODE 1BMYO
         FACE 0
         SPEAKER A
-        VOICE 13
+        VOICE 15
         RANDOM_SEED -196301281
     END_OF_DEFINITION
     GAME_STATE
@@ -1817,7 +1826,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 13
+        VOICE 11
         RANDOM_SEED -359836899
     END_OF_DEFINITION
     GAME_STATE
@@ -1934,7 +1943,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 5
+        VOICE 3
         RANDOM_SEED 895708692
     END_OF_DEFINITION
     GAME_STATE
@@ -2000,7 +2009,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 3
+        VOICE 5
         RANDOM_SEED 895708692
     END_OF_DEFINITION
     GAME_STATE
@@ -2078,7 +2087,7 @@ NEW_UNITS
         COLOR_CODE 2BM
         FACE 0
         SPEAKER A
-        VOICE 5
+        VOICE 3
         RANDOM_SEED 1095526474
     END_OF_DEFINITION
     GAME_STATE
@@ -2156,7 +2165,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 1
+        VOICE 3
         RANDOM_SEED -227847408
     END_OF_DEFINITION
     GAME_STATE
@@ -2195,7 +2204,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 1
+        VOICE 5
         RANDOM_SEED -516072871
     END_OF_DEFINITION
     GAME_STATE
@@ -2507,6 +2516,867 @@ NEW_UNITS
         ANIM 0 T
         LEAN 0 0 0
     END_OF_GAME_STATE
+  UNIT 3356 BUILDING
+    DEFINITION
+      POS 62 37 5
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 67 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 62 37 5 6 F
+      UNITMODE F 62 37
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1218 666 0
+      FROM_TO_POS 62 37 0 62 37 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 3357 BUILDING
+    DEFINITION
+      POS 37 23 4
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 71 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 37 23 4 6 F
+      UNITMODE F 37 23
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 6 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 714 414 0
+      FROM_TO_POS 37 23 0 37 23 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 3359 BUILDING
+    DEFINITION
+      POS 35 37 4
+      SIDE 1
+      NATION 2
+      HP 1000
+      BUILDING
+        TYPE 41 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 35 37 4 6 F
+      UNITMODE F 35 37
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 6 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 462 666 0
+      FROM_TO_POS 35 37 0 35 37 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 3361 BUILDING
+    DEFINITION
+      POS 23 22 4
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 16 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 23 22 4 6 F
+      UNITMODE F 23 22
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 6 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 336 396 0
+      FROM_TO_POS 23 22 0 23 22 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 3362 BUILDING
+    DEFINITION
+      POS 60 76 3
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 1 LEVEL 1 BASE 3
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 60 76 3 6 F
+      UNITMODE F 60 76
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 616 1368 0
+      FROM_TO_POS 60 76 0 60 76 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 3363 BUILDING
+    DEFINITION
+      POS 57 84 1
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 29 LEVEL 1 BASE 3
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 222 1
+      MOVE 57 84 1 6 F
+      UNITMODE F 57 84
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 420 1512 0
+      FROM_TO_POS 57 84 0 57 84 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 3365 BUILDING
+    DEFINITION
+      POS 68 86 4
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 88 LEVEL 1 BASE 3
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 222 1
+      MOVE 68 86 4 6 F
+      UNITMODE F 68 86
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 6 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 700 1548 0
+      FROM_TO_POS 68 86 0 68 86 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 3366 HUMAN
+    DEFINITION
+      POS 54 76 3
+      SIDE 1
+      NATION 3
+      HP 1000
+      HUMAN
+        NAME "Boris Rylski"
+        SEX 1
+        ATTR 10 10
+        CLASS 1
+        BSKILLS 0 0 0 0
+        EXPERIENCES 13229 1399 18855 19561
+        COLORS 7308969 526344
+        COLOR_CODE 1M
+        FACE 0
+        SPEAKER A
+        VOICE 15
+        RANDOM_SEED 895708692
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 54 76 3 6 F
+      UNITMODE T 54 76
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 448 1368 0
+      FROM_TO_POS 54 76 3 54 76 3
+      FROM_TO_XY 448 1368 448 1368
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 3367 HUMAN
+    DEFINITION
+      POS 55 77 0
+      SIDE 1
+      NATION 3
+      HP 1000
+      HUMAN
+        NAME "Nikolaj Kuc"
+        SEX 1
+        ATTR 10 10
+        CLASS 1
+        BSKILLS 0 0 0 0
+        EXPERIENCES 20004 7196 3561 13254
+        COLORS 9413059 5658198
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 15
+        RANDOM_SEED 1657889261
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 55 77 0 6 F
+      UNITMODE T 55 77
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 462 1386 0
+      FROM_TO_POS 55 77 0 55 77 0
+      FROM_TO_XY 462 1386 462 1386
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 3368 HUMAN
+    DEFINITION
+      POS 55 78 5
+      SIDE 1
+      NATION 3
+      HP 1000
+      HUMAN
+        NAME "Michail Shigal"
+        SEX 1
+        ATTR 10 10
+        CLASS 1
+        BSKILLS 0 0 0 0
+        EXPERIENCES 8836 14374 2894 19739
+        COLORS 10399947 4878482
+        COLOR_CODE 3BM
+        FACE 0
+        SPEAKER A
+        VOICE 15
+        RANDOM_SEED 1095526474
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 55 78 5 6 F
+      UNITMODE T 55 78
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 448 1404 0
+      FROM_TO_POS 55 78 5 55 78 5
+      FROM_TO_XY 448 1404 448 1404
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 3370 HUMAN
+    DEFINITION
+      POS 64 79 5
+      SIDE 1
+      NATION 3
+      HP 1000
+      HUMAN
+        NAME "Ivan Maslovski"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 0 0 0 0
+        EXPERIENCES 8198 4860 4905 8628
+        COLORS 10399947 2110525
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 13
+        RANDOM_SEED -227847408
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 64 79 5 6 F
+      UNITMODE T 64 79
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 686 1422 0
+      FROM_TO_POS 64 79 5 64 79 5
+      FROM_TO_XY 686 1422 686 1422
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 3371 HUMAN
+    DEFINITION
+      POS 65 80 0
+      SIDE 1
+      NATION 3
+      HP 1000
+      HUMAN
+        NAME "Filip Vasilkov"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 0 0 0 0
+        EXPERIENCES 18880 8485 21252 957
+        COLORS 11122900 2107193
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 13
+        RANDOM_SEED -516072871
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 65 80 0 6 F
+      UNITMODE T 65 80
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 700 1440 0
+      FROM_TO_POS 65 80 0 65 80 0
+      FROM_TO_XY 700 1440 700 1440
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 3372 HUMAN
+    DEFINITION
+      POS 65 79 2
+      SIDE 1
+      NATION 3
+      HP 1000
+      HUMAN
+        NAME "Boris Mukhin"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 0 0 0 0
+        EXPERIENCES 9757 26854 23222 3218
+        COLORS 9413059 5803443
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 11
+        RANDOM_SEED 743092198
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 65 79 2 6 F
+      UNITMODE T 65 79
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 714 1422 0
+      FROM_TO_POS 65 79 2 65 79 2
+      FROM_TO_XY 714 1422 714 1422
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 3377 VEHICLE
+    DEFINITION
+      POS 44 44 2
+      SIDE 1
+      NATION 1
+      HP 1000
+      VEHICLE
+        CHASSIS 1 COMBINATION 3 3 102
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 44 44 2 6 F
+      UNITMODE T 44 44
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 616 792 12
+      FROM_TO_POS 44 44 2 44 44 2
+      FROM_TO_XY 616 792 616 792
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 12
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3379 VEHICLE
+    DEFINITION
+      POS 47 43 2
+      SIDE 1
+      NATION 1
+      HP 1000
+      VEHICLE
+        CHASSIS 1 COMBINATION 3 3 7
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 47 43 2 6 F
+      UNITMODE T 47 43
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 714 774 12
+      FROM_TO_POS 47 43 2 47 43 2
+      FROM_TO_XY 714 774 714 774
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 12
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3385 VEHICLE
+    DEFINITION
+      POS 50 42 2
+      SIDE 1
+      NATION 2
+      HP 1000
+      VEHICLE
+        CHASSIS 12 COMBINATION 3 3 28
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 50 42 2 6 F
+      UNITMODE T 50 42
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 812 756 12
+      FROM_TO_POS 50 42 2 50 42 2
+      FROM_TO_XY 812 756 812 756
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 12
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3390 VEHICLE
+    DEFINITION
+      POS 53 42 2
+      SIDE 1
+      NATION 3
+      HP 1000
+      VEHICLE
+        CHASSIS 21 COMBINATION 3 3 45
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 53 42 2 6 F
+      UNITMODE T 53 42
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 896 756 12
+      FROM_TO_POS 53 42 2 53 42 2
+      FROM_TO_XY 896 756 896 756
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 12
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3392 VEHICLE
+    DEFINITION
+      POS 57 42 2
+      SIDE 1
+      NATION 3
+      HP 1000
+      VEHICLE
+        CHASSIS 21 COMBINATION 3 3 47
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 57 42 2 6 F
+      UNITMODE T 57 42
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1008 756 12
+      FROM_TO_POS 57 42 2 57 42 2
+      FROM_TO_XY 1008 756 1008 756
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 12
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3399 VEHICLE
+    DEFINITION
+      POS 129 81 0
+      SIDE 4
+      NATION 1
+      HP 1000
+      VEHICLE
+        CHASSIS 3 COMBINATION 3 3 7
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 129 81 0 6 F
+      UNITMODE T 129 81
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2478 1458 0
+      FROM_TO_POS 129 81 0 129 81 0
+      FROM_TO_XY 2478 1458 2478 1458
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 0
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3400 VEHICLE
+    DEFINITION
+      POS 124 81 2
+      SIDE 2
+      NATION 1
+      HP 1000
+      VEHICLE
+        CHASSIS 3 COMBINATION 3 3 7
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 124 81 2 6 F
+      UNITMODE T 124 81
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2338 1458 12
+      FROM_TO_POS 124 81 2 124 81 2
+      FROM_TO_XY 2338 1458 2338 1458
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 12
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3406 VEHICLE
+    DEFINITION
+      POS 106 80 3
+      SIDE 2
+      NATION 2
+      HP 1000
+      VEHICLE
+        CHASSIS 14 COMBINATION 3 3 28
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 106 80 3 6 F
+      UNITMODE T 106 80
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 18 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1848 1440 18
+      FROM_TO_POS 106 80 3 106 80 3
+      FROM_TO_XY 1848 1440 1848 1440
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 18
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3407 VEHICLE
+    DEFINITION
+      POS 111 80 2
+      SIDE 4
+      NATION 2
+      HP 1000
+      VEHICLE
+        CHASSIS 14 COMBINATION 3 3 28
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 111 80 2 6 F
+      UNITMODE T 111 80
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1988 1440 12
+      FROM_TO_POS 111 80 2 111 80 2
+      FROM_TO_XY 1988 1440 1988 1440
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 12
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3416 VEHICLE
+    DEFINITION
+      POS 91 78 4
+      SIDE 4
+      NATION 3
+      HP 1000
+      VEHICLE
+        CHASSIS 22 COMBINATION 3 3 45
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 91 78 4 6 F
+      UNITMODE T 91 78
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1456 1404 24
+      FROM_TO_POS 91 78 4 91 78 4
+      FROM_TO_XY 1456 1404 1456 1404
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 24
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3417 VEHICLE
+    DEFINITION
+      POS 85 78 3
+      SIDE 2
+      NATION 3
+      HP 1000
+      VEHICLE
+        CHASSIS 22 COMBINATION 3 3 45
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 85 78 3 6 F
+      UNITMODE T 85 78
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 18 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1288 1404 18
+      FROM_TO_POS 85 78 3 85 78 3
+      FROM_TO_XY 1288 1404 1288 1404
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 18
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3418 HUMAN
+    DEFINITION
+      POS 106 62 2
+      SIDE 7
+      NATION 3
+      HP 1000
+      HUMAN
+        NAME "Sergej Sedych"
+        SEX 1
+        ATTR 10 10
+        CLASS 9
+        BSKILLS 0 0 0 0
+        EXPERIENCES 1860 22107 18141 18247
+        COLORS 7308969 526344
+        COLOR_CODE 1M
+        FACE 0
+        SPEAKER A
+        VOICE 15
+        RANDOM_SEED 895708692
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 106 62 2 6 F
+      UNITMODE T 106 62
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2100 1116 0
+      FROM_TO_POS 106 62 2 106 62 2
+      FROM_TO_XY 2100 1116 2100 1116
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 3419 VEHICLE
+    DEFINITION
+      POS 97 79 2
+      SIDE 7
+      NATION 3
+      HP 1000
+      VEHICLE
+        CHASSIS 22 COMBINATION 3 3 45
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 97 79 2 6 F
+      UNITMODE T 97 79
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1610 1422 12
+      FROM_TO_POS 97 79 2 97 79 2
+      FROM_TO_XY 1610 1422 1610 1422
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 12
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3426 VEHICLE
+    DEFINITION
+      POS 118 80 3
+      SIDE 7
+      NATION 2
+      HP 1000
+      VEHICLE
+        CHASSIS 14 COMBINATION 3 3 28
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 118 80 3 6 F
+      UNITMODE T 118 80
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 18 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2184 1440 18
+      FROM_TO_POS 118 80 3 118 80 3
+      FROM_TO_XY 2184 1440 2184 1440
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 18
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3435 VEHICLE
+    DEFINITION
+      POS 134 81 2
+      SIDE 7
+      NATION 1
+      HP 1000
+      VEHICLE
+        CHASSIS 3 COMBINATION 3 3 7
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 134 81 2 6 F
+      UNITMODE T 134 81
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2618 1458 12
+      FROM_TO_POS 134 81 2 134 81 2
+      FROM_TO_XY 2618 1458 2618 1458
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 12
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
 END_OF_NEW_UNITS
 
 COLDMEAT
@@ -2531,7 +3401,7 @@ LASER_EFECTS
 END_OF_LASER_EFECTS
 
 USER_INTERFACE
-  VIEW -56 -96 2180 1204 1
+  VIEW 662 672 2180 1204 1
   MASHA_FLAG 2 F F
 END_OF_USER_INTERFACE
 
@@ -3604,7 +4474,485 @@ SEXTRA
       F
 
   255
+  1
+    3356
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3357
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3359
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3361
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3362
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3363
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3365
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3366
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    3367
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    3368
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    3370
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    3371
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    3372
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    3377
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3379
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3385
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3390
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3392
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3399
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3400
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3406
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3407
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3416
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3417
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3418
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    3419
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3426
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3435
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
   30
   0 254
+  50
+  253
 END_OF_SEXTRA
 

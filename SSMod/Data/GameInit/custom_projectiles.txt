@@ -1,10 +1,20 @@
 GAMEINIT
   CUSTOM_PROJECTILES
     ID 1
-    NAME "missiles\projektil_ar"
-    ID 2
-    NAME "missiles\projektil_ru"
-    ID 3
     NAME "missiles\projektil_us"
+    ID 2
+    NAME "missiles\projektil_ar"
+    ID 3
+    NAME "missiles\projektil_ru"
+	ID 4
+	NAME "missiles\projektil_bazooka_us"
+	ID 5
+	NAME "missiles\projektil_w-r-rocket"
+	ID 6
+	NAME "missiles\projektil_w-u-rocket"	
+	ID 7
+	NAME "missiles\w-8head"	
+    ID 8
+    NAME "missiles\w-8head"
   END_OF_CUSTOM_PROJECTILES
 END_OF_GAMEINIT

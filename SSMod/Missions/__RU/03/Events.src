@@ -12,9 +12,107 @@ begin
 
 end;
 
-{on BuildingComplete(un) do
+On BuildingComplete(b) do
 begin
 
- if GetSide(un) = 6 then b_list := b_list diff b_list[1];
+     if GetSide(b) = 3 and GetBType(b) = b_siberite_power then
+     SibPowerComplete := True;
+
+     if GetSide(b) = 3 and GetBType(b) = b_siberite_mine and OvsyenkoRecovered and not MineBuilt then
+     begin
+
+     DialogueOn;
+     CenterOnUnits(b);
+     Say(Mietek, 'DMietek-Mine-01');
+     Say(Mietek, 'DMietek-Mine-02');
+     SibQuery(1);
+     DialogueOff;
+
+     MineBuilt := True;
+     end;
+
+end;
+
+On BuildingCaptured(cb, bfs, cu) do
+begin
+
+   if GetSide(cu) = 3 and GetBType(cb) = b_siberite_mine and not MineBuilt then
+   begin
+
+     DialogueOn;
+     CenterOnUnits(cb);
+     Say(Mietek, 'DMietek-Mine-01');
+     Say(Mietek, 'DMietek-Mine-02');
+     SibQuery(1);
+     DialogueOff;
+
+     MineBuilt := True;
+
+     end;
+
+end;
+
+
+On VehicleConstructed(veh, f) do
+begin
+
+     if GetSide(veh) = 3 and GetWeapon(veh) = ru_rocket_launcher and not FirstRocket then
+     begin
+     FirstRocket := True;
+     CenterOnUnits(veh);
+     DialogueOn;
+     Say(Tatiana, 'DTat-04-01');
+     Say(Smirnovsky, 'DVlad-04-02');
+     Say(Smirnovsky, 'DVlad-04-03');
+     Say(Yakotich, 'DYak-04-04');
+     DialogueOff;
+     RocketLaunchersConstructed := RocketLaunchersConstructed +1 end else
+     if GetSide(veh) = 3 and GetWeapon(veh) = ru_rocket_launcher and FirstRocket then
+     RocketLaunchersConstructed := RocketLaunchersConstructed +1;
+
+     if GetSide(veh) = 3 and GetEngine(veh) = engine_siberite then
+     SibEngineConstructed := True;
+
+end;
+
+
+Every 0$1 Trigger RocketLaunchersConstructed >= 3 do
+ChangeMissionObjectives('ObRocket');
+
+Every 0$1 Trigger SibPowerComplete and SibEngineConstructed do
+ChangeMissionObjectives('ObSibTech');
+
+On UnitDestroyed(un) do
+begin
+
+     if un = Ovsyenko and GetSide(un) = 3 and OvsyenkoRecovered then
+     begin
+
+          Wait(0$2);
+
+          CenterOnXY(125,120);
+          DialogueOn;
+          Say(Mietek, 'DMietek-Ovsyenko-01');
+          Say(Yakotich, 'DYak-Ovsyenko-02');
+
+           OvsyenkoDestroyed := True;
+           SetRestrict(b_depot, 3, True);
+
+     end;
+
+     if un = Yakotich then
+     YouLost('YakDead');
+
+     if un = Mietek then
+     YouLost('MietekDead');
+
+     if un = Tatiana or un = Smirnovsky or un = Kostyliev or un = Dragunov or un = Dimitri or un = Maxim then
+     YouLost('TeamDead');
+
+     if un = Ovsyenko and not OvsyenkoRecovered then
+     YouLost('OvsyenkoDead');
+
+     if un = Voroshilov then
+     YouLost('DepotDead');
 
 end;
