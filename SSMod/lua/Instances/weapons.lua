@@ -1585,11 +1585,11 @@ Weap_Bazooka_Example.doAttack     = Weap_Bazooka.doAttack;
 function Weap_Bazooka_Example:doDrawAttack(TIME, X, Y, DIRECTION, STARTX, STARTY)
 	local Proj = UNIT.NATION;
 
-	if (Proj < 1) or (Proj > 3) then
-		Proj = 2;
+	if (Proj < 4) or (Proj > 6) then
+		Proj = 5;
 	end;
 
-	OW_DRAW_ATTACK_EX(TIME, X, Y, DIRECTION, 4, UNIT.SIDE, 10, 1, 0);
+	OW_DRAW_ATTACK_EX(TIME, X, Y, DIRECTION, UNIT.NATION, UNIT.SIDE, 10, 1, 0);
 end;
 
 --[[

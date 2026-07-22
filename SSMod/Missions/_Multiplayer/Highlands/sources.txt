@@ -1,9 +1,0 @@
-SOURCE_CODES
-  ENABLED main
-  ENABLED events
-  ENABLED crates_loading2
-  DISABLED win_conditions
-  ENABLED apemans_loading
-  ENABLED battle_flags
-  ENABLED clock
-END_OF_SOURCE_CODES

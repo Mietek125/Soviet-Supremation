@@ -4,7 +4,7 @@ MAIN_DEFINITIONS
   PLAYER_NUMBER 2
   FOG_TYPE 0
   FOGSIDES 1 2 3 4 5 6 7 8
-  MAP_GBI ShultzLenin.gbi
+  MAP_GBI 05.gbi
   MUCHY_RECT 0 0 0 0
   EAGLES 3 50
   WAVES 15
@@ -81,7 +81,7 @@ HEXES
   LINE 33 17 236
     t4v4sH t2r2v6 r2v6 v4sK v4 v4sG r2v6 v4sJ v4sG r2v6 r2v6 v4sK v4 v4 v4 v4 v4 v4sH r2v6 v4sJ v4sI v4sJ v3sB v3 v3 v3 v3 v3 v3 v3 v3 rAv3 rAv3 rAv3 rAv3 rAv3 rAv3 rAv3 rAv3 v3 v3 v3 v3 v3sA v3sA v4sI r2v6sA r7v4sR v4sI r2v6 v5sB v4sH r7v4sO v7 v7 r2v7 v7 r7v5sK v5 v5 v5 v5 v5 v5 v5 v5 v5 v5s9 v6sG r2v8 r7v6sT r7v6sT r7v6sT r7v6sT v6sL v6sL v5sC v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v4sC v3sC r6v3 r6v3sf r6v8sn r6vEsn vKsH vM vM vM vM vM vM vLsC vKsC vK vK vK r4vFsi r4vCsShE r5vAsKhG r5vAhG r5vAhG r5vAhG r5vAhG r5vAhG r5vAhG r5vAhG r5vAhG r5vAhG r5vAhG r5vAsHhG r4vCsPhE r4vFsf vK vKf8 vK r6vKsm r6vQ r6vQ r6vQ r6vKsq vK r6vKsB r6vJsJ r6vFsZ r6v9sq r6v3sq v3 v3 v3s9 v4 v4 v4sG v5s8 v4sG v4 v4s9 v5 v3sJ v3sI v5 v5 v5s9 v6 v5sC v5 v5s8 v4sG v4 v4s8 v4s8 v5s9 v6 v5sC v5 v4sD v4sD v4 v3sC v3 v3 v3 v3 rAv3 rAv3 rAv3 v3 v3 v3 v3s9 v4 v4 v4 v4s9 v5 v4sB v4sB v4s9 v3sHf8 v3sHf8 v3sHf8 v3sHf8 v4f8 v4f8 v4f8 v4f8 v4sBf8 v4sBf8 v4f8 v4f8 v4sIf8 v5s9f8 v5f8 v4s9f8 v4sA v5 v4sC v3sC v3 v3sH v5 v4sD v4sG v6s9 v7 v7 t2v7 t4v7
   LINE 34 17 236
-    t4v3s9 t2v4sG v5s8 v4sL v4 v4 v4sG r2v6 v4sG v4sG r2v6 v4sK v4 v4 v4sI v4sJ v4 v4 v4sH v4sL v4sI r2v6 v4sJ v3sB v3 v3 v3 v3 v3 v3 v3 v3 rAv3 rAv3 rAv3 rAv3 rAv3 rAv3 rAv3 rAv3 v3 v3 v3 v3s9 v4sI v4sI r2v6sA v7 r2v6sB r2v6sB r2v6 v4sK v4 r7v4sP r2v7 v7 r2v6sD r7v5sK v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5s8 v6sG v6sL v5sD v5sD v5sD v5sD v5sD v5sD v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v4sC v3sC r6v3 r6v3sf r6v8sn r6vEsn vKsH vMf8 vM vM vM vM vM vLsC vKsC vK vK vK r4vFsi r4vCsShE r5vAsKhG r5vAhG r5vAhG r5vAhG r5vAhG r5vAhG r5vAhG r5vAhG r5vAhG r5vAhG r5vAsHhG r4vCsPhE r4vFsf vK vK vK vK r6vKsm r6vOsG r6vQ r6vQ r6vKso r7vKsQ r7vLsJ r6vJsJ r6vFsh r6v9sq r6v3sp r6v3sh v3 v3s9 v4 v4 v4s8 v5 v4sA v4sA v5 v5 v5sA v5sB v5 v5 v5s8 v5sD v5 v5 v5 v4sC v4 v4 v4sH v6 v5sC v5 v4sD v4 v4 v4 v3sB v3 v3 v3 v3 rAv3 rAv3 rAv3 v3 v3 v3s9 v4 r6v4sA v4sB v4 v4s8 v5 v5 v5 v3sKf8 v3f8 v3f8 v3f8 v3s9f8 v4f8 v4f8 v4f8 v4s9f8 v5f8 v4sCf8 v4f8 v4sHf8 v6f8 v4sHf8 v4s9f8 v5f8 v4sD v4sD v4 v3sC v3s8 v4s8 v3sL r6v3s8 r6v4sH v6sH v7sA t2r6v7sB t4r6v7sB
+    t4v3s9 t2v4sG v5s8 v4sL v4 v4 v4sG r2v6 v4sG v4sG r2v6 v4sK v4 v4 v4sI v4sJ v4 v4 v4sH v4sL v4sI r2v6 v4sJ v3sB v3 v3 v3 v3 v3 v3 v3 v3 rAv3 rAv3 rAv3 rAv3 rAv3 rAv3 rAv3 rAv3 v3 v3 v3 v3s9 v4sI v4sI r2v6sA v7 r2v6sB r2v6sB r2v6 v4sK v4 r7v4sP r2v7 v7 r2v6sD r7v5sK v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5s8 v6sG v6sL v5sD v5sD v5sD v5sD v5sD v5sD v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v4sCS v3sC r6v3 r6v3sf r6v8sn r6vEsn vKsH vMf8 vM vM vM vM vM vLsC vKsC vK vK vK r4vFsi r4vCsShE r5vAsKhG r5vAhG r5vAhG r5vAhG r5vAhG r5vAhG r5vAhG r5vAhG r5vAhG r5vAhG r5vAsHhG r4vCsPhE r4vFsf vK vK vK vK r6vKsm r6vOsG r6vQ r6vQ r6vKso r7vKsQ r7vLsJ r6vJsJ r6vFsh r6v9sq r6v3sp r6v3sh v3 v3s9 v4 v4 v4s8 v5 v4sA v4sA v5 v5 v5sA v5sB v5 v5 v5s8 v5sD v5 v5 v5 v4sC v4 v4 v4sH v6 v5sC v5 v4sD v4 v4 v4 v3sB v3 v3 v3 v3 rAv3 rAv3 rAv3 v3 v3 v3s9 v4 r6v4sA v4sB v4 v4s8 v5 v5 v5 v3sKf8 v3f8 v3f8 v3f8 v3s9f8 v4f8 v4f8 v4f8 v4s9f8 v5f8 v4sCf8 v4f8 v4sHf8 v6f8 v4sHf8 v4s9f8 v5f8 v4sD v4sD v4 v3sC v3s8 v4s8 v3sL r6v3s8 r6v4sH v6sH v7sA t2r6v7sB t4r6v7sB
   LINE 35 18 237
     t4v3s9 t2v4sH v4sH v4 v4 v4 v4sG v4sL v4 v4sG r2v6 v4sK v4 v4sI r2v6 r7v4sR r7v4sR v4sK v4 v4 v4sG r2v6 v4sK v3sC v3 v3 v3 v3 v3 v3 v3 v3 v3 rAv3 rAv3 rAv3 rAv3 rAv3 rAv3 rAv3 rAv3 v3 v3s9 v4sH r2v6 r2v6s9 v7 r2v7 v7 r2v6sB r2v6sB v4sI v4sI r2v6s8 v7 r7v6sD v6 v5sB v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5s8 v5s8 v5sD v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5f8 v5 v5 v5 v4sC v3sC r6v3 r6v3sf r6v8sn r6vEsn vKsH vM vM vM vM vM vM vLsC vKsC vK vK vK r4vFsi r4vCsShE r5vChG r5vAsJhG r5vAhG r5vAhG r5vAhG r5vAhG r5vAhG r5vAhG r5vAhG r5vAhG r5vAs9hG r5vBsHhG r5vDsHhG r4vFsf vK vK vK vK r6vKsW r6vKsm r6vOsG r6vKsr vKsQ r7vN r7vLsJ r7vKsR r6vEsq r6v9sh r6v8sp r6v3sh v3 v3s8 v3s8 v4 v4s8 v4sD v4sA v5 v4sD v4sG v6 v5sC v5 v5 v5 v5 v4sD v4sD v4sD v4 v4 v4 v4sG v4sG v5 v4sD v4 v4 v4 v4 v3sB v3sB v3 v3 v3 rAv3 rAv3 rAv3 v3 v3s9 v4 r6v4so r6v5sh v4sB v4 v4s8 v4s8 v4s8 v5f8 v3sJf8 v3f8 v3f8 v3s9f8 v4f8 v4f8 v4f8 v3sDf8 v3sGf8 v4sDf8 v4f8 v4s9f8 v5s8f8 v4sLf8 v4f8 v3sKf8 v3sKf8 v4 v4 v3sC v3 v3s8 v3sD r6v3 r6v3sX r6v6so r6v8so r6v8sp t2r6v8sh t4r6v7sR
   LINE 36 18 237
@@ -568,8 +568,16 @@ ENVIROMENT
   SET 50 branka
   SET 51 leknin
   SET 52 monolit
-  SET 53 snowman
-  SET 54 snowman_small
+  SET 53 stone-road
+  SET 54 bonus
+  SET 55 alien1
+  SET 56 much
+  SET 57 fire-bone
+  SET 58 barrel
+  SET 59 skelet
+  SET 60 wreck
+  SET 61 comp
+  SET 62 paper
   ON_HEX 143 1
     shi4
   ON_HEX 146 1
@@ -4580,189 +4588,218 @@ END_OF_ENVIROMENT
 
 EXTERNAL_SECTORS sectors.bin
 ATTITUDES
-  PARAMS 8
-  1 0 0 0 0 0 0 0 0
-  0 1 2 2 2 2 2 2 2
-  0 2 1 2 2 1 2 2 1
-  0 2 2 1 2 2 1 2 2
-  0 2 2 2 1 2 2 2 2
-  0 2 1 2 2 1 2 2 1
-  0 2 2 1 2 2 1 2 2
-  0 2 2 2 2 2 2 1 2
-  0 2 1 2 2 1 2 2 1
-  FLAG 8
-  T T T T T T T T T
+  PARAMS 9
+  1 0 0 0 0 0 0 0 0 0
+  0 1 2 2 2 2 2 2 2 2
+  0 2 1 2 2 1 2 2 1 2
+  0 2 2 1 2 2 1 2 2 2
+  0 2 2 2 1 2 2 2 2 2
+  0 2 1 2 2 1 2 2 1 2
+  0 2 2 1 2 2 1 2 2 2
+  0 2 2 2 2 2 2 1 2 2
+  0 2 1 2 2 1 2 2 1 2
+  0 2 2 2 2 2 2 2 2 1
+  FLAG 9
+  T T T T T T T T T T
 END_OF_ATTITUDES
 
 TECHS
-  PARAMS 72 8
-  F T T T T T T T T T T T T T T T T T T T T T T T T T T
-  F T T T T T T T T T T T T T T T T T T T T T T T T T T
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F T F T T F T T F T T F T T F T T F T T F T T F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F T F T T F T T F T T F T T F T T F T T F T T F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F T T T T T T T T T T T T T T T T T T T T T T T T T T
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F T F T T F T T F T T F T T F T T F T T F T T F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F T T T T T T T T T T T T T T T T T T T T T T T T T T
-  F T F T T F T T F T T F T T F T T F T T F T T F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F F T F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F F T T T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F F T T T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F F T T T F F T F F T F F T F F T F F
-  F T F T T F F T T T T F T T F T T F T T F T T F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F T T T T T T T T T T T T T T T T T T T T T T T T T T
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F T F T T F T T F T T F T T F T T F T T F T T F T T F
-  F F F T F F F T T T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F T F T T F F T T T T F T T F T T F T T F T T F T T F
-  F T T T T T T T T T T T T T T T T T T T T T T T T T T
-  F T T T T T T T T T T T T T T T T T T T T T T T T T T
-  F T T T T T T T T T T T T T T T T T T T T T T T T T T
-  F T T T T T T T T T T T T T T T T T T T T T T T T T T
-  F T F T T F T T F F T T T T F T T F T T F T T F T T F
-  F T T T T T T T T T T T T T T T T T T T T T T T T T T
-  F T F T T F T T F F T T T T F T T F T T F T T F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F F T T T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F T F T T F F T T T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F T T F T T F T T F T T F T T F T T F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F T T T T T T T T T T T T T T T T T T T T T T T T T T
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F T T T T T T T T T T T T T T T T T T T T T T T T T T
-  F T T T T T T T T T T T T T T T T T T T T T T T T T T
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
-  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  PARAMS 100 9
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T F
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F F T F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F F T T T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F F T T T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F F T T T F F T F F T F F T F F T F F T T F
+  F T F T T F F T T T T F T T F T T F T T F T T F T T F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F F F T F F F T T T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F T F T T F F T T T T F T T F T T F T T F T T F T T F T T F
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T F
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T F
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T F
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T F
+  F T F T T F T T F F T T T T F T T F T T F T T F T T F T T F
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T F
+  F T F T T F T T F F T T T T F T T F T T F T T F T T F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F F T T T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F T F T T F F T T T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T F
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
 END_OF_TECHS
 
 RESTRICTS
-  PARAMS 0 90 8
-  F F F F F F F F F
-  F F F F F F F F F
-  T T T T T T T T T
-  T T T T T T T T T
-  T T T T T T T T T
-  T T T T T T T T T
-  T T T T T T T T T
-  T T T T T T T T T
-  T T T T T T T T T
-  T T T T T T T T T
-  T T T T T T T T T
-  F F F F F F F F F
-  T T T T T T T T T
-  T T T T T T T T T
-  F F F F F F F F F
-  T T T T T T T T T
-  T T T T T T T T T
-  T T T T T T T T T
-  T T T T T T T T T
-  T T T T T T T T T
-  T T T T T T T T T
-  F F F F F F F F F
-  T T T T T T T T T
-  T T T T T T T T T
-  T T T T T T T T T
-  F F F F F F F F F
-  T T T T T T T T T
-  T T T T T T T T T
-  F F F F F F F F F
-  T T T T T T T T T
-  F F F F F F F F F
-  T T T T T T T T T
-  T T T T T T T T T
-  T T T T T T T T T
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
-  F F F F F F F F F
+  PARAMS 0 90 9
+  F F F F F F F F F F
+  F F F F F F F F F F
+  T T T T T T T T T F
+  T T T T T T T T T F
+  T T T T T T T T T F
+  T T T T T T T T T F
+  T T T T T T T T T F
+  T T T T T T T T T F
+  T T T T T T T T T F
+  T T T T T T T T T F
+  T T T T T T T T T F
+  F F F F F F F F F F
+  T T T T T T T T T F
+  T T T T T T T T T F
+  F F F F F F F F F F
+  T T T T T T T T T F
+  T T T T T T T T T F
+  T T T T T T T T T F
+  T T T T T T T T T F
+  T T T T T T T T T F
+  T T T T T T T T T F
+  F F F F F F F F F F
+  T T T T T T T T T F
+  T T T T T T T T T F
+  T T T T T T T T T F
+  F F F F F F F F F F
+  T T T T T T T T T F
+  T T T T T T T T T F
+  F F F F F F F F F F
+  T T T T T T T T T F
+  F F F F F F F F F F
+  T T T T T T T T T F
+  T T T T T T T T T F
+  T T T T T T T T T F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
+  F F F F F F F F F F
 END_OF_RESTRICTS
 
 MISSION_OBJECTIVES 0
@@ -4873,15 +4910,15 @@ END_OF_BASES
 RANDOMS
   MICROLOGIC 2 0 1
   RANDOM_SEED 1 -460553942
-  RANDOM_SEED 2 -1592782666
-  RANDOM_SEED 3 -1447127323
+  RANDOM_SEED 2 -1372676270
+  RANDOM_SEED 3 -450151531
   RANDOM_SEED 4 898151057
   RANDOM_SEED 5 -18222789
   RANDOM_SEED 6 1882865670
   RANDOM_SEED 7 -104227810
   RANDOM_SEED 8 1751026996
   RANDOM_SEED 9 -1051396069
-  RANDOM_SEED 10 -1590032492
+  RANDOM_SEED 10 -552733826
   RANDOM_SEED 11 -443074555
   RANDOM_SEED 12 911650
   RANDOM_SEED 13 364498371
@@ -5131,7 +5168,7 @@ NEW_UNITS
         TYPE 85 LEVEL 1 BASE 1
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 221 169 0 6 F
       UNITMODE F 221 169
       STATE 4 24
@@ -5158,7 +5195,7 @@ NEW_UNITS
         TYPE 85 LEVEL 1 BASE 1
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 223 173 0 6 F
       UNITMODE F 223 173
       STATE 4 24
@@ -5185,7 +5222,7 @@ NEW_UNITS
         TYPE 85 LEVEL 1 BASE 1
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 224 171 0 6 F
       UNITMODE F 224 171
       STATE 4 24
@@ -5212,7 +5249,7 @@ NEW_UNITS
         TYPE 85 LEVEL 1 BASE 1
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 243 174 5 6 F
       UNITMODE F 243 174
       STATE 4 24
@@ -5239,7 +5276,7 @@ NEW_UNITS
         TYPE 85 LEVEL 1 BASE 1
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 244 177 4 6 F
       UNITMODE F 244 177
       STATE 4 24
@@ -5483,7 +5520,7 @@ NEW_UNITS
         TYPE 85 LEVEL 1 BASE 2
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 214 125 3 6 F
       UNITMODE F 214 125
       STATE 4 24
@@ -5731,7 +5768,7 @@ NEW_UNITS
         TYPE 85 LEVEL 1 BASE 3
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 185 79 4 6 F
       UNITMODE F 185 79
       STATE 4 24
@@ -5758,7 +5795,7 @@ NEW_UNITS
         TYPE 85 LEVEL 1 BASE 3
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 184 81 4 6 F
       UNITMODE F 184 81
       STATE 4 24
@@ -5785,7 +5822,7 @@ NEW_UNITS
         TYPE 85 LEVEL 1 BASE 3
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 182 78 4 6 F
       UNITMODE F 182 78
       STATE 4 24
@@ -5812,7 +5849,7 @@ NEW_UNITS
         TYPE 85 LEVEL 1 BASE 3
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 183 76 4 6 F
       UNITMODE F 183 76
       STATE 4 24
@@ -5839,7 +5876,7 @@ NEW_UNITS
         TYPE 85 LEVEL 1 BASE 3
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 181 80 4 6 F
       UNITMODE F 181 80
       STATE 4 24
@@ -6304,7 +6341,7 @@ NEW_UNITS
         TYPE 85 LEVEL 1 BASE 4
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 235 57 3 6 F
       UNITMODE F 235 57
       STATE 4 24
@@ -6358,7 +6395,7 @@ NEW_UNITS
         TYPE 85 LEVEL 1 BASE 5
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 300 195 3 6 F
       UNITMODE F 300 195
       STATE 4 24
@@ -6385,7 +6422,7 @@ NEW_UNITS
         TYPE 85 LEVEL 1 BASE 5
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 301 193 3 6 F
       UNITMODE F 301 193
       STATE 4 24
@@ -6412,7 +6449,7 @@ NEW_UNITS
         TYPE 85 LEVEL 1 BASE 5
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 301 198 3 6 F
       UNITMODE F 301 198
       STATE 4 24
@@ -6630,7 +6667,7 @@ NEW_UNITS
         TYPE 85 LEVEL 1 BASE 6
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 290 224 0 6 F
       UNITMODE F 290 224
       STATE 4 24
@@ -6657,7 +6694,7 @@ NEW_UNITS
         TYPE 85 LEVEL 1 BASE 6
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 289 226 0 6 F
       UNITMODE F 289 226
       STATE 4 24
@@ -6684,7 +6721,7 @@ NEW_UNITS
         TYPE 85 LEVEL 1 BASE 6
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 282 234 0 6 F
       UNITMODE F 282 234
       STATE 4 24
@@ -6711,7 +6748,7 @@ NEW_UNITS
         TYPE 85 LEVEL 1 BASE 6
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 285 231 0 6 F
       UNITMODE F 285 231
       STATE 4 24
@@ -7678,7 +7715,7 @@ NEW_UNITS
         TYPE 85 LEVEL 6 BASE 7
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 175 128 0 6 F
       UNITMODE F 175 128
       STATE 4 24
@@ -7704,7 +7741,7 @@ NEW_UNITS
         TYPE 85 LEVEL 6 BASE 7
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 176 131 0 6 F
       UNITMODE F 176 131
       STATE 4 24
@@ -7730,7 +7767,7 @@ NEW_UNITS
         TYPE 85 LEVEL 6 BASE 8
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 159 91 0 6 F
       UNITMODE F 159 91
       STATE 4 24
@@ -7756,7 +7793,7 @@ NEW_UNITS
         TYPE 85 LEVEL 6 BASE 8
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 155 94 0 6 F
       UNITMODE F 155 94
       STATE 4 24
@@ -7808,7 +7845,7 @@ NEW_UNITS
         TYPE 85 LEVEL 6 BASE 14
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 120 24 0 6 F
       UNITMODE F 120 24
       STATE 4 24
@@ -7834,7 +7871,7 @@ NEW_UNITS
         TYPE 85 LEVEL 6 BASE 14
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 119 21 2 6 F
       UNITMODE F 119 21
       STATE 4 24
@@ -8738,7 +8775,7 @@ NEW_UNITS
         TYPE 85 LEVEL 6 BASE 10
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 215 177 1 6 F
       UNITMODE F 215 177
       STATE 4 24
@@ -8764,7 +8801,7 @@ NEW_UNITS
         TYPE 85 LEVEL 6 BASE 10
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 209 180 1 6 F
       UNITMODE F 209 180
       STATE 4 24
@@ -8790,7 +8827,7 @@ NEW_UNITS
         TYPE 85 LEVEL 6 BASE 10
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 212 182 1 6 F
       UNITMODE F 212 182
       STATE 4 24
@@ -9250,7 +9287,7 @@ NEW_UNITS
         TYPE 85 LEVEL 6 BASE 12
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 102 57 2 6 F
       UNITMODE F 102 57
       STATE 4 24
@@ -9600,7 +9637,7 @@ NEW_UNITS
         TYPE 85 LEVEL 6 BASE 11
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 189 189 2 6 F
       UNITMODE F 189 189
       STATE 4 24
@@ -9626,7 +9663,7 @@ NEW_UNITS
         TYPE 85 LEVEL 6 BASE 11
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 191 193 2 6 F
       UNITMODE F 191 193
       STATE 4 24
@@ -9946,7 +9983,7 @@ NEW_UNITS
         TYPE 85 LEVEL 6 BASE 13
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 113 213 5 6 F
       UNITMODE F 113 213
       STATE 4 24
@@ -9972,7 +10009,7 @@ NEW_UNITS
         TYPE 85 LEVEL 6 BASE 13
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 114 218 5 6 F
       UNITMODE F 114 218
       STATE 4 24
@@ -10338,7 +10375,7 @@ NEW_UNITS
         TYPE 85 LEVEL 6 BASE 14
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 145 37 3 6 F
       UNITMODE F 145 37
       STATE 4 24
@@ -10364,7 +10401,7 @@ NEW_UNITS
         TYPE 85 LEVEL 6 BASE 7
     END_OF_DEFINITION
     GAME_STATE
-      ACTION 31 T 143 1
+      ACTION 31 T 179 1
       MOVE 156 111 3 6 F
       UNITMODE F 156 111
       STATE 4 24
@@ -10404,7 +10441,7 @@ LASER_EFECTS
 END_OF_LASER_EFECTS
 
 USER_INTERFACE
-  VIEW -56 -96 1540 852 1
+  VIEW 2828 652 2180 1204 1
   MASHA_FLAG 2 F F
 END_OF_USER_INTERFACE
 
@@ -10430,682 +10467,17 @@ SIDE 7 10
   LINES
 SIDE 8 10
   LINES
+SIDE 9 10
+  LINES
 END_OF_DEBRIEFING
 
 AREAS
-  ACTIVE 19
+  ACTIVE 1
   LAST 34
   AREA 1
-    NAME natureArea
-    COLOR FF6ECC
-    SHORTCUT 1
-    LINES 162 7 177 231
-    --------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    -----------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------
-    ----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    +-------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-  AREA 2
     NAME #SND#frogs.wav
     COLOR 33FF3A
     SHORTCUT 1
-    LINES 0 0 0 0
-  AREA 3
-    NAME swampArea
-    COLOR 0CFF26
-    SHORTCUT 1
-    LINES 270 120 6 30
-    +-----
-    ------
-    ------
-    ------
-    ------
-    ------
-    ------
-    ------
-    ------
-    ------
-    ------
-    ------
-    ------
-    ------
-    ------
-    ------
-    ------
-    ------
-    ------
-    ------
-    ------
-    ------
-    ------
-    ------
-    ------
-    ------
-    ------
-    ------
-    ------
-    -----+
-  AREA 4
-    NAME revealArea
-    COLOR FFDF3A
-    SHORTCUT 1
-    LINES 0 0 0 0
-  AREA 5
-    NAME camArea
-    COLOR 0C66FF
-    SHORTCUT 1
-    LINES 0 0 0 0
-  AREA 6
-    NAME northCrates
-    COLOR 0CFF1A
-    SHORTCUT 1
-    LINES 0 0 0 0
-  AREA 7
-    NAME northApeman
-    COLOR FF6034
-    SHORTCUT 2
-    LINES 0 0 0 0
-  AREA 8
-    NAME ruOutpostNorth
-    COLOR 0CFF8C
-    SHORTCUT 1
-    LINES 0 0 0 0
-  AREA 9
-    NAME ruRoadBlockade
-    COLOR FF9F4A
-    SHORTCUT 1
-    LINES 0 0 0 0
-  AREA 10
-    NAME ruMainBase
-    COLOR FF98D2
-    SHORTCUT 1
-    LINES 149 30 121 202
-    ++++++-------------------------------------------------------------------------------------------------------------------
-    -++++++------------------------------------------------------------------------------------------------------------------
-    -+++++++-----------------------------------------------------------------------------------------------------------------
-    --+++++++++--------------------------------------------------------------------------------------------------------------
-    --++++++++++-------------------------------------------------------------------------------------------------------------
-    ---++++++++++------------------------------------------------------------------------------------------------------------
-    ---+++++++++++-----------------------------------------------------------------------------------------------------------
-    ----+++++++++++----------------------------------------------------------------------------------------------------------
-    ----++++++++++++---------------------------------------------------------------------------------------------------------
-    -----++++++++++++--------------------------------------------------------------------------------------------------------
-    -----+++++++++++++-------------------------------------------------------------------------------------------------------
-    ------+++++++++++++------------------------------------------------------------------------------------------------------
-    ------++++++++++++++-----------------------------------------------------------------------------------------------------
-    -------++++++++++++++----------------------------------------------------------------------------------------------------
-    -------+++++++++++++++---------------------------------------------------------------------------------------------------
-    --------+++++++++++++++--------------------------------------------------------------------------------------------------
-    --------++++++++++++++++-------------------------------------------------------------------------------------------------
-    ---------+++++++++++++++++-----------------------------------------------------------------------------------------------
-    ---------++++++++++++++++++----------------------------------------------------------------------------------------------
-    ----------++++++++++++++++++---------------------------------------------------------------------------------------------
-    ----------+++++++++++++++++++--------------------------------------------------------------------------------------------
-    -----------+++++++++++++++++++-------------------------------------------------------------------------------------------
-    -----------++++++++++++++++++++------------------------------------------------------------------------------------------
-    ------------++++++++++++++++++++-----------------------------------------------------------------------------------------
-    ------------+++++++++++++++++++++++--------------------------------------------------------------------------------------
-    -------------+++++++++++++++++++++++-------------------------------------------------------------------------------------
-    -------------++++++++++++++++++++++++------------------------------------------------------------------------------------
-    --------------++++++++++++++++++++++++-----------------------------------------------------------------------------------
-    --------------+++++++++++++++++++++++++----------------------------------------------------------------------------------
-    ---------------+++++++++++++++++++++++++---------------------------------------------------------------------------------
-    ---------------++++++++++++++++++++++++++--------------------------------------------------------------------------------
-    ----------------++++++++++++++++++++++++++-------------------------------------------------------------------------------
-    ----------------+++++++++++++++++++++++++++------------------------------------------------------------------------------
-    -----------------+++++++++++++++++++++++++++-----------------------------------------------------------------------------
-    -----------------++++++++++++++++++++++++++++----------------------------------------------------------------------------
-    ------------------++++++++++++++++++++++++++++---------------------------------------------------------------------------
-    ------------------+++++++++++++++++++++++++++++--------------------------------------------------------------------------
-    -------------------+++++++++++++++++++++++++++++-------------------------------------------------------------------------
-    -------------------+++++++++++++++++++++++++++++++-----------------------------------------------------------------------
-    --------------------+++++++++++++++++++++++++++++++----------------------------------------------------------------------
-    --------------------++++++++++++++++++++++++++++++++---------------------------------------------------------------------
-    ---------------------++++++++++++++++++++++++++++++++--------------------------------------------------------------------
-    ---------------------+++++++++++++++++++++++++++++++++-------------------------------------------------------------------
-    ----------------------+++++++++++++++++++++++++++++++++------------------------------------------------------------------
-    ----------------------++++++++++++++++++++++++++++++++++-----------------------------------------------------------------
-    -----------------------++++++++++++++++++++++++++++++++++----------------------------------------------------------------
-    -----------------------++++++++++++++++++++++++++++++++++++--------------------------------------------------------------
-    ------------------------++++++++++++++++++++++++++++++++++++-------------------------------------------------------------
-    ------------------------+++++++++++++++++++++++++++++++++++++------------------------------------------------------------
-    -------------------------+++++++++++++++++++++++++++++++++++++-----------------------------------------------------------
-    -------------------------+++++++++++++++++++++++++++++++++++++++---------------------------------------------------------
-    --------------------------+++++++++++++++++++++++++++++++++++++++--------------------------------------------------------
-    --------------------------++++++++++++++++++++++++++++++++++++++++-------------------------------------------------------
-    ---------------------------++++++++++++++++++++++++++++++++++++++++------------------------------------------------------
-    ---------------------------+++++++++++++++++++++++++++++++++++++++++-----------------------------------------------------
-    ----------------------------+++++++++++++++++++++++++++++++++++++++++----------------------------------------------------
-    ----------------------------++++++++++++++++++++++++++++++++++++++++++---------------------------------------------------
-    -----------------------------++++++++++++++++++++++++++++++++++++++++++--------------------------------------------------
-    -----------------------------+++++++++++++++++++++++++++++++++++++++++++-------------------------------------------------
-    ------------------------------+++++++++++++++++++++++++++++++++++++++++++------------------------------------------------
-    ------------------------------++++++++++++++++++++++++++++++++++++++++++++-----------------------------------------------
-    -------------------------------++++++++++++++++++++++++++++++++++++++++++++----------------------------------------------
-    -------------------------------+++++++++++++++++++++++++++++++++++++++++++++---------------------------------------------
-    --------------------------------+++++++++++++++++++++++++++++++++++++++++++++--------------------------------------------
-    --------------------------------+++++++++++++++++++++++++++++++++++++++++++++--------------------------------------------
-    ---------------------------------++++++++++++++++++++++++++++++++++++++++++++--------------------------------------------
-    ---------------------------------+++++++++++++++++++++++++++++++++++++++++++++-------------------------------------------
-    ----------------------------------+++++++++++++++++++++++++++++++++++++++++++++------------------------------------------
-    ----------------------------------++++++++++++++++++++++++++++++++++++++++++++++-----------------------------------------
-    -----------------------------------++++++++++++++++++++++++++++++++++++++++++++++----------------------------------------
-    -----------------------------------+++++++++++++++++++++++++++++++++++++++++++++++---------------------------------------
-    ------------------------------------++++++++++++++++++++++++++++++++++++++++++++++---------------------------------------
-    ------------------------------------++++++++++++++++++++++++++++++++++++++++++++++---------------------------------------
-    -------------------------------------+++++++++++++++++++++++++++++++++++++++++++++---------------------------------------
-    -------------------------------------+++++++++++++++++++++++++++++++++++++++++++++---------------------------------------
-    --------------------------------------++++++++++++++++++++++++++++++++++++++++++++---------------------------------------
-    --------------------------------------+++++++++++++++++++++++++++++++++++++++++++++--------------------------------------
-    ---------------------------------------+++++++++++++++++++++++++++++++++++++++++++++-------------------------------------
-    ---------------------------------------++++++++++++++++++++++++++++++++++++++++++++++------------------------------------
-    ----------------------------------------++++++++++++++++++++++++++++++++++++++++++++++-----------------------------------
-    ----------------------------------------++++++++++++++++++++++++++++++++++++++++++++++-----------------------------------
-    -----------------------------------------+++++++++++++++++++++++++++++++++++++++++++++-----------------------------------
-    -----------------------------------------+++++++++++++++++++++++++++++++++++++++++++++-----------------------------------
-    ------------------------------------------+++++++++++++++++++++++++++++++++++++++++++++----------------------------------
-    ------------------------------------------+++++++++++++++++++++++++++++++++++++++++++++----------------------------------
-    -------------------------------------------+++++++++++++++++++++++++++++++++++++++++++++---------------------------------
-    -------------------------------------------++++++++++++++++++++++++++++++++++++++++++++++--------------------------------
-    --------------------------------------------+++++++++++++++++++++++++++++++++++++++++++++--------------------------------
-    --------------------------------------------++++++++++++++++++++++++++++++++++++++++++++++-------------------------------
-    ---------------------------------------------+++++++++++++++++++++++++++++++++++++++++++++-------------------------------
-    ---------------------------------------------+++++++++++++++++++++++++++++++++++++++++++++-------------------------------
-    ----------------------------------------------++++++++++++++++++++++++++++++++++++++++++++-------------------------------
-    ----------------------------------------------++++++++++++++++++++++++++++++++++++++++++++-------------------------------
-    -----------------------------------------------+++++++++++++++++++++++++++++++++++++++++++-------------------------------
-    -----------------------------------------------++++++++++++++++++++++++++++++++++++++++++++------------------------------
-    ------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++------------------------------
-    ------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++------------------------------
-    -------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++-----------------------------
-    -------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++----------------------------
-    --------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++----------------------------
-    --------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++---------------------------
-    ---------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++--------------------------
-    ---------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++++-------------------------
-    ----------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++++------------------------
-    ----------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++++-----------------------
-    -----------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++++----------------------
-    -----------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++++----------------------
-    ------------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++++---------------------
-    ------------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++++---------------------
-    -------------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++++--------------------
-    -------------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++++++-------------------
-    --------------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++++++------------------
-    --------------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++++++------------------
-    ---------------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++++------------------
-    ---------------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++++------------------
-    ----------------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++++------------------
-    ----------------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++++------------------
-    -----------------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++------------------
-    -----------------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++------------------
-    ------------------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++-----------------
-    ------------------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++++----------------
-    -------------------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++++---------------
-    -------------------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++++--------------
-    --------------------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++++-------------
-    --------------------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++++-------------
-    ---------------------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++++-------------
-    ---------------------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++++-------------
-    ----------------------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++-------------
-    ----------------------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++-------------
-    -----------------------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++-------------
-    -----------------------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++-------------
-    ------------------------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++------------
-    ------------------------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++-----------
-    -------------------------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++----------
-    -------------------------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++++---------
-    --------------------------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++++--------
-    --------------------------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++++-------
-    ---------------------------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++++------
-    ---------------------------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++++++-----
-    ----------------------------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++++++----
-    ----------------------------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++++++---
-    -----------------------------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++++++---
-    -----------------------------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++++++--
-    ------------------------------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++++++--
-    ------------------------------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++++++--
-    -------------------------------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++++--
-    -------------------------------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++++--
-    --------------------------------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++++-
-    --------------------------------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++++-
-    ---------------------------------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++++-
-    ---------------------------------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++++-
-    ----------------------------------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++++
-    ----------------------------------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++++
-    -----------------------------------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++
-    -----------------------------------------------------------------------------++++++++++++++++++++++++++++++++++++++++++++
-    ------------------------------------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++
-    ------------------------------------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++
-    -------------------------------------------------------------------------------++++++++++++++++++++++++++++++++++++++++++
-    -------------------------------------------------------------------------------++++++++++++++++++++++++++++++++++++++++++
-    --------------------------------------------------------------------------------+++++++++++++++++++++++++++++++++++++++++
-    --------------------------------------------------------------------------------+++++++++++++++++++++++++++++++++++++++++
-    ---------------------------------------------------------------------------------++++++++++++++++++++++++++++++++++++++++
-    ---------------------------------------------------------------------------------++++++++++++++++++++++++++++++++++++++++
-    ----------------------------------------------------------------------------------+++++++++++++++++++++++++++++++++++++++
-    ----------------------------------------------------------------------------------+++++++++++++++++++++++++++++++++++++++
-    -----------------------------------------------------------------------------------++++++++++++++++++++++++++++++++++++++
-    -----------------------------------------------------------------------------------++++++++++++++++++++++++++++++++++++++
-    ------------------------------------------------------------------------------------+++++++++++++++++++++++++++++++++++++
-    ------------------------------------------------------------------------------------+++++++++++++++++++++++++++++++++++++
-    -------------------------------------------------------------------------------------++++++++++++++++++++++++++++++++++++
-    -------------------------------------------------------------------------------------++++++++++++++++++++++++++++++++++++
-    --------------------------------------------------------------------------------------+++++++++++++++++++++++++++++++++++
-    --------------------------------------------------------------------------------------+++++++++++++++++++++++++++++++++++
-    ---------------------------------------------------------------------------------------++++++++++++++++++++++++++++++++++
-    ---------------------------------------------------------------------------------------++++++++++++++++++++++++++++++++++
-    ----------------------------------------------------------------------------------------+++++++++++++++++++++++++++++++++
-    ----------------------------------------------------------------------------------------+++++++++++++++++++++++++++++++++
-    -----------------------------------------------------------------------------------------++++++++++++++++++++++++++++++++
-    -----------------------------------------------------------------------------------------++++++++++++++++++++++++++++++++
-    ------------------------------------------------------------------------------------------+++++++++++++++++++++++++++++++
-    ------------------------------------------------------------------------------------------+++++++++++++++++++++++++++++++
-    -------------------------------------------------------------------------------------------++++++++++++++++++++++++++++++
-    -------------------------------------------------------------------------------------------++++++++++++++++++++++++++++++
-    --------------------------------------------------------------------------------------------++++++++++++++++++++++++++++-
-    --------------------------------------------------------------------------------------------++++++++++++++++++++++++++---
-    ---------------------------------------------------------------------------------------------+++++++++++++++++++++++++---
-    ---------------------------------------------------------------------------------------------+++++++++++++++++++++++++---
-    ----------------------------------------------------------------------------------------------++++++++++++++++++++++++---
-    ----------------------------------------------------------------------------------------------++++++++++++++++++++++++---
-    -----------------------------------------------------------------------------------------------+++++++++++++++++++++++---
-    -----------------------------------------------------------------------------------------------+++++++++++++++++++++++---
-    ------------------------------------------------------------------------------------------------++++++++++++++++++++++---
-    ------------------------------------------------------------------------------------------------++++++++++++++++++++++---
-    -------------------------------------------------------------------------------------------------+++++++++++++++++-------
-    -------------------------------------------------------------------------------------------------+++++++++++++++++-------
-    --------------------------------------------------------------------------------------------------+++++++++++++++--------
-    --------------------------------------------------------------------------------------------------++++++++++++++---------
-    ---------------------------------------------------------------------------------------------------+++++++++++++---------
-    ---------------------------------------------------------------------------------------------------+++++++++++-----------
-    ----------------------------------------------------------------------------------------------------+++++++++------------
-    ----------------------------------------------------------------------------------------------------+++++++--------------
-    -----------------------------------------------------------------------------------------------------++++++--------------
-  AREA 11
-    NAME northSpawn
-    COLOR FF98D2
-    SHORTCUT 1
-    LINES 139 3 1 1
-    +
-  AREA 12
-    NAME ruRolfBase
-    COLOR B298FF
-    SHORTCUT 1
-    LINES 189 29 56 51
-    ---+++++++----------------------------------------------
-    -+++++++++++++++++++++++++++++++++----------------------
-    +++++++++++++++++++++++++++++++++++++-------------------
-    ++++++++++++++++++++++++++++++++++++++------------------
-    +++++++++++++++++++++++++++++++++++++++-----------------
-    ++++++++++++++++++++++++++++++++++++++++----------------
-    -+++++++++++++++++++++++++++++++++++++++----------------
-    -+++++++++++++++++++++++++++++++++++++++++--------------
-    --+++++++++++++++++++++++++++++++++++++++++-------------
-    --++++++++++++++++++++++++++++++++++++++++++------------
-    ---++++++++++++++++++++++++++++++++++++++++++-----------
-    ----+++++++++++++++++++++++++++++++++++++++++-----------
-    ----++++++++++++++++++++++++++++++++++++++++++----------
-    -----++++++++++++++++++++++++++++++++++++++++++---------
-    -----+++++++++++++++++++++++++++++++++++++++++++--------
-    ------++++++++++++++++++++++++++++++++++++++++++--------
-    -------++++++++++++++++++++++++++++++++++++++++++-------
-    -------++++++++++++++++++++++++++++++++++++++++++-------
-    --------++++++++++++++++++++++++++++++++++++++++++------
-    ---------+++++++++++++++++++++++++++++++++++++++++------
-    ---------++++++++++++++++++++++++++++++++++++++++++-----
-    ----------+++++++++++++++++++++++++++++++++++++++++-----
-    -----------++++++++++++++++++++++++++++++++++++++++-----
-    -----------+++++++++++++++++++++++++++++++++++++++++----
-    ------------++++++++++++++++++++++++++++++++++++++++----
-    ------------++++++++++++++++++++++++++++++++++++++++----
-    -------------+++++++++++++++++++++++++++++++++++++++----
-    --------------++++++++++++++++++++++++++++++++++++++----
-    ---------------+++++++++++++++++++++++++++++++++++++----
-    ----------------++++++++++++++++++++++++++++++++++++----
-    ----------------++++++++++++++++++++++++++++++++++++----
-    -----------------+++++++++++++++++++++++++++++++++++----
-    ------------------+++++++++++++++++++++++++++++++++++---
-    -------------------++++++++++++++++++++++++++++++++++---
-    --------------------++++++++++++++++++++++++++++++++++--
-    ---------------------+++++++++++++++++++++++++++++++++--
-    ----------------------+++++++++++++++++++++++++++++++++-
-    -----------------------++++++++++++++++++++++++++++++++-
-    ------------------------++++++++++++++++++++++++++++++++
-    ------------------------++++++++++++++++++++++++++++++++
-    -------------------------+++++++++++++++++++++++++++++++
-    --------------------------++++++++++++++++++++++++++++++
-    ---------------------------+++++++++++++++++++++++++++++
-    ----------------------------++++++++++++++++++++++++++++
-    -----------------------------++++++++++++++++++++++++++-
-    ------------------------------++++++++++++++++++++++++--
-    --------------------------------+++++++++++++++++++-----
-    ---------------------------------++++++++++++++++-------
-    ------------------------------------++++++++++++++------
-    ---------------------------------------------+++++------
-    ----------------------------------------------+++-------
-  AREA 13
-    NAME southSpawn
-    COLOR FF9839
-    SHORTCUT 1
-    LINES 0 0 0 0
-  AREA 14
-    NAME ruOmarBase
-    COLOR FF98E6
-    SHORTCUT 1
-    LINES 0 0 0 0
-  AREA 15
-    NAME fireBoneArea
-    COLOR 0C33FF
-    SHORTCUT 1
-    LINES 0 0 0 0
-  AREA 16
-    NAME omarVehiclesArea
-    COLOR 0C6CFF
-    SHORTCUT 1
-    LINES 0 0 0 0
-  AREA 17
-    NAME escapeArea
-    COLOR 0CFFF2
-    SHORTCUT 1
-    LINES 134 0 45 17
-    +++++++++++++++++++++++++++++++++++++--------
-    -+++++++++++++++++++++++++++++++++++++-------
-    -+++++++++++++++++++++++++++++++++++++-------
-    --+++++++++++++++++++++++++++++++++++++------
-    --+++++++++++++++++++++++++++++++++++++------
-    ---+++++++++++++++++++++++++++++++++++++-----
-    ---+++++++++++++++++++++++++++++++++++++-----
-    ----+++++++++++++++++++++++++++++++++++++----
-    ----+++++++++++++++++++++++++++++++++++++----
-    -----+++++++++++++++++++++++++++++++++++++---
-    -----+++++++++++++++++++++++++++++++++++++---
-    ------+++++++++++++++++++++++++++++++++++++--
-    ------+++++++++++++++++++++++++++++++++++++--
-    -------+++++++++++++++++++++++++++++++++++++-
-    -------+++++++++++++++++++++++++++++++++++++-
-    --------+++++++++++++++++++++++++++++++++++++
-    --------+++++++++++++++++++++++++++++++++++++
-  AREA 18
-    NAME helperBaseDef
-    COLOR A6FF4A
-    SHORTCUT 1
-    LINES 296 222 15 13
-    ++-------------
-    +++++----------
-    +++++++--------
-    +++++++++++----
-    +++++++++++++--
-    +++++++++++++--
-    -++++++++++++--
-    -+++++++++++++-
-    ---+++++++++++-
-    ----++++++++++-
-    ------++++++++-
-    ---------++++++
-    ------------++-
-  AREA 19
-    NAME attackIncoming
-    COLOR 0CFF73
-    SHORTCUT 1
-    LINES 0 0 0 0
-  AREA 20
-    NAME oilArea
-    COLOR 0CFFF2
-    SHORTCUT 2
-    LINES 0 0 0 0
-  AREA 21
-    NAME southCrates
-    COLOR 2D77FF
-    SHORTCUT 1
-    LINES 0 0 0 0
-  AREA 22
-    NAME southPassageArea
-    COLOR 0ED2FF
-    SHORTCUT 1
-    LINES 308 216 18 12
-    +------------+----
-    ++-----------++---
-    ++++++++++++++++--
-    +++++++++++++++++-
-    ++++++++++++++++++
-    -+++++++++++++++++
-    --++++++++++++++++
-    ---++++++---++++++
-    ----+++++------+++
-    -----+++--------++
-    ------++---------+
-    -------+----------
-  AREA 23
-    NAME #SND#les2.wav
-    COLOR 08FF06
-    SHORTCUT 2
     LINES 0 0 0 0
 END_OF_AREAS
 

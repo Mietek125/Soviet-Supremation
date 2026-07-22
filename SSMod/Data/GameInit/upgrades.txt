@@ -332,20 +332,20 @@ GAMEINIT
      UPGRADE 89
        LEVEL  0  100 
        LEVEL  1  150 
-       TECH 90 0 0
+       TECH 103 0 0
        UBP
      UPGRADE 90
        LEVEL  0  0 
        LEVEL  1  50
-       TECH 91 0 0
+       TECH 104 0 0
      UPGRADE 91
        LEVEL  0  0 
        LEVEL  1  50
-       TECH 92 0 0
+       TECH 105 0 0
      UPGRADE 92
        LEVEL  0  100 
        LEVEL  1  135 
-       TECH 90 0 0
+       TECH 103 0 0
        UBP
      UPGRADE 93
        LEVEL  0  0

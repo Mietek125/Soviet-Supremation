@@ -260,10 +260,15 @@ GAMEINIT
         ATTACKS 3 
         ATTACK 1 
           MINMAX_RANGE  5  13 
-          FREQUENCY  1  175 
+          FREQUENCY  1  125 
           DAMAGE 200 250 250
           EFF 20 25 25
-          ANIM  1  4  3 
+          ANIM  1  32  3 
+		  LUA_ID 202
+          LUA_WEAPONRANGETYPE 1
+          LUA_PHASE_END 0
+          LUA_WEAPONISROCKET 1
+          ATTACKGROUND		  
         END_OF_ATTACK
         ATTACK 2 
           MINMAX_RANGE  5  13 
